@@ -19,6 +19,17 @@ Frontend dev server:
 cd frontend && npm install && npm run dev
 ```
 
+## Python environment
+
+Python will be primarily used for evaluations.  Recommended python version is `3.13.7`, but `>=3.9.x` may also work.
+
+Use a virtual environment and install the necessary packages;
+```
+conda create -n memoria python=3.13
+conda activate memoria
+pip install requirements.txt
+```
+
 ## Backend endpoints
 
 - Health
