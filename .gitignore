@@ -3,7 +3,7 @@ __pycache__/
 .env
 node_modules/
 dist/
-.DS_Store
+**/.DS_Store
 frontend/.next/
 frontend/out/
 backend/.mypy_cache/
