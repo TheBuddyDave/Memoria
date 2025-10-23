@@ -6,7 +6,7 @@ OUT_JSONL = f"{name}_out.jsonl"
 
 cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 json_path = os.path.join(cwd, "test_json", TEST_JSON)
-jsonl_path = os.path.join(cwd, "test_json", "jsonl")
+jsonl_path = os.path.join(cwd, "test_json", "jsonl", OUT_JSONL)
 
 data = json.load(open(json_path))[0]
 qid = data["question_id"]
@@ -33,7 +33,7 @@ result = subprocess.run(
 answer = result.stdout.decode().strip()
 
 out = {"question_id": qid, "hypothesis": answer}
-with open(os.path.join(jsonl_path, OUT_JSONL), "w") as f:
+with open(jsonl_path, "w") as f:
     f.write(json.dumps(out) + "\n")
 
 print(f"done {out}")
