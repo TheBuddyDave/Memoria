@@ -1,7 +1,7 @@
 {
     "question_id": "RD_001",
     "question_type": "reasoning-depth-test",
-    "data_ref": "..\\evaluations\\data_ref\\BiotechCropsAllTables2024.csv",
+    "data_ref": "..\\evaluations\\data\\BiotechCropsAllTables2024.csv",
     "ua_pairs": [
         {"input": "What percentage of insect-resistant (Bt) corn was planted in Iowa each year from 2000 to 2024?",
             "reasoning_trace": "We began by loading the USDA dataset 'BiotechCropsAllTables2024.csv' and inspected its structure. The dataset contained columns: Attribute, State, Year, Value, and Table. We filtered rows where State='Iowa' and Attribute included 'Insect-resistant (Bt)'. Since parentheses in the search string could be misinterpreted as regex groups, we escaped them explicitly. After cleaning, sorting, and converting Value to float, we obtained year-by-year data representing the percent of Bt corn planted in Iowa from 2000 to 2024.",
