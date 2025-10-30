@@ -1,0 +1,120 @@
+Coverage of Data
+These data products contain model-derived estimates, summary statistics, and visualizations about fruits and tree nuts, including commodity-specific data on fresh and processed-product markets (canned, frozen, dried, juice, and other). The commodities covered include major fruits and tree nuts, including: almonds, apples, apricots, avocados, bananas, blackberries, blueberries, boysenberries, cantaloupe, cherries, cranberries, dates, figs, grapefruit, grapes, guavas, hazelnuts, honeydew, kiwifruit, lemons, limes, loganberries, macadamia nuts, mandarins, mangoes, nectarines, olives, oranges, papayas, peaches, pears, pecans, pineapples, pistachios, plums and prunes, raspberries, strawberries, tangerines, walnuts, and watermelon. 
+
+Information about the geographic and temporal coverage of the Fruit and Tree Nuts Yearbook Tables are available for download in a machine-readable.csv file format at FNScope.csv. Metadata for this information can be found at FNScopeReadme.txt.
+The “Trade and Prices by Category and Commodity” trade data machine-readable file provides commodity-specific monthly volume and value of domestic imports and exports for fruits and tree nuts from January 2017 onward. This data includes details on Country of Origin for import data, and Country of Destination for export data. The trade codes used to calculate imports and exports for each market segment, which are updated every year, can be found at: Fruit-Trade-Codes.csv.
+The “Trade and Prices by Category and Commodity” price index and retail price data includes monthly time-series data from the U.S. Department of Commerce, Bureau of Labor Statistics (BLS). This includes national-level Producer Price Indexes (commodity data), Consumer Price Indexes (all urban consumers), and retail average prices for selected series. 
+
+The Selected Weekly Fruit Movement and Price data is available from May 2020 through April 2022. This data reflects national-level trends and cannot be disaggregated.
+
+Updates
+Fruit and Tree Nuts Yearbook Tables are updated annually.
+Fruit and Tree Nuts Trade and Prices by Category and Commodity are updated monthly.
+The Selected Weekly Fruit Movement and Price data product is discontinued.
+Archived versions of data products are available upon request. 
+Marketing Years
+Marketing years often begin in one calendar year and end in the next—for example, 2023/24 refers to the marketing year beginning in 2023 and ending in 2024. Information on State-level marketing years and marketing seasons for specialty crops can be found in USDA, National Agricultural Statistics Service's Crop Values Annual Summary and in the Agricultural Prices report. Beginning and ending months differ by crop and in some cases, by product segment within a commodity. The national-level marketing years USDA, ERS uses are:
+
+Fresh market fruits and melons: January 1–December 31, except for:
+limes, April 1–March 31
+grapes, May 1–April 30
+pears, July 1–June 30
+apples, figs, and lemons; August 1–July 31
+dates and grapefruit, September 1–August 31
+kiwifruit, mandarins, and tangerines; October 1–September 30
+oranges, November 1–October 31  
+Frozen fruits and melons: January 1–December 31
+Dried fruits: January 1–December 31, except for:
+apricots, July 1–June 30
+apples, grapes, olives, and prunes; August 1–July 31
+Fruit juices:
+apple juice, grape juice, lemon juice, lime juice, and prune juice, August 1–July 31 
+pear juice, July 1–June 30
+orange juice and grapefruit juice, October 1–September 30
+blueberry, cherry, cranberry, pineapple, and raspberry juice, January 1–December 31
+Prepared and preserved fruits: January 1–December 31, except for:
+apples, apricots, figs, grapes, olives, plums; August 1–July 31
+cherries, nectarines, peaches; June 1–May 31
+pears, July 1–June 30
+dates and grapefruit, September 1–August 31
+mandarins, October 1–September 30
+oranges, November 1–October 31
+Tree nuts:
+hazelnuts and macadamia nuts, July 1–June 30
+almonds, August 1–July 31
+pistachios and walnuts, September 1–August 31
+pecans, October 1–September 30 
+Methods
+Collection Methods
+The data for these data products are from various public and industry sources such as USDA, Economic Research Service; USDA, National Agricultural Statistics Service; U.S. Department of Commerce, Bureau of the Census; USDA, Agricultural Marketing Service, Market News; the American Frozen Food Institute; the Florida Department of Citrus; the Florida Citrus Processors Association; the California Strawberry Commission; and the United Nations Food and Agriculture Organization. For information on data quality, please see information available from source agencies. Links to source agency data resources are found under the “Resources” heading below. 
+
+Sources
+Price Index Data 
+The price index data currently available in the Fruit and Tree Nuts Data is sourced from the Bureau of Labor Statistics (BLS). This includes national-level Producer Price Indexes (commodity data), Consumer Price Indexes (all urban consumers), and retail average prices for selected fruits. Additional information on data coverage and methodologies is available from BLS at: Producer Price Indexes and Consumer Price Indexes (includes retail prices); Overview; and Frequently Asked Questions. 
+
+Import and Export Data 
+The trade tables in the Fruit and Tree Nuts Data are based on information from the U.S. Department of Commerce, Bureau of the Census, Foreign Trade Division. The import series used is imports for consumption, which excludes items imported into free trade zones or bonded warehouses until they are released for use. The export series used excludes items bound for re-export. The data utilizes a complex set of product categories based on the International Harmonized Commodity Coding and Classification System, or simply Harmonized System (HS). The United States adopted a 10-digit code system and began using it for U.S. trade on January 1, 1989.
+
+Export codes, known as Schedule B in the United States, are administered by the U.S. Census Bureau. Import codes, known as the Harmonized Tariff Schedule of the United States (HTS), are administered by the U.S. International Trade Commission (USITC). 
+
+A machine readable .csv file, FNSource2023.csv, provides links to the sources of the data used in the data products. Metadata can be found at FNSource2023Readme.txt. Footnotes and references (found at the bottom of the dashboard pages or within the yearbook tables) provide additional information about the sources used. 
+
+Accuracy Measures
+Fruit and tree nuts statistics used in ERS data products are primarily estimates, i.e., approximations. This reflects the nature of agricultural data, which often allows economists to represent market trends while acknowledging the variability inherent in agricultural data collection and reporting. To quantify the uncertainty of an estimate, social scientists and statisticians use a measure called "standard error." For example, if the National Agricultural Statistics Service (NASS) aimed to estimate the average size of grape fields in the United States, it might survey a sample of growers. Because different samples could lead to slightly different estimates, the standard error provides an indication of how close these estimates are to the actual average, achievable only by surveying every grape grower in the country.
+
+The ERS fruits and tree nuts team relies on accuracy measures from trusted sources and does not independently calculate standard errors. In synthesizing data from various Government and reputable industry sources to offer a holistic market overview, the task sometimes involves transforming the original source data. For instance, changing units of measurement for different commodities allows the fruits and tree nuts team to perform calculations and collectively report on them as a group, enabling comparisons that would not be possible if each commodity were reported in disparate units. Methods like addition, subtraction, multiplication, or division are applied in instances where they facilitate the integration of various datasets into a cohesive picture. While these transformations are selectively employed to create a comprehensive perspective, they may introduce an additional level of uncertainty. This is carefully considered in the analysis to ensure the integrity of the data.
+The documentation is designed to simplify the process for stakeholders to trace the origins of the information presented, promoting a deeper understanding of the source data. For detailed exploration of statistical methodologies and insights into accuracy measures like standard errors and statistical reliability, consult the primary sources ERS has cited, such as NASS, the Bureau of Labor Statistics (BLS), or other official Government sources. These reports often contain a "Statistical Methodology" section detailing standard errors. Should a report lack measures of statistical reliability, stakeholders are encouraged to directly contact the report's authors.
+Adhering to this approach, ERS demonstrates its commitment to transparency and accuracy measures, providing stakeholders with thorough market analyses. This commitment ensures that the decisions made by users are informed by comprehensive and trustworthy data products.
+Construction Methods 
+The data are organized into tables, visualizations, and machine-readable .csv files, providing a comprehensive view of the sector. For the Fruit and Tree Nuts Tables specifically, data clearly detail both sides of the market equation for the sector and its major fresh and processed commodities.
+
+Estimation Methods 
+The methods vary across the data products, but estimates generally involve statistical techniques and modeling approaches to generate the most accurate and reliable estimates possible.
+
+For the Fruit and Tree Nuts Yearbook Tables, estimation methods use a balance sheet approach to estimate supply and availability statistics for each commodity. This involves adding statistics reflecting production, imports, and changes in stocks, and then subtracting exports. The term "availability" is used in place of the older term "use."
+
+Units of Measure 
+The units of measure used in each data product are provided below:
+
+Trade and Prices by Category and Commodity
+Average retail prices from Bureau of Labor Statistics are in dollars per pound unless otherwise indicated.
+Import and export data are reported in metric units (e.g., metric tons or liters) by the U.S. Census Bureau and converted to domestic (English) units by USDA, ERS (e.g., pounds or gallons).
+Fruit and Tree Nuts Yearbook Tables  
+Prices are reported in cents per pound, dollars per pound, dollars per cwt (hundredweight), or dollars per short ton.
+Production is reported in pounds, hundredweights, or short tons, unless otherwise indicated.
+Import and export volume data are reported in pounds, hundredweights, or short tons, unless otherwise indicated.
+Per capita availability is reported in pounds per person by USDA, Economic Research Service unless otherwise indicated.
+Bearing acreage is reported in acres.
+Cash receipts and value of production are reported in dollars.
+Selected Weekly Fruit Movement and Price  
+Changes in market volume are reported on a percentage basis.
+Shipping point prices are reported in dollars per hundredweight.
+Advertised retail prices are reported in dollars per pound. 
+Strengths and Limitations 
+The fruit and tree nuts resources have strengths and potential limitations. It is important to note that while these resources cover a wide range of commodities, they do not include every fruit and tree nut commodity. Therefore, users seeking information on less common or niche commodities may not find the data they need. Additionally, while some of the data are presented with minor transformations (e.g., pounds may be converted to hundredweight, or vice versa) for ease of comparison across commodities, users may need a level of expertise or familiarity with the data to interpret it effectively. 
+
+Fruit and Tree Nuts Yearbook Tables: The strength of this product lies in its comprehensive coverage, making it a "one-stop-shop" for data on a wide variety of fruit and tree nuts. The tables provide a detailed balance sheet for the sector and its major fresh and processed commodities, offering nuanced insight into consumption trends and market shifts. The data are updated annually, which may not capture short-term market fluctuations. The yearbook tables are constructed by aggregating data from multiple government sources, ERS estimates, and industry data.
+“Trade and Prices by Category and Commodity” Data: These data products are unique in their focus on fresh and processed fruit and tree nut commodities, specifically in terms of trade and price indexes. They provide a comprehensive set of data including price, import, and export data, as well as consumer and producer price indexes for selected commodities. However, users of this data may need a level of expertise or familiarity with the data to interpret and use it effectively. The trade data published by ERS differs from data published by U.S. Department of Commerce, Bureau of the Census (which uses the United States' Harmonized Tariff Schedule (HTS) of 10-digit codes). The ERS data product contains detailed commodity-specific groupings. This means the fruit and tree nuts trade dataset contains less detail than data reported at the individual 10-digit code, but more detail than other trade code categorizations like the Foreign Agricultural Trade of the United States (FATUS) data set. The price dataset differs from information published by the U.S. Department of Labor, Bureau of Labor Statistics in that it is contains a curated specialty crop related indices and average prices for current and historic monthly data.
+Resources 
+The primary sources for each resource in this suite of data products are provided below. They are also referenced in the footnotes of each data product:
+Trade and Prices by Category and Commodity.    
+Trade (import and export) data from the U.S. Department of Commerce, Bureau of the Census.
+Retail prices and consumer and producer price indexes from the U.S. Department of Labor, Bureau of Labor Statistics.
+Fruit and Tree Nuts Yearbook Tables  
+USDA, National Agricultural Statistics Service, USDA, Agricultural Marketing Service, United Nations, Food and Agriculture Organization, FAOStat, as well as data calculated by USDA, Economic Research Service, and others.
+Below are links to other related sources of data, as well as resources that provide additional information or context for the data products described on this page:  
+
+Food Availability (Per Capita) Data Syste – Includes three distinct but related data series on food and nutrients available for consumption in the United States.
+Global Agricultural Trade System (GATS) – USDA, Foreign Agricultural Service's database of trade statistics for agricultural, fish, forest, and textile products from 1989 (or earlier for some products) to the present.
+Fruit and Vegetable Prices – USDA, ERS estimates average retail prices for commonly consumed fresh and processed fruits and vegetables.
+U.S. and State Farm Income and Wealth Statistics – Includes U.S.- and State-level data on annual and monthly cash receipts for vegetables and melons.
+Specialty Crops Market News – USDA, Agricultural Marketing Service's portal for market news reports for specialty crops.
+Quick Stats – USDA, National Agricultural Statistics Service's database of U.S.-, State-level, and county-level agricultural statistics.
+Fruit and Tree Nuts Outlook – Published multiple times per year, the outlook provides current market developments affecting the U.S. Fruit and Tree Nuts sector.
+Vegetable and Pulse Data – Comprehensive statistics related to vegetables and pulses.  
+Recommended Citation 
+For each data product, the recommended citation is as follows: 
+
+U.S. Department of Agriculture, Economic Research Service. Fruit and Tree Nuts Yearbook Tables.
+U.S. Department of Agriculture, Economic Research Service. Fruit and Tree Nuts Price Indices and Trade Data.
+U.S. Department of Agriculture, Economic Research Service. Selected Weekly Fruit Movement and Price Data.  

@@ -1,0 +1,552 @@
+Year,Category,Data_item,Quantity,Units
+1995,American types,Cheddar,9.04,pounds
+1995,American types,Other than Cheddar,2.647,pounds
+1995,American types,Total,11.687,pounds
+1995,Italian types,Mozzarella,7.896,pounds
+1995,Italian types,Other than mozzarella,2.136,pounds
+1995,Italian types,Total,10.032,pounds
+1995,Other types of cheeses typically from cows,Swiss,1.093,pounds
+1995,Other types of cheeses typically from cows,Blue,0.159,pounds
+1995,Other types of cheeses typically from cows,Brick,0.039,pounds
+1995,Other types of cheeses typically from cows,Muenster,0.408,pounds
+1995,Other types of cheeses typically from cows,Cream and Neufchatel,2.036,pounds
+1995,Other types of cheeses typically from cows,Hispanic,NA,pounds
+1995,Other types of cheeses typically from cows,Other,1.216,pounds
+1995,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",14.985,pounds
+1995,Miscellaneous,Imported cheese not from cows,0.271,pounds
+1995,Miscellaneous,Total natural cheese,26.943,pounds
+1995,Processed products,Cheese,5.443,pounds
+1995,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.254,pounds
+1995,Processed products,Total processed,8.697,pounds
+1996,American types,Cheddar,9.187,pounds
+1996,American types,Other than Cheddar,2.621,pounds
+1996,American types,Total,11.809,pounds
+1996,Italian types,Mozzarella,8.22,pounds
+1996,Italian types,Other than mozzarella,2.144,pounds
+1996,Italian types,Total,10.365,pounds
+1996,Other types of cheeses typically from cows,Swiss,1.065,pounds
+1996,Other types of cheeses typically from cows,Blue,0.166,pounds
+1996,Other types of cheeses typically from cows,Brick,0.039,pounds
+1996,Other types of cheeses typically from cows,Muenster,0.393,pounds
+1996,Other types of cheeses typically from cows,Cream and Neufchatel,2.108,pounds
+1996,Other types of cheeses typically from cows,Hispanic,0.248,pounds
+1996,Other types of cheeses typically from cows,Other,0.877,pounds
+1996,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",15.261,pounds
+1996,Miscellaneous,Imported cheese not from cows,0.249,pounds
+1996,Miscellaneous,Total natural cheese,27.318,pounds
+1996,Processed products,Cheese,5.435,pounds
+1996,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.318,pounds
+1996,Processed products,Total processed,8.753,pounds
+1997,American types,Cheddar,9.513,pounds
+1997,American types,Other than Cheddar,2.302,pounds
+1997,American types,Total,11.815,pounds
+1997,Italian types,Mozzarella,8.165,pounds
+1997,Italian types,Other than mozzarella,2.412,pounds
+1997,Italian types,Total,10.577,pounds
+1997,Other types of cheeses typically from cows,Swiss,0.987,pounds
+1997,Other types of cheeses typically from cows,Blue,0.177,pounds
+1997,Other types of cheeses typically from cows,Brick,0.031,pounds
+1997,Other types of cheeses typically from cows,Muenster,0.367,pounds
+1997,Other types of cheeses typically from cows,Cream and Neufchatel,2.248,pounds
+1997,Other types of cheeses typically from cows,Hispanic,0.252,pounds
+1997,Other types of cheeses typically from cows,Other,0.834,pounds
+1997,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",15.473,pounds
+1997,Miscellaneous,Imported cheese not from cows,0.249,pounds
+1997,Miscellaneous,Total natural cheese,27.537,pounds
+1997,Processed products,Cheese,4.953,pounds
+1997,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.048,pounds
+1997,Processed products,Total processed,8.001,pounds
+1998,American types,Cheddar,9.596,pounds
+1998,American types,Other than Cheddar,2.382,pounds
+1998,American types,Total,11.978,pounds
+1998,Italian types,Mozzarella,8.326,pounds
+1998,Italian types,Other than mozzarella,2.356,pounds
+1998,Italian types,Total,10.682,pounds
+1998,Other types of cheeses typically from cows,Swiss,1.011,pounds
+1998,Other types of cheeses typically from cows,Blue,NA,pounds
+1998,Other types of cheeses typically from cows,Brick,0.027,pounds
+1998,Other types of cheeses typically from cows,Muenster,0.336,pounds
+1998,Other types of cheeses typically from cows,Cream and Neufchatel,2.202,pounds
+1998,Other types of cheeses typically from cows,Hispanic,0.269,pounds
+1998,Other types of cheeses typically from cows,Other,1.103,pounds
+1998,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",15.631,pounds
+1998,Miscellaneous,Imported cheese not from cows,0.232,pounds
+1998,Miscellaneous,Total natural cheese,27.841,pounds
+1998,Processed products,Cheese,4.451,pounds
+1998,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.699,pounds
+1998,Processed products,Total processed,8.15,pounds
+1999,American types,Cheddar,10.013,pounds
+1999,American types,Other than Cheddar,2.685,pounds
+1999,American types,Total,12.699,pounds
+1999,Italian types,Mozzarella,8.738,pounds
+1999,Italian types,Other than mozzarella,2.276,pounds
+1999,Italian types,Total,11.013,pounds
+1999,Other types of cheeses typically from cows,Swiss,1.093,pounds
+1999,Other types of cheeses typically from cows,Blue,NA,pounds
+1999,Other types of cheeses typically from cows,Brick,0.028,pounds
+1999,Other types of cheeses typically from cows,Muenster,0.281,pounds
+1999,Other types of cheeses typically from cows,Cream and Neufchatel,2.255,pounds
+1999,Other types of cheeses typically from cows,Hispanic,0.301,pounds
+1999,Other types of cheeses typically from cows,Other,1.208,pounds
+1999,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",16.18,pounds
+1999,Miscellaneous,Imported cheese not from cows,0.263,pounds
+1999,Miscellaneous,Total natural cheese,29.142,pounds
+1999,Processed products,Cheese,4.663,pounds
+1999,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.978,pounds
+1999,Processed products,Total processed,8.641,pounds
+2000,American types,Cheddar,9.867,pounds
+2000,American types,Other than Cheddar,2.817,pounds
+2000,American types,Total,12.684,pounds
+2000,Italian types,Mozzarella,9.053,pounds
+2000,Italian types,Other than mozzarella,2.358,pounds
+2000,Italian types,Total,11.411,pounds
+2000,Other types of cheeses typically from cows,Swiss,1.021,pounds
+2000,Other types of cheeses typically from cows,Blue,NA,pounds
+2000,Other types of cheeses typically from cows,Brick,0.03,pounds
+2000,Other types of cheeses typically from cows,Muenster,0.297,pounds
+2000,Other types of cheeses typically from cows,Cream and Neufchatel,2.387,pounds
+2000,Other types of cheeses typically from cows,Hispanic,0.334,pounds
+2000,Other types of cheeses typically from cows,Other,1.374,pounds
+2000,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",16.854,pounds
+2000,Miscellaneous,Imported cheese not from cows,0.254,pounds
+2000,Miscellaneous,Total natural cheese,29.792,pounds
+2000,Processed products,Cheese,4.882,pounds
+2000,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.186,pounds
+2000,Processed products,Total processed,8.068,pounds
+2001,American types,Cheddar,9.887,pounds
+2001,American types,Other than Cheddar,2.926,pounds
+2001,American types,Total,12.813,pounds
+2001,Italian types,Mozzarella,9.346,pounds
+2001,Italian types,Other than mozzarella,2.341,pounds
+2001,Italian types,Total,11.687,pounds
+2001,Other types of cheeses typically from cows,Swiss,1.122,pounds
+2001,Other types of cheeses typically from cows,Blue,NA,pounds
+2001,Other types of cheeses typically from cows,Brick,0.03,pounds
+2001,Other types of cheeses typically from cows,Muenster,0.282,pounds
+2001,Other types of cheeses typically from cows,Cream and Neufchatel,2.212,pounds
+2001,Other types of cheeses typically from cows,Hispanic,0.371,pounds
+2001,Other types of cheeses typically from cows,Other,1.288,pounds
+2001,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",16.992,pounds
+2001,Miscellaneous,Imported cheese not from cows,0.247,pounds
+2001,Miscellaneous,Total natural cheese,30.052,pounds
+2001,Processed products,Cheese,4.266,pounds
+2001,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.462,pounds
+2001,Processed products,Total processed,7.728,pounds
+2002,American types,Cheddar,9.757,pounds
+2002,American types,Other than Cheddar,3.074,pounds
+2002,American types,Total,12.831,pounds
+2002,Italian types,Mozzarella,9.383,pounds
+2002,Italian types,Other than mozzarella,2.434,pounds
+2002,Italian types,Total,11.817,pounds
+2002,Other types of cheeses typically from cows,Swiss,1.087,pounds
+2002,Other types of cheeses typically from cows,Blue,NA,pounds
+2002,Other types of cheeses typically from cows,Brick,0.034,pounds
+2002,Other types of cheeses typically from cows,Muenster,0.276,pounds
+2002,Other types of cheeses typically from cows,Cream and Neufchatel,2.327,pounds
+2002,Other types of cheeses typically from cows,Hispanic,0.421,pounds
+2002,Other types of cheeses typically from cows,Other,1.44,pounds
+2002,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",17.401,pounds
+2002,Miscellaneous,Imported cheese not from cows,0.249,pounds
+2002,Miscellaneous,Total natural cheese,30.482,pounds
+2002,Processed products,Cheese,4.655,pounds
+2002,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.409,pounds
+2002,Processed products,Total processed,8.064,pounds
+2003,American types,Cheddar,9.379,pounds
+2003,American types,Other than Cheddar,3.183,pounds
+2003,American types,Total,12.562,pounds
+2003,Italian types,Mozzarella,9.451,pounds
+2003,Italian types,Other than mozzarella,2.551,pounds
+2003,Italian types,Total,12.003,pounds
+2003,Other types of cheeses typically from cows,Swiss,1.128,pounds
+2003,Other types of cheeses typically from cows,Blue,NA,pounds
+2003,Other types of cheeses typically from cows,Brick,0.033,pounds
+2003,Other types of cheeses typically from cows,Muenster,0.269,pounds
+2003,Other types of cheeses typically from cows,Cream and Neufchatel,2.296,pounds
+2003,Other types of cheeses typically from cows,Hispanic,0.452,pounds
+2003,Other types of cheeses typically from cows,Other,1.515,pounds
+2003,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",17.696,pounds
+2003,Miscellaneous,Imported cheese not from cows,0.266,pounds
+2003,Miscellaneous,Total natural cheese,30.523,pounds
+2003,Processed products,Cheese,4.659,pounds
+2003,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.611,pounds
+2003,Processed products,Total processed,8.27,pounds
+2004,American types,Cheddar,10.197,pounds
+2004,American types,Other than Cheddar,2.664,pounds
+2004,American types,Total,12.861,pounds
+2004,Italian types,Mozzarella,9.677,pounds
+2004,Italian types,Other than mozzarella,2.61,pounds
+2004,Italian types,Total,12.287,pounds
+2004,Other types of cheeses typically from cows,Swiss,1.198,pounds
+2004,Other types of cheeses typically from cows,Blue,NA,pounds
+2004,Other types of cheeses typically from cows,Brick,0.027,pounds
+2004,Other types of cheeses typically from cows,Muenster,0.245,pounds
+2004,Other types of cheeses typically from cows,Cream and Neufchatel,2.341,pounds
+2004,Other types of cheeses typically from cows,Hispanic,0.476,pounds
+2004,Other types of cheeses typically from cows,Other,1.522,pounds
+2004,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",18.096,pounds
+2004,Miscellaneous,Imported cheese not from cows,0.274,pounds
+2004,Miscellaneous,Total natural cheese,31.231,pounds
+2004,Processed products,Cheese,4.055,pounds
+2004,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.554,pounds
+2004,Processed products,Total processed,7.61,pounds
+2005,American types,Cheddar,10.15,pounds
+2005,American types,Other than Cheddar,2.499,pounds
+2005,American types,Total,12.649,pounds
+2005,Italian types,Mozzarella,9.931,pounds
+2005,Italian types,Other than mozzarella,2.73,pounds
+2005,Italian types,Total,12.661,pounds
+2005,Other types of cheeses typically from cows,Swiss,1.235,pounds
+2005,Other types of cheeses typically from cows,Blue,NA,pounds
+2005,Other types of cheeses typically from cows,Brick,0.03,pounds
+2005,Other types of cheeses typically from cows,Muenster,0.258,pounds
+2005,Other types of cheeses typically from cows,Cream and Neufchatel,2.376,pounds
+2005,Other types of cheeses typically from cows,Hispanic,0.553,pounds
+2005,Other types of cheeses typically from cows,Other,1.549,pounds
+2005,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",18.663,pounds
+2005,Miscellaneous,Imported cheese not from cows,0.27,pounds
+2005,Miscellaneous,Total natural cheese,31.582,pounds
+2005,Processed products,Cheese,4.131,pounds
+2005,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.461,pounds
+2005,Processed products,Total processed,7.591,pounds
+2006,American types,Cheddar,10.431,pounds
+2006,American types,Other than Cheddar,2.635,pounds
+2006,American types,Total,13.066,pounds
+2006,Italian types,Mozzarella,10.113,pounds
+2006,Italian types,Other than mozzarella,2.816,pounds
+2006,Italian types,Total,12.929,pounds
+2006,Other types of cheeses typically from cows,Swiss,1.228,pounds
+2006,Other types of cheeses typically from cows,Blue,NA,pounds
+2006,Other types of cheeses typically from cows,Brick,0.028,pounds
+2006,Other types of cheeses typically from cows,Muenster,0.308,pounds
+2006,Other types of cheeses typically from cows,Cream and Neufchatel,2.447,pounds
+2006,Other types of cheeses typically from cows,Hispanic,0.588,pounds
+2006,Other types of cheeses typically from cows,Other,1.569,pounds
+2006,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",19.098,pounds
+2006,Miscellaneous,Imported cheese not from cows,0.264,pounds
+2006,Miscellaneous,Total natural cheese,32.427,pounds
+2006,Processed products,Cheese,4.051,pounds
+2006,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.714,pounds
+2006,Processed products,Total processed,7.765,pounds
+2007,American types,Cheddar,10.109,pounds
+2007,American types,Other than Cheddar,2.684,pounds
+2007,American types,Total,12.793,pounds
+2007,Italian types,Mozzarella,10.656,pounds
+2007,Italian types,Other than mozzarella,2.924,pounds
+2007,Italian types,Total,13.58,pounds
+2007,Other types of cheeses typically from cows,Swiss,1.243,pounds
+2007,Other types of cheeses typically from cows,Blue,NA,pounds
+2007,Other types of cheeses typically from cows,Brick,0.024,pounds
+2007,Other types of cheeses typically from cows,Muenster,0.333,pounds
+2007,Other types of cheeses typically from cows,Cream and Neufchatel,2.492,pounds
+2007,Other types of cheeses typically from cows,Hispanic,0.614,pounds
+2007,Other types of cheeses typically from cows,Other,1.594,pounds
+2007,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",19.881,pounds
+2007,Miscellaneous,Imported cheese not from cows,0.268,pounds
+2007,Miscellaneous,Total natural cheese,32.942,pounds
+2007,Processed products,Cheese,4.093,pounds
+2007,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.374,pounds
+2007,Processed products,Total processed,7.467,pounds
+2008,American types,Cheddar,10.216,pounds
+2008,American types,Other than Cheddar,2.915,pounds
+2008,American types,Total,13.131,pounds
+2008,Italian types,Mozzarella,10.103,pounds
+2008,Italian types,Other than mozzarella,2.952,pounds
+2008,Italian types,Total,13.055,pounds
+2008,Other types of cheeses typically from cows,Swiss,1.102,pounds
+2008,Other types of cheeses typically from cows,Blue,NA,pounds
+2008,Other types of cheeses typically from cows,Brick,0.022,pounds
+2008,Other types of cheeses typically from cows,Muenster,0.368,pounds
+2008,Other types of cheeses typically from cows,Cream and Neufchatel,2.411,pounds
+2008,Other types of cheeses typically from cows,Hispanic,0.612,pounds
+2008,Other types of cheeses typically from cows,Other,1.448,pounds
+2008,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",19.018,pounds
+2008,Miscellaneous,Imported cheese not from cows,0.239,pounds
+2008,Miscellaneous,Total natural cheese,32.388,pounds
+2008,Processed products,Cheese,4.084,pounds
+2008,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.993,pounds
+2008,Processed products,Total processed,7.076,pounds
+2009,American types,Cheddar,10.235,pounds
+2009,American types,Other than Cheddar,3.12,pounds
+2009,American types,Total,13.355,pounds
+2009,Italian types,Mozzarella,10.082,pounds
+2009,Italian types,Other than mozzarella,2.948,pounds
+2009,Italian types,Total,13.03,pounds
+2009,Other types of cheeses typically from cows,Swiss,1.163,pounds
+2009,Other types of cheeses typically from cows,Blue,NA,pounds
+2009,Other types of cheeses typically from cows,Brick,0.029,pounds
+2009,Other types of cheeses typically from cows,Muenster,0.36,pounds
+2009,Other types of cheeses typically from cows,Cream and Neufchatel,2.391,pounds
+2009,Other types of cheeses typically from cows,Hispanic,0.643,pounds
+2009,Other types of cheeses typically from cows,Other,1.286,pounds
+2009,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",18.902,pounds
+2009,Miscellaneous,Imported cheese not from cows,0.224,pounds
+2009,Miscellaneous,Total natural cheese,32.481,pounds
+2009,Processed products,Cheese,3.783,pounds
+2009,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.212,pounds
+2009,Processed products,Total processed,6.995,pounds
+2010,American types,Cheddar,10.065,pounds
+2010,American types,Other than Cheddar,3.24,pounds
+2010,American types,Total,13.305,pounds
+2010,Italian types,Mozzarella,10.578,pounds
+2010,Italian types,Other than mozzarella,2.965,pounds
+2010,Italian types,Total,13.543,pounds
+2010,Other types of cheeses typically from cows,Swiss,1.18,pounds
+2010,Other types of cheeses typically from cows,Blue,0.298,pounds
+2010,Other types of cheeses typically from cows,Brick,0.021,pounds
+2010,Other types of cheeses typically from cows,Muenster,0.362,pounds
+2010,Other types of cheeses typically from cows,Cream and Neufchatel,2.299,pounds
+2010,Other types of cheeses typically from cows,Hispanic,0.662,pounds
+2010,Other types of cheeses typically from cows,Other,1.054,pounds
+2010,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",19.419,pounds
+2010,Miscellaneous,Imported cheese not from cows,0.201,pounds
+2010,Miscellaneous,Total natural cheese,32.925,pounds
+2010,Processed products,Cheese,3.532,pounds
+2010,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.111,pounds
+2010,Processed products,Total processed,6.643,pounds
+2011,American types,Cheddar,9.591,pounds
+2011,American types,Other than Cheddar,3.448,pounds
+2011,American types,Total,13.039,pounds
+2011,Italian types,Mozzarella,10.829,pounds
+2011,Italian types,Other than mozzarella,3.155,pounds
+2011,Italian types,Total,13.984,pounds
+2011,Other types of cheeses typically from cows,Swiss,1.143,pounds
+2011,Other types of cheeses typically from cows,Blue,0.302,pounds
+2011,Other types of cheeses typically from cows,Brick,0.034,pounds
+2011,Other types of cheeses typically from cows,Muenster,0.444,pounds
+2011,Other types of cheeses typically from cows,Cream and Neufchatel,2.198,pounds
+2011,Other types of cheeses typically from cows,Hispanic,0.686,pounds
+2011,Other types of cheeses typically from cows,Other,1.186,pounds
+2011,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",19.977,pounds
+2011,Miscellaneous,Imported cheese not from cows,0.23,pounds
+2011,Miscellaneous,Total natural cheese,33.246,pounds
+2011,Processed products,Cheese,3.618,pounds
+2011,Processed products,"Cold pack, cheese foods, other foods, and spreads",3.126,pounds
+2011,Processed products,Total processed,6.744,pounds
+2012,American types,Cheddar,9.595,pounds
+2012,American types,Other than Cheddar,3.662,pounds
+2012,American types,Total,13.257,pounds
+2012,Italian types,Mozzarella,10.692,pounds
+2012,Italian types,Other than mozzarella,3.114,pounds
+2012,Italian types,Total,13.807,pounds
+2012,Other types of cheeses typically from cows,Swiss,1.093,pounds
+2012,Other types of cheeses typically from cows,Blue,0.304,pounds
+2012,Other types of cheeses typically from cows,Brick,0.037,pounds
+2012,Other types of cheeses typically from cows,Muenster,0.455,pounds
+2012,Other types of cheeses typically from cows,Cream and Neufchatel,2.398,pounds
+2012,Other types of cheeses typically from cows,Hispanic,0.669,pounds
+2012,Other types of cheeses typically from cows,Other,1.278,pounds
+2012,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",20.04,pounds
+2012,Miscellaneous,Imported cheese not from cows,0.226,pounds
+2012,Miscellaneous,Total natural cheese,33.523,pounds
+2012,Processed products,Cheese,3.694,pounds
+2012,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.925,pounds
+2012,Processed products,Total processed,6.619,pounds
+2013,American types,Cheddar,9.647,pounds
+2013,American types,Other than Cheddar,3.71,pounds
+2013,American types,Total,13.357,pounds
+2013,Italian types,Mozzarella,10.74,pounds
+2013,Italian types,Other than mozzarella,3.098,pounds
+2013,Italian types,Total,13.838,pounds
+2013,Other types of cheeses typically from cows,Swiss,1.004,pounds
+2013,Other types of cheeses typically from cows,Blue,0.317,pounds
+2013,Other types of cheeses typically from cows,Brick,0.028,pounds
+2013,Other types of cheeses typically from cows,Muenster,0.477,pounds
+2013,Other types of cheeses typically from cows,Cream and Neufchatel,2.465,pounds
+2013,Other types of cheeses typically from cows,Hispanic,0.705,pounds
+2013,Other types of cheeses typically from cows,Other,1.257,pounds
+2013,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",20.092,pounds
+2013,Miscellaneous,Imported cheese not from cows,0.238,pounds
+2013,Miscellaneous,Total natural cheese,33.687,pounds
+2013,Processed products,Cheese,3.631,pounds
+2013,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.738,pounds
+2013,Processed products,Total processed,6.37,pounds
+2014,American types,Cheddar,9.86,pounds
+2014,American types,Other than Cheddar,3.806,pounds
+2014,American types,Total,13.665,pounds
+2014,Italian types,Mozzarella,11.177,pounds
+2014,Italian types,Other than mozzarella,3.026,pounds
+2014,Italian types,Total,14.202,pounds
+2014,Other types of cheeses typically from cows,Swiss,1.021,pounds
+2014,Other types of cheeses typically from cows,Blue,0.319,pounds
+2014,Other types of cheeses typically from cows,Brick,0.01,pounds
+2014,Other types of cheeses typically from cows,Muenster,0.472,pounds
+2014,Other types of cheeses typically from cows,Cream and Neufchatel,2.453,pounds
+2014,Other types of cheeses typically from cows,Hispanic,0.718,pounds
+2014,Other types of cheeses typically from cows,Other,1.315,pounds
+2014,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",20.509,pounds
+2014,Miscellaneous,Imported cheese not from cows,0.258,pounds
+2014,Miscellaneous,Total natural cheese,34.433,pounds
+2014,Processed products,Cheese,4.386,pounds
+2014,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.98,pounds
+2014,Processed products,Total processed,7.366,pounds
+2015,American types,Cheddar,10.179,pounds
+2015,American types,Other than Cheddar,3.865,pounds
+2015,American types,Total,14.044,pounds
+2015,Italian types,Mozzarella,11.282,pounds
+2015,Italian types,Other than mozzarella,3.2,pounds
+2015,Italian types,Total,14.483,pounds
+2015,Other types of cheeses typically from cows,Swiss,1.053,pounds
+2015,Other types of cheeses typically from cows,Blue,0.318,pounds
+2015,Other types of cheeses typically from cows,Brick,0.01,pounds
+2015,Other types of cheeses typically from cows,Muenster,0.505,pounds
+2015,Other types of cheeses typically from cows,Cream and Neufchatel,2.498,pounds
+2015,Other types of cheeses typically from cows,Hispanic,0.725,pounds
+2015,Other types of cheeses typically from cows,Other,1.48,pounds
+2015,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",21.072,pounds
+2015,Miscellaneous,Imported cheese not from cows,0.281,pounds
+2015,Miscellaneous,Total natural cheese,35.398,pounds
+2015,Processed products,Cheese,4.482,pounds
+2015,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.84,pounds
+2015,Processed products,Total processed,7.322,pounds
+2016,American types,Cheddar,10.407,pounds
+2016,American types,Other than Cheddar,3.956,pounds
+2016,American types,Total,14.362,pounds
+2016,Italian types,Mozzarella,11.743,pounds
+2016,Italian types,Other than mozzarella,3.493,pounds
+2016,Italian types,Total,15.237,pounds
+2016,Other types of cheeses typically from cows,Swiss,1.059,pounds
+2016,Other types of cheeses typically from cows,Blue,0.308,pounds
+2016,Other types of cheeses typically from cows,Brick,0.008,pounds
+2016,Other types of cheeses typically from cows,Muenster,0.522,pounds
+2016,Other types of cheeses typically from cows,Cream and Neufchatel,2.612,pounds
+2016,Other types of cheeses typically from cows,Hispanic,0.761,pounds
+2016,Other types of cheeses typically from cows,Other,1.573,pounds
+2016,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",22.08,pounds
+2016,Miscellaneous,Imported cheese not from cows,0.276,pounds
+2016,Miscellaneous,Total natural cheese,36.718,pounds
+2016,Processed products,Cheese,4.858,pounds
+2016,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.122,pounds
+2016,Processed products,Total processed,6.979,pounds
+2017,American types,Cheddar,11.091,pounds
+2017,American types,Other than Cheddar,3.999,pounds
+2017,American types,Total,15.09,pounds
+2017,Italian types,Mozzarella,11.613,pounds
+2017,Italian types,Other than mozzarella,3.511,pounds
+2017,Italian types,Total,15.124,pounds
+2017,Other types of cheeses typically from cows,Swiss,1.045,pounds
+2017,Other types of cheeses typically from cows,Blue,0.301,pounds
+2017,Other types of cheeses typically from cows,Brick,0.007,pounds
+2017,Other types of cheeses typically from cows,Muenster,0.531,pounds
+2017,Other types of cheeses typically from cows,Cream and Neufchatel,2.581,pounds
+2017,Other types of cheeses typically from cows,Hispanic,0.802,pounds
+2017,Other types of cheeses typically from cows,Other,1.478,pounds
+2017,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",21.869,pounds
+2017,Miscellaneous,Imported cheese not from cows,0.304,pounds
+2017,Miscellaneous,Total natural cheese,37.263,pounds
+2017,Processed products,Cheese,5.172,pounds
+2017,Processed products,"Cold pack, cheese foods, other foods, and spreads",1.941,pounds
+2017,Processed products,Total processed,7.112,pounds
+2018,American types,Cheddar,11.217,pounds
+2018,American types,Other than Cheddar,4.186,pounds
+2018,American types,Total,15.404,pounds
+2018,Italian types,Mozzarella,12.215,pounds
+2018,Italian types,Other than mozzarella,3.493,pounds
+2018,Italian types,Total,15.707,pounds
+2018,Other types of cheeses typically from cows,Swiss,1.079,pounds
+2018,Other types of cheeses typically from cows,Blue,0.313,pounds
+2018,Other types of cheeses typically from cows,Brick,0.006,pounds
+2018,Other types of cheeses typically from cows,Muenster,0.541,pounds
+2018,Other types of cheeses typically from cows,Cream and Neufchatel,2.59,pounds
+2018,Other types of cheeses typically from cows,Hispanic,0.878,pounds
+2018,Other types of cheeses typically from cows,Other,1.48,pounds
+2018,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",22.594,pounds
+2018,Miscellaneous,Imported cheese not from cows,0.255,pounds
+2018,Miscellaneous,Total natural cheese,38.253,pounds
+2018,Processed products,Cheese,5.24,pounds
+2018,Processed products,"Cold pack, cheese foods, other foods, and spreads",1.843,pounds
+2018,Processed products,Total processed,7.084,pounds
+2019,American types,Cheddar,11.16,pounds
+2019,American types,Other than Cheddar,4.381,pounds
+2019,American types,Total,15.541,pounds
+2019,Italian types,Mozzarella,12.48,pounds
+2019,Italian types,Other than mozzarella,3.397,pounds
+2019,Italian types,Total,15.877,pounds
+2019,Other types of cheeses typically from cows,Swiss,1.118,pounds
+2019,Other types of cheeses typically from cows,Blue,0.311,pounds
+2019,Other types of cheeses typically from cows,Brick,0.006,pounds
+2019,Other types of cheeses typically from cows,Muenster,0.551,pounds
+2019,Other types of cheeses typically from cows,Cream and Neufchatel,2.617,pounds
+2019,Other types of cheeses typically from cows,Hispanic,0.93,pounds
+2019,Other types of cheeses typically from cows,Other,1.384,pounds
+2019,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",22.794,pounds
+2019,Miscellaneous,Imported cheese not from cows,0.27,pounds
+2019,Miscellaneous,Total natural cheese,38.605,pounds
+2019,Processed products,Cheese,4.641,pounds
+2019,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.347,pounds
+2019,Processed products,Total processed,6.988,pounds
+2020,American types,Cheddar,11.128,pounds
+2020,American types,Other than Cheddar,4.333,pounds
+2020,American types,Total,15.461,pounds
+2020,Italian types,Mozzarella,12.194,pounds
+2020,Italian types,Other than mozzarella,3.312,pounds
+2020,Italian types,Total,15.506,pounds
+2020,Other types of cheeses typically from cows,Swiss,1.042,pounds
+2020,Other types of cheeses typically from cows,Blue,0.245,pounds
+2020,Other types of cheeses typically from cows,Brick,0.005,pounds
+2020,Other types of cheeses typically from cows,Muenster,0.523,pounds
+2020,Other types of cheeses typically from cows,Cream and Neufchatel,2.786,pounds
+2020,Other types of cheeses typically from cows,Hispanic,0.958,pounds
+2020,Other types of cheeses typically from cows,Other,1.344,pounds
+2020,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",22.408,pounds
+2020,Miscellaneous,Imported cheese not from cows,0.252,pounds
+2020,Miscellaneous,Total natural cheese,38.121,pounds
+2020,Processed products,Cheese,4.846,pounds
+2020,Processed products,"Cold pack, cheese foods, other foods, and spreads",1.852,pounds
+2020,Processed products,Total processed,6.697,pounds
+2021,American types,Cheddar,11.519,pounds
+2021,American types,Other than Cheddar,4.677,pounds
+2021,American types,Total,16.196,pounds
+2021,Italian types,Mozzarella,12.304,pounds
+2021,Italian types,Other than mozzarella,3.571,pounds
+2021,Italian types,Total,15.875,pounds
+2021,Other types of cheeses typically from cows,Swiss,1.041,pounds
+2021,Other types of cheeses typically from cows,Blue,0.285,pounds
+2021,Other types of cheeses typically from cows,Brick,0.005,pounds
+2021,Other types of cheeses typically from cows,Muenster,0.529,pounds
+2021,Other types of cheeses typically from cows,Cream and Neufchatel,2.832,pounds
+2021,Other types of cheeses typically from cows,Hispanic,0.972,pounds
+2021,Other types of cheeses typically from cows,Other,1.541,pounds
+2021,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",23.08,pounds
+2021,Miscellaneous,Imported cheese not from cows,0.285,pounds
+2021,Miscellaneous,Total natural cheese,39.561,pounds
+2021,Processed products,Cheese,5.831,pounds
+2021,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.417,pounds
+2021,Processed products,Total processed,8.248,pounds
+2022,American types,Cheddar,11.376,pounds
+2022,American types,Other than Cheddar,4.918,pounds
+2022,American types,Total,16.294,pounds
+2022,Italian types,Mozzarella,12.604,pounds
+2022,Italian types,Other than mozzarella,3.529,pounds
+2022,Italian types,Total,16.14,pounds
+2022,Other types of cheeses typically from cows,Swiss,1.07,pounds
+2022,Other types of cheeses typically from cows,Blue,0.297,pounds
+2022,Other types of cheeses typically from cows,Brick,0.004,pounds
+2022,Other types of cheeses typically from cows,Muenster,0.53,pounds
+2022,Other types of cheeses typically from cows,Cream and Neufchatel,3.045,pounds
+2022,Other types of cheeses typically from cows,Hispanic,1.051,pounds
+2022,Other types of cheeses typically from cows,Other,1.481,pounds
+2022,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",23.613,pounds
+2022,Miscellaneous,Imported cheese not from cows,0.302,pounds
+2022,Miscellaneous,Total natural cheese,40.208,pounds
+2022,Processed products,Cheese,5.033,pounds
+2022,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.406,pounds
+2022,Processed products,Total processed,7.439,pounds
+2023,American types,Cheddar,11.833,pounds
+2023,American types,Other than Cheddar,4.98,pounds
+2023,American types,Total,16.813,pounds
+2023,Italian types,Mozzarella,12.453,pounds
+2023,Italian types,Other than mozzarella,3.5,pounds
+2023,Italian types,Total,15.94,pounds
+2023,Other types of cheeses typically from cows,Swiss,1,pounds
+2023,Other types of cheeses typically from cows,Blue,0.267,pounds
+2023,Other types of cheeses typically from cows,Brick,0.004,pounds
+2023,Other types of cheeses typically from cows,Muenster,0.549,pounds
+2023,Other types of cheeses typically from cows,Cream and Neufchatel,2.981,pounds
+2023,Other types of cheeses typically from cows,Hispanic,1.147,pounds
+2023,Other types of cheeses typically from cows,Other,1.51,pounds
+2023,Miscellaneous,"Total other-than-American cheese, excluding cheese not from cows",23.395,pounds
+2023,Miscellaneous,Imported cheese not from cows,0.336,pounds
+2023,Miscellaneous,Total natural cheese,40.545,pounds
+2023,Processed products,Cheese,6.141,pounds
+2023,Processed products,"Cold pack, cheese foods, other foods, and spreads",2.397,pounds
+2023,Processed products,Total processed,8.538,pounds

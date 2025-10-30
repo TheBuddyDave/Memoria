@@ -34,3 +34,5 @@ pgdata/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+evaluations/data/fruit-trade-data.csv
+evaluations/data/IMF/dataset_2025-10-30T20_22_17.768806999Z_DEFAULT_INTEGRATION_IMF.STA_BOP_21.0.0.csv

@@ -1,0 +1,170 @@
+﻿Year,Month,Month_Number,Data_Item,Value,Units
+2025,March,3,Consumer price index all items,319.799,1982-84=100
+2025,April,4,Consumer price index all items,320.795,1982-84=100
+2025,May,5,Consumer price index all items,321.465,1982-84=100
+2025,June,6,Consumer price index all items,322.561,1982-84=100
+2025,July,7,Consumer price index all items,323.048,1982-84=100
+2025,August,8,Consumer price index all items,323.976,1982-84=100
+2025,March,3,Consumer price index all food,337.751,1982-84=100
+2025,April,4,Consumer price index all food,337.747,1982-84=100
+2025,May,5,Consumer price index all food,338.598,1982-84=100
+2025,June,6,Consumer price index all food,339.498,1982-84=100
+2025,July,7,Consumer price index all food,340.036,1982-84=100
+2025,August,8,Consumer price index all food,341.295,1982-84=100
+2025,March,3,Consumer price index all meat,346.005,1982-84=100
+2025,April,4,Consumer price index all meat,346.530,1982-84=100
+2025,May,5,Consumer price index all meat,347.384,1982-84=100
+2025,June,6,Consumer price index all meat,351.703,1982-84=100
+2025,July,7,Consumer price index all meat,357.909,1982-84=100
+2025,August,8,Consumer price index all meat,363.913,1982-84=100
+2025,March,3,Consumer price index beef and veal,450.262,1982-84=100
+2025,April,4,Consumer price index beef and veal,453.243,1982-84=100
+2025,May,5,Consumer price index beef and veal,455.104,1982-84=100
+2025,June,6,Consumer price index beef and veal,465.866,1982-84=100
+2025,July,7,Consumer price index beef and veal,477.484,1982-84=100
+2025,August,8,Consumer price index beef and veal,490.280,1982-84=100
+2025,March,3,Consumer price index pork,270.383,1982-84=100
+2025,April,4,Consumer price index pork,266.785,1982-84=100
+2025,May,5,Consumer price index pork,268.747,1982-84=100
+2025,June,6,Consumer price index pork,269.386,1982-84=100
+2025,July,7,Consumer price index pork,272.994,1982-84=100
+2025,August,8,Consumer price index pork,273.591,1982-84=100
+2025,March,3,Consumer price index poultry,308.498,1982-84=100
+2025,April,4,Consumer price index poultry,311.422,1982-84=100
+2025,May,5,Consumer price index poultry,313.020,1982-84=100
+2025,June,6,Consumer price index poultry,315.693,1982-84=100
+2025,July,7,Consumer price index poultry,315.235,1982-84=100
+2025,August,8,Consumer price index poultry,314.008,1982-84=100
+2025,March,3,Retail prices or values: Choice beef retail value,874.5,Cents per pound
+2025,April,4,Retail prices or values: Choice beef retail value,883.2,Cents per pound
+2025,May,5,Retail prices or values: Choice beef retail value,881.1,Cents per pound
+2025,June,6,Retail prices or values: Choice beef retail value,926.6,Cents per pound
+2025,July,7,Retail prices or values: Choice beef retail value,969.0,Cents per pound
+2025,August,8,Retail prices or values: Choice beef retail value,985.2,Cents per pound
+2025,March,3,Retail prices or values: all-fresh beef retail value,842.2,Cents per pound
+2025,April,4,Retail prices or values: all-fresh beef retail value,850.1,Cents per pound
+2025,May,5,Retail prices or values: all-fresh beef retail value,840.5,Cents per pound
+2025,June,6,Retail prices or values: all-fresh beef retail value,863.0,Cents per pound
+2025,July,7,Retail prices or values: all-fresh beef retail value,890.2,Cents per pound
+2025,August,8,Retail prices or values: all-fresh beef retail value,918.3,Cents per pound
+2025,March,3,Retail prices or values: ground beef,579.0,Cents per pound
+2025,April,4,Retail prices or values: ground beef,580.1,Cents per pound
+2025,May,5,Retail prices or values: ground beef,598.1,Cents per pound
+2025,June,6,Retail prices or values: ground beef,612.0,Cents per pound
+2025,July,7,Retail prices or values: ground beef,625.4,Cents per pound
+2025,August,8,Retail prices or values: ground beef,631.8,Cents per pound
+2025,March,3,"Retail prices or values: round roast, USDA Choice boneless",755.7,Cents per pound
+2025,April,4,"Retail prices or values: round roast, USDA Choice boneless",761.6,Cents per pound
+2025,May,5,"Retail prices or values: round roast, USDA Choice boneless",757.0,Cents per pound
+2025,June,6,"Retail prices or values: round roast, USDA Choice boneless",776.2,Cents per pound
+2025,July,7,"Retail prices or values: round roast, USDA Choice boneless",790.9,Cents per pound
+2025,August,8,"Retail prices or values: round roast, USDA Choice boneless",813.0,Cents per pound
+2025,March,3,"Retail prices or values: sirloin steak, USDA Choice boneless",1192.4,Cents per pound
+2025,April,4,"Retail prices or values: sirloin steak, USDA Choice boneless",1232.6,Cents per pound
+2025,May,5,"Retail prices or values: sirloin steak, USDA Choice boneless",1220.7,Cents per pound
+2025,June,6,"Retail prices or values: sirloin steak, USDA Choice boneless",1292.3,Cents per pound
+2025,July,7,"Retail prices or values: sirloin steak, USDA Choice boneless",1355.4,Cents per pound
+2025,August,8,"Retail prices or values: sirloin steak, USDA Choice boneless",1431.9,Cents per pound
+2025,March,3,Retail prices or values: pork retail value,495.1,Cents per pound
+2025,April,4,Retail prices or values: pork retail value,490.7,Cents per pound
+2025,May,5,Retail prices or values: pork retail value,490.5,Cents per pound
+2025,June,6,Retail prices or values: pork retail value,492.2,Cents per pound
+2025,July,7,Retail prices or values: pork retail value,500.9,Cents per pound
+2025,August,8,Retail prices or values: pork retail value,500.5,Cents per pound
+2025,March,3,Retail prices or values: bacon,697.8,Cents per pound
+2025,April,4,Retail prices or values: bacon,700.9,Cents per pound
+2025,May,5,Retail prices or values: bacon,698.5,Cents per pound
+2025,June,6,Retail prices or values: bacon,709.8,Cents per pound
+2025,July,7,Retail prices or values: bacon,711.8,Cents per pound
+2025,August,8,Retail prices or values: bacon,720.8,Cents per pound
+2025,March,3,"Retail prices or values: pork chops, boneless",477.1,Cents per pound
+2025,April,4,"Retail prices or values: pork chops, boneless",460.9,Cents per pound
+2025,May,5,"Retail prices or values: pork chops, boneless",460.1,Cents per pound
+2025,June,6,"Retail prices or values: pork chops, boneless",461.8,Cents per pound
+2025,July,7,"Retail prices or values: pork chops, boneless",469.1,Cents per pound
+2025,August,8,"Retail prices or values: pork chops, boneless",468.8,Cents per pound
+2025,March,3,"Retail prices or values: ham, boneless not canned",560.3,Cents per pound
+2025,April,4,"Retail prices or values: ham, boneless not canned",547.3,Cents per pound
+2025,May,5,"Retail prices or values: ham, boneless not canned",545.3,Cents per pound
+2025,June,6,"Retail prices or values: ham, boneless not canned",537.9,Cents per pound
+2025,July,7,"Retail prices or values: ham, boneless not canned",568.5,Cents per pound
+2025,August,8,"Retail prices or values: ham, boneless not canned",543.2,Cents per pound
+2025,March,3,Retail prices or values: retail broiler composite,245.2,Cents per pound
+2025,April,4,Retail prices or values: retail broiler composite,244.8,Cents per pound
+2025,May,5,Retail prices or values: retail broiler composite,245.9,Cents per pound
+2025,June,6,Retail prices or values: retail broiler composite,249.4,Cents per pound
+2025,July,7,Retail prices or values: retail broiler composite,248.2,Cents per pound
+2025,August,8,Retail prices or values: retail broiler composite,248.7,Cents per pound
+2025,March,3,"Retail prices or values: chicken, fresh whole",206.4,Cents per pound
+2025,April,4,"Retail prices or values: chicken, fresh whole",205.9,Cents per pound
+2025,May,5,"Retail prices or values: chicken, fresh whole",206.1,Cents per pound
+2025,June,6,"Retail prices or values: chicken, fresh whole",208.6,Cents per pound
+2025,July,7,"Retail prices or values: chicken, fresh whole",207.8,Cents per pound
+2025,August,8,"Retail prices or values: chicken, fresh whole",207.6,Cents per pound
+2025,March,3,"Retail prices or values: chicken, legs, bone-in",180.5,Cents per pound
+2025,April,4,"Retail prices or values: chicken, legs, bone-in",178.9,Cents per pound
+2025,May,5,"Retail prices or values: chicken, legs, bone-in",178.5,Cents per pound
+2025,June,6,"Retail prices or values: chicken, legs, bone-in",181.5,Cents per pound
+2025,July,7,"Retail prices or values: chicken, legs, bone-in",179.9,Cents per pound
+2025,August,8,"Retail prices or values: chicken, legs, bone-in",179.7,Cents per pound
+2025,March,3,"Retail prices or values: chicken, boneless breast",416.0,Cents per pound
+2025,April,4,"Retail prices or values: chicken, boneless breast",418.0,Cents per pound
+2025,May,5,"Retail prices or values: chicken, boneless breast",421.6,Cents per pound
+2025,June,6,"Retail prices or values: chicken, boneless breast",423.9,Cents per pound
+2025,July,7,"Retail prices or values: chicken, boneless breast",420.4,Cents per pound
+2025,August,8,"Retail prices or values: chicken, boneless breast",421.2,Cents per pound
+2025,March,3,"Retail prices or values: eggs, Grade A,  large, retail",622.7,Cents per dozen
+2025,April,4,"Retail prices or values: eggs, Grade A,  large, retail",512.2,Cents per dozen
+2025,May,5,"Retail prices or values: eggs, Grade A,  large, retail",454.8,Cents per dozen
+2025,June,6,"Retail prices or values: eggs, Grade A,  large, retail",377.5,Cents per dozen
+2025,July,7,"Retail prices or values: eggs, Grade A,  large, retail",359.9,Cents per dozen
+2025,August,8,"Retail prices or values: eggs, Grade A,  large, retail",358.7,Cents per dozen
+2025,March,3,Price spread: beef farm to wholesale,32.4,Cents per pound
+2025,April,4,Price spread: beef farm to wholesale,23.5,Cents per pound
+2025,May,5,Price spread: beef farm to wholesale,41.6,Cents per pound
+2025,June,6,Price spread: beef farm to wholesale,57.0,Cents per pound
+2025,July,7,Price spread: beef farm to wholesale,55.9,Cents per pound
+2025,August,8,Price spread: beef farm to wholesale,61.7,Cents per pound
+2025,March,3,Price spread: beef wholesale to retail,383.0,Cents per pound
+2025,April,4,Price spread: beef wholesale to retail,370.9,Cents per pound
+2025,May,5,Price spread: beef wholesale to retail,342.0,Cents per pound
+2025,June,6,Price spread: beef wholesale to retail,349.8,Cents per pound
+2025,July,7,Price spread: beef wholesale to retail,397.0,Cents per pound
+2025,August,8,Price spread: beef wholesale to retail,385.5,Cents per pound
+2025,March,3,"Price spread: Farmers' share of retail beef dollar, percent",52.5,Percent
+2025,April,4,"Price spread: Farmers' share of retail beef dollar, percent",55.3,Percent
+2025,May,5,"Price spread: Farmers' share of retail beef dollar, percent",56.5,Percent
+2025,June,6,"Price spread: Farmers' share of retail beef dollar, percent",56.1,Percent
+2025,July,7,"Price spread: Farmers' share of retail beef dollar, percent",53.3,Percent
+2025,August,8,"Price spread: Farmers' share of retail beef dollar, percent",54.6,Percent
+2025,March,3,Price spread: pork farm to wholesale,75.6,Cents per pound
+2025,April,4,Price spread: pork farm to wholesale,74.0,Cents per pound
+2025,May,5,Price spread: pork farm to wholesale,71.4,Cents per pound
+2025,June,6,Price spread: pork farm to wholesale,86.0,Cents per pound
+2025,July,7,Price spread: pork farm to wholesale,85.7,Cents per pound
+2025,August,8,Price spread: pork farm to wholesale,85.5,Cents per pound
+2025,March,3,Price spread: Pork wholesale to retail,307.4,Cents per pound
+2025,April,4,Price spread: Pork wholesale to retail,307.7,Cents per pound
+2025,May,5,Price spread: Pork wholesale to retail,300.9,Cents per pound
+2025,June,6,Price spread: Pork wholesale to retail,272.8,Cents per pound
+2025,July,7,Price spread: Pork wholesale to retail,278.6,Cents per pound
+2025,August,8,Price spread: Pork wholesale to retail,279.7,Cents per pound
+2025,March,3,Price spread: farmers' share of retail pork dollar,22.6,Percent
+2025,April,4,Price spread: farmers' share of retail pork dollar,22.2,Percent
+2025,May,5,Price spread: farmers' share of retail pork dollar,24.1,Percent
+2025,June,6,Price spread: farmers' share of retail pork dollar,27.1,Percent
+2025,July,7,Price spread: farmers' share of retail pork dollar,27.3,Percent
+2025,August,8,Price spread: farmers' share of retail pork dollar,27.0,Percent
+2025,March,3,Price spread: wholesale-retail broiler spread,137.5,"Cents per pound, retail weight"
+2025,April,4,Price spread: wholesale-retail broiler spread,127.8,"Cents per pound, retail weight"
+2025,May,5,Price spread: wholesale-retail broiler spread,128.9,"Cents per pound, retail weight"
+2025,June,6,Price spread: wholesale-retail broiler spread,131.6,"Cents per pound, retail weight"
+2025,July,7,Price spread: wholesale-retail broiler spread,131.4,"Cents per pound, retail weight"
+2025,August,8,Price spread: wholesale-retail broiler spread,135.6,"Cents per pound, retail weight"
+2025,March,3,Price spread: retail minus wholesale egg price,110.0,Cents per dozen
+2025,April,4,Price spread: retail minus wholesale egg price,142.5,Cents per dozen
+2025,May,5,Price spread: retail minus wholesale egg price,109.6,Cents per dozen
+2025,June,6,Price spread: retail minus wholesale egg price,76.1,Cents per dozen
+2025,July,7,Price spread: retail minus wholesale egg price,21.4,Cents per dozen
+2025,August,8,Price spread: retail minus wholesale egg price,92.3,Cents per dozen
+,,,,,

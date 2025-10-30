@@ -1,0 +1,386 @@
+U.S. dairy situation at a glance
+Basic dairy-related data are published monthly, providing statistics for the most recent 14 months and annual statistics for the past 2 years.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record.
+Period: Indicates the period field represents. It takes one of the following values: “January”, “February”, “March”, “April”, “May” “June”, “July”, “August”, “September”, “October”, “November”, “December”, and “Annual”.
+Timeperiod_id: Numeric value denoting the Period. It takes values 1:12 when Period indicates a month, and 17 when Period indicates annual aggregation.
+Frequency: Frequency of the measurement: “Monthly”, “Annual”.
+Category: Indicates the name of the broad category.
+Data_item: Indicates a specific indicator within a Category.
+Value: Numeric value for the record.
+Unit: Unit of measure associated with value.
+ 
+U.S. milk production and related data
+The data file includes quarterly milk-production data, a proxy for dairy feed prices, and replacement cow prices.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record.
+Period: Indicates the period field represents. It takes one of the following values: “JAN-MAR”, “APR-JUN”, “JUL-SEP”, “OCT-DEC”, “ANNUAL”.
+Timeperiod_id: Numeric value representing the frequency of the reported data: quarterly (13: “JAN-MAR”, 14: “APR-JUN”, 15: “JUL-SEP”, 16: “OCT-DEC”) or annual (17).
+Timeperiod_name: It describes the Period and Timeperiod_id. It takes one the following values: “Quarter 1”, “Quarter 2”, “Quarter 3”, “Quarter 4”, “Annual aggregation”.
+Aggregation: Describes the level of the aggregation used for the annual values. It takes the following values: “Quarterly average” (averaging the quarterly values), “Quarterly sum” (summing the quarterly values), and “Not applicable” (no aggregation was applied).
+Data_item: Indicates a specific indicator. It takes the following values: “Milk cow”, “Milk per cow”, “Milk production”, “16-percent protein feed value”, “Replacement cow price”.
+Value: Numeric value for the record.
+Units: Unit of measure associated with value.
+Supply and utilization for dairy product categories
+ERS provides supply and utilization tables for eight product categories: butter, dry skim milk products, American type cheese, other-than-American type cheese, dry whey, whey protein concentrate, lactose, and evaporated and condensed whole milk. For the first seven product categories, monthly and annual data are provided from 2011 to current. For evaporated and condensed whole milk, only annual data are provided for 2011 to current.
+
+The following calculations are used for the monthly and annual tables:
+
+Total supply = beginning commercial stocks + production + imports
+
+Domestic disappearance = total commercial supply – exports – ending stocks
+
+For the annual tables, annual adjustments are included to calculate apparent domestic human use. The data for these adjustments are readily available on an annual basis. For butter, American type cheese, and other-than-American type cheese, net U.S. shipments to U.S. territories are subtracted from domestic disappearance. For dry skim milk products, dry whey, whey protein concentrate, and lactose, net U.S. shipments to U.S. territories and animal feed use estimates are subtracted from domestic disappearance.
+
+Apparent domestic human use = domestic disappearance 
+    – net shipments to U.S. territories – animal feed use [if applicable]
+
+Data sources, supply and utilization for product categories
+Supply and utilization element	Source
+Stocks	USDA, National Agricultural Statistics Service (NASS)
+Production	USDA, NASS
+Imports, exports, and net shipments to U.S. territories	U.S. Foreign Agricultural Service and U.S. Department of Commerce, Bureau of the Census
+Domestic animal feed use	American Dairy Products Institute
+Import and export codes used
+The primary source for dairy import and export data is the U.S. Department of Commerce, Bureau of the Census and these data are reported by USDA, Foreign Agricultural Service. Census data are compiled using a commodity classification system developed by the World Customs Organization: the Harmonized Commodity Description and Coding System or simply the Harmonized System (HS). HS is an international standard for recording world trade at 2-digit, 4-digit, and 6-digit levels of detail. The United States adopted a 10-digit code system to include greater product detail and began using it for U.S. trade on January 1, 1989. Codes used for U.S. exports are provided in the Census in Foreign Trade Schedule B. Codes used for U.S. imports are provided in the Harmonized Tariff Schedule of the United States (HTS), administered by the U.S. International Trade Commission (USITC). Census data for dairy products are reported in kilograms of product weight or liters of product volume. Since ERS commercial disappearance data are reported in pounds, data for imports and exports must be converted to product weight in pounds.
+
+For Excel workbooks displaying import HTS numbers used for each product category, see the HTS codes used for imports, product categories. Descriptions listed are those provided by the USITC Interactive Tariff and Trade DataWeb. Although the USITC descriptions provided by the USITC Interactive Tariff and Trade DataWeb are useful, they are not as accurate or complete as those in the actual tariff schedule. In the Excel workbooks, DataWeb descriptions are provided instead of the actual HTS descriptions in the interest of brevity. 
+
+For an Excel workbook displaying Schedule B export codes used for each product category, see HS codes used for exports, product categories. Export classification in Schedule B is not nearly as detailed as import classification in HTS. Note the distinction between American type and other-than-American type cheese is not precise. We have categorized HS codes according to what we believe are the predominant varieties of cheeses within each HS classification. For example, we make a simplifying assumption that all processed cheese exported is of an American type.
+
+Net shipments to U.S. territories
+Net shipments to U.S. territories include shipments from the United States to Puerto Rico and the U.S. Virgin Islands minus shipments from Puerto Rico and the U.S. Virgin Islands to the United States. Data for net shipments to other U.S. territories are not available.
+
+Animal feed use estimates
+Animal feed use estimates are based on data published in the annual report series Dairy Products Utilization and Production Trends by American Dairy Products Institute (ADPI). For dry skim milk products, domestic animal feed use includes products produced for animal use and products originally intended for human use but used for animal feed. For the whey products—dry whey, whey protein concentrate, and lactose—animal feed use estimates are included for the entire period.  For data beginning in 2019, animal use of whey products originally intended for human consumption is explicitly reported by ADPI, in addition to animal use of products originally intended for animal feed use.
+
+The csv version includes the fields described below:
+
+Table: Indicates the names of the corresponding tabs in the excel/pivot table version of the data product.
+Butter, monthly
+Butter, annual
+Dry skim milk, monthly
+Dry skim milk, annual
+Amer cheese, monthly
+Amer cheese, annual
+Other cheese, monthly
+Other cheese, annual
+Dry whey, monthly
+Dry whey, annual
+WPC, monthly
+WPC, annual
+Lactose, monthly
+Lactose, annual
+Evap cond whole, annual
+Year: Year associated with the record.
+Period: Indicates the period field represents. It takes one of the following values: “January”, “February”, “March”, “April”, “May”, “June”, ”July”, “August”, “September”, “October”, “November”, “December”, and “Annual”.
+Timeperiod_id: Numeric value denoting the Period. It takes values 1:12 when Period indicates a month, and 17 when Period indicates annual aggregation.
+Frequency: Frequency of the measurement: “Monthly”, “Annual”.
+Product: Indicates the name of the dairy product. It takes the following: “Butter”, “Dry skim milk products”, “American Style Cheese”, “Other than American Cheese”, “Dry whey”, “Whey protein concentrate (WPC), “Lactose”, and “Evaporated and condensed whole milk”.
+Category: Indicates a broad supply and utilization category: “Supply”, “Use”, and “Annual Adjustments”.
+Data_item: Indicates an element of the supply and utilization balance sheet specific to a given Product (e.g. beginning stocks, production, imports, exports, etc.)
+Quantity: Numeric value for record.
+Units: Unit of measure associated with value.
+ 
+Supply and utilization of milk in all products
+The following monthly and annual data are provided for the supply and utilization of milk in all dairy products:
+
+Milk-equivalent milk-fat basis
+Milk-equivalent skim-solids basis
+Milk fat
+Skim solids 
+Calculations for these tables are very similar to the calculations of supply and utilization for dairy product categories. An exception is the deduction of farm use to estimate milk marketings.
+
+milk marketings = milk production – farm use
+
+total supply = beginning stocks + milk marketings + imports
+
+domestic disappearance = total commercial supply – exports – ending stocks
+
+For the annual tables, adjustments are made as follows:
+
+apparent domestic human use = domestic disappearance
+     + household farm use
+     – (net shipments to U.S. territories
+     + domestic use of dairy products as animal feed
+     + other uses)
+
+Farm use
+USDA, National Agricultural Statistics Service (NASS) publishes farm use data on an annual basis. To estimate monthly farm use of milk, ERS prorates the annual farm use number using the number of days in each month. For the current year, ERS estimates monthly farm use based on published data from recent years. Farm use includes both milk fed to calves and household farm use. While total farm use is subtracted from milk production to derive milk marketings, household farm use is added back in the annual tables as part of the calculation of apparent domestic human use.
+
+Conversion factors
+Milk is made up of water, milk fat, and skim solids (protein, lactose, ash, and trace elements). Milk equivalents are measured on both a milk-fat basis and a skim-solids basis. The milk-fat and skim-solids content of milk varies from year to year, month to month, and from one cow to another. In recent years, proportions of milk fat and skim solids in U.S. milk have been trending upward. In 2021, farm milk in the United States averaged 87.00 percent water, 8.99 percent skim solids, and 4.01 percent milk fat.
+
+To account for the supply and use of milk in all products, it is necessary to either account for the milk solids (milk fat or skim solids) or the equivalent amount of milk (on a milk-fat or skim-solids basis) associated with stocks, imports, and exports of the products. Conversion factors associated with milk fat and skim solids are used for this accounting.
+
+For stocks, the milk-fat and skim-solids percentages are estimated for each product reported by NASS. The same type of procedure is used for animal feed use estimates. For imports, exports, and net shipments to U.S. territories, milk-fat and skim-solids percentages are estimated for each HS code, based on information from several sources. To estimate the farm milk equivalent (m.e.) on milk-fat and skim-solids bases, estimated milk fat and skim solids are divided by estimates of milk fat and skim solids in U.S. farm milk, which vary from month to month.
+
+National milk-fat test data for each month are provided by NASS. Since USDA does not report an average national solids-nonfat (SNF) test, ERS uses the weighted-average SNF test reported by USDA, Agricultural Marketing Service for the seven Federal Milk Marketing Orders (FMMOs) with component-based pricing (see https://www.ams.usda.gov/resources/marketing-order-statistics). In November 2018, a California FMMO became effective and it is one of the seven FMMOs with component-based pricing. Prior to that, California milk handlers were regulated by a State milk marketing order, which was separate from the FMMO system and was administered by the California Department of Food and Agriculture (CDFA). For months prior to November 2018, ERS estimates a weighted-average SNF test for the United States, using the SNF test for the six FMMOs with component-based pricing—extrapolated to include all U.S. areas outside of California—SNF test data reported by CDFA, and milk production data reported by NASS.
+
+For an Excel workbook with conversion factors for stocks, imports, and exports, net shipments to U.S. territories, and animal use estimates—as well as the sources for the conversion factors—see Dairy conversion factors and sources.
+
+As an example, to convert 4,000 kilograms of Cheddar cheese imports or exports into a skim-solids basis milk equivalent in a month when skim solids in farm milk equal 8.99 percent, the following formula would be used:
+
+(product quantity [kilograms or liters] × metric to pounds conversion factor)
+     × (skim solids percentage) / (SNF Test)
+     = pounds on skim-solids m.e. basis
+
+(4,000 kg of cheese × 2.204623 pounds/kilogram)
+     × (29.9% of skim solids in Cheddar cheese) / (8.99% of skim solids in farm milk)
+     = 29,330 pounds on a skim-solids m.e. basis
+
+This number is divided by 1 million, as commercial disappearance numbers on milk-equivalent bases are published in million-pound units.
+
+Net shipments to U.S. territories
+As with the data file “Supply and utilization for dairy product categories,” net shipments to U.S. territories for milk in all products include shipments from the United States to Puerto Rico and the U.S. Virgin Islands minus shipments from Puerto Rico and the U.S. Virgin Islands to the United States. The same HS codes and conversion factors used for exports are also used for net shipments to U.S. territories.
+
+Animal feed use estimates
+Animal feed use estimates are based on data published in the annual report series Dairy Products Utilization and Production Trends by the American Dairy Products Institute (ADPI). For some dry milk products—dry skim milk products, dry whole milk, and dry buttermilk—domestic animal feed use includes products produced for animal use and products originally intended for human use but used for animal feed. For several whey products, animal feed use estimates are included for the entire period. For data beginning in 2019, animal use of whey products originally intended for human consumption is explicitly reported by ADPI in addition to animal use of products originally intended for animal feed use. ADPI reports some feed use quantities as “undesignated” dry milk products and “undesignated” whey products. In these cases, conversion factor percentages used are weighted averages of the conversion factors for designated products.
+
+Other uses
+The “Other uses" column in each annual table includes milk pooled on Federal Milk Marketing Orders (FMMOs), or products produced from milk pooled on FMMOs, “that is dumped, used for animal feed, destroyed, or lost by a handler in a vehicular accident, flood, fire, or similar occurrence beyond the handler’s control” (7 CFR §1000.40 (e)). Data are not available for such occurrences related to milk not pooled on FMMOs.
+
+The csv version includes the fields described below:
+
+Table: Indicates the names of the corresponding tabs in the excel/pivot table version of the data product.
+M.E. Milk-fat basis, monthly
+M.E. Milk-fat basis, annual
+
+M.E. Skim-solids basis, monthly
+
+M.E. Skim-solids basis, annual
+
+Milk fat, monthly
+
+Milk fat, annual
+
+Skim solids, monthly
+
+Skim solids, annual
+
+Year: Year associated with the record.
+Period: Indicates the period field represents. It takes one of the following values: “January”, “February”, “March”, “April”, “May”, “June”, “July”, “August”, “September”, “October”, “November”, “December”, and “Annual”.
+Timeperiod_id: Numeric value denoting the Period. It takes values 1:12 when Period indicates a month, and 17 when Period indicates annual aggregation.
+Frequency: Frequency of the measurement: “Monthly”, “Annual”.
+Category: Indicates a broad supply and utilization category: “Supply”, “Use”, and “Annual Adjustments”.
+Data_item: Indicates an element of the supply and utilization specific to a given Product: (e.g. beginning stocks, production, imports, exports, etc.)
+Quantity: Numeric value for record.
+Units: Unit of measure associated with value.
+ 
+Supply and allocation of milk fat and skim solids by product
+Seven tables are provided for the supply and allocation of milk fat and skim solids by product:
+
+Product volumes (millions of pounds)
+Milk-fat supply and dairy industry allocation (million pounds)
+Skim-solids supply and dairy industry allocation (million pounds)
+Milk-fat percent of total supply by product
+Skim-solids percent of total supply by product
+Milk-fat content of products (percentages)
+Skim-solids content of products (percentages)
+Primary data sources
+
+The source for most of the supply and product volume data is USDA, National Agricultural Statistics Service (NASS). The primary data source for imports is the U.S. Department of Commerce, Bureau of the Census. USDA, Agricultural Marketing Service (AMS), California Department of Food and Agriculture, other State agencies, and ERS calculations are sources for fluid beverage milk sales (see documentation for “Fluid beverage milk sales quantities by product” below). AMS is the source for production of cream products prior to 2007 and sour cream prior to 2003. The annual publication—Dairy Products Utilization and Production Trends by the American Dairy Product Institute (ADPI)—is the source for estimated milk permeate and whey permeate production since 2012. Many sources are used to estimate milk fat and skim solids associated with the dairy products (see Dairy conversion factors and sources). Most product categories include several products. In these cases, the milk-fat and skim-solids content percentages are weighted averages of products within the category.
+
+Accounting for milk fat and skim solids in fluid milk products
+
+ERS estimates the milk-fat and skim-solids content of fluid milk products by assembling data from various sources. The following steps are used in the estimation process:
+
+AMS has provided ERS with the milk-fat content of fluid milk sales by product for Federal Milk Marketing Order (FMMO) in-area sales. Milk-fat content data for fluid milk sales by product outside of FMMO areas are not readily available.
+Until November 2018, California had a milk marketing order system that was independent from the FMMO system. Neither milk-fat nor skim-solids data for fluid milk sales by product are readily available for the former California system; skim-solids data for fluid milk sales by product are not readily available for FMMO areas. As a starting point for skim-solids accounting for fluid milk sales by product in FMMO areas and California, calculations were made using skim-solids percentage estimates obtained from sources such as the National Nutrient Database for Standard Reference, published by the USDA, Agricultural Research Service (ARS). For California, the same types of calculations were used for milk fat.
+While skim-solids content data are not readily available for each type of fluid milk product sold in FMMO areas, Class I total skim-solids percentages for pooled milk are available for some FMMOs. Class I milk includes pooled milk that is processed and packaged as fluid beverage milk products. Skim-solids percentages derived in step 2 above have been adjusted proportionally so the skim-solids percentage for total fluid milk sales by product is equal to the skim-solids percentage for Class I pooled milk for FMMOs with published skim-solids percentages.
+Although milk-fat and skim-solids content data are not readily available for each type of fluid milk product sold in California in months prior to November 2018, data for the overall Class 1 milk-fat and skim-solids content for pooled milk are available. In the FMMO system, a Roman numeral I is used for milk processed into fluid beverage milk products, while an Arabic numeral 1 is used for the former California system. For California, the milk-fat and skim-solids content estimates for each product as derived in step 2 have been adjusted proportionally so that the milk-fat and skim-solids percentages of total fluid milk sales by product are equal to the milk-fat and skim-solids percentages for Class 1 pooled milk. Note the standards for components in California are higher than the rest of the United States so average milk-fat and skim-solids percentages are usually higher.
+For areas outside of FMMO areas or California, the milk-fat and skim-solids percentages by product are assumed to be the same as the FMMO area percentages.
+The total estimated milk-fat and skim-solids content for each product in the United States is the sum of the estimated milk-fat and skim-solids content for the FMMO areas, California—in months prior to November 2018—and the areas outside of FMMO areas or California.
+Adjustments to avoid duplication
+
+Net totals for some products are provided to avoid duplication in accounting for milk solids due to the use of dairy products as ingredients in other dairy products. Dairy Products Utilization and Production Trends by ADPI is used in accounting for this duplication. ADPI reports include dairy industry uses of certain products by volume and as percentages of total domestic sales. In most cases, ERS uses ADPI percentage estimates rather than the volume estimates because ERS calculations of total domestic sales sometimes differ from those of ADPI. For bulk evaporated and condensed milk, ADPI reports dairy industry use of milk solids rather than product volumes—which would include the water and sweeteners—thus, ERS reports net totals for milk fat and skim solids for the products but not net totals for product volumes.
+
+Dairy Products, Per Capita Consumption
+ERS provides annual per capita consumption estimates for major dairy products. For most products, per capita consumption is calculated by dividing domestic disappearance by the U.S. resident population plus armed forces overseas, as reported by the U.S. Department of Commerce, Bureau of the Census. The July 1 population estimate for each year is used.
+
+Fluid beverage milk is the exception, with per capita consumption calculated by dividing estimated route disposition by the U.S. resident population. The definition for route disposition is provided in the documentation below for "Fluid beverage milk sales quantities by product." The armed forces overseas population data are not included in the calculation because the route disposition data do not include overseas deliveries.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record
+Category: Broad category of dairy product types: "Fluid beverage milk", "Cheese", "Butter", "Dry skim milk products", "Frozen products", "Yogurt", "Evaporated and condensed milk", "All products, milk-equivalent"
+Data_item: Specific indicator within a category
+Fluid beverage milk: "Fluid beverage milk"
+Cheese: American type, "American type", "Other-than-American", "Cottage"
+Butter: "Butter"
+Dry skim milk products: "Dry whole milk", "Nonfat dry milk and skim milk powder", "Dry buttermilk", "Dry whey and whey protein concentrate"
+Frozen products: "Ice cream, Regular, "Ice cream, Low-fat and nonfat", "Frozen yogurt", "Sherbet", "Other frozen dairy", "Water and juice ices"
+Yogurt: “Yogurt, other than frozen”
+Evaporated and condensed milk: "Whole, Canned", "Whole, Bulk", "Skim, Bulked and canned"
+All products, milk-equivalent: "Milk-fat basis", "Skim-solids basis"
+Quantity: Numeric value for the record
+Units: Unit of measure — pounds per capita.
+Fluid beverage milk sales quantities by product
+ERS reports annual estimated U.S. sales quantities of fluid beverage milk. USDA, Agricultural Marketing Service (AMS) provides ERS with data for milk sales quantities by product within Federal Milk Marketing Order (FMMO) areas. Milk sales data are based on route disposition, which is defined in the U.S. Code of Regulations as “delivery to a retail or wholesale outlet (except a plant), either directly or through any distribution facility (including disposition from a plant store, vendor, or vending machine) of a fluid milk product in consumer-type packages or dispenser units” (7 CFR 1000.3).
+
+While the AMS data account for most of the fluid beverage milk sold in the United States, there are substantial areas of the country that are not covered by the AMS data because they are not subject to FMMO regulations. Some areas outside of FMMOs have State regulations that are similar to the FMMO system. Until November 2018, the entire State of California operated under its own similar system and fluid milk sales data for California were publicly reported by the California Department of Food and Agriculture. In November 2018, a new FMMO became effective for California and in-area fluid milk sales data for California have since been reported by AMS.
+
+ ERS receives fluid milk sales data from other State entities as follows: 
+
+New York State Department of Agriculture and Markets: fluid milk sales quantities by product for the Western New York Milk Marketing Area.
+Virginia Department of Agriculture and Consumer Services: fluid milk sales quantities (not broken out by product) for eastern, western, and southwestern market areas of the State.
+Montana Department of Livestock: fluid milk sales quantities for the State (not broken out by product).
+Maine Milk Commission: fluid milk sales quantities sold in containers with volume greater than or equal to 1 quart (not broken out by product).
+For areas where sales by product are known, per capita quantities by product are calculated using county population data covering each area. For areas where sales by product are not available but total fluid sales quantities are, ERS assumes that proportions of quantities sold in those areas match proportions of the areas where sales by product data are provided.
+
+There are some areas of the country for which no fluid milk sales data are currently available. These include parts of Ohio, Missouri, North Dakota, South Dakota, Colorado, Idaho, and Pennsylvania. No data are available for the entire States of Nevada, Utah, Wyoming, Alaska, or Hawaii.
+
+From 2000 through March 2004, the entire State of Utah and parts of Nevada, Oregon, Idaho, and Wyoming were included in a Western FMMO area. The Western FMMO was terminated as of April 1, 2004. For April 2004 through the most current year of data availability, ERS estimates per capita consumption in these areas as follows:
+
+Former Western order area quantity =
+     (Total FMMO quantity + California quantity) ×
+     {2000 to 2003 average of [(Western FMMO quantity)/
+     (Total FMMO quantity + California quantity)]}
+
+Fluid milk in Alaska and Hawaii is relatively expensive compared with other parts of the country because most of it is shipped long distances from other States. With relatively high prices, ERS assumes that per capita fluid milk consumption in these States matches the FMMO area with the minimum per capita sales for the year—usually either the Southeastern or Appalachian FMMO area. For counties with no fluid milk sales quantity data other than those in the former Western FMMO, Alaska, or Hawaii, per capita sales quantities are assumed to match the aggregate per capita quantities where data are available.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record
+Data_item: Indicates a specific fluid milk type
+Examples: Whole, Reduced-fat (2% milk fat), Low-fat (1% milk fat), Skim, Flavored whole, Flavored (other than whole), Buttermilk, Eggnog, Total
+Quantity: Numeric value for the record
+Units: Unit of measure — million pounds
+Selected soft dairy products, domestic use
+ERS reports domestic use of frozen products, yogurt, cottage cheese, sour cream, and fluid cream products. ERS uses production data from USDA, National Agricultural Statistics Service (NASS) and import and export data from the U.S. Department of Commerce, Bureau of the Census as reported by the USDA, Foreign Agricultural Service. Data for frozen products, reported in gallons by NASS, are converted to pounds, with ice cream products and other frozen products assumed to weigh 4.7 and 6.0 pounds per gallon, respectively. Where possible, domestic use is calculated as production plus imports minus exports. Where detail is not available for every term of the calculation, aggregated data for imports and exports are apportioned in accordance with production of the products. Production numbers, not adjusted for imports and exports, are provided for cottage cheese and sour cream. Domestic use of fluid cream products is not reported for years after 2006 because primary data are not readily available.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record
+Category: Broad category of soft dairy products: “Frozen products”, “Soft products, others”, and “Fluid cream”
+Data_item: Specific indicator within a category
+Frozen products: “Ice cream, Regular”, “Ice cream, Low-fat”, “Ice cream, Non-fat”, “Frozen yogurt”, “Sherbet”, “Other frozen dairy”, “Water and juice ices”
+Soft products, others: “Yogurt (other than frozen)”, “Cottage cheese”, “Sour cream”
+Fluid cream: “Light cream”, “Heavy cream”, “Half and half”, “Light cream + heavy cream”, “Total fluid cream”
+Quantity: Numeric value for the record
+Units: Unit of measure — million pounds
+ 
+Milk cows and production by State and region
+For this annual data file, ERS provides regional subtotals for milk cows, milk per cow, and milk production from State data provided by USDA, National Agricultural Statistics Service (NASS).
+
+The csv version includes the fields described below:
+
+Table: Table names corresponding to tab names from the Excel Workbook version of the data product. It takes one of the following values:
+Milk cows
+Milk per cow
+Milk production
+Year: Year associated with the record.
+Data_item: Indicates a specific indicator measured at State level and aggregated ad Region level. It includes “Milk cows, average inventory”, ”Milk production per cow, average”, “Milk production”, “Percent of U.S. milk production”. In the Excel version of the data product “Milk cows, average inventory”, ”Milk production per cow, average” are displayed in individual tabs, while “Milk production” and “Percent of U.S. milk production” are combined and displayed in a single tab.
+Region: Geographic region comprised of two or more U.S. States where data are reported or aggregated. It can take a value such as “Northeast”, “CornBelt”, or “Southeast”, etc.
+State: U.S. State name at which data are reported and aggregated.
+Value: Numeric value for the record.
+Units: Unit of measure associated with value.
+Milk production and factors affecting supply
+For this table, most of the primary data are provided by NASS. For years after 2008, the slaughter price is calculated as an estimated live weight equivalent from a national price for domestic cutter cows as reported by USDA, Agricultural Marketing Service. Note that the table includes both a January 1 inventory value for milk cows and an average inventory value as reported by NASS. The former is displayed to provide a comparison of replacement heifers to milk cows for the beginning inventory each year.
+
+The CSV version includes the fields described below:
+
+Year: Year associated with the record.
+Category: Indicates the name of the broad category.
+Data_item: Indicates a specific indicator within a Category.
+Value: Numeric value for the record.
+Units: Unit of measure associated with value.
+ 
+Number and size of milk bottling plants
+This file includes data on the number and average fluid milk product volume of U.S. fluid milk plants since 2008 to the most current year available. It uses plant data from the Interstate Milk Shippers List (IMS List), published by the U.S. Department of Health and Human Services, Food and Drug Administration (FDA). The plant count from FDA as of July for each year was used to construct this data series. Plants producing the following products have been included in the total:
+
+Pasteurized whole milk, reduced fat, low fat, and skim;
+Heat-treated (may include reduced fat, skim, low fat, or cream);
+Ultra-pasteurized milk and milk products (except plants that only produce cream products); and
+Aseptic milk and milk products (including flavored, but not including plants that only produce cream products). 
+Fluid milk plants may be undercounted in this data file. Fluid milk bottling plants are listed in the IMS List if they have been certified by State milk sanitation authorities as being in compliance with the FDA Grade A Pasteurized Milk Ordinance. If a plant serves an area within a State, but milk from the plant does not cross State lines, the plant does not need this certification. Data for such plants are not readily available. The number of fluid milk plants operating under these circumstances is assumed to be low.
+
+To calculate the average-size milk plant, the total quantity for the year as reported in the "Fluid beverage milk sales quantities by product" file is divided by the number of plants for the year.
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record
+Data_item: Indicates a specific indicator
+Examples: “Total beverage milk consumed”, “Number of plants”, “Average product volume per plant”
+Quantity: Numeric value for the record
+Units:
+Million pounds for “Total beverage milk consumed” and “Average product volume per plant”
+Number (plants) for “Number of plants”
+For data older than 2008, please check Historical Dairy Data. 
+
+Per capita consumption of selected cheese varieties
+Per capita consumption is calculated as domestic use divided by population of U.S. residents plus armed forces overseas. For all varieties included in the table, production data are available. For some varieties, data concerning stocks, imports, exports, and shipments to U.S. territories are available to calculate domestic use as calculated in "Supply and utilization for dairy product categories." However, for most varieties, since such detail is not available for every term of the calculation, aggregated data (for stocks, exports, etc.) are apportioned in accordance with the production of cheese varieties. Current data set covers data starting with 1995. For data older than 1995, please check Historical Dairy Data. 
+
+The csv version includes the fields described below:
+
+Year: Year associated with the record
+Category: Broad category of cheese types: “American types”, “Italian types”, “Other types of cheeses typically from cows”, “Miscellaneous”, “Processed products”
+Data_item: Specific indicator within a category
+American types: “Cheddar”, “Other than Cheddar”, and “Total”
+Italian types: “Mozzarella”, “Other than mozzarella”, and “Total”
+Other types of cheeses typically from cows: “Swiss”, “Blue”, “Brick”, “Muenster”, “Cream and Neufchatel”, “Hispanic”, and “Other”
+Miscellaneous: “Total other-than-American cheese, excluding cheese not from cows”, “Imported cheese not from cows”, and “Total natural cheese”
+Processed products: “Cheese”, “Cold pack, cheese foods, other foods, and spreads”, and “Total processed”
+Quantity: Numeric value for the record
+Units: Unit of measure — pounds per capita.
+ 
+Commercial disappearance for dairy product categories (historical data for 1995–2010)
+“Commercial disappearance for dairy product categories,” covering the period from 1995 to 2010, is the predecessor of the “Supply and utilization for dairy product categories,” described in a section above, covering the period from 2011 to current. For purposes of brevity, in this section, we will abbreviate the names of these files as “CmDsProd” and “S_U_DyPr.”
+
+The “CmDsProd” and “S_U_DyPr” files are very similar. Most differences reflect the differences in Government programs of the two periods. The last year of activity for the Dairy Products Price Support Program (DPPSP)—formerly the Milk Price Support Program—and the Dairy Export Incentive Program (DEIP) was 2010 and both programs were repealed by the Agricultural Act of 2014. Under a barter program conducted by USDA in 2009 and 2010, Government stocks of nonfat dry milk were exchanged for products containing substantial dairy content.
+
+For the period when these programs were active, it is important to account for USDA net removals of dairy products (price support purchases + DEIP subsidized exports -unrestricted sales of U.S. Government stock) and barters. Thus, one of the key differences between the two files is that “CmDsProd” tables for butter, dry skim milk products, American type cheese, and other-than-American type cheese include columns for USDA net removals and barters. Another key difference is that only commercial stocks and commercial exports are included in “CmDsProd”; Government stocks—mostly owned by the U.S. Government, but some owned by State governments—and U.S. Government-subsidized exports are excluded. Instead of calculating domestic disappearance, as with “S_U_DyPr,” domestic commercial disappearance, which excludes U.S. Government activity through DPPSP, DEIP, and the barter program, is calculated in “CmDsProd” as follows:
+
+total commercial supply = beginning commercial stocks + production + imports
+
+total commercial disappearance = total commercial supply
+    – USDA net removals and barters – commercial ending stocks
+
+domestic commercial disappearance = total commercial disappearance
+    – commercial exports
+
+Another difference between the “CmDsProd” and “S_U_DyPr” is that “S_U_DyPr” has annual adjustments for shipments to U.S. territories and animal feed use that do not appear in “CmDsProd.” Although the “S_U_DyPr” has calculations for apparent domestic human use, “CmDsProd” does not. Also, “CmDsProd” does not include a table for evaporated and condensed whole milk as “S_U_DyPr” does. Some of the annual adjustments for years prior to 2011 are provided in the “Milk, Supply and utilization of all dairy products” data file, as discussed in a section below.
+
+Most of the data sources for “CmDsProd” are the same as for “S_U_DyPr.” Additional data sources for “CmDsProd” include USDA, Farm Service Agency (FSA) for data concerning price support purchases and unrestricted sales of U.S. Government stocks. USDA, Foreign Agricultural Service and FSA are sources for U.S. Government-subsidized exports. Since the “CmDsProd” does not disaggregate animal feed use from human use, the American Dairy Products Association is not a data source for “CmDsProd.”
+
+Commercial disappearance of milk in all products (historical data for 1995–2010)
+“Commercial disappearance of milk in all products,” covering the period from 1995 to 2010, is the predecessor of “Supply and utilization of milk in all products, described in a section above, covering the period from 2011 to current. For the sake of brevity, we will abbreviate the names of these files as “CmDsMilk” and “S_U_Milk.”
+
+“CmDsMilk” and “S_U_Milk” are very similar. Both include monthly and annual data for:
+
+Milk-equivalent milk-fat basis
+Milk-equivalent skim-solids basis
+Milk fat
+Skim solids
+Most of the differences between “CmDsMilk” and “S_U_Milk” are for the same reasons as the differences between “CmDsProd” and “S_U_DyPr,” described in the section above. One of the key differences between “CmDsMilk” and “S_U_Milk” is that “CmDsMilk” includes columns for USDA net removals and barters. Commercial stocks and commercial exports are included in “CmDsMilk.” Government stocks and U.S. Government-subsidized exports are excluded in “CmDsMilk.” Instead of calculating domestic disappearance, as with “S_U_Milk,” domestic commercial disappearance—which excludes U.S. Government activity through DPPSP, DEIP, and the barter program—is calculated in CmDsMilk as follows:
+
+milk marketings = milk production – farm use
+
+total commercial supply = beginning commercial stocks + production + imports
+
+total commercial disappearance = total commercial supply
+     – USDA net removals and barters – commercial ending stocks
+
+domestic commercial disappearance = total commercial disappearance
+    – commercial exports
+
+“S_U_Milk” has annual adjustments for household farm use, shipments to U.S. territories, animal feed use, and “other uses” that do not appear in the “CmDsMilk” file. Although “S_U_Milk” has columns for apparent domestic human use in the annual worksheets, “CmDsMilk” does not. Some of the annual adjustments for years prior to 2011 are provided in the “Milk, Supply and utilization of all dairy products” data file, as discussed in the section below.
+
+Most of the data sources for “CmDsMilk” are the same as for “S_U_Milk.” Additional data sources for “CmDsMilk” include USDA, Farm Service Agency (FSA) for data concerning price support purchases and unrestricted sales of U.S. Government stocks. USDA, Foreign Agricultural Service and FSA are the sources for U.S. Government subsidized exports. Since “CmDsMilk” does not disaggregate animal feed use from human use, the American Dairy Products Association is not a data source for “CmDsMilk.”
+
+Conversion factors are the same for imports, exports, and stocks in “CmDsMilk” and “S_U_DyPr.” The conversion factors used for net Government removals and barters are the same as those used for stocks.
+
+Commercial exports, DEIP, and Government export donations
+Dairy exports through Dairy Export Incentive Program (DEIP) or U.S. Government export donations must be subtracted from total exports reported by the U.S. Department of Commerce, Bureau of the Census to represent an accurate commercial export figure. ERS has obtained monthly data for DEIP amounts and U.S. Government donations starting in 2004. For years before 2004, ERS has only annual estimates of DEIP and Government export donations. Therefore, for years prior to 2004, ERS has made the simplifying assumption that monthly Government-related exports are the same proportion of total exports for each month of the year.
+
+Milk supply and utilization of all dairy products (historical data for 1970–2010)
+This data file includes annual supply and utilization tables for milk on a milk-fat equivalent basis; butter; dry skim milk products; condensed and evaporated milk; American type cheese; and other-than-American type cheese. Note these numbers are similar to annual commercial disappearance numbers reported for dairy product categories and milk in all products. However, for these supply and utilization tables, stocks include Government stocks—for the period when they were reported—in addition to commercial stocks. In contrast to the commercial disappearance data files, the milk supply and utilization tables account for shipments to U.S. territories and U.S. Government export donations. Thus, U.S. domestic human use quantities from commercial and Government sources are estimated. While the commercial disappearance data can be computed monthly, utilization numbers as computed for this data file can be computed only annually due to data constraints.
+
+For 2011–current data, the annual tables in the data files “Supply and use for milk in all products” and “Supply and use for dairy product categories” serve the functions of this historical data covering 1970–2010. The current files are more comprehensive in that they include estimates for apparent human use of milk on a skim-solids milk-equivalent basis, skim solids, dry whey, whey protein concentrate, and lactose.
+
+Number and size of milk bottling plants (1960 – 2007)  
+This data file includes data from 1960 through 2007. The plant data covering this period were calculated by ERS from Federal Milk Marketing Order data and various State data sources. In recent years, this method has been judged less accurate than using data from the Interstate Milk Shippers List (IMS List), published by the U.S. Department of Health and Human Services, Food and Drug Administration (FDA). The plant count from FDA as of July for each year was used to construct a series with data since 2008.
