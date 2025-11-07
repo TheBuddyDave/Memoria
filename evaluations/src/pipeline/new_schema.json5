@@ -26,7 +26,7 @@
                     {
                         "role": "assistant",
                         "content": "What a great experience! The Museum of Modern Art (MoMA) is an iconic institution",
-                        "reasoning": "...",
+                        "reasoning": "...", // agent reasoning
                         "timestamp": "2025-10-24T1:23:45-05:00",
                     }
                 ]

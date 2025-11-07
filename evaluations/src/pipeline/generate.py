@@ -1,8 +1,20 @@
-import os, subprocess, json
+import os, subprocess, json, shutil
 import random
+from dataclasses import dataclass
 from typing import List, Dict, Optional, Callable
 
-from typing import Optional
+@dataclass
+class Turn:
+    """single conversation turn; user message & agent reply"""
+    user: str
+    agent: Optional[str] = None
+
+History = List[Turn]
+
+def print_sep(text):
+    width = shutil.get_terminal_size((80, 20)).columns
+    line = "=" * width
+    print(f"{line}\n{text}\n{line}\n")
 
 def read_seed(seed_text: Optional[str] = None, seed_file: Optional[str] = None) -> str:
     """Read and combine seed content from a text string and/or file."""
@@ -24,56 +36,81 @@ def read_seed(seed_text: Optional[str] = None, seed_file: Optional[str] = None) 
     return "\n\n".join(parts)
 
 
-def prompt_user(seed: str, prev_turns: List[Dict[str, str]], verbose=False) -> str:
-    """Ask the model to act as the USER and produce the next user message."""
-    parts = []
-    parts.append("You are a USER seeking help from an agent.")
-    parts.append("Base data:")
-    parts.append(seed.strip())
-    if prev_turns:
-        parts.append("\nConversation so far (oldest to newest):")
-        for i, t in enumerate(prev_turns, 1):
-            role = t["role"]
-            text = t["text"].strip()
-            parts.append(f"[{i}] {role.upper()}: {text}")
-    parts.append(
-        "\nAct as the USER. Produce exactly ONE user message that logically continues the conversation, "
-        "refers to existing info when helpful, and can be answered by an agent."
-        "\nUSER:"
-    )
+def render_history(history: History) -> str:
+    """convert a list of {"role": "...", "text": "..."} into a single history block for prompts"""
+    if not history:
+        return ""
+    lines = ["\nConversation so far (oldest to newest):"]
+    for i, t in enumerate(history, 1):
+        lines.append(f"[{i}] USER: {t.user.strip()}")
+        if t.agent is not None and t.agent.strip():
+            lines.append(f"[{i}] AGENT: {t.agent.strip()}")
+    return "\n".join(lines)
+
+def prompt_user(seed: str, history_text: str, seed_file=False, verbose=False) -> str:
+    """On the very first turn (no history), instruct the USER to send the base data to the agent."""
+    first_turn = (not history_text)
+    parts = [
+        "You are a USER seeking help from an agent.",
+        "You will be given base data and the conversation so far (if any).\nBase data:",
+        seed.strip(),
+    ] if seed_file else [
+        "You are a USER seeking help from an agent.",
+        "You will be given the conversation so far (if any).",
+        seed.strip(),
+    ]
+    
+    if history_text: parts.append(history_text)
+
+    if first_turn:
+        parts.append(
+            "\nThis is the FIRST user turn. Produce exactly ONE user message that:\n"
+            "1) Briefly greets the agent and states what you want them to do, and\n"
+            "2) Includes the BASE DATA verbatim so the agent can access it.\n"
+            "Do not add any other context blocks besides your single message.\n"
+            "USER:"
+        ) if seed_file else parts.append(
+            "\nThis is the FIRST user turn. Produce exactly ONE user message that:\n"
+            "1) Briefly greets the agent and states what you want them to do.\n"
+            "Do not add any other context blocks besides your single message.\n"
+            "USER:"
+        )
+    else:
+        parts.append(
+            "\nAct as the USER. Produce exactly ONE user message that logically continues the conversation, "
+            "refers to existing info when helpful, and can be answered by the agent."
+            "\nUSER:"
+        )
+
     prompt = "\n".join(parts)
-    if verbose: print(f"=====\n{prompt}\n=====\n\n")
+    if verbose:
+        print_sep(prompt)
     return prompt
 
+def prompt_agent(seed: str, history_text_with_user: str, verbose=False) -> str:
+    parts = [
+        "You are an AGENT providing help to a user.",
+    ]
+    if history_text_with_user:
+        parts.append(history_text_with_user)
 
-def prompt_agent(seed: str, prev_turns: List[Dict[str, str]], user_msg: str, verbose=False) -> str:
-    """Ask the model to act as the AGENT and respond to the just-produced user_msg."""
-    parts = []
-    parts.append("You are an agent providing help to a user.")
-    parts.append("Base data:")
-    parts.append(seed.strip())
-    if prev_turns:
-        parts.append("\nConversation so far (oldest to newest):")
-        for i, t in enumerate(prev_turns, 1):
-            role = t["role"]
-            text = t["text"].strip()
-            parts.append(f"[{i}] {role.upper()}: {text}")
-    # include the new user message we just got
-    parts.append(f"[{len(prev_turns)+1}] USER: {user_msg.strip()}")
     parts.append(
         "\nAct as the AGENT. Produce exactly ONE helpful, specific reply to the user. "
         "Do NOT repeat the user's message."
         "\nAGENT:"
     )
     prompt = "\n".join(parts)
-    if verbose: print(f"=====\n{prompt}\n=====\n\n")
+    if verbose:
+        print_sep(prompt)
     return prompt
 
+
 def build_phase2_context(
-    history: List[Dict[str, str]],
+    history: History,
     bwor: int,
     min_tail: int = 2,
-) -> List[Dict[str, str]]:
+    # TODO: min head, for data
+) -> History:
     """
     history: list of dicts {"role": "user"|"agent", "text": "..."}
     Always include the last `min_tail` turns (if available),
@@ -83,7 +120,7 @@ def build_phase2_context(
     if n == 0: return []
 
     tail_start = max(0, n - min_tail)
-    ua_tail = history[tail_start:]
+    ua_tail: History = history[tail_start:]
 
     n_ua_samples = bwor - len(ua_tail)
     if n_ua_samples <= 0: return ua_tail
@@ -91,7 +128,7 @@ def build_phase2_context(
     # sample from anything before tail
     n_ua_samples = min(n_ua_samples, tail_start)
     idxs = sorted(random.sample(range(tail_start), n_ua_samples))
-    ua_sampled = [history[i] for i in idxs]
+    ua_sampled: History = [history[i] for i in idxs]
 
     return ua_sampled + ua_tail
 
@@ -116,37 +153,40 @@ def run_procedural_generation(
     assert call_llm is not None, "Need LLM caller"
     seed = read_seed(seed_text, seed_file)
 
-    history: List[Dict[str, str]] = []
+    history: History = []
 
-    # PHASE 1: full-context pairs
     pairs = 0
     while pairs < bwor:
-        # user turn
-        u_prompt = prompt_user(seed, history, True)
-        u_text = call_llm(u_prompt).strip()
-        history.append({"role": "user", "text": u_text})
+        base_hist_str = render_history(history)
 
-        # agent turn (sees full history + this user), dont double user input so [:-1]
-        a_prompt = prompt_agent(seed, history[:-1], u_text)
+        # USER turn (gets seed)
+        u_prompt = prompt_user(seed, base_hist_str, seed_file, verbose=True)
+        u_text = call_llm(u_prompt).strip()
+        history.append(Turn(user=u_text))  # pending agent
+
+        # AGENT turn: sees ONLY conversation + the new user message
+        hist_with_user = render_history(history)
+        a_prompt = prompt_agent("", hist_with_user, verbose=True)
         a_text = call_llm(a_prompt).strip()
-        history.append({"role": "agent", "text": a_text})
+        history[-1].agent = a_text
 
         pairs += 1
 
-    # PHASE 2: one bootstrapped pair at a time
+    # PHASE 2: one bootstrapped pair at a time (seed still ONLY to USER)
     while pairs < total_pairs:
-        ctx = build_phase2_context(history, bwor=bwor, min_tail=2)
+        ctx: History = build_phase2_context(history, bwor=bwor, min_tail=2)
+        base_hist_str = render_history(ctx)
 
-        # user
-        u_prompt = prompt_user(seed, ctx)
+        # USER
+        u_prompt = prompt_user(seed, base_hist_str, seed_file, verbose=False)
         u_text = call_llm(u_prompt).strip()
-        history.append({"role": "user", "text": u_text})
+        history.append(Turn(user=u_text))  # pending agent
 
-        # agent (use same ctx + this user)
-        agent_ctx = ctx + [{"role": "user", "text": u_text}]
-        a_prompt = prompt_agent(seed, agent_ctx, u_text)
+        # AGENT: same context + newly added user; NO seed
+        hist_with_user = render_history(ctx + [Turn(user=u_text)])
+        a_prompt = prompt_agent("", hist_with_user, verbose=False)
         a_text = call_llm(a_prompt).strip()
-        history.append({"role": "agent", "text": a_text})
+        history[-1].agent = a_text
 
         pairs += 1
 
@@ -170,8 +210,11 @@ if __name__ == "__main__":
     random.seed(42)
 
     eval_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    seed_file = os.path.join(eval_root, "data", "student_scores.csv")
-    SEED_TEXT = "You are a teacher with this information about your students."
+    # TODO: accept input for these
+    # seed_file = os.path.join(eval_root, "data", "student_scores.csv")
+    # SEED_TEXT = "You are a teacher with this information about your students."
+    seed_file = None
+    SEED_TEXT = "You are a student asking an AI tutor for short explanations about technical topics.  Keep each question concise and specific."
 
     history = run_procedural_generation(
         seed_text=SEED_TEXT,
@@ -182,8 +225,19 @@ if __name__ == "__main__":
     )
 
     # pretty print
+    WIDTH = 30
+    B = "#"
     for i, turn in enumerate(history, 1):
-        print(f"============\n= {i:02d} {turn['role'].upper()} =\n============\n{turn['text']}\n")
+        title = f" {i:02d} TURN "
+        pad = WIDTH - len(title)
+        side = max(pad, 0) // 2
+        header = B * side + title + B * (pad - side)
+
+        print(B * WIDTH)
+        print(header)
+        print(B * WIDTH)
+        print(f"USER:\n{turn.user}\n")
+        print(f"AGENT:\n{turn.agent or ''}\n")
 
     pairs = []
     tmp = []
@@ -195,12 +249,9 @@ if __name__ == "__main__":
 
     ui_path = os.path.join(eval_root, "idk", "ui.json")
     os.makedirs(os.path.dirname(ui_path), exist_ok=True)
-    ui = {
-        i: {
-            "user": pair[0]["text"],
-            "agent": pair[1]["text"],
-        }
-        for i, pair in enumerate(pairs)
+    ui: Dict[int, Dict[str, str]] = {
+        i: {"user": t.user, "agent": t.agent or ""}
+        for i, t in enumerate(history)
     }
     with open(ui_path, "w", encoding="utf-8") as f:
         json.dump(ui, f, indent=2, ensure_ascii=False)
