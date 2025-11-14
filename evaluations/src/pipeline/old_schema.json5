@@ -1,0 +1,45 @@
+[
+    {
+        "question_id": "gpt4_59149c77", // unique identifier
+        "question_type": "temporal-reasoning", // duh
+        "question": "How many days passed between my visit to the exhibit at the Metropolitan Museum of Art?", // duh
+        "question_date": "2023/02/01 (Wed) 10:20", // yyyy/mm/dd (dow) hh:mm
+        "answer": "7 days. 8 days (including the last day) is also acceptable.", // accepted answer
+        "answer_session_ids": [ // oracle, best-possible context
+            "answer_d00ba6d0_1",
+            "answer_d00ba6d0_2"
+        ],
+        "haystack_dates": [ // 1:1 haystack_session_ids
+            "2023/01/08 (Sun) 12:49",
+            "2023/01/15 (Sun) 20:39"
+        ],
+        "haystack_session_ids": [ // 1:1 haystack_dates
+            "answer_d00ba6d0_1",
+            "6e672b84_1"
+        ],
+        "haystack_sessions": [ // chat sessions, usually disjoint topics
+            [ // if answer session, each msg is tagged whether it contains part of the answer or not
+                {
+                    "role": "user",
+                    "content": "I'm looking for some information on modern art movements. I just got back from a guided tour at the Museum of Modern Art focused on 20th-century modern art movements, and it really sparked my interest. Can you tell me more about the key artists associated with Cubism?",
+                    "has_answer": true
+                },
+                {
+                    "role": "assistant",
+                    "content": "What a great experience! The Museum of Modern Art (MoMA) is an iconic institution, and exploring 20th-century modern art movements can be fascinating. Cubism is an excellent place to start, as it's a pivotal movement that revolutionized the art world.\n\nCubism was a pioneering movement that emerged in the early 20th century, primarily led by two artists: Pablo Picasso and Georges Braque. They sought to break away from traditional techniques of perspective, representation, and realism, creating a new visual language that emphasized geometric forms, fragmented shapes, and multiple viewpoints.\n\n**Key Artists Associated with Cubism:**\n\n1. **Pablo Picasso** (1881-1973): A Spanish artist widely regarded as one of the most influential artists of the 20th century. Picasso's work spanned multiple styles, but his Cubist period (1907-1914) is particularly notable. Famous works include \"Les Demoiselles d'Avignon\" (1907) and \"Guernica\" (1937).\n2. **Georges Braque** (1882-1963): A French artist who, alongside Picasso, developed Cubism. Braque's Cubist works often featured more subtle, muted colors and a focus on still-life compositions. Notable works include \"Violin and Pitcher\" (1910) and \"The Portuguese\" (1911).\n3. **Juan Gris** (1887-1927): A Spanish artist who was heavily influenced by Picasso and Braque. Gris's Cubist works often featured more rational, mathematical approaches to fragmentation and geometric forms. Famous works include \"The Breakfast Table\" (1914) and \"The Painter's Family\" (1923).\n4. **Albert Gleizes** (1881-1953): A French artist and theorist who played a significant role in developing Cubism. Gleizes's works often explored the relationship between form, space, and color. Notable works include \"Les Joueurs de Football\" (1912-1913) and \"Les Baigneuses\" (1912-1913).\n5. **Fernand Léger** (1881-1955): A French artist who incorporated elements of Futurism and Purism into his Cubist work. Léger's paintings often featured bold, colorful, and abstracted forms. Famous works include \"Contrast of Forms\" (1913) and \"The City\" (1919).\n\n**Characteristics of Cubist Art:**\n\n* Fragmentation: Breaking objects into geometric shapes and reassembling them in abstracted forms.\n* Multiple Viewpoints: Depicting multiple perspectives in a single image, challenging traditional techniques of perspective.\n* Overlapping Planes: Superimposing flat, two-dimensional planes to create a sense of depth and visual tension.\n* Abstracted Forms: Reducing objects to their essential shapes, eliminating representational details.\n* Monochromatic Color Schemes: Often using a limited color palette to emphasize form and structure.\n\nCubism paved the way for a wide range of avant-garde movements, including Futurism, Constructivism, and Surrealism. Its influence can be seen in various art forms, from architecture to design and even literature.\n\nI hope this information sparks your interest in Cubism and modern art movements! Do you have any specific questions or would you like to explore other movements, such as Fauvism or Expressionism?",
+                    "has_answer": false
+                }
+            ],
+            [ // if noise session, no has_answer tag
+                {
+                    "role": "user",
+                    "content": "I'm trying to get organized and plan out my week ahead. Can you help me create a schedule template? By the way, I've been pretty busy lately, but last Wednesday was actually a rare day of relaxation - I spent the whole day at home catching up on emails and watching TV shows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "I'd be happy to help you create a schedule template!\n\nFirst, let's start with a basic template that you can customize to fit your needs. Here's a weekly schedule template with space to plan out your days from Monday to Sunday:\n\n**Weekly Schedule Template**\n\n**Monday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Tuesday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Wednesday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Thursday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Friday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Saturday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\n**Sunday**\n\n* Morning: _______________________________________________________\n* Afternoon: ______________________________________________________\n* Evening: _______________________________________________________\n\nYou can fill in the blanks with your tasks, appointments, and activities for each day. You can also add additional columns or sections to track things like:\n\n* Tasks to complete\n* Appointments and meetings\n* Exercise or self-care activities\n* Meal planning or grocery shopping\n* Study or learning time\n* Leisure activities (like TV shows or hobbies!)\n\nRemember to prioritize your tasks and activities based on their importance and urgency. You can also block out dedicated time for focused work or study sessions, and schedule breaks to avoid burnout.\n\nIt's great to hear that you had a relaxing day last Wednesday! Make sure to schedule some downtime or self-care activities into your week to maintain a healthy work-life balance.\n\nFeel free to customize this template to fit your needs, and don't hesitate to ask if you need any further assistance!"
+                }
+            ]
+        ]
+    }
+]

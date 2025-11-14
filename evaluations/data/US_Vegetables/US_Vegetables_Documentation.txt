@@ -1,0 +1,35 @@
+Specialty Crops Trade Data
+Machine readable comma-separated value (.csv) data file notes.
+
+Suggested citation: U.S. Department of Agriculture, Economic Research Service. Specialty crops trade data.
+*************************************************************************
+Questions concerning the development, use, or interpretation of these
+data should be addressed to:
+Catharine Weber, Helen Wakefield, Wilma V. Davis, and Seth Wechsler 
+USDA/Economic Research Service/Market and Trade Economics Division/Crops Branch
+*************************************************************************
+The file contains a monthly time series of U.S. specialty crop import and export data by commodity starting January 2017. Data includes information on geographic description, market segment, marketing year, and commodity-specific details. 
+
+ - Variable names are contained in the first row: 
+	Trade.................(Trade description: Import or Export)
+	GeographicDesc................(Geographical Description: World, Mexico, Canada, etc.) 
+	Year..................(Year of observation) 
+	MonthNumber..................(Month number 1 through 12 with 1 representing January) 
+	MarketYear..................(Marketing year of observation unless commodity is on a calendar year basis)	
+        Group.............(Commodity group: Vegetables, Fruits and tree nuts, and Dry pulses)
+        Subgroup.............(Commodity subgroup: Noncitrus, Dry beans, Tree nuts, etc.)
+	MarketSegment................(Market: Fresh, Dried, Frozen, etc.)
+	CommodityName.............(Specialty crop commodity name) 
+	CommodityDetail................(Commodity-specific detail)
+	UnitType..........(Measurement type: Value, Volume, and Unit value)
+	UnitDesc..........(Measurement unit: Thousand pounds, Thousand gallons, Thousand dollars, and Dollars per pound)	
+	Amount..............(Data value) 
+ 
+- Geographic description ‘World’ represents total U.S. import or export data for the specific month/year/market segment/commodity/commodity detail/measurement unit. The dataset also contains country-level data. 
+- Data do not include vegetable seed for planting or mushroom spawn. Data do include potato seed and onion sets.
+- Marketing years often begin in one calendar year and end in the next—for example, 2023/24 refers to the marketing year beginning in 2023 and ending in 2024 (example is August-July). Beginning and ending months differ by crop and in some cases, by product segment within a commodity. Commodities with a marketing year that start in January and end in December are identified in the marketing year column as a calendar year. 
+
+*************************************************************************
+Source: USDA, Economic Research Service using data from U.S. Department of Commerce, Bureau of the Census.
+*************************************************************************
+

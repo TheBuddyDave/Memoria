@@ -1,0 +1,817 @@
+﻿Producer Price Index item,Year,Percent change
+Unprocessed foodstuffs and feedstuffs,1974,5.2
+Unprocessed foodstuffs and feedstuffs,1975,1.3
+Unprocessed foodstuffs and feedstuffs,1976,-0.8
+Unprocessed foodstuffs and feedstuffs,1977,0.9
+Unprocessed foodstuffs and feedstuffs,1978,12.6
+Unprocessed foodstuffs and feedstuffs,1979,14.5
+Unprocessed foodstuffs and feedstuffs,1980,4.6
+Unprocessed foodstuffs and feedstuffs,1981,-0.7
+Unprocessed foodstuffs and feedstuffs,1982,-3.8
+Unprocessed foodstuffs and feedstuffs,1983,1.8
+Unprocessed foodstuffs and feedstuffs,1984,2.8
+Unprocessed foodstuffs and feedstuffs,1985,-9.5
+Unprocessed foodstuffs and feedstuffs,1986,-1.7
+Unprocessed foodstuffs and feedstuffs,1987,3.2
+Unprocessed foodstuffs and feedstuffs,1988,10.3
+Unprocessed foodstuffs and feedstuffs,1989,4.8
+Unprocessed foodstuffs and feedstuffs,1990,1.7
+Unprocessed foodstuffs and feedstuffs,1991,-6.7
+Unprocessed foodstuffs and feedstuffs,1992,-0.4
+Unprocessed foodstuffs and feedstuffs,1993,3.1
+Unprocessed foodstuffs and feedstuffs,1994,-1.8
+Unprocessed foodstuffs and feedstuffs,1995,-0.7
+Unprocessed foodstuffs and feedstuffs,1996,14.8
+Unprocessed foodstuffs and feedstuffs,1997,-7.7
+Unprocessed foodstuffs and feedstuffs,1998,-7.4
+Unprocessed foodstuffs and feedstuffs,1999,-5
+Unprocessed foodstuffs and feedstuffs,2000,1.5
+Unprocessed foodstuffs and feedstuffs,2001,5.9
+Unprocessed foodstuffs and feedstuffs,2002,-6.2
+Unprocessed foodstuffs and feedstuffs,2003,14.1
+Unprocessed foodstuffs and feedstuffs,2004,11.9
+Unprocessed foodstuffs and feedstuffs,2005,-3.4
+Unprocessed foodstuffs and feedstuffs,2006,-2.8
+Unprocessed foodstuffs and feedstuffs,2007,23
+Unprocessed foodstuffs and feedstuffs,2008,11.4
+Unprocessed foodstuffs and feedstuffs,2009,-17.7
+Unprocessed foodstuffs and feedstuffs,2010,13.3
+Unprocessed foodstuffs and feedstuffs,2011,23.6
+Unprocessed foodstuffs and feedstuffs,2012,4.2
+Unprocessed foodstuffs and feedstuffs,2013,1.9
+Unprocessed foodstuffs and feedstuffs,2014,4.9
+Unprocessed foodstuffs and feedstuffs,2015,-13.7
+Unprocessed foodstuffs and feedstuffs,2016,-10.5
+Unprocessed foodstuffs and feedstuffs,2017,2.9
+Unprocessed foodstuffs and feedstuffs,2018,-1.9
+Unprocessed foodstuffs and feedstuffs,2019,0.9
+Unprocessed foodstuffs and feedstuffs,2020,-3.6
+Unprocessed foodstuffs and feedstuffs,2021,25.3
+Unprocessed foodstuffs and feedstuffs,2022,26.7
+Unprocessed foodstuffs and feedstuffs,2023,-10.3
+Unprocessed foodstuffs and feedstuffs,2024,-3
+Processed foods and feeds,1974,18.9
+Processed foods and feeds,1975,-2.4
+Processed foods and feeds,1976,-5.1
+Processed foods and feeds,1977,2.8
+Processed foods and feeds,1978,6.5
+Processed foods and feeds,1979,11.4
+Processed foods and feeds,1980,11.6
+Processed foods and feeds,1981,-0.9
+Processed foods and feeds,1982,-4.4
+Processed foods and feeds,1983,3.6
+Processed foods and feeds,1984,2
+Processed foods and feeds,1985,-7.9
+Processed foods and feeds,1986,-1.1
+Processed foods and feeds,1987,3.1
+Processed foods and feeds,1988,10.4
+Processed foods and feeds,1989,3.9
+Processed foods and feeds,1990,-0.4
+Processed foods and feeds,1991,-1.9
+Processed foods and feeds,1992,-0.4
+Processed foods and feeds,1993,1.8
+Processed foods and feeds,1994,1.9
+Processed foods and feeds,1995,0
+Processed foods and feeds,1996,11.6
+Processed foods and feeds,1997,-2.1
+Processed foods and feeds,1998,-7.3
+Processed foods and feeds,1999,-4.4
+Processed foods and feeds,2000,0.5
+Processed foods and feeds,2001,3.8
+Processed foods and feeds,2002,-0.3
+Processed foods and feeds,2003,9
+Processed foods and feeds,2004,8.9
+Processed foods and feeds,2005,-2.4
+Processed foods and feeds,2006,1
+Processed foods and feeds,2007,14.2
+Processed foods and feeds,2008,17.6
+Processed foods and feeds,2009,-8.6
+Processed foods and feeds,2010,3.4
+Processed foods and feeds,2011,11.9
+Processed foods and feeds,2012,4.8
+Processed foods and feeds,2013,1.4
+Processed foods and feeds,2014,3.2
+Processed foods and feeds,2015,-6.2
+Processed foods and feeds,2016,-4.7
+Processed foods and feeds,2017,1
+Processed foods and feeds,2018,0.7
+Processed foods and feeds,2019,0.5
+Processed foods and feeds,2020,1.8
+Processed foods and feeds,2021,12.2
+Processed foods and feeds,2022,14
+Processed foods and feeds,2023,-2
+Processed foods and feeds,2024,-0.6
+Finished consumer foods,1974,14
+Finished consumer foods,1975,8.4
+Finished consumer foods,1976,-0.3
+Finished consumer foods,1977,5.3
+Finished consumer foods,1978,9
+Finished consumer foods,1979,9.3
+Finished consumer foods,1980,5.8
+Finished consumer foods,1981,5.8
+Finished consumer foods,1982,2.2
+Finished consumer foods,1983,1
+Finished consumer foods,1984,4.4
+Finished consumer foods,1985,-0.8
+Finished consumer foods,1986,2.6
+Finished consumer foods,1987,2.1
+Finished consumer foods,1988,2.8
+Finished consumer foods,1989,5.4
+Finished consumer foods,1990,4.8
+Finished consumer foods,1991,-0.2
+Finished consumer foods,1992,-0.6
+Finished consumer foods,1993,1.9
+Finished consumer foods,1994,0.9
+Finished consumer foods,1995,1.7
+Finished consumer foods,1996,3.6
+Finished consumer foods,1997,0.7
+Finished consumer foods,1998,-0.1
+Finished consumer foods,1999,0.6
+Finished consumer foods,2000,1.6
+Finished consumer foods,2001,3
+Finished consumer foods,2002,-0.8
+Finished consumer foods,2003,4.1
+Finished consumer foods,2004,4.7
+Finished consumer foods,2005,2
+Finished consumer foods,2006,0.6
+Finished consumer foods,2007,6.6
+Finished consumer foods,2008,6.8
+Finished consumer foods,2009,-1.6
+Finished consumer foods,2010,3.9
+Finished consumer foods,2011,6.3
+Finished consumer foods,2012,2.7
+Finished consumer foods,2013,2.2
+Finished consumer foods,2014,4.4
+Finished consumer foods,2015,-1.3
+Finished consumer foods,2016,-2.4
+Finished consumer foods,2017,1.3
+Finished consumer foods,2018,0.1
+Finished consumer foods,2019,2
+Finished consumer foods,2020,1.3
+Finished consumer foods,2021,6.3
+Finished consumer foods,2022,14.2
+Finished consumer foods,2023,2
+Finished consumer foods,2024,3.3
+Farm-level cattle,1974,-10.2
+Farm-level cattle,1975,-1.7
+Farm-level cattle,1976,-7.1
+Farm-level cattle,1977,2.3
+Farm-level cattle,1978,32.4
+Farm-level cattle,1979,30.5
+Farm-level cattle,1980,-2.1
+Farm-level cattle,1981,-4.7
+Farm-level cattle,1982,0
+Farm-level cattle,1983,-3.1
+Farm-level cattle,1984,3.7
+Farm-level cattle,1985,-9.3
+Farm-level cattle,1986,-2.1
+Farm-level cattle,1987,15.1
+Farm-level cattle,1988,6.5
+Farm-level cattle,1989,3.9
+Farm-level cattle,1990,7.6
+Farm-level cattle,1991,-5.5
+Farm-level cattle,1992,-0.3
+Farm-level cattle,1993,1.1
+Farm-level cattle,1994,-9.3
+Farm-level cattle,1995,-6
+Farm-level cattle,1996,-3.7
+Farm-level cattle,1997,2.2
+Farm-level cattle,1998,-5.5
+Farm-level cattle,1999,5.5
+Farm-level cattle,2000,6.7
+Farm-level cattle,2001,4.1
+Farm-level cattle,2002,-7
+Farm-level cattle,2003,23.3
+Farm-level cattle,2004,1.5
+Farm-level cattle,2005,4.2
+Farm-level cattle,2006,-4
+Farm-level cattle,2007,7.8
+Farm-level cattle,2008,0
+Farm-level cattle,2009,-10.4
+Farm-level cattle,2010,14.6
+Farm-level cattle,2011,22.1
+Farm-level cattle,2012,8.6
+Farm-level cattle,2013,1.4
+Farm-level cattle,2014,22.8
+Farm-level cattle,2015,-2.2
+Farm-level cattle,2016,-19.4
+Farm-level cattle,2017,-1.7
+Farm-level cattle,2018,-3.6
+Farm-level cattle,2019,-0.8
+Farm-level cattle,2020,-4.9
+Farm-level cattle,2021,11.3
+Farm-level cattle,2022,18.1
+Farm-level cattle,2023,22
+Farm-level cattle,2024,10.9
+Wholesale beef,1974,-3.1
+Wholesale beef,1975,11.1
+Wholesale beef,1976,-11.4
+Wholesale beef,1977,0.9
+Wholesale beef,1978,28.3
+Wholesale beef,1979,24.7
+Wholesale beef,1980,3.2
+Wholesale beef,1981,-5.2
+Wholesale beef,1982,-0.7
+Wholesale beef,1983,-3.6
+Wholesale beef,1984,0.3
+Wholesale beef,1985,-6.6
+Wholesale beef,1986,-2.4
+Wholesale beef,1987,8.4
+Wholesale beef,1988,6.2
+Wholesale beef,1989,7.4
+Wholesale beef,1990,6.5
+Wholesale beef,1991,-3.3
+Wholesale beef,1992,-2.4
+Wholesale beef,1993,3.1
+Wholesale beef,1994,-8.2
+Wholesale beef,1995,-2.6
+Wholesale beef,1996,-0.7
+Wholesale beef,1997,2.6
+Wholesale beef,1998,-3.3
+Wholesale beef,1999,6.9
+Wholesale beef,2000,7
+Wholesale beef,2001,6.1
+Wholesale beef,2002,-4.9
+Wholesale beef,2003,20.2
+Wholesale beef,2004,2.4
+Wholesale beef,2005,4.4
+Wholesale beef,2006,-3.5
+Wholesale beef,2007,2.7
+Wholesale beef,2008,5.2
+Wholesale beef,2009,-7.4
+Wholesale beef,2010,10.3
+Wholesale beef,2011,15
+Wholesale beef,2012,10
+Wholesale beef,2013,0
+Wholesale beef,2014,19.1
+Wholesale beef,2015,2.9
+Wholesale beef,2016,-16.7
+Wholesale beef,2017,-0.7
+Wholesale beef,2018,1.7
+Wholesale beef,2019,2
+Wholesale beef,2020,2.1
+Wholesale beef,2021,25.8
+Wholesale beef,2022,-5.2
+Wholesale beef,2023,13.5
+Wholesale beef,2024,5.8
+Wholesale pork,1974,1.1
+Wholesale pork,1975,32.4
+Wholesale pork,1976,-6.2
+Wholesale pork,1977,-5.6
+Wholesale pork,1978,15.3
+Wholesale pork,1979,-6.5
+Wholesale pork,1980,-3.9
+Wholesale pork,1981,10.8
+Wholesale pork,1982,15.1
+Wholesale pork,1983,-9.4
+Wholesale pork,1984,-0.4
+Wholesale pork,1985,-1.2
+Wholesale pork,1986,12.1
+Wholesale pork,1987,5
+Wholesale pork,1988,-9.4
+Wholesale pork,1989,2.8
+Wholesale pork,1990,22.6
+Wholesale pork,1991,-5.3
+Wholesale pork,1992,-12.8
+Wholesale pork,1993,6.9
+Wholesale pork,1994,-4.1
+Wholesale pork,1995,0.1
+Wholesale pork,1996,19.1
+Wholesale pork,1997,1.8
+Wholesale pork,1998,-21.5
+Wholesale pork,1999,-0.6
+Wholesale pork,2000,18.1
+Wholesale pork,2001,6.1
+Wholesale pork,2002,-9.4
+Wholesale pork,2003,6.1
+Wholesale pork,2004,14.7
+Wholesale pork,2005,-0.6
+Wholesale pork,2006,-3
+Wholesale pork,2007,4.1
+Wholesale pork,2008,-2
+Wholesale pork,2009,-11.5
+Wholesale pork,2010,23.2
+Wholesale pork,2011,12.5
+Wholesale pork,2012,-4.1
+Wholesale pork,2013,3.6
+Wholesale pork,2014,19.6
+Wholesale pork,2015,-23.6
+Wholesale pork,2016,-2.1
+Wholesale pork,2017,3.2
+Wholesale pork,2018,-6.3
+Wholesale pork,2019,4.6
+Wholesale pork,2020,2.2
+Wholesale pork,2021,15.9
+Wholesale pork,2022,-2.2
+Wholesale pork,2023,-3.7
+Wholesale pork,2024,11.8
+Wholesale poultry,1974,-11.3
+Wholesale poultry,1975,17
+Wholesale poultry,1976,-9.7
+Wholesale poultry,1977,4.3
+Wholesale poultry,1978,12
+Wholesale poultry,1979,-2.8
+Wholesale poultry,1980,2.5
+Wholesale poultry,1981,0
+Wholesale poultry,1982,-7.6
+Wholesale poultry,1983,3.7
+Wholesale poultry,1984,11.2
+Wholesale poultry,1985,-4.2
+Wholesale poultry,1986,5.8
+Wholesale poultry,1987,-11.4
+Wholesale poultry,1988,7.8
+Wholesale poultry,1989,7.9
+Wholesale poultry,1990,-5.6
+Wholesale poultry,1991,-3.3
+Wholesale poultry,1992,-0.8
+Wholesale poultry,1993,2.5
+Wholesale poultry,1994,2.7
+Wholesale poultry,1995,-0.4
+Wholesale poultry,1996,4.8
+Wholesale poultry,1997,-1.9
+Wholesale poultry,1998,2.9
+Wholesale poultry,1999,-5.6
+Wholesale poultry,2000,-1
+Wholesale poultry,2001,3.5
+Wholesale poultry,2002,-4.7
+Wholesale poultry,2003,4.8
+Wholesale poultry,2004,11.7
+Wholesale poultry,2005,-1.2
+Wholesale poultry,2006,-8.2
+Wholesale poultry,2007,12.8
+Wholesale poultry,2008,3.9
+Wholesale poultry,2009,2.1
+Wholesale poultry,2010,1.4
+Wholesale poultry,2011,-1.5
+Wholesale poultry,2012,11.2
+Wholesale poultry,2013,3.8
+Wholesale poultry,2014,4.3
+Wholesale poultry,2015,-1.6
+Wholesale poultry,2016,-3.6
+Wholesale poultry,2017,0.7
+Wholesale poultry,2018,-6.8
+Wholesale poultry,2019,1.5
+Wholesale poultry,2020,-0.4
+Wholesale poultry,2021,20.4
+Wholesale poultry,2022,17.3
+Wholesale poultry,2023,-18
+Wholesale poultry,2024,0
+Farm-level eggs,1974,-3
+Farm-level eggs,1975,-0.6
+Farm-level eggs,1976,12.1
+Farm-level eggs,1977,-9.6
+Farm-level eggs,1978,-2.1
+Farm-level eggs,1979,11.4
+Farm-level eggs,1980,-3.1
+Farm-level eggs,1981,9.4
+Farm-level eggs,1982,-4.5
+Farm-level eggs,1983,
+Farm-level eggs,1984,
+Farm-level eggs,1985,-18.8
+Farm-level eggs,1986,4.1
+Farm-level eggs,1987,-12
+Farm-level eggs,1988,1.1
+Farm-level eggs,1989,35
+Farm-level eggs,1990,-1.7
+Farm-level eggs,1991,-5.9
+Farm-level eggs,1992,-15
+Farm-level eggs,1993,12.5
+Farm-level eggs,1994,-7.6
+Farm-level eggs,1995,6.4
+Farm-level eggs,1996,25.6
+Farm-level eggs,1997,-9
+Farm-level eggs,1998,-9.6
+Farm-level eggs,1999,-16.9
+Farm-level eggs,2000,9.4
+Farm-level eggs,2001,-4.2
+Farm-level eggs,2002,2.2
+Farm-level eggs,2003,37.9
+Farm-level eggs,2004,-7.3
+Farm-level eggs,2005,-26.5
+Farm-level eggs,2006,10.8
+Farm-level eggs,2007,61.2
+Farm-level eggs,2008,17.7
+Farm-level eggs,2009,-26.4
+Farm-level eggs,2010,0.5
+Farm-level eggs,2011,16.5
+Farm-level eggs,2012,1.4
+Farm-level eggs,2013,9.4
+Farm-level eggs,2014,17.8
+Farm-level eggs,2015,31.9
+Farm-level eggs,2016,-59.1
+Farm-level eggs,2017,23.6
+Farm-level eggs,2018,33.2
+Farm-level eggs,2019,-34
+Farm-level eggs,2020,11
+Farm-level eggs,2021,17.1
+Farm-level eggs,2022,163.1
+Farm-level eggs,2023,-28.3
+Farm-level eggs,2024,43.1
+Farm-level milk,1974,19.3
+Farm-level milk,1975,4.2
+Farm-level milk,1976,11.6
+Farm-level milk,1977,0.8
+Farm-level milk,1978,8.4
+Farm-level milk,1979,13.8
+Farm-level milk,1980,8.5
+Farm-level milk,1981,5.9
+Farm-level milk,1982,-1.7
+Farm-level milk,1983,-0.2
+Farm-level milk,1984,-1.3
+Farm-level milk,1985,-4.9
+Farm-level milk,1986,-2.9
+Farm-level milk,1987,1
+Farm-level milk,1988,-2.7
+Farm-level milk,1989,10.5
+Farm-level milk,1990,2
+Farm-level milk,1991,-11.2
+Farm-level milk,1992,7.4
+Farm-level milk,1993,-2.1
+Farm-level milk,1994,1.7
+Farm-level milk,1995,-2.2
+Farm-level milk,1996,15.3
+Farm-level milk,1997,-9.6
+Farm-level milk,1998,15.8
+Farm-level milk,1999,-5.8
+Farm-level milk,2000,-13.5
+Farm-level milk,2001,21.5
+Farm-level milk,2002,-18.8
+Farm-level milk,2003,3.3
+Farm-level milk,2004,28
+Farm-level milk,2005,-5.5
+Farm-level milk,2006,-14.8
+Farm-level milk,2007,48.2
+Farm-level milk,2008,-4.3
+Farm-level milk,2009,-30.1
+Farm-level milk,2010,27.1
+Farm-level milk,2011,23.5
+Farm-level milk,2012,-8.1
+Farm-level milk,2013,8.1
+Farm-level milk,2014,19.8
+Farm-level milk,2015,-28.7
+Farm-level milk,2016,-3
+Farm-level milk,2017,8.6
+Farm-level milk,2018,-8.3
+Farm-level milk,2019,15
+Farm-level milk,2020,-1.5
+Farm-level milk,2021,2
+Farm-level milk,2022,36.7
+Farm-level milk,2023,-19.9
+Farm-level milk,2024,10.4
+Wholesale dairy,1974,11.6
+Wholesale dairy,1975,6.5
+Wholesale dairy,1976,8.1
+Wholesale dairy,1977,3
+Wholesale dairy,1978,8.6
+Wholesale dairy,1979,12.2
+Wholesale dairy,1980,9.2
+Wholesale dairy,1981,6.5
+Wholesale dairy,1982,1.3
+Wholesale dairy,1983,0.7
+Wholesale dairy,1984,0.4
+Wholesale dairy,1985,-0.9
+Wholesale dairy,1986,-0.3
+Wholesale dairy,1987,1.7
+Wholesale dairy,1988,0.6
+Wholesale dairy,1989,8.2
+Wholesale dairy,1990,6
+Wholesale dairy,1991,-2.2
+Wholesale dairy,1992,2.9
+Wholesale dairy,1993,0.2
+Wholesale dairy,1994,1.1
+Wholesale dairy,1995,0.3
+Wholesale dairy,1996,8.9
+Wholesale dairy,1997,-1.8
+Wholesale dairy,1998,7.9
+Wholesale dairy,1999,0.7
+Wholesale dairy,2000,-4
+Wholesale dairy,2001,8.6
+Wholesale dairy,2002,-6.2
+Wholesale dairy,2003,2.3
+Wholesale dairy,2004,11.8
+Wholesale dairy,2005,-0.9
+Wholesale dairy,2006,-4.5
+Wholesale dairy,2007,19.1
+Wholesale dairy,2008,4
+Wholesale dairy,2009,-14
+Wholesale dairy,2010,10.8
+Wholesale dairy,2011,12.6
+Wholesale dairy,2012,-1.6
+Wholesale dairy,2013,3.6
+Wholesale dairy,2014,11
+Wholesale dairy,2015,-12.7
+Wholesale dairy,2016,-1.7
+Wholesale dairy,2017,3.4
+Wholesale dairy,2018,-2.3
+Wholesale dairy,2019,4.7
+Wholesale dairy,2020,0.5
+Wholesale dairy,2021,1.9
+Wholesale dairy,2022,18.3
+Wholesale dairy,2023,-6.1
+Wholesale dairy,2024,3.2
+Farm-level soybeans,1974,-4.7
+Farm-level soybeans,1975,-18.4
+Farm-level soybeans,1976,6
+Farm-level soybeans,1977,18.8
+Farm-level soybeans,1978,-5.8
+Farm-level soybeans,1979,8.1
+Farm-level soybeans,1980,-0.4
+Farm-level soybeans,1981,0
+Farm-level soybeans,1982,-14.5
+Farm-level soybeans,1983,16.3
+Farm-level soybeans,1984,2.7
+Farm-level soybeans,1985,-21.1
+Farm-level soybeans,1986,-8.3
+Farm-level soybeans,1987,2.2
+Farm-level soybeans,1988,41.3
+Farm-level soybeans,1989,-8.4
+Farm-level soybeans,1990,-11.8
+Farm-level soybeans,1991,-5.7
+Farm-level soybeans,1992,2.3
+Farm-level soybeans,1993,7.7
+Farm-level soybeans,1994,1.1
+Farm-level soybeans,1995,-3.6
+Farm-level soybeans,1996,25.1
+Farm-level soybeans,1997,2.4
+Farm-level soybeans,1998,-21.1
+Farm-level soybeans,1999,-22.5
+Farm-level soybeans,2000,4.1
+Farm-level soybeans,2001,-5.8
+Farm-level soybeans,2002,11.6
+Farm-level soybeans,2003,24.1
+Farm-level soybeans,2004,19.5
+Farm-level soybeans,2005,-21.1
+Farm-level soybeans,2006,-5.7
+Farm-level soybeans,2007,42.5
+Farm-level soybeans,2008,47.9
+Farm-level soybeans,2009,-13.7
+Farm-level soybeans,2010,0.7
+Farm-level soybeans,2011,24
+Farm-level soybeans,2012,13.2
+Farm-level soybeans,2013,-1.9
+Farm-level soybeans,2014,-12.4
+Farm-level soybeans,2015,-24.7
+Farm-level soybeans,2016,2.9
+Farm-level soybeans,2017,-2.3
+Farm-level soybeans,2018,-4.8
+Farm-level soybeans,2019,-5.5
+Farm-level soybeans,2020,10.2
+Farm-level soybeans,2021,47.2
+Farm-level soybeans,2022,11.2
+Farm-level soybeans,2023,-8.3
+Farm-level soybeans,2024,-22.4
+Wholesale fats and oils,1974,59.4
+Wholesale fats and oils,1975,-13.1
+Wholesale fats and oils,1976,-20.9
+Wholesale fats and oils,1977,16.5
+Wholesale fats and oils,1978,8.5
+Wholesale fats and oils,1979,8
+Wholesale fats and oils,1980,-6.8
+Wholesale fats and oils,1981,0.3
+Wholesale fats and oils,1982,-5.4
+Wholesale fats and oils,1983,11
+Wholesale fats and oils,1984,26.2
+Wholesale fats and oils,1985,-10.4
+Wholesale fats and oils,1986,-23.1
+Wholesale fats and oils,1987,1.5
+Wholesale fats and oils,1988,19.7
+Wholesale fats and oils,1989,-4.4
+Wholesale fats and oils,1990,6.5
+Wholesale fats and oils,1991,-6.2
+Wholesale fats and oils,1992,-2.9
+Wholesale fats and oils,1993,7.4
+Wholesale fats and oils,1994,16.2
+Wholesale fats and oils,1995,2
+Wholesale fats and oils,1996,-5.6
+Wholesale fats and oils,1997,-0.1
+Wholesale fats and oils,1998,8
+Wholesale fats and oils,1999,-13.6
+Wholesale fats and oils,2000,-9.8
+Wholesale fats and oils,2001,-2.6
+Wholesale fats and oils,2002,10.7
+Wholesale fats and oils,2003,31
+Wholesale fats and oils,2004,19.3
+Wholesale fats and oils,2005,-4.5
+Wholesale fats and oils,2006,-0.4
+Wholesale fats and oils,2007,17.5
+Wholesale fats and oils,2008,42.7
+Wholesale fats and oils,2009,-23.3
+Wholesale fats and oils,2010,4.3
+Wholesale fats and oils,2011,29.3
+Wholesale fats and oils,2012,-2
+Wholesale fats and oils,2013,-6.7
+Wholesale fats and oils,2014,-6.6
+Wholesale fats and oils,2015,-5.6
+Wholesale fats and oils,2016,-0.8
+Wholesale fats and oils,2017,4.1
+Wholesale fats and oils,2018,-2.6
+Wholesale fats and oils,2019,-4.3
+Wholesale fats and oils,2020,2.6
+Wholesale fats and oils,2021,40.2
+Wholesale fats and oils,2022,26.1
+Wholesale fats and oils,2023,-16.3
+Wholesale fats and oils,2024,-10.3
+Farm-level fruit,1974,6.3
+Farm-level fruit,1975,9.5
+Farm-level fruit,1976,1.2
+Farm-level fruit,1977,11.1
+Farm-level fruit,1978,20.3
+Farm-level fruit,1979,9
+Farm-level fruit,1980,2.1
+Farm-level fruit,1981,-3.7
+Farm-level fruit,1982,3.5
+Farm-level fruit,1983,6.4
+Farm-level fruit,1984,0.4
+Farm-level fruit,1985,1.2
+Farm-level fruit,1986,4.4
+Farm-level fruit,1987,-0.8
+Farm-level fruit,1988,1.3
+Farm-level fruit,1989,-0.3
+Farm-level fruit,1990,4.3
+Farm-level fruit,1991,10
+Farm-level fruit,1992,-35.3
+Farm-level fruit,1993,0.6
+Farm-level fruit,1994,-2.1
+Farm-level fruit,1995,3.7
+Farm-level fruit,1996,17.5
+Farm-level fruit,1997,-1.4
+Farm-level fruit,1998,-9
+Farm-level fruit,1999,14.5
+Farm-level fruit,2000,-11.8
+Farm-level fruit,2001,6.9
+Farm-level fruit,2002,-6.3
+Farm-level fruit,2003,-8.1
+Farm-level fruit,2004,24.7
+Farm-level fruit,2005,-2
+Farm-level fruit,2006,8
+Farm-level fruit,2007,11.2
+Farm-level fruit,2008,-0.4
+Farm-level fruit,2009,-10.2
+Farm-level fruit,2010,12.1
+Farm-level fruit,2011,-4.9
+Farm-level fruit,2012,1.1
+Farm-level fruit,2013,1.8
+Farm-level fruit,2014,2.7
+Farm-level fruit,2015,-0.2
+Farm-level fruit,2016,11.7
+Farm-level fruit,2017,6.6
+Farm-level fruit,2018,-1.9
+Farm-level fruit,2019,-6.1
+Farm-level fruit,2020,2
+Farm-level fruit,2021,5.3
+Farm-level fruit,2022,18.1
+Farm-level fruit,2023,-0.6
+Farm-level fruit,2024,-0.7
+Farm-level vegetables,1974,17.4
+Farm-level vegetables,1975,-8.7
+Farm-level vegetables,1976,-7.7
+Farm-level vegetables,1977,3.7
+Farm-level vegetables,1978,7
+Farm-level vegetables,1979,0.5
+Farm-level vegetables,1980,8.9
+Farm-level vegetables,1981,26.9
+Farm-level vegetables,1982,-11.3
+Farm-level vegetables,1983,1
+Farm-level vegetables,1984,11.8
+Farm-level vegetables,1985,-11.9
+Farm-level vegetables,1986,-1.7
+Farm-level vegetables,1987,6.1
+Farm-level vegetables,1988,1.6
+Farm-level vegetables,1989,10.6
+Farm-level vegetables,1990,1.2
+Farm-level vegetables,1991,-12.1
+Farm-level vegetables,1992,10.8
+Farm-level vegetables,1993,17.6
+Farm-level vegetables,1994,-4.6
+Farm-level vegetables,1995,11.9
+Farm-level vegetables,1996,-6.5
+Farm-level vegetables,1997,-8.8
+Farm-level vegetables,1998,13.3
+Farm-level vegetables,1999,-15.4
+Farm-level vegetables,2000,7.4
+Farm-level vegetables,2001,-1.6
+Farm-level vegetables,2002,9.5
+Farm-level vegetables,2003,-0.6
+Farm-level vegetables,2004,-4.6
+Farm-level vegetables,2005,10.2
+Farm-level vegetables,2006,7.5
+Farm-level vegetables,2007,8
+Farm-level vegetables,2008,4.1
+Farm-level vegetables,2009,-5.9
+Farm-level vegetables,2010,10
+Farm-level vegetables,2011,9.3
+Farm-level vegetables,2012,-19.8
+Farm-level vegetables,2013,26.4
+Farm-level vegetables,2014,-1.9
+Farm-level vegetables,2015,3.2
+Farm-level vegetables,2016,1
+Farm-level vegetables,2017,6.4
+Farm-level vegetables,2018,-1.7
+Farm-level vegetables,2019,13
+Farm-level vegetables,2020,2
+Farm-level vegetables,2021,-6.5
+Farm-level vegetables,2022,51.4
+Farm-level vegetables,2023,-12.1
+Farm-level vegetables,2024,-0.3
+Farm-level wheat,1974,33.3
+Farm-level wheat,1975,-19.7
+Farm-level wheat,1976,-13.3
+Farm-level wheat,1977,-22.5
+Farm-level wheat,1978,24.3
+Farm-level wheat,1979,23.6
+Farm-level wheat,1980,7.8
+Farm-level wheat,1981,0.2
+Farm-level wheat,1982,-7.8
+Farm-level wheat,1983,0.7
+Farm-level wheat,1984,-4
+Farm-level wheat,1985,-9.4
+Farm-level wheat,1986,-12.9
+Farm-level wheat,1987,-4.6
+Farm-level wheat,1988,28.7
+Farm-level wheat,1989,16.9
+Farm-level wheat,1990,-20
+Farm-level wheat,1991,-9.4
+Farm-level wheat,1992,24.1
+Farm-level wheat,1993,-0.1
+Farm-level wheat,1994,6.5
+Farm-level wheat,1995,13.2
+Farm-level wheat,1996,15.2
+Farm-level wheat,1997,-20.8
+Farm-level wheat,1998,-18.9
+Farm-level wheat,1999,-9.5
+Farm-level wheat,2000,1
+Farm-level wheat,2001,6.5
+Farm-level wheat,2002,14.5
+Farm-level wheat,2003,0.6
+Farm-level wheat,2004,7.6
+Farm-level wheat,2005,-3.1
+Farm-level wheat,2006,13.8
+Farm-level wheat,2007,47.2
+Farm-level wheat,2008,36.6
+Farm-level wheat,2009,-36.5
+Farm-level wheat,2010,5.3
+Farm-level wheat,2011,37.5
+Farm-level wheat,2012,-2.6
+Farm-level wheat,2013,-3
+Farm-level wheat,2014,-6.7
+Farm-level wheat,2015,-19.6
+Farm-level wheat,2016,-20.4
+Farm-level wheat,2017,7.8
+Farm-level wheat,2018,14.2
+Farm-level wheat,2019,-8
+Farm-level wheat,2020,7.5
+Farm-level wheat,2021,44.5
+Farm-level wheat,2022,31
+Farm-level wheat,2023,-23.1
+Farm-level wheat,2024,-22.3
+Wholesale wheat flour,1974,29.4
+Wholesale wheat flour,1975,-13.5
+Wholesale wheat flour,1976,-9.5
+Wholesale wheat flour,1977,-19.6
+Wholesale wheat flour,1978,19.1
+Wholesale wheat flour,1979,21.5
+Wholesale wheat flour,1980,9.1
+Wholesale wheat flour,1981,2.2
+Wholesale wheat flour,1982,-4.4
+Wholesale wheat flour,1983,1.5
+Wholesale wheat flour,1984,-0.5
+Wholesale wheat flour,1985,-1.2
+Wholesale wheat flour,1986,-5.2
+Wholesale wheat flour,1987,-1.8
+Wholesale wheat flour,1988,13.8
+Wholesale wheat flour,1989,8.4
+Wholesale wheat flour,1990,-9.6
+Wholesale wheat flour,1991,-6.6
+Wholesale wheat flour,1992,13.1
+Wholesale wheat flour,1993,-0.5
+Wholesale wheat flour,1994,1.4
+Wholesale wheat flour,1995,11.4
+Wholesale wheat flour,1996,11.2
+Wholesale wheat flour,1997,-13.2
+Wholesale wheat flour,1998,-8
+Wholesale wheat flour,1999,-4.5
+Wholesale wheat flour,2000,-0.5
+Wholesale wheat flour,2001,5.9
+Wholesale wheat flour,2002,5.7
+Wholesale wheat flour,2003,6.4
+Wholesale wheat flour,2004,4.4
+Wholesale wheat flour,2005,3.6
+Wholesale wheat flour,2006,9.1
+Wholesale wheat flour,2007,22.4
+Wholesale wheat flour,2008,34.4
+Wholesale wheat flour,2009,-23.7
+Wholesale wheat flour,2010,-0.3
+Wholesale wheat flour,2011,23.1
+Wholesale wheat flour,2012,2
+Wholesale wheat flour,2013,0
+Wholesale wheat flour,2014,1.8
+Wholesale wheat flour,2015,-10
+Wholesale wheat flour,2016,-7.3
+Wholesale wheat flour,2017,1.7
+Wholesale wheat flour,2018,0.9
+Wholesale wheat flour,2019,-2.2
+Wholesale wheat flour,2020,1.4
+Wholesale wheat flour,2021,19.3
+Wholesale wheat flour,2022,23.3
+Wholesale wheat flour,2023,-5.8
+Wholesale wheat flour,2024,-6.8

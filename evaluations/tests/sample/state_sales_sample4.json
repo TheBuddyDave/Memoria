@@ -1,0 +1,86 @@
+{
+    "question_id": "RD_FS_004",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "From 2015 to 2024, how much of the national nominal growth in total food sales came from food-at-home (FAH) vs food-away-from-home (FAFH)?",
+            "reasoning_trace": "Load the dataset and convert all sales columns from string to numeric. Aggregate by Year across states to obtain national totals for FAH, FAFH, and Total in nominal dollars. Compute deltas between 2024 and 2015 for each of FAH, FAFH, and Total; then express FAH’s and FAFH’s contributions as shares of the total nominal increase: (ΔFAH / ΔTotal) and (ΔFAFH / ΔTotal). This isolates channel-level contributions while keeping the accounting consistent at the national level.",
+            "output": {
+                "National_Nominal_Growth_Components_2015_to_2024_milUSD": {
+                    "Delta_Total": 964189.8,
+                    "Delta_FAH": 323337.79,
+                    "Delta_FAFH": 640852.01
+                },
+                "Contribution_to_Total_Growth_pct": {
+                    "FAH": 33.53,
+                    "FAFH": 66.47
+                },
+                "Summary": "Two-thirds of nominal national growth (2015→2024) comes from dining out (FAFH), with one-third from at-home food. This underscores FAFH’s outsized role in expanding the overall food economy over the period.",
+                "timestamp": "2025-11-09T12:30:00-05:00"
+            }
+        },
+        {
+            "input": "Repeat the decomposition in constant dollars (1988=100). Are the conclusions similar?",
+            "reasoning_trace": "Using the real-dollar columns, again sum FAH, FAFH, and Total by Year across all states. Compute ΔReal totals for 2024 vs 2015 and decompose the total change into FAH and FAFH contributions. Compare the real-dollar decomposition to the nominal decomposition to check whether inflation is driving the result or whether the channel pattern persists after price adjustment.",
+            "output": {
+                "National_Real_Growth_Components_2015_to_2024_mil1988USD": {
+                    "Delta_Total": 142940.75,
+                    "Delta_FAH": 48409.79,
+                    "Delta_FAFH": 94530.96
+                },
+                "Contribution_to_Total_Growth_pct": {
+                    "FAH": 33.87,
+                    "FAFH": 66.13
+                },
+                "Summary": "In real terms, the split is nearly identical: FAFH explains about two-thirds of national growth. The similarity to nominal results indicates this is not merely an inflation artifact but a genuine channel shift toward dining out.",
+                "timestamp": "2025-11-09T12:30:01-05:00"
+            }
+        },
+        {
+            "input": "Which states contributed most to the national increase in FAFH (nominal) from 2015 to 2024?",
+            "reasoning_trace": "For each state, compute its FAFH_nominal in 2015 and in 2024 and take the difference to get a contribution to national ΔFAFH. Rank states by this Δ and list the Top 10 contributors. Also compute the share of total national ΔFAFH explained by the Top 5 contributors to evaluate concentration of growth sources.",
+            "output": {
+                "Top10_State_Contributors_to_Delta_FAFH_2015_2024_milUSD": [
+                    {"State": "California", "Delta_FAFH": 107740.88},
+                    {"State": "Texas", "Delta_FAFH": 64017.23},
+                    {"State": "Florida", "Delta_FAFH": 49778.34},
+                    {"State": "New York", "Delta_FAFH": 43557.94},
+                    {"State": "Illinois", "Delta_FAFH": 21608.31},
+                    {"State": "Georgia", "Delta_FAFH": 19792.57},
+                    {"State": "North Carolina", "Delta_FAFH": 19508.35},
+                    {"State": "New Jersey", "Delta_FAFH": 18122.19},
+                    {"State": "Pennsylvania", "Delta_FAFH": 18011.84},
+                    {"State": "Washington", "Delta_FAFH": 16406.85}
+                ],
+                "Top5_Explain_pct_of_National_Delta_FAFH": 44.74,
+                "Summary": "California, Texas, Florida, New York, and Illinois together account for ~45% of the national FAFH increase. Growth is meaningful across many states—Top-5 are influential but do not constitute a majority of the expansion.",
+                "timestamp": "2025-11-09T12:30:02-05:00"
+            }
+        },
+        {
+            "input": "Has the concentration of FAFH dollars increased from 2015 to 2024?",
+            "reasoning_trace": "Measure concentration on levels (not growth) by computing Top-5 share of national FAFH_nominal in each year. Compare Top-5 share in 2015 vs 2024. This tracks whether the largest states are gaining relative heft in the dining-out market over the decade.",
+            "output": {
+                "Top5_Share_of_FAFH_Levels_pct": {
+                    "2015": 40.25,
+                    "2024": 42.24
+                },
+                "Interpretation": "Top-5 share rose roughly 2 percentage points, indicating a mild increase in concentration of FAFH dollars. The market remains broad-based, but the largest states slightly strengthened their relative positions.",
+                "timestamp": "2025-11-09T12:30:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Who drove the U.S. food sales expansion from 2015–2024—FAH or FAFH—and how concentrated are the state sources of FAFH growth?",
+    "answer": {
+        "reasoning_trace": [
+            "National accounting shows FAFH provides ~66% of total growth in both nominal and real terms, implying a durable, volume-adjusted pivot toward dining out. The decomposition is consistent after adjusting for inflation, so this is not simply price effects.",
+            "On the source side, the largest contributors are California, Texas, Florida, New York, and Illinois; together they explain ~45% of the national gain in FAFH, with the remainder spread across many states. Level concentration (Top-5 share) increased modestly from 2015 to 2024."
+        ],
+        "output": {
+            "Conclusion": "Dining out (FAFH) is responsible for about two-thirds of the 2015–2024 expansion, both in nominal and real dollars. Growth is somewhat concentrated in the largest states, but contributions are still widely distributed across the country.",
+            "Analyst_Note": "Given FAFH’s dominant contribution, segment analyses (menus, capacity, urban hubs) will be more predictive of future growth than FAH dynamics alone.",
+            "timestamp": "2025-11-09T12:30:04-05:00"
+        }
+    }
+}

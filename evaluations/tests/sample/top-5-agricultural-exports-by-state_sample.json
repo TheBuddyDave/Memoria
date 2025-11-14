@@ -1,0 +1,152 @@
+{
+    "question_id": "RD_AG_001",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\top-5-agricultural-exports-by-state.csv",
+    "ua_pairs": [
+        {
+            "input": "What were the top five agricultural commodities exported by Kansas in fiscal year 2019, by dollar value?",
+            "reasoning_trace": "Filter rows where State='KS', Fiscal year=2019, Fiscal quarter description='Fiscal year total', and Country='World' to avoid double counting. Group by Commodity name, sum Dollar value, sort descending, and take the top five.",
+            "output": {
+                "Kansas_2019_Top5_Exports": [
+                    {
+                        "Commodity": "Beef and beef products",
+                        "Value_USD": 1489023681
+                    },
+                    {
+                        "Commodity": "Wheat",
+                        "Value_USD": 582767804
+                    },
+                    {
+                        "Commodity": "Soybeans",
+                        "Value_USD": 478830758
+                    },
+                    {
+                        "Commodity": "Corn",
+                        "Value_USD": 196857461
+                    },
+                    {
+                        "Commodity": "Dog and cat food",
+                        "Value_USD": 159749235
+                    }
+                ],
+                "timestamp": "2025-11-09T12:00:00-05:00"
+            }
+        },
+        {
+            "input": "How do Kansas’s top five agricultural exports in 2019 compare to Iowa’s?",
+            "reasoning_trace": "For each state (KS, IA), filter the same year and total rows with Country='World', aggregate Dollar value by Commodity name, get the top five, then align by rank to compare mix and magnitude.",
+            "output": {
+                "Comparison_Table": [
+                    {
+                        "Rank": 1,
+                        "Kansas_Commodity": "Beef and beef products",
+                        "Kansas_Value_USD": 1489023681,
+                        "Iowa_Commodity": "Pork and pork products",
+                        "Iowa_Value_USD": 1031649863
+                    },
+                    {
+                        "Rank": 2,
+                        "Kansas_Commodity": "Wheat",
+                        "Kansas_Value_USD": 582767804,
+                        "Iowa_Commodity": "Corn",
+                        "Iowa_Value_USD": 825871870
+                    },
+                    {
+                        "Rank": 3,
+                        "Kansas_Commodity": "Soybeans",
+                        "Kansas_Value_USD": 478830758,
+                        "Iowa_Commodity": "Beef and beef products",
+                        "Iowa_Value_USD": 453668498
+                    },
+                    {
+                        "Rank": 4,
+                        "Kansas_Commodity": "Corn",
+                        "Kansas_Value_USD": 196857461,
+                        "Iowa_Commodity": "Soybean meal",
+                        "Iowa_Value_USD": 438738864
+                    },
+                    {
+                        "Rank": 5,
+                        "Kansas_Commodity": "Dog and cat food",
+                        "Kansas_Value_USD": 159749235,
+                        "Iowa_Commodity": "Distillers grains",
+                        "Iowa_Value_USD": 316157059
+                    }
+                ],
+                "Insight": "Kansas is led by beef and wheat, while Iowa is led by pork and corn with larger shares in co-products (soybean meal, distillers grains).",
+                "timestamp": "2025-11-09T12:00:01-05:00"
+            }
+        },
+        {
+            "input": "Which countries were the top destinations for Kansas’s agricultural exports in 2019, and how do they reflect its commodity mix?",
+            "reasoning_trace": "Filter State='KS', Fiscal year=2019, and Fiscal year totals, but exclude Country='World'. Aggregate Dollar value by Country, sort by value, and list the top five destinations; compare these with major commodity buyers (beef and wheat importers in North America and Asia).",
+            "output": {
+                "Top_Destinations_2019": [
+                    {
+                        "Country": "Mexico",
+                        "Value_USD": 1017230691
+                    },
+                    {
+                        "Country": "Japan",
+                        "Value_USD": 670778858
+                    },
+                    {
+                        "Country": "South Korea",
+                        "Value_USD": 286935786
+                    },
+                    {
+                        "Country": "Taiwan",
+                        "Value_USD": 153215035
+                    },
+                    {
+                        "Country": "Hong Kong",
+                        "Value_USD": 103355421
+                    }
+                ],
+                "Interpretation": "Top destinations (Mexico, Japan, South Korea, Taiwan, Hong Kong) align with strong demand for beef and wheat, reflecting Kansas’s mix.",
+                "timestamp": "2025-11-09T12:00:02-05:00"
+            }
+        },
+        {
+            "input": "How has Kansas’s total agricultural export value changed from 2019 to 2025, and which commodities drove that trend?",
+            "reasoning_trace": "Use Country='World' rows to obtain consistent annual totals for KS from 2019–2025. Sum Dollar value by Fiscal year. Identify the leading commodities over the same window by summing Dollar value by Commodity name (Country='World'). Summarize the trend inflection points and key drivers.",
+            "output": {
+                "Kansas_Total_Exports_By_Year": {
+                    "2019": 2907228939,
+                    "2020": 2854629261,
+                    "2021": 3796577244,
+                    "2022": 4375688396,
+                    "2023": 3203188711,
+                    "2024": 3478720179,
+                    "2025": 2572375346
+                },
+                "Commodity_Drivers_2019_2025": [
+                    "Beef and beef products",
+                    "Wheat",
+                    "Corn",
+                    "Soybeans"
+                ],
+                "Trend_Summary": "Exports rose from 2019 to a peak in 2022, then eased in 2023–2025; beef dominates overall, with wheat, corn, and soybeans as key drivers.",
+                "timestamp": "2025-11-09T12:00:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Does the data suggest that Kansas’s agricultural export mix is more concentrated in bulk grains relative to Iowa, and what might explain that pattern?",
+    "answer": {
+        "reasoning_trace": [
+            "Kansas’s 2019 top commodities (from Country='World' totals) are led by Beef, followed by Wheat, Soybeans, and Corn; Iowa’s are led by Pork and Corn with larger shares of soybean co-products.",
+            "This indicates Kansas has a notably higher share of Wheat—a bulk grain—while Iowa allocates more to livestock and processing co-products (soybean meal, distillers grains).",
+            "Across 2019–2025, Kansas’s totals peak in 2022 and are driven primarily by Beef with grains (Wheat, Corn, Soybeans) as key contributors, consistent with its production base and export corridors to Mexico and East Asia.",
+            "Therefore, relative to Iowa, Kansas appears more concentrated in bulk Wheat (and less in processed co-products), though Beef remains Kansas’s single largest export, moderating the 'grain-concentrated' description."
+        ],
+        "output": {
+            "Conclusion": "Partly yes — Kansas’s export profile has a stronger emphasis on bulk Wheat than Iowa’s, while Iowa leans more into livestock and soybean co-products. However, Beef is Kansas’s largest category overall, so the grain concentration is most evident in Wheat rather than across the entire mix.",
+            "Key_Explanatory_Factors": [
+                "Agro-ecological fit and long-standing specialization in hard red winter wheat.",
+                "Grain logistics (elevators, rail to Mexico and Pacific ports) supporting bulk shipments.",
+                "Iowa’s processing footprint (pork, soybean meal, distillers grains) skews its mix toward livestock and co-products."
+            ],
+            "timestamp": "2025-11-09T12:00:04-05:00"
+        }
+    }
+}

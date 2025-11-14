@@ -1,0 +1,73 @@
+{
+    "question_id": "RD_FS_008",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "Across states in real (1988=100) dollars, what was the correlation between ΔFAFH and ΔFAH in 2020 vs 2019? Did this relationship flip in the rebound?",
+            "reasoning_trace": "Pivot state–year real series for FAH and FAFH. For each state, compute 2020−2019 deltas and calculate the cross-state correlation between ΔFAFH and ΔFAH to test substitution (negative correlation). Repeat for 2021−2020 and 2022−2021 to assess whether the relationship flips toward comovement during recovery.",
+            "output": {
+                "CrossState_Correlations": {
+                    "Corr(ΔFAFH, ΔFAH)_2020_vs_2019": -0.556,
+                    "Corr(ΔFAFH, ΔFAH)_2021_vs_2020": 0.757,
+                    "Corr(ΔFAFH, ΔFAH)_2022_vs_2021": 0.013
+                },
+                "Summary": "In 2020, states with larger dining-out declines tended to have larger at-home increases (clear substitution). In 2021 the sign flips to strong positive comovement, and by 2022 the correlation is near zero, consistent with normalization.",
+                "timestamp": "2025-11-09T12:34:00-05:00"
+            }
+        },
+        {
+            "input": "Which states showed the strongest counter-movement in 2020 (FAFH down, FAH up)?",
+            "reasoning_trace": "Filter states where ΔFAFH(2020−2019)<0 and ΔFAH(2020−2019)>0. Rank by a simple magnitude score [−ΔFAFH + ΔFAH] to highlight the biggest substitution cases. Report the Top-10 with their paired deltas to show scale and direction.",
+            "output": {
+                "Top10_CounterMoving_States_2020_mil1988USD": [
+                    {"State": "California", "Delta_FAFH": -11929.12, "Delta_FAH": 2101.65, "Magnitude": 14030.77},
+                    {"State": "Texas", "Delta_FAFH": -3980.02, "Delta_FAH": 1914.70, "Magnitude": 5894.72},
+                    {"State": "Florida", "Delta_FAFH": -4291.64, "Delta_FAH": 1080.78, "Magnitude": 5372.42},
+                    {"State": "Illinois", "Delta_FAFH": -2668.89, "Delta_FAH": 474.70, "Magnitude": 3143.59},
+                    {"State": "New York", "Delta_FAFH": -8022.75, "Delta_FAH": 144.36, "Magnitude": 8167.11},
+                    {"State": "Pennsylvania", "Delta_FAFH": -2755.14, "Delta_FAH": 324.97, "Magnitude": 3080.11},
+                    {"State": "New Jersey", "Delta_FAFH": -2369.76, "Delta_FAH": 144.46, "Magnitude": 2514.22},
+                    {"State": "Georgia", "Delta_FAFH": -1543.16, "Delta_FAH": 579.73, "Magnitude": 2122.89},
+                    {"State": "Tennessee", "Delta_FAFH": -843.60, "Delta_FAH": 1189.91, "Magnitude": 2033.51},
+                    {"State": "North Carolina", "Delta_FAFH": -1399.33, "Delta_FAH": 624.99, "Magnitude": 2024.32}
+                ],
+                "Summary": "Large, service-intensive states dominate the top substitution list, with deep FAFH drops and simultaneous FAH gains. This cross-state pattern strongly corroborates a 2020 substitution shock.",
+                "timestamp": "2025-11-09T12:34:01-05:00"
+            }
+        },
+        {
+            "input": "Were the strongest substitution states also leaders in the FAFH rebound by 2022?",
+            "reasoning_trace": "Compute each state’s cumulative FAFH increase over 2022 vs 2020 and rank the Top-10 rebounders. Intersect this set with the 2020 counter-movers to see overlap, indicating whether states with the sharpest substitution also bounced back fastest.",
+            "output": {
+                "Top10_FAFH_Rebound_States_2022_vs_2020_mil1988USD": {
+                    "California": 15574.68,
+                    "Texas": 9298.19,
+                    "New York": 8634.72,
+                    "Florida": 7790.79,
+                    "New Jersey": 3410.19,
+                    "Pennsylvania": 3140.80,
+                    "North Carolina": 3116.11,
+                    "Massachusetts": 3024.46,
+                    "Illinois": 2832.53,
+                    "Georgia": 2803.25
+                },
+                "Overlap_with_2020_CounterMovers": ["California", "Texas", "Florida", "Illinois", "Pennsylvania", "New Jersey", "Georgia", "North Carolina"],
+                "Summary": "Most of the top substitution states are also among the fastest rebounders by 2022, indicating the 2020 shock was transitory. High-velocity recovery is concentrated in the same large, service-heavy economies that fell most in 2020.",
+                "timestamp": "2025-11-09T12:34:02-05:00"
+            }
+        }
+    ],
+    "prompt": "Did states substitute sharply from FAFH to FAH in 2020, and did those same states lead the dining-out rebound by 2022?",
+    "answer": {
+        "reasoning_trace": [
+            "Cross-state 2020 correlations are strongly negative (substitution), then flip positive in 2021 and fade by 2022. Top substitution states in 2020 overlap heavily with the 2022 rebound leaders, implying a quick return of dining-out demand in the hardest-hit markets.",
+            "This sequence supports the narrative that 2020 was a temporary channel shock followed by normalization rather than a lasting structural pivot to at-home consumption."
+        ],
+        "output": {
+            "Conclusion": "Yes—2020 shows pronounced substitution from dining out to at-home, and the same states largely spearhead the FAFH rebound by 2022.",
+            "Analyst_Note": "Operational capacity in large metros likely amplifies both drawdowns and rebounds, making them pivotal for recovery monitoring.",
+            "timestamp": "2025-11-09T12:34:03-05:00"
+        }
+    }
+}

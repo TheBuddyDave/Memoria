@@ -1,0 +1,109 @@
+﻿"table_name","commodity_desc","geography_desc","attribute_desc","unit_desc","year_id","month_id","month_desc","amount"
+"Estimated returns","High Plains cattle feedlot","National","Break-even price","Dollars per hundredweight",2024,9,"September",198.685090127829
+"Estimated returns","High Plains cattle feedlot","National","Selling price","Dollars per hundredweight",2024,9,"September",182.91
+"Estimated returns","High Plains cattle feedlot","National","Net margin","Dollars per hundredweight",2024,9,"September",-15.775090127829
+"Estimated returns","Broilers","National","Feed cost","Index, 1998–2000=100",2024,9,"September",166.765612007766
+"Estimated returns","Broilers","National","Market price","Index, 1998–2000=100",2024,9,"September",194.15568573599
+"Estimated returns","Broilers","National","Price less cost","Index, 1998–2000=100",2024,9,"September",203.841828000389
+"Estimated returns","Turkeys","National","Feed cost","Index, 1998–2000=100",2024,9,"September",194.062646430245
+"Estimated returns","Turkeys","National","Market price","Index, 1998–2000=100",2024,9,"September",146.773902527169
+"Estimated returns","Turkeys","National","Price less cost","Index, 1998–2000=100",2024,9,"September",134.801741555776
+"Estimated returns","Eggs","National","Feed cost","Index, 1998–2000=100",2024,9,"September",170.191889834769
+"Estimated returns","Eggs","National","Market price","Index, 1998–2000=100",2024,9,"September",474.234156734099
+"Estimated returns","Eggs","National","Price less cost","Index, 1998–2000=100",2024,9,"September",633.074395104333
+"Estimated returns","High Plains cattle feedlot","National","Break-even price","Dollars per hundredweight",2025,7,"July",220.311284766304
+"Estimated returns","High Plains cattle feedlot","National","Selling price","Dollars per hundredweight",2025,7,"July",229.21
+"Estimated returns","High Plains cattle feedlot","National","Net margin","Dollars per hundredweight",2025,7,"July",8.89871523369553
+"Estimated returns","Broilers","National","Feed cost","Index, 1998–2000=100",2025,7,"July",161.078635671712
+"Estimated returns","Broilers","National","Market price","Index, 1998–2000=100",2025,7,"July",198.244410681938
+"Estimated returns","Broilers","National","Price less cost","Index, 1998–2000=100",2025,7,"July",211.387602178524
+"Estimated returns","Turkeys","National","Feed cost","Index, 1998–2000=100",2025,7,"July",178.901973165408
+"Estimated returns","Turkeys","National","Market price","Index, 1998–2000=100",2025,7,"July",229.690249402808
+"Estimated returns","Turkeys","National","Price less cost","Index, 1998–2000=100",2025,7,"July",272.104911538424
+"Estimated returns","Eggs","National","Feed cost","Index, 1998–2000=100",2025,7,"July",177.428251089984
+"Estimated returns","Eggs","National","Market price","Index, 1998–2000=100",2025,7,"July",465.479653855164
+"Estimated returns","Eggs","National","Price less cost","Index, 1998–2000=100",2025,7,"July",615.965814692961
+"Estimated returns","High Plains cattle feedlot","National","Break-even price","Dollars per hundredweight",2025,8,"August",229.022143356938
+"Estimated returns","High Plains cattle feedlot","National","Selling price","Dollars per hundredweight",2025,8,"August",239.19
+"Estimated returns","High Plains cattle feedlot","National","Net margin","Dollars per hundredweight",2025,8,"August",10.1678566430622
+"Estimated returns","Broilers","National","Feed cost","Index, 1998–2000=100",2025,8,"August",158.925894502675
+"Estimated returns","Broilers","National","Market price","Index, 1998–2000=100",2025,8,"August",195.784175772804
+"Estimated returns","Broilers","National","Price less cost","Index, 1998–2000=100",2025,8,"August",208.81862611953
+"Estimated returns","Turkeys","National","Feed cost","Index, 1998–2000=100",2025,8,"August",174.623427124881
+"Estimated returns","Turkeys","National","Market price","Index, 1998–2000=100",2025,8,"August",241.007353571656
+"Estimated returns","Turkeys","National","Price less cost","Index, 1998–2000=100",2025,8,"August",291.927770261977
+"Estimated returns","Eggs","National","Feed cost","Index, 1998–2000=100",2025,8,"August",168.677250220487
+"Estimated returns","Eggs","National","Market price","Index, 1998–2000=100",2025,8,"August",364.460897978694
+"Estimated returns","Eggs","National","Price less cost","Index, 1998–2000=100",2025,8,"August",466.743786460131
+"Estimated returns","High Plains cattle feedlot","National","Break-even price","Dollars per hundredweight",2025,9,"September",228.988844872904
+"Estimated returns","High Plains cattle feedlot","National","Selling price","Dollars per hundredweight",2025,9,"September",239.5
+"Estimated returns","High Plains cattle feedlot","National","Net margin","Dollars per hundredweight",2025,9,"September",10.5111551270959
+"Estimated returns","Broilers","National","Feed cost","Index, 1998–2000=100",2025,9,"September",151.678906999041
+"Estimated returns","Broilers","National","Market price","Index, 1998–2000=100",2025,9,"September",167.866725565592
+"Estimated returns","Broilers","National","Price less cost","Index, 1998–2000=100",2025,9,"September",173.590467773508
+"Estimated returns","Turkeys","National","Feed cost","Index, 1998–2000=100",2025,9,"September",171.872985714286
+"Estimated returns","Turkeys","National","Market price","Index, 1998–2000=100",2025,9,"September",239.781851234661
+"Estimated returns","Turkeys","National","Price less cost","Index, 1998–2000=100",2025,9,"September",270.697152667548
+"Estimated returns","Eggs","National","Feed cost","Index, 1998–2000=100",2025,9,"September",165.289612096453
+"Estimated returns","Eggs","National","Market price","Index, 1998–2000=100",2025,9,"September",344.713445493093
+"Estimated returns","Eggs","National","Price less cost","Index, 1998–2000=100",2025,9,"September",438.460717044981
+"Production indicators","Cattle","National","On feed","1,000 head",2024,8,"August",11095
+"Production indicators","Cattle","National","Net placements","1,000 head",2024,8,"August",1922
+"Production indicators","Cattle","National","Marketings","1,000 head",2024,8,"August",1819
+"Production indicators","Broilers","National","Eggs in incubators","1,000 birds",2024,8,"August",747663
+"Production indicators","Broilers","National","Chicks hatched","1,000 birds",2024,8,"August",874850
+"Production indicators","Broilers","National","Hatching egg layers","1,000 birds",2024,8,"August",61589
+"Production indicators","Broilers","National","Pullets placed","1,000 birds",2024,8,"August",8701
+"Production indicators","Broilers","National","Heavy-type hen slaughter","1,000 birds",2024,8,"August",7445
+"Production indicators","Turkeys","National","Eggs in incubators","Eggs",2024,8,"August",24932
+"Production indicators","Turkeys","National","Poults placed","Birds",2024,8,"August",20693
+"Production indicators","Eggs","National","Table egg production","Million dozen",2024,8,"August",646.15
+"Production indicators","Eggs","National","Table egg layers","1,000 birds",2024,8,"August",301861
+"Production indicators","Eggs","National","Table eggs per 100 layers","Eggs",2024,8,"August",82
+"Production indicators","Eggs","National","Chicks hatched","1,000 birds",2024,8,"August",54571
+"Production indicators","Eggs","National","Light-type hen slaughter","1,000 birds",2024,8,"August",1948
+"Production indicators","Cattle","National","On feed","1,000 head",2025,6,"June",11443
+"Production indicators","Cattle","National","Net placements","1,000 head",2025,6,"June",1388
+"Production indicators","Cattle","National","Marketings","1,000 head",2025,6,"June",1707
+"Production indicators","Broilers","National","Eggs in incubators","1,000 birds",2025,6,"June",756917
+"Production indicators","Broilers","National","Chicks hatched","1,000 birds",2025,6,"June",856689
+"Production indicators","Broilers","National","Hatching egg layers","1,000 birds",2025,6,"June",60370
+"Production indicators","Broilers","National","Pullets placed","1,000 birds",2025,6,"June",9379
+"Production indicators","Broilers","National","Heavy-type hen slaughter","1,000 birds",2025,6,"June",5398
+"Production indicators","Turkeys","National","Eggs in incubators","Eggs",2025,6,"June",24230
+"Production indicators","Turkeys","National","Poults placed","Birds",2025,6,"June",19818
+"Production indicators","Eggs","National","Table egg production","Million dozen",2025,6,"June",592.8
+"Production indicators","Eggs","National","Table egg layers","1,000 birds",2025,6,"June",286757
+"Production indicators","Eggs","National","Table eggs per 100 layers","Eggs",2025,6,"June",82
+"Production indicators","Eggs","National","Chicks hatched","1,000 birds",2025,6,"June",59587
+"Production indicators","Eggs","National","Light-type hen slaughter","1,000 birds",2025,6,"June",2747
+"Production indicators","Cattle","National","On feed","1,000 head",2025,7,"July",11124
+"Production indicators","Cattle","National","Net placements","1,000 head",2025,7,"July",1547
+"Production indicators","Cattle","National","Marketings","1,000 head",2025,7,"July",1749
+"Production indicators","Broilers","National","Eggs in incubators","1,000 birds",2025,7,"July",752197
+"Production indicators","Broilers","National","Chicks hatched","1,000 birds",2025,7,"July",880557
+"Production indicators","Broilers","National","Hatching egg layers","1,000 birds",2025,7,"July",60591
+"Production indicators","Broilers","National","Pullets placed","1,000 birds",2025,7,"July",8300
+"Production indicators","Broilers","National","Heavy-type hen slaughter","1,000 birds",2025,7,"July",6444
+"Production indicators","Turkeys","National","Eggs in incubators","Eggs",2025,7,"July",23865
+"Production indicators","Turkeys","National","Poults placed","Birds",2025,7,"July",19946
+"Production indicators","Eggs","National","Table egg production","Million dozen",2025,7,"July",623.641666666667
+"Production indicators","Eggs","National","Table egg layers","1,000 birds",2025,7,"July",290542
+"Production indicators","Eggs","National","Table eggs per 100 layers","Eggs",2025,7,"July",82.3
+"Production indicators","Eggs","National","Chicks hatched","1,000 birds",2025,7,"July",58236
+"Production indicators","Eggs","National","Light-type hen slaughter","1,000 birds",2025,7,"July",2766
+"Production indicators","Cattle","National","On feed","1,000 head",2025,8,"August",10922
+"Production indicators","Cattle","National","Net placements","1,000 head",2025,8,"August",1729
+"Production indicators","Cattle","National","Marketings","1,000 head",2025,8,"August",1571
+"Production indicators","Broilers","National","Eggs in incubators","1,000 birds",2025,8,"August",748407
+"Production indicators","Broilers","National","Chicks hatched","1,000 birds",2025,8,"August",878568
+"Production indicators","Broilers","National","Hatching egg layers","1,000 birds",2025,8,"August",60121
+"Production indicators","Broilers","National","Pullets placed","1,000 birds",2025,8,"August",8239
+"Production indicators","Broilers","National","Heavy-type hen slaughter","1,000 birds",2025,8,"August",6537
+"Production indicators","Turkeys","National","Eggs in incubators","Eggs",2025,8,"August",24891
+"Production indicators","Turkeys","National","Poults placed","Birds",2025,8,"August",20540
+"Production indicators","Eggs","National","Table egg production","Million dozen",2025,8,"August",632.191666666667
+"Production indicators","Eggs","National","Table egg layers","1,000 birds",2025,8,"August",296586
+"Production indicators","Eggs","National","Table eggs per 100 layers","Eggs",2025,8,"August",82.1
+"Production indicators","Eggs","National","Chicks hatched","1,000 birds",2025,8,"August",57386
+"Production indicators","Eggs","National","Light-type hen slaughter","1,000 birds",2025,8,"August",2668

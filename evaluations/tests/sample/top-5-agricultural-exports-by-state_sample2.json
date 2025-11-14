@@ -1,0 +1,95 @@
+{
+    "question_id": "RD_AG_002",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\top-5-agricultural-exports-by-state.csv",
+    "ua_pairs": [
+        {
+            "input": "What were U.S. soybean exports to China for each year from 2019 to 2024?",
+            "reasoning_trace": "Load the CSV and restrict to fiscal-year totals to avoid quarter double-counting: filter rows where Trade type='Exports' and Fiscal quarter description='Fiscal year total'. Focus on the target commodity and destination by filtering Commodity name=='Soybeans' and Country=='China'. Because the file is state-level, produce a national total by summing Dollar value across all states for each Fiscal year. Finally, sort by Fiscal year and report the 2019–2024 series (earlier years are not present in this file for this commodity/destination pair).",
+            "output": {
+                "US_Soybeans_to_China_USD_By_Year": {
+                    "2019": 9986332804,
+                    "2020": 14517793250,
+                    "2021": 28126312565,
+                    "2022": 32631112724,
+                    "2023": 38020341897,
+                    "2024": 25706548911
+                },
+                "Notes": "Values are the sum over states of fiscal-year totals for Soybeans with destination China. The series begins in 2019 in this dataset, so 2010–2018 are unavailable here.",
+                "timestamp": "2025-11-09T12:10:00-05:00"
+            }
+        },
+        {
+            "input": "What share of total U.S. soybean exports went to China in each year from 2019 to 2024?",
+            "reasoning_trace": "Using the same fiscal-year-total filter, compute two series: (1) national Soybeans to China (sum over states where Country='China') and (2) national Soybeans to World (sum over states where Country='World'). To estimate China's share, divide the China total by the World total for each year and express as a percentage; handle division-by-zero safely. Because both the numerator and denominator come from the same state-summed construction, this produces a consistent share measure for this dataset even if it is a 'top-5 by state' slice.",
+            "output": {
+                "Share_of_Soybeans_to_China_pct_By_Year": {
+                    "2019": 30.09,
+                    "2020": 41.48,
+                    "2021": 54.81,
+                    "2022": 49.91,
+                    "2023": 59.25,
+                    "2024": 54.50
+                },
+                "Context": "China’s share of the state-summed U.S. soybean exports climbs from roughly 30% in 2019 to a peak near 59% in 2023 before easing in 2024. This indicates a pronounced concentration toward China over 2020–2023, with a step-down in the final year of the series.",
+                "timestamp": "2025-11-09T12:10:01-05:00"
+            }
+        },
+        {
+            "input": "Which states contributed most to China-bound soybean exports in 2019 and in 2024, and how did that composition change?",
+            "reasoning_trace": "Filter to Soybeans, destination China, fiscal-year totals, and then aggregate Dollar value by State for the specific year. In 2019, the top non-'US' entries are reported; the dataset includes an 'US' pseudo-state row that is excluded to keep the ranking to actual states. Repeat for 2024 and list the top five contributors. Interpret shifts with the caveat that USDA state export series can reflect origin-of-movement logistics (e.g., large port states like LA/WA can rank highly due to export flows) rather than pure on-farm production.",
+            "output": {
+                "Top_State_Contributors": {
+                    "2019": [
+                        {"State": "WA", "Value_USD": 2336774146},
+                        {"State": "LA", "Value_USD": 2248049195},
+                        {"State": "OH", "Value_USD": 254924455},
+                        {"State": "VA", "Value_USD": 109430761}
+                    ],
+                    "2024": [
+                        {"State": "LA", "Value_USD": 6219399687},
+                        {"State": "WA", "Value_USD": 4894609662},
+                        {"State": "IL", "Value_USD": 851618450},
+                        {"State": "VA", "Value_USD": 344537289},
+                        {"State": "OH", "Value_USD": 135340888}
+                    ]
+                },
+                "Interpretation": "Port-centric states (Louisiana, Washington) dominate both endpoints, with Louisiana rising to the top by 2024. The composition suggests logistics and export corridors play a major role in the state-level distribution of China-bound soybeans, even as Midwest production states (e.g., Illinois, Ohio) appear among the leaders.",
+                "timestamp": "2025-11-09T12:10:02-05:00"
+            }
+        },
+        {
+            "input": "Did exports to China appear to substitute for rest-of-world soybean shipments between 2019 and 2024?",
+            "reasoning_trace": "Construct a rest-of-world (ROW) proxy as (World − China) using the state-summed totals for each year, then compute year-over-year (YoY) deltas for both China and ROW. Examine whether increases (or decreases) in China align with offsetting moves in ROW. From 2019→2021, China rises sharply (+13.6B in 2021 vs 2020) while ROW also grows (+2.72B), indicating expansion rather than pure substitution; by contrast, 2024 shows a large decline to China (−12.31B) alongside a smaller decline in ROW (−4.69B), suggesting broad softening rather than a shift toward other destinations.",
+            "output": {
+                "ROW_Proxy_USD_By_Year": {
+                    "2019": 23207100747,
+                    "2020": 20480710460,
+                    "2021": 23189292508,
+                    "2022": 32753938387,
+                    "2023": 26152126010,
+                    "2024": 21462657245
+                },
+                "Summary": "Growth in China-bound exports during 2020–2021 coincided with some growth in ROW, implying overall market expansion rather than diversion. The 2024 pullback in China appears only partially offset by ROW, consistent with a broad export downshift rather than substitution toward other destinations.",
+                "timestamp": "2025-11-09T12:10:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Does the data suggest that U.S. soybean exports became increasingly concentrated in China during 2019–2024, and what operational factors might explain the state-level distribution you observe?",
+    "answer": {
+        "reasoning_trace": [
+            "The national series (state-summed) shows soybean exports to China rising from ~$10.0B in 2019 to ~$38.0B in 2023 before easing to ~$25.7B in 2024, indicating a strong multi-year expansion followed by a pullback. When scaled by total soybean exports (World), China’s share climbs from ~30% (2019) to ~59% (2023) and remains above ~54% in 2024, confirming increased concentration in China across most of the window.",
+            "State-level composition in 2019 vs 2024 highlights Louisiana and Washington as persistent leaders, with their roles plausibly tied to export logistics (e.g., Gulf and Pacific port corridors) rather than agricultural production alone; Midwest producers still appear in the top contributors (Illinois, Ohio). This aligns with the known 'origin-of-movement' effect in state export accounting, where shipments are often attributed to the state where commodities enter the export supply chain.",
+            "Finally, analyzing (World−China) indicates that 2020–2021 gains in China did not come at the expense of other destinations (ROW also expanded), while 2024’s declines were broad-based (China and ROW both fell). This pattern supports a narrative of demand cycles and logistics capacity influencing totals more than strict destination substitution within this period."
+        ],
+        "output": {
+            "Conclusion": "Yes — between 2019 and 2023, U.S. soybean exports became markedly more concentrated in China, with a modest retracement in 2024 that still leaves China above half of total state-summed exports. The state-level distribution is best explained by export corridor logistics (Gulf and Pacific ports) combined with Midwest production flows, producing high contributions from port states alongside key producing states.",
+            "Key_Explanatory_Factors": [
+                "Concentration trend evidenced by China’s share rising from ~30% (2019) to ~59% (2023), then moderating in 2024.",
+                "Port-driven 'origin-of-movement' accounting that boosts Louisiana and Washington in state rankings.",
+                "Concurrent movements in China and ROW suggest demand cycles and capacity constraints, not simple one-for-one destination substitution."
+            ],
+            "timestamp": "2025-11-09T12:10:04-05:00"
+        }
+    }
+}

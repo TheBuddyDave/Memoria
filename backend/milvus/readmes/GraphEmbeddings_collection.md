@@ -59,6 +59,20 @@ Configure the Single Analyzer with following jsonLine:
 }
 ```
 
+**Format to configure single-analyzer with stop-word removal:**
+```json
+{
+    "tokenizer": "standard",
+    "filter": [
+        "lowercase",
+        {
+            "type": "stop",
+            "stop_words": ["_english_"]
+        }
+    ]
+}
+```
+
 ---
 
 ### Additional Notes
@@ -66,5 +80,22 @@ Configure the Single Analyzer with following jsonLine:
 * **Embedding Model:** `text-embedding-3-small (1536-dim)` 
 * **Dynamic Fields:** Enabled for future additions.
 * **Shards/Partitions:** Defaults used.
+
+
+**JSON configuration to insert to GraphEmbeddings Collection:**
+```json
+{
+  "collectionName": "GraphEmbeddings",
+  "data": [
+    {
+      "text": "i8ko1g942z",
+      "pointer_to_node": "3vkfdgs9ekq",
+      "dense_vector": [
+        *3072 dim embedding vector*
+      ]
+    }
+  ]
+}
+```
 
 

@@ -1,0 +1,102 @@
+{
+    "question_id": "RD_FS_006",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "For each state, compare 1997→2024 total food sales growth in nominal vs real (1988=100) dollars and rank the wedge (nominal − real).",
+            "reasoning_trace": "Construct a state–year panel of total food sales in nominal and real dollars. For each state with both endpoints available, compute percent growth from 1997 to 2024 in nominal and in real terms; define the wedge as nominal_growth_pct − real_growth_pct. Rank states by wedge to identify where inflation/price effects contribute most to apparent growth.",
+            "output": {
+                "Top10_Wedge_States_1997_to_2024_pctpt": [
+                    {"State": "Nevada", "Nominal_Growth_pct": 406.13, "Real_Growth_pct": 122.85, "Wedge_pctpt": 283.29},
+                    {"State": "Arizona", "Nominal_Growth_pct": 390.20, "Real_Growth_pct": 122.43, "Wedge_pctpt": 267.77},
+                    {"State": "Utah", "Nominal_Growth_pct": 383.90, "Real_Growth_pct": 121.49, "Wedge_pctpt": 262.41},
+                    {"State": "Tennessee", "Nominal_Growth_pct": 389.71, "Real_Growth_pct": 130.01, "Wedge_pctpt": 259.70},
+                    {"State": "Idaho", "Nominal_Growth_pct": 373.31, "Real_Growth_pct": 118.49, "Wedge_pctpt": 254.82},
+                    {"State": "California", "Nominal_Growth_pct": 330.40, "Real_Growth_pct": 92.34, "Wedge_pctpt": 238.06},
+                    {"State": "Colorado", "Nominal_Growth_pct": 332.67, "Real_Growth_pct": 94.89, "Wedge_pctpt": 237.79},
+                    {"State": "Texas", "Nominal_Growth_pct": 346.25, "Real_Growth_pct": 109.88, "Wedge_pctpt": 236.37},
+                    {"State": "Florida", "Nominal_Growth_pct": 339.99, "Real_Growth_pct": 106.69, "Wedge_pctpt": 233.29},
+                    {"State": "District of Columbia", "Nominal_Growth_pct": 323.57, "Real_Growth_pct": 92.16, "Wedge_pctpt": 231.41}
+                ],
+                "Summary": "Across all states, nominal gains substantially exceed real gains over 1997–2024, with fast-growing Sun Belt states showing especially large wedges. This confirms that long-run nominal trends can dramatically overstate volume-adjusted expansion.",
+                "timestamp": "2025-11-09T12:32:00-05:00"
+            }
+        },
+        {
+            "input": "Estimate an implied deflator index path by state (Nominal/Real), normalized to 1997=100. What are 2024 index levels for the top-wedge states?",
+            "reasoning_trace": "For each state–year, compute deflator_raw = Nominal/Real. Normalize by each state’s 1997 value to create a deflator index (1997=100). Extract 2024 index values for the top-wedge states to summarize cumulative price effects embedded in nominal series.",
+            "output": {
+                "Implied_Deflator_Index_1997eq100_Year2024": [
+                    {"State": "Nevada", "Index_2024": 227.12},
+                    {"State": "California", "Index_2024": 223.77},
+                    {"State": "Colorado", "Index_2024": 222.01},
+                    {"State": "District of Columbia", "Index_2024": 220.43},
+                    {"State": "Arizona", "Index_2024": 220.38},
+                    {"State": "Utah", "Index_2024": 218.48},
+                    {"State": "Idaho", "Index_2024": 216.63},
+                    {"State": "Tennessee", "Index_2024": 212.91},
+                    {"State": "Florida", "Index_2024": 212.87},
+                    {"State": "Texas", "Index_2024": 212.62}
+                ],
+                "Summary": "Implied deflators roughly double since 1997 in many top-wedge states, with several exceeding 220 by 2024. These indices encapsulate multi-decade price and composition shifts that inflate nominal totals relative to real.",
+                "timestamp": "2025-11-09T12:32:01-05:00"
+            }
+        },
+        {
+            "input": "Which states show the largest nominal–real wedge by subperiod (1997–2007, 2008–2019, 2020–2024)?",
+            "reasoning_trace": "Within each subperiod, compute state-level nominal and real growth, then the wedge (nominal − real). Rank the top wedge states for each subwindow to see whether the pattern is persistent or varies across cycles. Report the leading states per subperiod with wedge values.",
+            "output": {
+                "Top_Wedge_States_by_Subperiod_pctpt": {
+                    "1997_2007": [
+                        {"State": "Nevada", "Wedge_pctpt": 77.08},
+                        {"State": "Arizona", "Wedge_pctpt": 69.93},
+                        {"State": "Tennessee", "Wedge_pctpt": 46.47},
+                        {"State": "Utah", "Wedge_pctpt": 43.34},
+                        {"State": "Colorado", "Wedge_pctpt": 43.23}
+                    ],
+                    "2008_2019": [
+                        {"State": "Washington", "Wedge_pctpt": 37.81},
+                        {"State": "District of Columbia", "Wedge_pctpt": 36.89},
+                        {"State": "Hawaii", "Wedge_pctpt": 33.97},
+                        {"State": "Nevada", "Wedge_pctpt": 32.08},
+                        {"State": "California", "Wedge_pctpt": 31.95}
+                    ],
+                    "2020_2024": [
+                        {"State": "District of Columbia", "Wedge_pctpt": 43.54},
+                        {"State": "Nevada", "Wedge_pctpt": 35.15},
+                        {"State": "Hawaii", "Wedge_pctpt": 34.26},
+                        {"State": "California", "Wedge_pctpt": 32.78},
+                        {"State": "New York", "Wedge_pctpt": 30.96}
+                    ]
+                },
+                "Summary": "Large wedges appear in different states across subperiods—Sun Belt in the early window, coastal/service hubs later, and DC/NV/HI leading post-2020. This suggests varying local price and composition dynamics across cycles.",
+                "timestamp": "2025-11-09T12:32:02-05:00"
+            }
+        },
+        {
+            "input": "Did the nominal–real wedge accelerate after 2020 at the national level?",
+            "reasoning_trace": "Using national totals (sum across states), compute YoY nominal and real growth rates, then the annual wedge (nominal minus real). Compare the average wedge for 1998–2019 (pre-pandemic period) with the average wedge for 2021–2024 (post-pandemic recovery) to detect acceleration.",
+            "output": {
+                "Average_Annual_Wedge_pctpt": {
+                    "Pre_2020_avg_1998_2019": 2.41,
+                    "Post_2020_avg_2021_2024": 6.0
+                },
+                "Interpretation": "The national wedge more than doubled after 2020, indicating nominal growth increasingly outpaced real growth. This strengthens the case for using constant-dollar series in post-2020 comparisons.",
+                "timestamp": "2025-11-09T12:32:03-05:00"
+            }
+        }
+    ],
+    "prompt": "How much do nominal figures overstate real growth across states since 1997, and how has the implied price/deflator component evolved—especially after 2020?",
+    "answer": {
+        "reasoning_trace": [
+            "Wedges are large across states over 1997–2024, with Sun Belt and service-heavy states often leading; implied deflators confirm sizeable cumulative price effects. Subperiod analysis reveals shifting leaders and an especially strong wedge in the post-2020 years.",
+            "Nationally, average annual wedges accelerated after 2020, highlighting the importance of real-dollar adjustments in recent trend assessments."
+        ],
+        "output": {
+            "Conclusion": "Nominal totals substantially overstate real growth across most states, and post-2020 acceleration in the wedge is clear at the national level. Analysts should default to real series or deflator-normalized comparisons to avoid misinterpretation.",
+            "Analyst_Note": "Use state-level deflator indices for robustness checks when comparing long-run performance across regions.",
+            "timestamp": "2025-11-09T12:32:04-05:00"
+        }
+    }
+}

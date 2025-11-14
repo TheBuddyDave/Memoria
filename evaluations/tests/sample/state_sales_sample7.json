@@ -1,0 +1,69 @@
+{
+    "question_id": "RD_FS_007",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "Decompose the change in each state’s FAFH nominal dollars from 2015 to 2024 into a mix effect (Δshare × T̄) and a scale effect (Δtotal × s̄). Which states are most mix-driven?",
+            "reasoning_trace": "For each state, let F be FAFH_nominal and T be total nominal sales; s = F/T is the FAFH share. Using a midpoint (Shapley) decomposition, compute ΔF = (s2 − s1)×(T1+T2)/2 + (T2 − T1)×(s1+s2)/2. The first term is the mix effect, the second the scale effect. Rank states by the Mix_Share_of_ΔF = Mix/ΔF for states with ΔF>0, and list the top 10 with before/after shares to give context.",
+            "output": {
+                "Top10_States_by_Mix_Share_of_Delta_FAFH": [
+                    {"State": "Washington", "Delta_FAFH_milUSD": 16406.85, "Mix_Effect": 8595.19, "Scale_Effect": 7811.66, "Mix_Share_pct": 52.39, "Share2015_pct": 39.84, "Share2024_pct": 55.57},
+                    {"State": "New Hampshire", "Delta_FAFH_milUSD": 2475.36, "Mix_Effect": 1036.99, "Scale_Effect": 1438.37, "Mix_Share_pct": 41.89, "Share2015_pct": 45.25, "Share2024_pct": 56.01},
+                    {"State": "North Dakota", "Delta_FAFH_milUSD": 880.68, "Mix_Effect": 356.36, "Scale_Effect": 524.32, "Mix_Share_pct": 40.45, "Share2015_pct": 42.90, "Share2024_pct": 51.58},
+                    {"State": "Connecticut", "Delta_FAFH_milUSD": 6484.66, "Mix_Effect": 2545.63, "Scale_Effect": 3939.03, "Mix_Share_pct": 39.25, "Share2015_pct": 52.70, "Share2024_pct": 60.42},
+                    {"State": "Maine", "Delta_FAFH_milUSD": 2224.64, "Mix_Effect": 865.08, "Scale_Effect": 1359.56, "Mix_Share_pct": 38.86, "Share2015_pct": 47.31, "Share2024_pct": 56.81},
+                    {"State": "Rhode Island", "Delta_FAFH_milUSD": 2148.49, "Mix_Effect": 813.90, "Scale_Effect": 1334.59, "Mix_Share_pct": 37.88, "Share2015_pct": 51.03, "Share2024_pct": 62.68},
+                    {"State": "Vermont", "Delta_FAFH_milUSD": 743.22, "Mix_Effect": 281.56, "Scale_Effect": 461.66, "Mix_Share_pct": 37.87, "Share2015_pct": 48.70, "Share2024_pct": 56.87},
+                    {"State": "Oregon", "Delta_FAFH_milUSD": 6216.43, "Mix_Effect": 2261.71, "Scale_Effect": 3954.72, "Mix_Share_pct": 36.40, "Share2015_pct": 51.40, "Share2024_pct": 61.61},
+                    {"State": "New Mexico", "Delta_FAFH_milUSD": 1925.67, "Mix_Effect": 692.14, "Scale_Effect": 1233.53, "Mix_Share_pct": 35.95, "Share2015_pct": 48.54, "Share2024_pct": 57.86},
+                    {"State": "Wisconsin", "Delta_FAFH_milUSD": 5418.55, "Mix_Effect": 1937.36, "Scale_Effect": 3481.19, "Mix_Share_pct": 35.75, "Share2015_pct": 49.69, "Share2024_pct": 58.51}
+                ],
+                "Summary": "States like Washington and several in New England show large portions of FAFH growth coming from share (mix) gains, not just overall spending scale. Their FAFH shares step up materially between 2015 and 2024.",
+                "timestamp": "2025-11-09T12:33:00-05:00"
+            }
+        },
+        {
+            "input": "Are the most mix-driven states also the highest FAFH-share states in 2024?",
+            "reasoning_trace": "Compute each state’s FAFH share in 2024 and rank. Compare the Top-Mix list to the 2024 share leaderboard. Identify overlap and discuss whether high mix-driven growth coincides with a high end-state share.",
+            "output": {
+                "FAFH_Share_Leaderboard_2024_pct": [
+                    {"State": "District of Columbia", "FAFH_share_pct": 79.84},
+                    {"State": "Hawaii", "FAFH_share_pct": 68.22},
+                    {"State": "Nevada", "FAFH_share_pct": 66.26},
+                    {"State": "New York", "FAFH_share_pct": 64.36},
+                    {"State": "Massachusetts", "FAFH_share_pct": 63.46}
+                ],
+                "Overlap_Observation": "Washington (a top mix-driven state) also posts a very high 2024 share (55.6%), though it is just outside the national Top-5 by share. Several New England states in the mix-driven list have elevated 2024 shares as well, suggesting mix gains often push states toward the upper tier.",
+                "timestamp": "2025-11-09T12:33:01-05:00"
+            }
+        },
+        {
+            "input": "Show the before/after FAFH shares for the top five mix-driven states to quantify the shift.",
+            "reasoning_trace": "For the top five states by Mix_Share_of_ΔF, report their FAFH shares (FAFH/T) in 2015 and 2024. This directly illustrates the magnitude of the channel mix shift that the decomposition is attributing to mix effects.",
+            "output": {
+                "BeforeAfter_Share_pct_for_Top5_MixDriven": [
+                    {"State": "Washington", "Share2015_pct": 39.84, "Share2024_pct": 55.57},
+                    {"State": "New Hampshire", "Share2015_pct": 45.25, "Share2024_pct": 56.01},
+                    {"State": "North Dakota", "Share2015_pct": 42.90, "Share2024_pct": 51.58},
+                    {"State": "Connecticut", "Share2015_pct": 52.70, "Share2024_pct": 60.42},
+                    {"State": "Maine", "Share2015_pct": 47.31, "Share2024_pct": 56.81}
+                ],
+                "Summary": "Each of these states saw 7–16 percentage-point gains in FAFH share over 2015–2024, aligning with their high mix contributions. Such shifts can reconfigure local food ecosystems, favoring restaurant and foodservice channels.",
+                "timestamp": "2025-11-09T12:33:02-05:00"
+            }
+        }
+    ],
+    "prompt": "Was the growth in dining-out dollars within states driven more by channel mix shifts or by overall scale increases from 2015 to 2024?",
+    "answer": {
+        "reasoning_trace": [
+            "Midpoint decomposition shows that, while scale effects dominate in many large states, a notable cohort (e.g., Washington, several New England states) saw 35–52% of their FAFH growth attributable to share (mix) gains. These states moved decisively toward dining out.",
+            "High mix-driven growth often coexists with elevated end-state FAFH shares, indicating lasting changes in consumer behavior and operator capacity rather than transient blips."
+        ],
+        "output": {
+            "Conclusion": "Many states expanded FAFH primarily via scale, but a meaningful set exhibited mix-led growth, with double-digit point share gains. These mix-driven shifts likely reflect durable demand for dining-out formats.",
+            "Analyst_Note": "Pair this with operator capacity data for site selection and labor planning, as mix gains can stress local restaurant ecosystems.",
+            "timestamp": "2025-11-09T12:33:03-05:00"
+        }
+    }
+}

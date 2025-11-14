@@ -1,0 +1,78 @@
+{
+    "question_id": "RD_FS_005",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "Compute national concentration of FAFH nominal dollars by state for each year using Top-5 share and HHI. How do 1997 and 2024 compare?",
+            "reasoning_trace": "For each year, sum FAFH_nominal by state and compute state shares. The Top-5 share is the sum of the five largest state shares; HHI is Σ(share²)×10,000 over all states. Extract values for 1997 and 2024 to anchor endpoints and comment on changes in both metrics.",
+            "output": {
+                "Top5_Share_pct": {
+                    "1997": 37.15,
+                    "2024": 42.24
+                },
+                "HHI_index_0to10k": {
+                    "1997": 444.91,
+                    "2024": 537.18
+                },
+                "Summary": "Both Top-5 share and HHI increased from 1997 to 2024, indicating a gradual rise in concentration. The overall levels remain low by HHI standards, suggesting the U.S. dining-out market is still broadly distributed across states.",
+                "timestamp": "2025-11-09T12:31:00-05:00"
+            }
+        },
+        {
+            "input": "Which states are most frequently in the Top-5 by FAFH nominal dollars across 1997–2024?",
+            "reasoning_trace": "For each year, rank states by FAFH_nominal and record the Top-5. Count appearances per state across all years (1997–2024 inclusive) and sort to find the most persistent Top-5 members. Report the highest-frequency states and check whether the 2024 Top-5 matches the long-run leaders.",
+            "output": {
+                "Most_Frequent_Top5_States": [
+                    {"State": "California", "Appearances": 28},
+                    {"State": "Texas", "Appearances": 28},
+                    {"State": "New York", "Appearances": 28},
+                    {"State": "Florida", "Appearances": 28},
+                    {"State": "Illinois", "Appearances": 28}
+                ],
+                "Top5_in_2024": ["California", "Texas", "Florida", "New York", "Illinois"],
+                "Summary": "California, Texas, New York, Florida, and Illinois are perennial leaders and also comprise the 2024 Top-5. This stability suggests enduring structural drivers such as population scale, income, and service-industry depth.",
+                "timestamp": "2025-11-09T12:31:01-05:00"
+            }
+        },
+        {
+            "input": "Did concentration trend change materially after 2010?",
+            "reasoning_trace": "Compute Top-5 share annually and compare average Top-5 share for a pre-2010 window (1997–2009) to a post-2010 window (2010–2024). The difference in averages provides a simple breakpoint view; a positive gap indicates concentration increased in the later period.",
+            "output": {
+                "Average_Top5_Share_pct": {
+                    "1997_2009_mean": 37.74,
+                    "2010_2024_mean": 40.27,
+                    "Difference_post_minus_pre": 2.54
+                },
+                "Interpretation": "Average Top-5 share is ~2.5 ppts higher in 2010–2024 than in 1997–2009, indicating a modest upward drift in concentration over the more recent era. The shift is gradual rather than abrupt.",
+                "timestamp": "2025-11-09T12:31:02-05:00"
+            }
+        },
+        {
+            "input": "How sensitive are 2024 concentration metrics to excluding the District of Columbia?",
+            "reasoning_trace": "Recompute 2024 concentration after dropping DC from the state list. Compare Top-5 share and HHI with and without DC to check whether this small but high-share entity meaningfully affects national concentration.",
+            "output": {
+                "2024_Concentration": {
+                    "Top5_Share_including_DC_pct": 42.24,
+                    "Top5_Share_excluding_DC_pct": 42.47,
+                    "HHI_including_DC": 537.18,
+                    "HHI_excluding_DC": 542.84
+                },
+                "Summary": "Results barely move when DC is excluded, indicating concentration metrics are not driven by DC outlier effects. The national picture remains robust to this sensitivity test.",
+                "timestamp": "2025-11-09T12:31:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Have FAFH dollars become more geographically concentrated over time, and which states anchor that concentration?",
+    "answer": {
+        "reasoning_trace": [
+            "Both Top-5 share and HHI rose from the late 1990s to 2024, with a higher post-2010 average, signaling gradual concentration gains. The shift is noticeable but not large enough to suggest oligopoly-like national dominance.",
+            "California, Texas, New York, Florida, and Illinois consistently anchor the Top-5, reflecting durable structural advantages. Sensitivity analyses excluding DC show the trend is not dependent on small outliers."
+        ],
+        "output": {
+            "Conclusion": "FAFH has become modestly more geographically concentrated since the late 1990s, led by the largest population and service-sector states. The trend is steady rather than abrupt and remains broad-based overall.",
+            "Analyst_Note": "Operator strategy can focus on these anchor states without neglecting the broad tail where growth also accumulates.",
+            "timestamp": "2025-11-09T12:31:04-05:00"
+        }
+    }
+}

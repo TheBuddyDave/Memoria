@@ -1,0 +1,87 @@
+{
+    "question_id": "RD_FS_003",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "How large was the 2020 decline in U.S. food-away-from-home (FAFH) sales in real (1988=100) dollars, and did food-at-home (FAH) rise at the same time?",
+            "reasoning_trace": "Sum real (1988=100) FAFH and FAH across all states for 2019 and 2020. Compute 2020 minus 2019 to quantify the shock. Report both the FAFH decline and any FAH increase to reveal substitution from dining out to at-home food spending during the first pandemic year.",
+            "output": {
+                "National_Real_Change_mil_1988USD": {
+                    "FAFH_2019": 430554.15,
+                    "FAFH_2020": 362860.74,
+                    "Delta_FAFH_2020_vs_2019": -67693.41,
+                    "FAH_2019": 396235.25,
+                    "FAH_2020": 410288.29,
+                    "Delta_FAH_2020_vs_2019": 14053.04
+                },
+                "Summary": "In real terms, FAFH fell by about $67.7B (1988 dollars) from 2019 to 2020, while FAH rose by roughly $14.1B. The pattern is consistent with a sharp pullback in dining out offset by increased at-home consumption.",
+                "timestamp": "2025-11-09T12:22:00-05:00"
+            }
+        },
+        {
+            "input": "Which states saw the largest real declines in FAFH in 2020, and which saw the biggest real increases in FAH?",
+            "reasoning_trace": "Pivot to State×Year real series and compute 2020 − 2019 deltas for FAFH and for FAH separately. Rank states by the most negative FAFH deltas (largest drops) and by the most positive FAH deltas (largest increases). Report top five in each list to illustrate the geographic footprint of the shock and the substitution to at-home food.",
+            "output": {
+                "Top5_FAFH_Declines_2020_vs_2019_mil_1988USD": [
+                    {"State": "California", "Delta": -11929.12},
+                    {"State": "New York", "Delta": -8022.75},
+                    {"State": "Florida", "Delta": -4291.64},
+                    {"State": "Texas", "Delta": -3980.02},
+                    {"State": "Pennsylvania", "Delta": -2755.14}
+                ],
+                "Top5_FAH_Increases_2020_vs_2019_mil_1988USD": [
+                    {"State": "California", "Delta": 2101.65},
+                    {"State": "Texas", "Delta": 1914.7},
+                    {"State": "Washington", "Delta": 1253.49},
+                    {"State": "Tennessee", "Delta": 1189.91},
+                    {"State": "Florida", "Delta": 1080.78}
+                ],
+                "Interpretation": "Large, service-oriented states experienced the sharpest dining-out contractions, while FAH increases were broad-based and sizeable in populous states. This supports a clear substitution from restaurants to grocery channels in 2020.",
+                "timestamp": "2025-11-09T12:22:01-05:00"
+            }
+        },
+        {
+            "input": "When did FAFH recover to or exceed 2019 real levels nationally, and how many states had recovered by 2021, 2022, and 2024?",
+            "reasoning_trace": "Sum national real FAFH by year and compare 2021–2024 levels to 2019 to identify the first recovery year. At the state level, count how many states satisfy FAFH_real(year) ≥ FAFH_real(2019) for each target year. This provides both a national timeline and a cross-state breadth of the recovery.",
+            "output": {
+                "National_Recovery_Timeline": {
+                    "FAFH_2019_mil_1988USD": 430554.15,
+                    "FAFH_2021_mil_1988USD": 430619.77,
+                    "FAFH_2022_mil_1988USD": 461865.65,
+                    "FAFH_2023_mil_1988USD": 472381.78,
+                    "FAFH_2024_mil_1988USD": 477588.76,
+                    "First_Year_AtOrAbove_2019": 2021
+                },
+                "States_Recovered_Count": {
+                    "Recovered_by_2021": 32,
+                    "Recovered_by_2022": 48,
+                    "Recovered_by_2024": 49
+                },
+                "Summary": "Nationally, real FAFH surpassed 2019 by 2021 and continued to expand through 2024. By 2022, the vast majority of states had recovered, and by 2024, essentially all but a few had exceeded their 2019 levels.",
+                "timestamp": "2025-11-09T12:22:02-05:00"
+            }
+        },
+        {
+            "input": "Does the pattern indicate substitution from FAFH to FAH in 2020 and a broad rebound thereafter?",
+            "reasoning_trace": "Synthesize the national deltas (FAFH down, FAH up in 2020), the state-level extreme movements, and the recovery counts by year. Confirm that the rebound is not just nominal by using constant-dollar series and noting the recovery by 2021–2022. Frame the conclusion as a substitution during the shock, followed by a general reversion to dining out.",
+            "output": {
+                "Conclusion": "Yes — 2020 shows a clear substitution from dining out to at-home food, followed by a broad, real-dollar rebound in FAFH that exceeds 2019 levels by 2021 nationally.",
+                "Context": "The magnitude and speed of the recovery imply normalization rather than a permanent shift toward at-home consumption. By 2022–2024, most states are above 2019 in real FAFH, signaling durable demand for food-away-from-home services.",
+                "timestamp": "2025-11-09T12:22:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Did 2020 trigger a substitution from restaurants to grocery channels and, if so, how quickly did food-away-from-home demand recover across states?",
+    "answer": {
+        "reasoning_trace": [
+            "Real-dollar aggregates confirm a large decline in FAFH and a simultaneous increase in FAH in 2020, consistent with substitution. The national FAFH series surpasses 2019 by 2021 and continues higher through 2024, while state counts show a majority recovered by 2022 and nearly all by 2024.",
+            "Therefore, the shock appears temporary with a strong, broad-based reversion to dining out, rather than a lasting pivot to at-home consumption."
+        ],
+        "output": {
+            "Conclusion": "Yes — 2020 produced a pronounced substitution to at-home food that unwound rapidly; national real FAFH exceeded 2019 by 2021, and most states recovered by 2022.",
+            "Analytic_Note": "Using constant-dollar series avoids attributing recovery to inflation; the rebound is evident in real terms and widespread geographically.",
+            "timestamp": "2025-11-09T12:22:04-05:00"
+        }
+    }
+}

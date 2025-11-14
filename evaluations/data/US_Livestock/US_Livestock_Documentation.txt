@@ -1,0 +1,39 @@
+Livestock and Meat Domestic Machine-Readable Files User Guide
+Refer to the .xlsx files for notes, definitions, and sources of the data.
+
+Column names and definitions
+Column header	Full variable name	Description
+commodity_desc	Commodity description	The primary subject of interest (e.g., cattle, beef, hogs, poultry)
+attribute_desc	Attribute description	Attribute being measured (e.g., cold storage, production, imports)
+table_name	Table name		If the excel file contains multiple tables, this is the name of the table in which the data point appears
+geography_desc	Geography description	Full description for the geographic location of the data
+unit_desc	Unit description	The unit associated with the attribute (e.g., head, pounds, dollars)
+year_id		Year ID			The numeric year of the data
+month_id	Month ID		The numeric month of the data
+month_desc	Month description	Full description for month of the data
+timeperiod_id 	Time-period ID		The numeric value corresponding to the time-period (i.e. month, quarter, annual). See below for full descriptions of the time periods used
+timeperiod_desc	Time-period description	Description of the time-period of the data
+amount		Amount			Published data value
+
+Time-period ID codes and descriptions
+Code	Description
+1	January
+2	February
+3	March
+4	April
+5	May
+6	June
+7	July
+8	August
+9	September
+10	October
+11	November
+12	December
+13	Quarter 1 (January-March)
+14	Quarter 2 (April-June)
+15	Quarter 3 (July-September)
+16	Quarter 4 (November-December)
+17	Annual (January-December)
+101	Year to date (refer to timeperiod_desc for months included)
+
+

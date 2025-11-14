@@ -66,6 +66,21 @@ Documentation: https://docs.zilliz.com/docs/full-text-search
 
 This automatically generates sparse BM25 representations, allowing hybrid search across dense and sparse representations.
 
+**Format to configure single-analyzer with stop-word removal:**
+```json
+{
+    "tokenizer": "standard",
+    "filter": [
+        "lowercase",
+        {
+            "type": "stop",
+            "stop_words": ["_english_"]
+        }
+    ]
+}
+```
+
+
 ---
 
 ### Advanced Settings

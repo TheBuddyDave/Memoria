@@ -1,7 +1,14 @@
-import json
-import subprocess
+import json, subprocess, os
 
-data = json.load(open("./data/one.json"))[0]
+TEST_JSON = "one.json"
+name, _ = os.path.splitext(TEST_JSON)
+OUT_JSONL = f"{name}_out.jsonl"
+
+cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+json_path = os.path.join(cwd, "test_json", TEST_JSON)
+jsonl_path = os.path.join(cwd, "test_json", "jsonl", OUT_JSONL)
+
+data = json.load(open(json_path))[0]
 qid = data["question_id"]
 
 prompt = (
@@ -26,7 +33,7 @@ result = subprocess.run(
 answer = result.stdout.decode().strip()
 
 out = {"question_id": qid, "hypothesis": answer}
-with open("one_out.jsonl", "w") as f:
+with open(jsonl_path, "w") as f:
     f.write(json.dumps(out) + "\n")
 
 print(f"done {out}")

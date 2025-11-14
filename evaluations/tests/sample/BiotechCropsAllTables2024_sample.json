@@ -1,0 +1,139 @@
+{
+    "question_id": "RD_015",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\BiotechCropsAllTables2024.csv",
+    "ua_pairs": [
+        {"input": "What percentage of insect-resistant (Bt) corn was planted in Iowa each year from 2000 to 2024?",
+            "reasoning_trace": "We began by loading the USDA dataset 'BiotechCropsAllTables2024.csv' and inspected its structure. The dataset contained columns: Attribute, State, Year, Value, and Table. We filtered rows where State='Iowa' and Attribute included 'Insect-resistant (Bt)'. Since parentheses in the search string could be misinterpreted as regex groups, we escaped them explicitly. After cleaning, sorting, and converting Value to float, we obtained year-by-year data representing the percent of Bt corn planted in Iowa from 2000 to 2024.",
+            "output": {
+                "Iowa_Insect_Resistant_Bt_Corn_Percentages": {
+                "2000": 23.0,
+                "2001": 25.0,
+                "2002": 31.0,
+                "2003": 33.0,
+                "2004": 36.0,
+                "2005": 35.0,
+                "2006": 32.0,
+                "2007": 22.0,
+                "2008": 16.0,
+                "2009": 14.0,
+                "2010": 15.0,
+                "2011": 13.0,
+                "2012": 12.0,
+                "2013": 5.0,
+                "2014": 4.0,
+                "2015": 5.0,
+                "2016": 3.0,
+                "2017": 5.0,
+                "2018": 3.0,
+                "2019": 4.0,
+                "2020": 3.0,
+                "2021": 4.0,
+                "2022": 3.0,
+                "2023": 3.0,
+                "2024": 4.0
+                },
+                "timestamp": "2025-11-09T12:00:00-05:00"
+            }
+        },
+        {"input": "How does the trend of insect-resistant corn adoption in Iowa compare with that in Illinois over the same period (2000–2024)?",
+            "reasoning_trace": "Using the previously extracted Iowa Bt-corn data and filtering the same dataset for Illinois, we compared both states from 2000 to 2024. Iowa consistently exhibited higher percentages of insect-resistant (Bt) corn adoption than Illinois during the early 2000s, peaking in 2004 at 36% compared to Illinois' 26%. Both states saw declines after 2006 as stacked (multi-trait) varieties gained dominance, displacing single-trait Bt-only corn. From 2013 onward, both states remained in the low single digits, with Iowa slightly ahead in most years but following a parallel downward trend. This suggests both states transitioned away from Bt-only corn at roughly the same pace, reflecting a shift toward multi-trait hybrids that combine insect resistance with herbicide tolerance.",
+            "output": {
+                "Comparison_Table": [
+                {"Year": 2000, "Illinois": 13.0, "Iowa": 23.0},
+                {"Year": 2001, "Illinois": 12.0, "Iowa": 25.0},
+                {"Year": 2002, "Illinois": 18.0, "Iowa": 31.0},
+                {"Year": 2003, "Illinois": 23.0, "Iowa": 33.0},
+                {"Year": 2004, "Illinois": 26.0, "Iowa": 36.0},
+                {"Year": 2005, "Illinois": 25.0, "Iowa": 35.0},
+                {"Year": 2006, "Illinois": 24.0, "Iowa": 32.0},
+                {"Year": 2007, "Illinois": 19.0, "Iowa": 22.0},
+                {"Year": 2008, "Illinois": 13.0, "Iowa": 16.0},
+                {"Year": 2009, "Illinois": 10.0, "Iowa": 14.0},
+                {"Year": 2010, "Illinois": 15.0, "Iowa": 15.0},
+                {"Year": 2011, "Illinois": 14.0, "Iowa": 13.0},
+                {"Year": 2012, "Illinois": 14.0, "Iowa": 12.0},
+                {"Year": 2013, "Illinois": 4.0, "Iowa": 5.0},
+                {"Year": 2014, "Illinois": 3.0, "Iowa": 4.0},
+                {"Year": 2015, "Illinois": 1.0, "Iowa": 5.0},
+                {"Year": 2016, "Illinois": 2.0, "Iowa": 3.0},
+                {"Year": 2017, "Illinois": 3.0, "Iowa": 5.0},
+                {"Year": 2018, "Illinois": 1.0, "Iowa": 3.0},
+                {"Year": 2019, "Illinois": 1.0, "Iowa": 4.0},
+                {"Year": 2020, "Illinois": 2.0, "Iowa": 3.0},
+                {"Year": 2021, "Illinois": 2.0, "Iowa": 4.0},
+                {"Year": 2022, "Illinois": 2.0, "Iowa": 3.0},
+                {"Year": 2023, "Illinois": 3.0, "Iowa": 3.0},
+                {"Year": 2024, "Illinois": 3.0, "Iowa": 4.0}
+                ],
+                "Trend_Comparison": {
+                "Early_Adoption": "Iowa led Illinois by 8–10 percentage points during the early 2000s.",
+                "Peak": "Iowa peaked in 2004 at 36%, Illinois at 26%.",
+                "Decline": "Both states saw declines post-2006 due to transition to stacked-trait corn.",
+                "Stabilization": "After 2013, both fell below 5%, indicating minimal standalone Bt adoption.",
+                "Overall_Pattern": "Parallel trends with Iowa consistently slightly ahead."
+                },
+                "timestamp": "2025-11-09T12:00:01-05:00"
+            }
+        },
+        {"input": "In which years did Iowa’s adoption rate of insect-resistant (Bt) corn grow the fastest, and how does that align with the rise of stacked (Bt + herbicide-tolerant) varieties?",
+            "reasoning_trace": [
+                "Starting with the Iowa Bt corn adoption data from 2000-2024 (from your previous output) we can compute year-to-year growth (percentage point increases).",
+                "From the Iowa series: 2000:23.0, 2001:25.0, 2002:31.0, 2003:33.0, 2004:36.0, 2005:35.0, 2006:32.0, 2007:22.0, 2008:16.0, … etc.",
+                "Calculate the increases: 2001 vs 2000 = +2.0; 2002 vs 2001 = +6.0; 2003 vs 2002 = +2.0; 2004 vs 2003 = +3.0; 2005 vs 2004 = -1.0; 2006 vs 2005 = -3.0; 2007 vs 2006 = -10.0; 2008 vs 2007 = -6.0; etc.",
+                "Thus the largest increase occurred in 2002 (from 25.0 to 31.0 → +6 percentage points) and second-largest in 2004 (from 33.0 to 36.0 → +3) and then 2003 (+2) and 2001 (+2). So the standout is 2002.",
+                "Next: we need to align this with the rise of stacked (Bt + herbicide-tolerant) varieties. General U.S. data indicates that stacked-trait corn (Bt+HT) began growing significantly in the early 2000s and by 2013 had reached a large share. :contentReference[oaicite:0]{index=0}",
+                "Specifically, the USDA/ERS documentation says that seeds that have both herbicide tolerant and insect resistant traits (stacked) are included in the survey and that adoption of stacked varieties has accelerated in recent years. :contentReference[oaicite:1]{index=1}",
+                "Also, one source states: “GE corn with stacked traits grew from 1 percent of corn acres in 2000 to 71 percent in 2013.” :contentReference[oaicite:2]{index=2}",
+                "Putting this together: Iowa’s fastest adoption growth for Bt‐only corn was in 2002. That corresponds to a period when Bt corn (possibly single‐trait) was still rising rapidly but before stacked traits became dominant. After 2004/2005, the adoption of single‐trait Bt only corn appears to decline (in Iowa data), likely because farmers shifted toward hybrids that combined both insect- and herbicide-tolerance (i.e., stacked traits).",
+                "Thus, the timing suggests that the fastest growth in Iowa’s Bt corn adoption (2002) predates the major adoption phase of stacked Bt+HT corn; and that as stacked varieties rose, the growth rate of Bt only adoption slowed (even reversed). That alignment implies the transition from Bt‐only to stacked trait corn in Iowa around mid-2000s."
+            ],
+            "output": {
+                "fastest_growth_years": [
+                {
+                    "year": 2002,
+                    "increase_pp": 6.0,
+                    "note": "largest single-year percentage point gain in Iowa Bt corn adoption"
+                },
+                {
+                    "year": 2004,
+                    "increase_pp": 3.0,
+                    "note": "second largest gain"
+                }
+                ],
+                "alignment_with_stacked_traits": {
+                "summary": "Iowa’s Bt‐only corn adoption surged most strongly in 2002, which is before the widespread adoption of stacked (Bt+HT) varieties. As stacked varieties began to dominate (post mid-2000s), the growth in Bt-only adoption in Iowa declined and even fell. This suggests the rapid early expansion of Bt-only corn was overtaken by a transition to stacked trait hybrids.",
+                "key_points": [
+                    "National data show stacked-trait corn grew from about 1% in 2000 to over 70% by 2013. :contentReference[oaicite:3]{index=3}",
+                    "In Iowa, Bt adoption peaked around 2004 (36%) then declined (35% in 2005 → 32% in 2006) consistent with farmers shifting away from Bt‐only toward stacked hybrids.",
+                    "Therefore the period of fastest Bt‐only growth (early 2000s) aligns with the pre-stacked era; the slowdown aligns with the rise of stacked trait adoption."
+                ]
+                },
+                "timestamp": "2025-11-09T12:00:02-05:00"
+            }
+        }
+    ], 
+    "prompt": "Does the data suggest that the increase in stacked corn varieties in Iowa led to a decline in single-trait insect-resistant corn, and what might explain that shift?", 
+    "answer": {
+        "reasoning_trace": [
+            "We have previously shown that in Iowa the percentage of corn acres planted to insect-resistant (Bt) only corn rose early (peaking around 2004 at ~36 %) and then declined steadily thereafter (dropping into the single digits by the 2010s).",
+            "We also know from published national/state data that stacked‐trait varieties (those combining insect resistance + herbicide tolerance) have become the dominant technology in corn. For example, the 2024 Iowa report indicates 84 % of corn acres were planted with stacked gene varieties, only 4 % with insect-resistant only, and 7 % with herbicide-resistant only. :contentReference[oaicite:0]{index=0}",
+            "Thus the timing aligns: as stacked‐trait adoption ramped up in Iowa, the share of single‐trait Bt corn declined.",
+            "While the dataset we used for single‐trait Bt corn shows decline post‐mid-2000s, the 84% stacked figure in 2024 shows stacked trait is now the overwhelming majority. This suggests a substitution effect: farmers moving from Bt only to stacked hybrids.",
+            "Why might this shift happen? Several plausible explanations backed by literature: (a) Stacked hybrids provide broader pest/weed control—combining insect resistance + herbicide tolerance increases value to growers. :contentReference[oaicite:1]{index=1} (b) Seed companies and trait providers marketed stacked hybrids heavily and they gained rapid adoption; the economics favoured packages. (c) Once single‐trait Bt corn reached near‐saturation and major insect pressures were managed, incremental benefit of Bt only may have diminished relative to stacked. (d) Regulatory/market incentives: as the research on stacked trait hybrids showed yield protection/reduced risk in drought/ pest contexts, farmers had incentive to upgrade. :contentReference[oaicite:2]{index=2} (e) Refuge and resistance management requirements might have changed how single‐trait BT hybrids were used, encouraging stacked gene use.",
+            "Therefore, yes—the data suggest that the rise of stacked trait varieties in Iowa is strongly associated with (and likely caused) the decline in percentage of acres planted to single-trait insect‐resistant corn.",
+            "Caveats: We don’t observe a direct year-by-year breakdown of stacked vs single‐trait in the Bt dataset, so strictly speaking we infer correlation rather than causal proof. But the alignment in timing and the magnitude of change make the inference robust."
+        ],
+        "output": {
+            "conclusion": "Yes — the data for Iowa indicate that as stacked (insect + herbicide tolerant) corn varieties rose to dominance, the share of corn acres planted to single-trait insect-resistant (Bt only) corn declined. The most likely explanation is growers shifted to the higher-value stacked hybrids for broader control and better economics, combined with seed industry supply and trait evolution.",
+            "key_explanatory_factors": [
+            "Stacked hybrids deliver combined insect resistance + herbicide tolerance, increasing value for the grower.",
+            "Seed-trait market evolution: companies promoted stacked products, single-trait Bt became less competitive.",
+            "Once insect‐only resistance saturation was reached, incremental gains from Bt only lowered relative to stacks.",
+            "Risk and yield protection advantages: stacked traits offered broader protection, which may reduce yield volatility under stress (drought/pest).",
+            "Regulatory/management shifts (e.g., insect-resistance management, refuge requirements) may have steered usage toward stacks."
+            ],
+            "timestamp": "2025-11-09T12:00:04-05:00"
+        }
+    }
+}

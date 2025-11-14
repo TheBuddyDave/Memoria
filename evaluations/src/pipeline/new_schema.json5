@@ -1,0 +1,84 @@
+[
+    {
+        "history_id": "history_1",
+        "history_type": [ // kind of haystack sessions
+            "adversarial (irrelevant), strict (fully relevant)",
+            "sequential data feed, bulk data feed",
+            "general, conversational",
+            "etc"
+        ],
+        "haystack_session_ids": [ // 1:1 haystack_dates
+            "session_1",
+            "session_2"
+        ],
+        "haystack_sessions": [ // chat sessions, usually disjoint topics
+            { // no answer tags regardless of session
+                "session_id": "session_1",
+                "data_ref": "path/to/data.csv", // d_i
+                "start_timestamp": "2025-10-24T1:23:45-05:00", // earliest - TODO do we need this?
+                "end_timestamp": "2025-10-24T1:23:45-05:00", // latest - TODO do we need this?
+                "messages": [ // u_i, a_i pairs
+                    {
+                        "role": "user",
+                        "content": "I'm looking for some information on modern art movements.",
+                        "timestamp": "2025-10-24T1:23:45-05:00", // iso format
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "What a great experience! The Museum of Modern Art (MoMA) is an iconic institution",
+                        "reasoning": "...", // agent reasoning
+                        "timestamp": "2025-10-24T1:23:45-05:00",
+                    }
+                ]
+            },
+            {
+                "session_id": "session_2",
+                "start_timestamp": "2025-10-24T1:23:45-05:00",
+                "end_timestamp": "2025-10-24T1:23:45-05:00",
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": "I put my shoes",
+                        "timestamp": "2025-10-24T1:23:45-05:00"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "Then you put your socks on",
+                        "reasoning": "...",
+                        "timestamp": "2025-10-24T1:23:45-05:00",
+                    }
+                ]
+            }
+        ],
+        "questions": [
+            {
+                "question_id": "question_1", // unique identifier
+                "question_type": "temporal-reasoning", // duh
+                "question": "How many days passed between my visit to the exhibit at the Metropolitan Museum of Art?", // duh
+                "question_timestamp": "2025-10-24T1:23:45-05:00", // duh
+                "answer": "7 days. 8 days (including the last day) is also acceptable.", // accepted answer(s)
+                "reasoning": "did X on day dX, did Y on day dY, 7 days is the difference", // can be used for training
+                "answer_sessions": [ // oracle, best-possible context TODO should the evaluator check for this as part of reasoning?
+                    {
+                        "session_id": "session_1", // id
+                        "indices": [0, 1, 99], // which messages contain answer
+                    }
+                ]
+            },
+            {
+                "question_id": "question_2",
+                "question_type": "temporal-reasoning",
+                "question": "Did I first put on my socks or shoes?",
+                "question_timestamp": "2025-10-24T1:23:45-05:00",
+                "answer": "You first put on your shoes before your socks.",
+                "reasoning": "User is a weirdo.",
+                "answer_sessions": [
+                    {
+                        "session_id": "session_2",
+                        "indices": [0, 1]
+                    }
+                ]
+            }
+        ]
+    }
+]

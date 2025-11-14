@@ -1,0 +1,108 @@
+{
+    "question_id": "RD_FS_001",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "When did food-away-from-home (FAFH) first exceed 50% of total U.S. food sales, and what were the national FAFH shares from 2015 to 2024?",
+            "reasoning_trace": "Load the file and convert the sales columns from strings with thousands separators to numeric floats. Aggregate state rows to the national level by summing each sales measure by Year, then compute FAFH share as FAFH / Total for both nominal and constant (1988=100) dollars. Identify the earliest crossover year where the national share exceeds 50%, and report a concise 2015–2024 series to show the pre-pandemic level, the 2020 shock, and the subsequent recovery. Keep the national view consistent by always summing all 51 states (including DC) before computing shares.",
+            "output": {
+                "Crossover_Year": {
+                    "Nominal": 2014,
+                    "Real_1988d": 2013
+                },
+                "FAFH_Share_National_pct_By_Year": {
+                    "Nominal": {
+                        "2015": 52.39,
+                        "2016": 53.46,
+                        "2017": 54.13,
+                        "2018": 54.53,
+                        "2019": 55.0,
+                        "2020": 49.82,
+                        "2021": 53.66,
+                        "2022": 55.32,
+                        "2023": 57.09,
+                        "2024": 57.81
+                    },
+                    "Real_1988d": {
+                        "2015": 52.11,
+                        "2016": 52.22,
+                        "2017": 52.27,
+                        "2018": 52.13,
+                        "2019": 52.08,
+                        "2020": 46.93,
+                        "2021": 50.53,
+                        "2022": 53.06,
+                        "2023": 54.36,
+                        "2024": 54.39
+                    }
+                },
+                "Notes": "FAFH exceeds half of total food spending nationally starting in 2014 (nominal) and 2013 (real). The series shows a sharp dip in 2020, then a recovery that surpasses pre-pandemic shares by 2022.",
+                "timestamp": "2025-11-09T12:20:00-05:00"
+            }
+        },
+        {
+            "input": "Which states had the highest FAFH share in 2019 and in 2024?",
+            "reasoning_trace": "For each target year, compute state-level FAFH share as FAFH_nominal / Total_nominal × 100 using the already-cleaned numeric columns. Rank states by share and report the top five for 2019 and 2024 to capture the pre-pandemic pattern and the current endpoint. The District of Columbia is included in the rankings and typically leads due to its dining-out intensity.",
+            "output": {
+                "Top5_FAFH_Share_States": {
+                    "2019": [
+                        {"State": "District of Columbia", "FAFH_share_nom_pct": 78.58},
+                        {"State": "Hawaii", "FAFH_share_nom_pct": 66.4},
+                        {"State": "Nevada", "FAFH_share_nom_pct": 64.79},
+                        {"State": "Rhode Island", "FAFH_share_nom_pct": 61.95},
+                        {"State": "New York", "FAFH_share_nom_pct": 60.11}
+                    ],
+                    "2024": [
+                        {"State": "District of Columbia", "FAFH_share_nom_pct": 79.84},
+                        {"State": "Hawaii", "FAFH_share_nom_pct": 68.22},
+                        {"State": "Nevada", "FAFH_share_nom_pct": 66.26},
+                        {"State": "New York", "FAFH_share_nom_pct": 64.36},
+                        {"State": "Massachusetts", "FAFH_share_nom_pct": 63.46}
+                    ]
+                },
+                "Summary": "Dining-out–heavy locales (DC, HI, NV, NY, MA) top the list both before and after the pandemic. Shares are generally higher in 2024 than in 2019, consistent with the nationwide post-pandemic rebound in FAFH.",
+                "timestamp": "2025-11-09T12:20:01-05:00"
+            }
+        },
+        {
+            "input": "How did the national FAFH share change around the pandemic, and when did it surpass its 2019 share again?",
+            "reasoning_trace": "Using the national sums from the first step, read FAFH shares for 2019, 2020, 2021, and 2022. Compare 2020 to 2019 to quantify the pandemic shock, then check whether 2021 and 2022 recover to or exceed the 2019 level. Report the first year when the share surpasses the pre-pandemic level in both nominal and real terms.",
+            "output": {
+                "Pandemic_Dynamics": {
+                    "2019_share_nom_pct": 55.0,
+                    "2020_share_nom_pct": 49.82,
+                    "2021_share_nom_pct": 53.66,
+                    "2022_share_nom_pct": 55.32,
+                    "2019_share_real_pct": 52.08,
+                    "2020_share_real_pct": 46.93,
+                    "2021_share_real_pct": 50.53,
+                    "2022_share_real_pct": 53.06
+                },
+                "Interpretation": "FAFH share fell sharply in 2020 and then recovered beyond 2019 levels by 2022 in both nominal and real terms. The rebound began in 2021 and completed in 2022, indicating a swift reversion toward the pre-pandemic dining pattern.",
+                "timestamp": "2025-11-09T12:20:02-05:00"
+            }
+        },
+        {
+            "input": "Does the data indicate a persistent structural shift toward FAFH after 2014?",
+            "reasoning_trace": "Combine the crossover finding (FAFH > 50% from 2014 onward) with the 2015–2024 shares showing sustained levels above 50% except during the 2020 shock. Evaluate whether the recovery after 2020 restores the >50% pattern and whether later years (2022–2024) exceed the pre-pandemic benchmark. Use both nominal and real series to confirm the conclusion is not just inflation-driven.",
+            "output": {
+                "Conclusion": "Yes — the post-2014 period shows a persistent tilt toward FAFH, briefly interrupted in 2020 but re-established by 2022 and rising through 2024.",
+                "Rationale": "Both nominal and real shares remain above 50% for most years after 2014, and the latest values (2023–2024) are the highest in the series. This suggests a structural shift in U.S. food spending patterns toward dining out, beyond cyclical or inflation effects.",
+                "timestamp": "2025-11-09T12:20:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Do national and state patterns from 2015–2024 indicate a durable tilt toward food-away-from-home spending, and which states exemplify this shift most clearly?",
+    "answer": {
+        "reasoning_trace": [
+            "National FAFH shares cross the 50% threshold in 2014 (nominal) and 2013 (real) and stay there for nearly all subsequent years, with a single-year interruption in 2020. By 2022, FAFH shares exceed 2019 levels in both nominal and real terms and climb further through 2024, indicating durability rather than a transient rebound.",
+            "State rankings center on DC, HI, NV, NY, and MA, where service-centric economies and tourism intensify dining-out behavior. The persistence of these leaders across 2019 and 2024 supports the view that structural factors (urban density, tourism, labor markets) underpin the elevated FAFH shares."
+        ],
+        "output": {
+            "Conclusion": "Yes — the data show a durable shift toward FAFH that resumed quickly after the 2020 shock, with 2022–2024 above pre-pandemic shares. DC, Hawaii, Nevada, New York, and Massachusetts are consistent exemplars of dining-out intensity.",
+            "Implications": "Long-run menu pricing, restaurant capacity, and urban/tourism dynamics likely anchor these shares above the 50% mark. Policymakers and operators can expect FAFH to remain structurally elevated barring major exogenous shocks.",
+            "timestamp": "2025-11-09T12:20:04-05:00"
+        }
+    }
+}

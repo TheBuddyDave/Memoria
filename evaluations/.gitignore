@@ -1,3 +1,5 @@
-data/*
-
 *.jsonl
+
+data/longmemeval_s_cleaned.json
+data/longmemeval_m_cleaned.json
+data/longmemeval_oracle.json

@@ -1,0 +1,87 @@
+{
+    "question_id": "RD_FS_002",
+    "question_type": "reasoning-depth-test",
+    "data_ref": "..\\evaluations\\data\\state_sales.csv",
+    "ua_pairs": [
+        {
+            "input": "For California, Texas, and New York, how much did total food sales grow from 1997 to 2024 in nominal and in real (1988=100) dollars?",
+            "reasoning_trace": "Convert all sales columns to numeric floats and subset to the three states and the boundary years (1997, 2024). For each state, compute nominal growth = (2024/1997 − 1) and real growth analogously using the constant-dollar columns. Report both level values and percent growth to separate price effects from volume/real changes.",
+            "output": {
+                "Total_Food_Sales_Growth_1997_to_2024": [
+                    {
+                        "State": "California",
+                        "Nominal_Growth_pct": 330.4,
+                        "Real_Growth_pct": 92.34,
+                        "Base_1997_Nominal_milUSD": 79660.98,
+                        "Level_2024_Nominal_milUSD": 342861.89,
+                        "Base_1997_Real_1988d_milUSD": 59499.33,
+                        "Level_2024_Real_1988d_milUSD": 114442.01
+                    },
+                    {
+                        "State": "Texas",
+                        "Nominal_Growth_pct": 346.25,
+                        "Real_Growth_pct": 109.88,
+                        "Base_1997_Nominal_milUSD": 53351.98,
+                        "Level_2024_Nominal_milUSD": 238080.93,
+                        "Base_1997_Real_1988d_milUSD": 40254.08,
+                        "Level_2024_Real_1988d_milUSD": 84484.33
+                    },
+                    {
+                        "State": "New York",
+                        "Nominal_Growth_pct": 265.12,
+                        "Real_Growth_pct": 69.97,
+                        "Base_1997_Nominal_milUSD": 41664.87,
+                        "Level_2024_Nominal_milUSD": 152125.31,
+                        "Base_1997_Real_1988d_milUSD": 31809.96,
+                        "Level_2024_Real_1988d_milUSD": 54067.08
+                    }
+                ],
+                "Summary": "Nominal growth far exceeds real growth in all three states, indicating substantial price-level effects over 1997–2024. Even so, real food spending roughly doubles in TX and nearly doubles in CA, while NY grows more modestly in real terms.",
+                "timestamp": "2025-11-09T12:21:00-05:00"
+            }
+        },
+        {
+            "input": "What are the nominal and real CAGRs for total food sales over 1997–2024 for these states?",
+            "reasoning_trace": "Using the same 1997 and 2024 levels, compute CAGR = (Level_2024/Level_1997)^(1/n) − 1 where n=2024−1997=27 years. Calculate both nominal and real CAGRs per state and round to two decimals for percent presentation. CAGRs help normalize for the long horizon and allow a cleaner cross-state comparison.",
+            "output": {
+                "CAGR_1997_2024_pct": [
+                    {"State": "California", "Nominal_CAGR_pct": 5.55, "Real_CAGR_pct": 2.45},
+                    {"State": "Texas", "Nominal_CAGR_pct": 5.7, "Real_CAGR_pct": 2.78},
+                    {"State": "New York", "Nominal_CAGR_pct": 4.91, "Real_CAGR_pct": 1.98}
+                ],
+                "Interpretation": "Over 27 years, nominal growth rates are roughly double the real rates, reflecting cumulative inflation. Texas leads slightly in both nominal and real CAGRs among the three, while New York’s real CAGR is the lowest.",
+                "timestamp": "2025-11-09T12:21:01-05:00"
+            }
+        },
+        {
+            "input": "Across these states, does nominal growth substantially overstate underlying real growth?",
+            "reasoning_trace": "Compare nominal growth percentages to real growth percentages from the first step and confirm the same pattern in CAGRs. Evaluate whether differences are consistent across states and large enough to be material in interpretation. Summarize implications for analyses that use nominal dollars without adjustment.",
+            "output": {
+                "Conclusion": "Yes — nominal growth outpaces real growth by 150–250 percentage points across the 1997–2024 window.",
+                "Implications": "Analyses based solely on nominal dollars will substantially overstate changes in real purchasing behavior. Adjusting to constant dollars (1988=100) is necessary to capture true volume/real-spending dynamics over multi-decade horizons.",
+                "timestamp": "2025-11-09T12:21:02-05:00"
+            }
+        },
+        {
+            "input": "Which state shows the strongest real expansion and what might explain the cross-state differences?",
+            "reasoning_trace": "Use real growth and real CAGR metrics to rank states: Texas (real CAGR ~2.78%) > California (~2.45%) > New York (~1.98%). Consider demographic and economic factors that plausibly drive real food spending (population growth, income growth, restaurant penetration), noting that precise causal inference is out of scope of this dataset. Provide a careful interpretation emphasizing plausible drivers rather than definitive causation.",
+            "output": {
+                "Ranking_by_Real_Growth": ["Texas", "California", "New York"],
+                "Interpretation": "Texas exhibits the strongest real expansion, consistent with faster population and income growth and a rapidly scaling foodservice sector. California follows with robust gains, while New York’s lower real CAGR suggests comparatively slower real growth after adjusting for prices and composition effects.",
+                "timestamp": "2025-11-09T12:21:03-05:00"
+            }
+        }
+    ],
+    "prompt": "Do nominal trends from 1997–2024 materially overstate real growth in state food sales, and which of CA, TX, or NY shows the strongest real expansion?",
+    "answer": {
+        "reasoning_trace": [
+            "In all three states, nominal increases (265–346%) far exceed real increases (70–110%), and nominal CAGRs are roughly double real CAGRs. This gap is stable across states and underscores the importance of adjusting for inflation when comparing long-run trends.",
+            "Texas leads in real growth and real CAGR, followed by California and then New York. While the dataset does not include causal covariates, the ranking is consistent with broader patterns of population growth, income trends, and foodservice expansion across these states."
+        ],
+        "output": {
+            "Conclusion": "Nominal metrics substantially overstate underlying real growth across CA, TX, and NY. Texas shows the strongest real expansion over 1997–2024, with California next and New York third.",
+            "Analyst_Note": "Use constant-dollar series for long-horizon comparisons; otherwise, nominal growth will bias conclusions about consumption dynamics and market size.",
+            "timestamp": "2025-11-09T12:21:04-05:00"
+        }
+    }
+}
