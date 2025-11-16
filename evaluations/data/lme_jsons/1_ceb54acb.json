@@ -1,0 +1,40 @@
+{
+  "question_id": "ceb54acb",
+  "question_type": "single-session-assistant",
+  "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+  "answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+  "question_date": "2023/05/30 (Tue) 00:36",
+  "haystack_dates": [
+    "2023/05/23 (Tue) 19:23"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_cGdjmYo_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "thats actually longer",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for misunderstanding your request. A shorter term you could use to describe these behaviors is \"sexual compulsions.\" This term implies a pattern of behavior that is driven by an intense urge or need that is difficult to control, and which may interfere with an individual's daily life and relationships.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "come on think in something better",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize if my previous suggestions were not helpful. Here are some other alternatives:\n\n1. Sexual fixations - This term implies a strong preoccupation with sexual thoughts or behaviors that may interfere with other areas of life.\n2. Problematic sexual behaviors - This phrase is straightforward and describes behaviors that cause problems or difficulties in an individual's life.\n3. Sexual impulsivity - This term emphasizes the impulsive or compulsive nature of certain sexual behaviors and the difficulties individuals may face in controlling them.\n4. Compulsive sexuality - This phrase emphasizes the compulsive nature of certain sexual behaviors and the difficulties individuals may face in breaking free from them.\n\nI hope these suggestions are more helpful for you.",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_cGdjmYo_0"
+  ]
+}

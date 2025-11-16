@@ -1,0 +1,70 @@
+{
+  "question_id": "c8c3f81d",
+  "question_type": "single-session-user",
+  "question": "What brand are my favorite running shoes?",
+  "answer": "Nike",
+  "question_date": "2023/05/30 (Tue) 20:23",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 17:51"
+  ],
+  "haystack_session_ids": [
+    "answer_761acef8"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm looking to get some new athletic wear, can you recommend some good brands?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "There are many great brands out there that offer high-quality athletic wear. Here are some popular ones across various categories:\n\n**Running and Fitness:**\n\n1. Nike: Known for their innovative technology and stylish designs.\n2. Under Armour: Offers high-performance gear with a focus on moisture-wicking and breathability.\n3. ASICS: Specializes in running shoes and apparel, with a focus on comfort and support.\n4. Lululemon: Famous for their yoga pants, but also offers a wide range of running and fitness gear.\n5. Brooks: A popular choice among runners, offering high-quality shoes and apparel.\n\n**Yoga and Studio:**\n\n1. Lululemon: As mentioned earlier, they're a leader in yoga pants and tops.\n2. Athleta: Offers high-end, stylish yoga and studio wear with a focus on comfort and performance.\n3. Beyond Yoga: Known for their comfortable, high-quality yoga pants and tops.\n4. Prana: A sustainable and eco-friendly brand offering yoga and studio wear.\n5. Outdoor Voices: A fashion-forward brand offering technical athletic wear for yoga and studio activities.\n\n**CrossFit and Strength Training:**\n\n1. Reebok CrossFit: Officially partnered with CrossFit, offering high-performance gear for the sport.\n2. NOBULL: A popular choice among CrossFitters, offering durable and comfortable apparel.\n3. Rogue Fitness: Known for their high-quality, durable gear for strength training and CrossFit.\n4. Inov-8: Offers high-performance footwear and apparel for CrossFit and strength training.\n5. Ten Thousand: A newer brand offering high-quality, minimalist apparel for strength training and CrossFit.\n\n**Outdoor and Trail:**\n\n1. Patagonia: A leader in sustainable and eco-friendly outdoor apparel.\n2. The North Face: Offers high-performance gear for outdoor activities like hiking and trail running.\n3. Columbia Sportswear: Known for their waterproof and breathable outdoor apparel.\n4. Salomon: A popular choice among trail runners and outdoor enthusiasts.\n5. Arc'teryx: High-end outdoor apparel with a focus on durability and performance.\n\n**Budget-Friendly:**\n\n1. Old Navy: Offers affordable, high-quality athletic wear for men and women.\n2. Target: Their C9 by Champion line offers affordable, high-performance athletic wear.\n3. GapFit: Gap's activewear line offers stylish and affordable options.\n4. H&M Sport: A budget-friendly option with trendy and functional athletic wear.\n5. Amazon Essentials: Amazon's in-house brand offers affordable, high-quality athletic wear.\n\nThese are just a few examples of the many great brands out there. Consider your specific needs, preferences, and activities to narrow down the options. Happy shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually looking for something specific, like a new pair of running shoes. Do you know if they have any good deals on running shoes right now?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you with that!\n\nDeals on running shoes can vary depending on the retailer, brand, and model. However, I can give you an overview of some current offers and sales from popular online retailers. Keep in mind that deals can change quickly, so it's always a good idea to double-check prices and availability before making a purchase.\n\nHere are some current deals on running shoes from popular brands:\n\n**Nike:**\n\n* Nike Air Zoom Pegasus 38: $80 (was $100) at Nike.com\n* Nike Vaporfly Next% 2: $150 (was $200) at Dick's Sporting Goods\n* Nike Air Max Invigor 2: $60 (was $80) at Amazon\n\n**Under Armour:**\n\n* Under Armour Slingshot 2: $60 (was $80) at UnderArmour.com\n* Under Armour HOVR Phantom 2: $70 (was $100) at Academy Sports + Outdoors\n* Under Armour Micro G Pursuit: $50 (was $70) at 6pm\n\n**ASICS:**\n\n* ASICS Gel-Kayano 27: $100 (was $130) at ASICS.com\n* ASICS Gel-Nimbus 23: $80 (was $100) at Zappos\n* ASICS Freedom ISO 2: $60 (was $80) at Amazon\n\n**Brooks:**\n\n* Brooks Ghost 13: $80 (was $100) at BrooksRunning.com\n* Brooks Launch 8: $60 (was $80) at Dick's Sporting Goods\n* Brooks Adrenaline GTS 21: $70 (was $90) at Academy Sports + Outdoors\n\n**Other Deals:**\n\n* New Balance Fresh Foam 1080v11: $60 (was $80) at NewBalance.com\n* Saucony Guide 13: $70 (was $90) at Saucony.com\n* Hoka One One Bondi 7: $80 (was $100) at HokaOneOne.com\n\nYou can also check out online retailers like:\n\n* Amazon: They often have sales on various running shoes from different brands.\n* REI: They offer discounts on select running shoes, and members get an extra 10% off.\n* 6pm: They have a wide selection of running shoes from various brands at discounted prices.\n* Running Warehouse: They offer discounts on running shoes and apparel from popular brands.\n\nBefore making a purchase, consider the following:\n\n* Check the shoe's fit, features, and reviews to ensure it's the right one for your running needs.\n* Look for coupons, promo codes, or cashback offers to maximize your savings.\n* Sign up for newsletters or follow your favorite brands on social media to stay informed about upcoming sales and promotions.\n\nHope this helps you find the perfect pair of running shoes at a great price!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually looking for a new pair of Nike running shoes, I've been using them for my daily 5K runs and they've been holding up pretty well. Do you know if they have any new models or sales on Nike shoes?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Nike is a great choice for running shoes! They have a wide range of models to suit different running styles and preferences.\n\n**New Nike Running Shoe Models:**\n\n1. **Nike Air Zoom Pegasus 39**: The latest iteration of the popular Pegasus series, offering improved cushioning and responsiveness.\n2. **Nike Vaporfly Next% 2**: An updated version of the Vaporfly, designed for speed and efficiency, with a full-length carbon plate and a more responsive midsole.\n3. **Nike Air Max Invigor 3**: A new addition to the Air Max family, featuring a full-length Air unit for maximum cushioning and impact protection.\n4. **Nike React Miler**: A new shoe designed for long-distance running, with a React midsole for superior cushioning and energy return.\n\n**Current Sales and Discounts on Nike Running Shoes:**\n\n1. **Nike Air Zoom Pegasus 38**: $80 (was $100) at Nike.com\n2. **Nike Vaporfly Next%**: $150 (was $200) at Dick's Sporting Goods\n3. **Nike Air Max Invigor 2**: $60 (was $80) at Amazon\n4. **Nike Free RN 2**: $50 (was $70) at 6pm\n\n**Nike Sales and Promotions:**\n\n1. **Nike Members Get 20% Off**: Sign up for a Nike membership to receive 20% off select styles, including running shoes.\n2. **Student Discount**: Students can get 10% off all Nike products, including running shoes, with a valid student ID.\n3. **Nike Outlet**: Shop the Nike Outlet section for discounted prices on past-season styles and models.\n4. **Deal of the Week**: Check Nike's website for their weekly deals, which often feature running shoes at discounted prices.\n\n**Tips:**\n\n1. **Check the Nike website**: Nike often offers exclusive deals and discounts on their website, so it's worth checking before buying from other retailers.\n2. **Sign up for email newsletters**: Register for Nike's email newsletter to stay informed about new releases, sales, and promotions.\n3. **Use price comparison tools**: Websites like PriceGrabber or Nextag allow you to compare prices across different retailers to find the best deal.\n\nI hope this helps you find the perfect new pair of Nike running shoes for your daily 5K runs!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Nike has been my favourite brand so far for running shoes. I'm looking for a new pair running shoes, specifically the same model as my current ones. Do you know where I can find them or if they have any similar models that might be a good fit?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you find a new pair of Nike running shoes that match your current ones or suggest similar models.\n\nTo help me better assist you, could you please provide me with the following information:\n\n1. **What is the exact model of your current Nike running shoes?** (e.g., Nike Air Zoom Pegasus 37, Nike Vaporfly Next%, etc.)\n2. **What is the colorway of your current shoes?** (e.g., black/white, blue/orange, etc.)\n3. **What is your foot type?** (e.g., neutral, pronated, supinated)\n4. **What is your running style?** (e.g., heel striker, midfoot striker, forefoot striker)\n5. **Do you have any specific features in mind for your new shoes?** (e.g., more cushioning, better support, lighter weight, etc.)\n\nOnce I have this information, I can:\n\n1. **Check availability**: I can search online retailers and Nike's website to see if your exact model is still available for purchase.\n2. **Suggest similar models**: If your exact model is no longer available, I can recommend similar Nike running shoes that might be a good fit for you, based on your foot type, running style, and preferences.\n3. **Provide alternatives**: If you're open to trying a different model, I can suggest Nike running shoes with similar features or upgrades that might suit your needs.\n\nLet me know, and I'll do my best to help you find the perfect pair of Nike running shoes!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wait, I think I remember something. I bought my current shoes at the outlet mall in April, and they were on sale for 20% off. Maybe I can find a similar deal again. Do you think I can find the same model or a similar one at the outlet mall or online?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're a savvy shopper, and you're thinking like a pro!\n\nSince you bought your current shoes at the outlet mall in April, it's possible that you might be able to find a similar deal again. Outlet malls often carry previous seasons' models or discontinued styles at discounted prices.\n\nTo increase your chances of finding a similar deal, I recommend checking the following:\n\n1. **Nike Outlet website**: The Nike Outlet website often features a wide selection of discounted shoes, including previous seasons' models. You can filter by style, price, and size to find a similar shoe to your current one.\n2. **Nike Outlet stores**: Visit a physical Nike Outlet store near you to see what they have in stock. You can try on shoes and get a feel for the fit and style.\n3. **Other outlet malls**: If you have other outlet malls in your area, check their Nike stores to see if they carry similar models or styles.\n4. **Online outlet retailers**: Websites like 6pm, Nordstrom Rack, and Saks Off 5th often carry discounted Nike shoes, including previous seasons' models.\n\nWhen shopping online, make sure to check the prices and compare them to the original retail price to ensure you're getting a good deal. You can also use price comparison tools like PriceGrabber or Nextag to find the best price.\n\nAs for finding a similar model, Nike often releases new versions of popular styles with updates and improvements. If you're happy with your current shoes, you might find a newer version that offers even better features and performance.\n\nKeep in mind that outlet malls and online retailers might not always have the exact same model or colorway, but you might find a similar shoe that fits your needs and budget.\n\nGood luck in your search, and I hope you find an amazing deal on your new shoes!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_761acef8"
+  ]
+}

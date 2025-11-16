@@ -1,0 +1,80 @@
+{
+  "question_id": "faba32e5",
+  "question_type": "single-session-user",
+  "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+  "answer": "24 hours",
+  "question_date": "2023/05/29 (Mon) 22:42",
+  "haystack_dates": [
+    "2023/05/20 (Sat) 10:21"
+  ],
+  "haystack_session_ids": [
+    "answer_39b12014"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm thinking of hosting a BBQ party soon and I want to make sure I have all the necessary supplies. Can you give me a list of must-haves for a successful backyard BBQ? By the way, I just remembered my friend Alex's amazing BBQ ribs from his party a few weeks ago - they were so tender and flavorful!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "BBQ party sounds like a blast! I'd be happy to help you with that. Here's a comprehensive list of must-haves for a successful backyard BBQ:\n\n**Grilling Essentials:**\n\n1. **Grill**: This might seem obvious, but you'll need a reliable grill to cook all the delicious food. Make sure it's clean and in good working condition.\n2. **Fuel**: Charcoal, propane, or gas - whatever fuel type your grill uses, ensure you have a sufficient supply.\n3. **Grilling utensils**: Tongs, spatulas, forks, and brushes for handling and flipping food.\n4. **Grill grates**: Clean and brush them before the party to prevent food from sticking.\n\n**Food and Drinks:**\n\n1. **Proteins**: Burgers, hot dogs, sausages, chicken, ribs (like Alex's famous ones!), and veggies for a variety of options.\n2. **Buns and condiments**: For burgers and hot dogs, don't forget ketchup, mustard, relish, and mayonnaise.\n3. **Sides**: Salads, chips, coleslaw, baked beans, and other BBQ favorites.\n4. **Beverages**: Soft drinks, water, beer, and other refreshing drinks to keep guests hydrated.\n5. **Desserts**: Watermelon, brownies, or other sweet treats to round out the meal.\n\n**Party Essentials:**\n\n1. **Tables and chairs**: Enough seating and tables for guests to eat and socialize.\n2. **Tableware**: Plates, cups, napkins, utensils, and serving spoons.\n3. **Coolers**: For storing drinks and keeping them chilled.\n4. **Music**: Create a playlist or have a portable speaker to set the mood.\n5. **Shade**: Umbrellas, canopies, or a gazebo to provide relief from the sun.\n6. **Trash cans**: Keep the party area clean with easily accessible trash cans.\n7. **Ice**: For cooling drinks and keeping food fresh.\n8. **Games and activities**: Lawn games, cards, or outdoor games to keep guests entertained.\n\n**Miscellaneous:**\n\n1. **Sunscreen and bug spray**: Protect your guests from the sun and insects.\n2. **First-aid kit**: A small kit with essentials like bandages, antiseptic wipes, and pain relievers.\n3. **Paper towels and cleaning supplies**: For spills and cleaning up the grill.\n4. **Power outlets and extension cords**: For powering music, lights, or other equipment.\n\nRemember to check the weather forecast beforehand and have a backup plan in case of bad weather. With these must-haves, you'll be well-prepared to host a successful and enjoyable backyard BBQ party!\n\nNow, about Alex's amazing BBQ ribs... did he share his secret recipe with you?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's a great list, thanks! I think I have most of the essentials covered. By the way, I was thinking of trying out some BBQ ribs for my party, and I remember Alex telling me he marinated them in a special sauce for 24 hours before grilling them to perfection. Do you have any tips on how to choose the right type of wood for smoking meats?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "BBQ ribs are a crowd-pleaser, and marinating them in a special sauce for 24 hours will definitely make them tender and flavorful.\n\nNow, about choosing the right type of wood for smoking meats... Smoking wood can add a rich, complex flavor to your BBQ, and the type of wood you choose can greatly impact the final taste. Here are some popular types of wood for smoking meats:\n\n1. **Hickory**: A classic choice for BBQ, hickory wood adds a strong, sweet, and smoky flavor to meats. It's a great option for ribs, brisket, and pork shoulder.\n2. **Oak**: Oak wood provides a mellow, smoky flavor and is often used for smoking beef, lamb, and game meats.\n3. **Mesquite**: Mesquite wood has a strong, earthy flavor and is commonly used for smoking beef, lamb, and vegetables.\n4. **Applewood**: Applewood adds a fruity, sweet flavor and is often used for smoking poultry, pork, and ribs.\n5. **Cherrywood**: Cherrywood provides a mild, fruity flavor and is a great option for smoking poultry, pork, and beef.\n6. **Pecan**: Pecan wood has a mild, nutty flavor and is often used for smoking beef, pork, and chicken.\n\nWhen choosing a type of wood, consider the following factors:\n\n* **Flavor profile**: Think about the type of meat you're smoking and the flavor profile you want to achieve.\n* **Smoke intensity**: Different woods produce varying levels of smoke intensity. For example, hickory and mesquite produce strong smoke, while applewood and cherrywood produce milder smoke.\n* **Availability**: Check if the wood is readily available in your area or online.\n* **Cost**: Different types of wood can vary significantly in price.\n\nSome general tips for using wood for smoking:\n\n* **Soak the wood**: Soak the wood chips or chunks in water for at least 30 minutes before smoking to prevent flare-ups and promote even smoke production.\n* **Use the right amount**: Use the right amount of wood for the size of your grill and the type of meat you're smoking. Too little wood can result in weak flavor, while too much can overpower the meat.\n* **Monitor the temperature**: Keep an eye on the temperature of your grill and adjust the wood as needed to maintain a consistent temperature.\n\nRemember, practice makes perfect, so don't be discouraged if your first attempts at smoking meats don't turn out exactly as you hoped. Keep experimenting with different types of wood and techniques until you find what works best for you!\n\nI hope this helps, and I'm sure your BBQ ribs will turn out amazing!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of making some brisket for my party too, do you have any tips on how to get that tender, melt-in-your-mouth texture like the one I had at the BBQ festival?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Brisket is a great choice! Achieving that tender, melt-in-your-mouth texture can be a challenge, but with some tips and techniques, you can get close to that BBQ festival-quality brisket.\n\nHere are some tips to help you achieve tender and delicious brisket:\n\n1. **Choose the right cut**: Look for a whole brisket (also known as a \"packer brisket\") or a flat cut brisket. The flat cut is leaner and more prone to drying out, but it's also easier to slice thinly.\n2. **Seasoning and dry-brining**: Dry-brine the brisket by rubbing it with a mixture of salt, sugar, and spices, and letting it sit in the refrigerator for 2-3 days. This helps to break down the connective tissues and add flavor.\n3. **Low and slow cooking**: Cook the brisket at a low temperature (225-250°F) for a long period of time (8-12 hours). This breaks down the collagen in the meat, making it tender and juicy.\n4. **Wood smoke**: If you have a smoker or a charcoal grill, use wood smoke to add flavor and tenderize the brisket. Hickory, oak, or post oak are popular options for brisket.\n5. **Resting**: Once the brisket is cooked, let it rest for at least 30 minutes to 1 hour before slicing. This allows the juices to redistribute, making the meat even more tender.\n6. **Slice against the grain**: Slice the brisket against the grain (perpendicular to the lines of muscle) to make it easier to chew and more tender.\n7. **Fat content**: A higher fat content can make the brisket more tender and juicy. Look for a brisket with a good layer of fat on top, and don't trim it too much.\n8. **Braising**: If you don't have a smoker or charcoal grill, you can cook the brisket in a Dutch oven or a slow cooker with some liquid (such as stock or wine) to add moisture and tenderize the meat.\n\nSome additional tips to help you achieve that BBQ festival-quality brisket:\n\n* **Use a Texas-style dry rub**: A dry rub with a mix of spices, herbs, and chili powder can add depth and complexity to the brisket.\n* **Add some fat**: Add some fat to the brisket, such as beef tallow or duck fat, to keep it moist and add flavor.\n* **Monitor the temperature**: Use a thermometer to monitor the internal temperature of the brisket, and adjust the heat as needed to maintain a consistent temperature.\n* **Don't overcook**: Brisket can become dry and tough if it's overcooked. Aim for an internal temperature of 160-170°F for medium-rare to medium.\n\nBy following these tips and techniques, you should be able to achieve a tender and delicious brisket that'll impress your party guests!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely keep those tips in mind when preparing my brisket. By the way, do you have any recommendations for sides that would pair well with BBQ ribs and brisket? I'm thinking of making some coleslaw, but I want to offer some other options too.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Coleslaw is a classic BBQ side dish, and it pairs perfectly with ribs and brisket. Here are some other delicious side dish ideas that would complement your BBQ ribs and brisket nicely:\n\n1. **Baked Beans**: A BBQ staple, baked beans are sweet, smoky, and pair well with the rich flavors of ribs and brisket.\n2. **Grilled Corn on the Cob**: Grilled corn on the cob slathered with butter, salt, and pepper is a simple but tasty side dish that pairs well with BBQ.\n3. **Potato Salad**: A creamy potato salad with diced potatoes, mayonnaise, and herbs is a satisfying side dish that goes well with BBQ.\n4. **Roasted Vegetables**: Roasted vegetables like carrots, zucchini, and bell peppers are a healthy and flavorful side dish option. Simply toss with olive oil, salt, and pepper, and roast in the oven until tender.\n5. **Mac and Cheese**: For a comforting side dish, macaroni and cheese is a great option. You can add some BBQ twists like crispy bacon or jalapenos to give it a spicy kick.\n6. **Collard Greens**: Braised collard greens with a tangy BBQ sauce are a delicious and nutritious side dish that pairs well with ribs and brisket.\n7. **Cornbread**: A warm, crumbly cornbread is a classic Southern side dish that pairs perfectly with BBQ. You can add jalapenos or hot sauce for an extra kick.\n8. **Fried Okra**: Crispy fried okra is a tasty side dish that adds a nice crunch to your BBQ spread. Simply dredge okra pods in flour, eggs, and breadcrumbs, and fry until golden brown.\n9. **Garlic Mashed Potatoes**: Mashed potatoes infused with garlic and herbs are a comforting side dish that pairs well with the rich flavors of BBQ.\n10. **Watermelon Salad**: A refreshing watermelon salad with feta cheese, mint, and balsamic glaze is a light and revitalizing side dish that's perfect for a summer BBQ.\n\nThese are just a few ideas to get you started. You can also consider other options like deviled eggs, potato chips, or even a fruit salad. Whatever you choose, I'm sure your guests will appreciate the variety of delicious sides to accompany your BBQ ribs and brisket!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with the baked beans and potato salad, they sound like they'll pair well with the ribs and brisket. And I almost forgot, I need to get some ice for the coolers, can you remind me how much ice I'll need?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Baked beans and potato salad are both classic BBQ sides that will complement your ribs and brisket perfectly.\n\nFor the ice, it's always better to have a little extra, but here's a rough estimate of how much ice you might need:\n\n* **Cooler size**: How big are your coolers? If you have small coolers, you'll need less ice. If you have large coolers, you'll need more.\n* **Number of guests**: How many guests are you expecting? More guests means more drinks, which means more ice.\n* **Duration of the party**: How long do you expect the party to last? If it's a short gathering, you might not need as much ice. If it's an all-day affair, you'll want to have more ice on hand.\n\nAs a rough estimate, here are some ice amounts for different cooler sizes:\n\n* Small cooler (20-30 quarts): 10-20 pounds of ice\n* Medium cooler (40-60 quarts): 20-40 pounds of ice\n* Large cooler (80-100 quarts): 40-60 pounds of ice\n\nRemember, this is just a rough estimate. If you're unsure, it's always better to err on the side of caution and get a little extra ice. You can always use it for future gatherings or store it in a freezer for later.\n\nAlso, don't forget to have plenty of cold drinks on hand to keep your guests hydrated and happy!\n\nI hope that helps, and I'm sure your BBQ party will be a huge success!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with 40 pounds of ice to be on the safe side. Thanks for the estimate! By the way, do you have any recommendations for some fun outdoor games or activities that I can set up for my guests?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "40 pounds of ice should be plenty for your party.\n\nNow, about outdoor games and activities... I've got some fantastic ideas to keep your guests entertained!\n\nHere are some fun outdoor games and activities that are perfect for a backyard BBQ:\n\n1. **Lawn Games**: Set up a few lawn games like cornhole, giant Jenga, or horseshoes. These games are easy to play and always a hit.\n2. **Badminton or Volleyball**: Set up a badminton or volleyball net in your backyard. These games are great for a BBQ party and can be played in teams or as individuals.\n3. **Giant Twister**: Create a giant Twister board on your lawn using spray paint or a large Twister mat. This game is always a blast!\n4. **Scavenger Hunt**: Create a scavenger hunt with clues and challenges that take guests around the backyard. You can hide small prizes or treats along the way to make it more exciting.\n5. **Water Balloon Toss**: Set up a water balloon toss station with balloons and a designated tossing area. This game is perfect for a summer BBQ.\n6. **Lawn Darts**: Set up a lawn darts game with large, soft-tip darts and a target board. This game is easy to play and can be enjoyed by all ages.\n7. **Outdoor Movie**: If you have a large outdoor screen or a white sheet, set up an outdoor movie area with comfortable seating and snacks. Choose a fun summer movie or a classic BBQ-themed film.\n8. **Yard Yahtzee**: Create a giant Yahtzee game on your lawn using large dice and a scoreboard. This game is easy to play and can be enjoyed by all ages.\n9. **Sidewalk Chalk Art**: Set up a sidewalk chalk art station with colorful chalk and encourage guests to create their own masterpieces.\n10. **Photobooth**: Create a DIY photobooth with props and backdrops for guests to take silly photos.\n\nRemember to keep the games and activities simple, safe, and enjoyable for all ages. You can also tailor the games to fit your party's theme or style.\n\nI hope these ideas help you plan an unforgettable BBQ party!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_39b12014"
+  ]
+}

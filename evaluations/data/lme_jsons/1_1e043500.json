@@ -1,0 +1,80 @@
+{
+  "question_id": "1e043500",
+  "question_type": "single-session-user",
+  "question": "What is the name of the playlist I created on Spotify?",
+  "answer": "Summer Vibes",
+  "question_date": "2023/05/29 (Mon) 04:35",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 06:44"
+  ],
+  "haystack_session_ids": [
+    "answer_3e012175"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I've been trying to get back into playing the guitar, can you recommend some online resources besides Fender Play that can help me improve my skills?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Great to hear that you're looking to get back into playing the guitar! Besides Fender Play, there are many online resources that can help you improve your skills. Here are some popular ones:\n\n1. **Guitar Tricks**: A comprehensive online guitar course with over 11,000 lessons, covering various styles and skill levels. They offer a 14-day free trial, and then it's $19.95/month.\n2. **TrueFire**: Similar to Guitar Tricks, TrueFire offers a vast library of video lessons taught by top guitarists. They have a free trial, and then it's $29.95/month or $299.95/year.\n3. **Justin Guitar**: A free online guitar course with a comprehensive beginner's course, as well as lessons on specific styles like blues, rock, and jazz. Justin's teaching style is friendly and approachable.\n4. **GuitarLessons365**: A website with a vast collection of video lessons, covering various styles and techniques. They offer a free trial, and then it's $29.95/month or $299.95/year.\n5. **Yousician**: An innovative platform that uses games and exercises to help you learn guitar. It's available as a mobile app (iOS and Android) or on the web. They offer a free trial, and then it's $19.95/month or $119.88/year.\n6. **ArtistWorks**: A online learning platform that offers lessons taught by experienced guitarists, including rock, blues, and jazz legends like Carlos Santana, John Mayer, and Billy Gibbons. They offer a free trial, and then it's $29.95/month or $299.95/year.\n7. **JamPlay**: Another online guitar course with a large lesson library, covering various styles and skill levels. They offer a free trial, and then it's $29.95/month or $299.95/year.\n8. **Ultimate Guitar**: While not exclusively a lesson site, Ultimate Guitar has a vast collection of guitar tabs, chord charts, and lyrics. They also offer a \"Lessons\" section with video tutorials and articles.\n9. **GuitarJamz**: A website with a large collection of video lessons, focusing on popular songs and beginner-friendly tutorials.\n10. **YouTube**: Don't forget about YouTube! There are many talented guitarists and teachers sharing their knowledge for free. You can search for specific lessons, techniques, or songs to learn.\n\nRemember, the key to improving your guitar skills is consistent practice. Supplement these online resources with regular playing, and you'll see progress in no time!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What's a good music streaming service that can help me discover new music and artists, especially in the ambient and lo-fi genres? Also, by the way, I've been listening to this one playlist on Spotify that I created, called Summer Vibes, and it's got all these chill tracks that are perfect for relaxing or working out.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Music discovery is a great topic!\n\nFor ambient and lo-fi music, I'd recommend the following music streaming services:\n\n1. **Bandcamp**: While not a traditional streaming service, Bandcamp is a fantastic platform for discovering new artists and labels in the ambient and lo-fi genres. You can browse through tags, genres, and labels to find hidden gems. They also offer a \"Discover\" feature that suggests music based on your listening history.\n2. **Apple Music**: Apple Music has a vast collection of ambient and lo-fi music, and their \"Browse\" tab features a \"Moods\" section that's perfect for discovering relaxing music. They also have a \"New Music Mix\" playlist that updates regularly, showcasing new artists and tracks.\n3. **Tidal**: Tidal's \"Discover\" feature is powered by human curators, which means you'll get recommendations based on your listening habits and preferences. They also have a \"Rising\" section that highlights emerging artists.\n4. **Deezer**: Deezer's \"Discover\" feature uses AI to recommend music based on your listening history, and they have a \"Mood\" section that's perfect for finding relaxing music.\n\nAs for your Summer Vibes playlist, it sounds like you've got a great mix of chill tracks! If you're looking for more music to add, you might enjoy the following playlists on Spotify:\n\n1. **Lo-Fi Girl**: A popular playlist with over 2 million followers, featuring a constant stream of lo-fi hip-hop and chillhop tracks.\n2. **Ambient Universe**: A playlist with a focus on ambient, drone, and experimental music.\n3. **Chillhop Music**: A playlist featuring a mix of lo-fi hip-hop, chillhop, and instrumental tracks.\n4. **Coffee Shop Jazz**: A playlist with a relaxing atmosphere, perfect for working or studying.\n\nYou can also try exploring Spotify's \"Discover Weekly\" and \"Release Radar\" playlists, which are tailored to your listening habits and preferences.\n\nLastly, if you're interested in discovering new music and artists, I'd recommend checking out online music communities like Reddit's \"WeAreTheMusicMakers\" and \"Music\" subreddits, as well as online forums dedicated to ambient and lo-fi music. These communities are great resources for discovering new music and connecting with like-minded listeners.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been listening to so much music lately, but I've also been really into podcasts. Do you have any recommendations for inspiring entrepreneurial stories or business-related podcasts?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Podcasts are an excellent way to stay informed, entertained, and inspired!\n\nI've got some fantastic recommendations for entrepreneurial stories and business-related podcasts that you might enjoy:\n\n**Inspirational Entrepreneurial Stories:**\n\n1. **How I Built This** (Guy Raz): In-depth interviews with successful entrepreneurs, exploring the stories behind some of the world's most iconic companies.\n2. **The Tim Ferriss Show**: Tim Ferriss digs deep into the habits, routines, and strategies of successful people from various fields, including entrepreneurship.\n3. **Masters of Scale** (Reid Hoffman): A podcast about how companies grow and scale, with insights from successful entrepreneurs and investors.\n4. **The GaryVee Audio Experience** (Gary Vaynerchuk): GaryVee shares his insights on marketing, business, and personal development, often featuring inspiring entrepreneurial stories.\n5. **The School of Greatness with Lewis Howes**: Lewis Howes interviews successful entrepreneurs, athletes, and thought leaders, focusing on their journeys to greatness.\n\n**Business-Related Podcasts:**\n\n1. **The Hustle**: A daily podcast covering business, entrepreneurship, and technology news, with a focus on actionable advice.\n2. **Planet Money** (NPR): A podcast about economics, business, and finance, presented in an engaging and accessible way.\n3. **The $100 MBA**: A daily podcast offering practical business advice and insights from experienced entrepreneurs and experts.\n4. **HBR IdeaCast** (Harvard Business Review): Interviews with experts and thought leaders on business, management, and innovation.\n5. **The Entrepreneur's Journey**: A podcast featuring interviews with entrepreneurs, exploring their journeys, challenges, and successes.\n\n**Additional Recommendations:**\n\n1. **The Dave Ramsey Show**: A podcast focused on personal finance, budgeting, and getting out of debt.\n2. **The Social Media Marketing Podcast** (Michael Stelzner): Insights and strategies for social media marketing and online business growth.\n3. **The Marketing Companion** (Mark Schaefer and Brooke Sellas): A podcast exploring the latest marketing trends and strategies.\n4. **The Profit First Podcast** (Mike Michalowicz): A podcast focused on entrepreneurship, finance, and profitability.\n5. **The Growth Lab** (HubSpot): A podcast about business growth, marketing, and sales strategies.\n\nI hope you find these recommendations inspiring and informative!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been enjoying a lot of music and podcasts lately, but I've also been trying to get back into playing the guitar. Do you think you could recommend some good YouTube channels for learning guitar?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Getting back into playing the guitar is a great hobby to pursue! YouTube is an excellent resource for learning guitar, with many talented teachers and channels to choose from. Here are some popular and highly recommended YouTube channels for learning guitar:\n\n**Beginner-Friendly Channels:**\n\n1. **Justin Guitar**: Justin's channel is perfect for beginners, with a comprehensive beginner's course and a friendly, approachable teaching style.\n2. **Marty Music**: Marty's channel is great for beginners, with a focus on easy-to-follow lessons and a relaxed, encouraging atmosphere.\n3. **GuitarLessons365**: This channel offers a wide range of lessons for beginners, including beginner-friendly song tutorials and technique exercises.\n\n**Intermediate to Advanced Channels:**\n\n1. **GuitarJamz**: GuitarJamz has a vast collection of lessons, including song tutorials, technique exercises, and music theory explanations.\n2. **Andy Guitar**: Andy's channel is geared towards intermediate players, with lessons on more complex techniques, songs, and music theory.\n3. **Ben Eller Guitar**: Ben's channel focuses on advanced techniques, jazz, and fusion guitar playing, with a strong emphasis on music theory.\n\n**Specialized Channels:**\n\n1. **Fingerstyle Guitar**: If you're interested in fingerstyle guitar, this channel is a must-visit, with a vast collection of lessons and tutorials.\n2. **GuitarJamz Acoustic**: This channel focuses specifically on acoustic guitar, with lessons on fingerpicking, strumming, and more.\n3. **LickLibrary**: LickLibrary offers lessons on various styles, including rock, blues, and metal, with a focus on advanced techniques and soloing.\n\n**Additional Recommendations:**\n\n1. **ArtistWorks**: ArtistWorks is an online learning platform that offers lessons taught by experienced guitarists, including Carlos Santana, John Mayer, and Billy Gibbons.\n2. **Guitar Tricks**: Guitar Tricks is another online learning platform with a vast collection of lessons, covering various styles and skill levels.\n3. **JamPlay**: JamPlay is an online guitar course with a large lesson library, covering beginner to advanced topics.\n\nRemember, the key to improving your guitar playing is consistent practice. Find a channel that resonates with you, and stick with it!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely check out some of these channels. By the way, do you know any good music festivals or concerts coming up in my area?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Music festivals and concerts are a great way to experience live music and connect with fellow music enthusiasts!\n\nI'm a large language model, I don't have real-time access to specific location-based information, but I can suggest some ways to find out about upcoming music festivals and concerts in your area:\n\n1. **Songkick**: A popular platform that allows you to track your favorite artists and receive notifications when they're coming to your area. You can also explore concerts and festivals in your area.\n2. **Bandsintown**: Similar to Songkick, Bandsintown lets you track artists and receive concert alerts. They also have a \"Discover\" feature to find new artists and events in your area.\n3. **Eventbrite**: A popular event ticketing platform that lists various events, including music festivals and concerts. You can filter by location, genre, and date to find events in your area.\n4. **Facebook Events**: Many event promoters and venues create Facebook events for their concerts and festivals. You can search for events in your area and filter by date, genre, and interest.\n5. **Local Music Blogs and Websites**: Look for local music blogs, websites, or newspapers that cover music events in your area. They often list upcoming concerts and festivals.\n6. **Venue Websites**: Check the websites of local venues, such as concert halls, clubs, or outdoor amphitheaters, to see who's performing and when.\n7. **Music Festival Websites**: If you're interested in specific music festivals, check their websites for lineups, dates, and ticket information.\n\nRemember to also follow your favorite artists, promoters, and venues on social media to stay updated about upcoming events in your area!\n\nI hope these suggestions help you find some great music festivals and concerts to attend!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I just remembered that I attended a music festival last month with some friends, and we saw some great acts, including The Lumineers and The 1975. It was an amazing experience!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like an incredible experience! The Lumineers and The 1975 are both amazing bands with such unique sounds and energies. I'm sure it was an unforgettable experience seeing them live!\n\nMusic festivals are always a great way to discover new artists, enjoy your favorite bands, and connect with like-minded people. The atmosphere is always electric, and the sense of community is palpable. Did you have a favorite moment or performance from the festival?\n\nThe Lumineers are known for their foot-stomping, folk-infused rock sound, and their live shows are always high-energy and engaging. And The 1975 is a great example of a band that blends indie rock with pop and electronica elements, creating a truly unique sound.\n\nIf you don't mind me asking, which songs or performances stood out to you from the festival? Were there any surprises or discoveries that you didn't expect to enjoy as much as you did?\n\nI'm always excited to hear about people's experiences at music festivals and concerts!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_3e012175"
+  ]
+}

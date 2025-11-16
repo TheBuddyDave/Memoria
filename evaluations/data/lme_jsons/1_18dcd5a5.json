@@ -1,0 +1,30 @@
+{
+  "question_id": "18dcd5a5",
+  "question_type": "single-session-assistant",
+  "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+  "answer": "4",
+  "question_date": "2023/05/24 (Wed) 06:33",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 13:00"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_hn3IS1q_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "create a D&D one shot for level 8 PCs. Include stat blocks for the enemies and loot if they succeed. the final battle should include a suprise twist. also, there should be cool layer actions. If there are any traps, describe in detail. Also, describe in detail all aspects of the one-shot to help a GM run the one shot smoothly",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Lost Temple of the Djinn\"\n\nAges ago, a powerful Djinn named Zoltar ruled over a vast temple filled with treasures and magical artifacts. Zoltar was a just ruler and the temple flourished under his rule. But as time passed, Zoltar disappeared and the temple was lost to the sands of time.\n\nNow, a wealthy collector has hired the party to retrieve an artifact from the lost temple. The collector has located the temple and believes the artifact to be located within its walls, but he doesn't have the power to retrieve it himself.\n\nUpon arriving at the temple, the party must navigate through a series of traps and puzzles to reach the artifact. The temple is filled with mummies, undead warriors, and constructs guarding its treasures.\n\nHere are the stat blocks for the enemies the party will face:\n\n* Mummies (4):\n\t+ Armor Class: 11\n\t+ Hit Points: 45 (6d8 + 18)\n\t+ Speed: 20 ft.\n\t+ Damage Immunity: Poison, Psychicical\n\t+ Condition Immunity: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\t+ Traits:\n\t\t- Curse of the Pharaohs. A creature that touches the mummy or hits it with a melee attack while within 5 ft. of it must succeed on a DC 15 Wisdom saving throw or be cursed. The cursed target can't regain hit points, and its hit point maximum is reduced by 10 (3d6) for 24 hours. The curse lasts until removed by a remove curse spell or similar magic.\n\t\t- Mummy Rot. A creature hit by a mummy's Slam attack must succeed on a DC 15 Constitution saving throw or be affected by the Mummy Rot disease. The disease's effects are detailed in appendix A of the Monster Manuel.\n* Construct Guardians (2):\n\t+ Armor Class: 17 (natural armor)\n\t+ Hit Points: 110 (13d10 + 30)\n\t+ Speed: 30 ft.\n\t+ Damage Immunity: Poison, Psychicical\n\t+ Condition Immunity: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\t+ Traits:\n\t\t- Immutable Form. The construct is immune to any spell or effect that would alter its form.\n\t\t- Magic Resistance. The construct has advantage on saving throws against spells and other magical effects.\n\t\t- Magic Weapons. The construct's weapon attacks are magical.\n\t\t- Siege Monster. The construct deals double damage to objects and structures.\n* Skeletal Warriors (6):\n\t+ Armor Class: 12\n\t+ Hit Points: 22 (5d8)\n\t+ Speed: 30 ft.\n\t+ Damage Immunity: Poison, Psychicical\n\t+ Condition Immunity: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\t+ Traits:\n\t\t- Undead Fortitude. If damage reduces the skeleton to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the skeleton drops to 1 hit point instead.\n\nPuzzles and Traps:\n\n* Pressure Plate Puzzle. A room filled with pressure plates on the floor. Stepping on the wrong plate will trigger a poison dart trap. A successful Intelligence (Investigation) check (DC 15) will reveal which plates are safe to step on.\n* Spinning Blade Trap. A hallway filled with spinning blades that activate when the party steps on a pressure plate. A Dexterity (Acrobatics) check (DC 15",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_hn3IS1q_0"
+  ]
+}

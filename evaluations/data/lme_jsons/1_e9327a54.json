@@ -1,0 +1,90 @@
+{
+  "question_id": "e9327a54",
+  "question_type": "single-session-assistant",
+  "question": "I'm planning to revisit Orlando. I was wondering if you could remind me of that unique dessert shop with the giant milkshakes we talked about last time?",
+  "answer": "The Sugar Factory at Icon Park.",
+  "question_date": "2023/05/30 (Tue) 09:10",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 04:16"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_480665"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Please suggest some family-friendly activities to do in Orlando.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "1. Visit the Disney World theme parks - Magic Kingdom, Epcot, Animal Kingdom, and Hollywood Studios.\n2. Explore the Wizarding World of Harry Potter at Universal Studios and Islands of Adventure.\n3. Visit the Kennedy Space Center Visitor Complex and see artifacts from space exploration.\n4. Enjoy a day at SEA LIFE Orlando Aquarium and interact with marine life.\n5. Have a fun time at LEGOLAND Florida Resort and take part in fun activities like building with LEGOs.\n6. Explore the museums and gardens at the Maitland Art Center.\n7. Visit Gatorland and get up close to Florida's wildlife like alligators, crocodiles, and tropical birds.\n8. Enjoy a day at the Crayola Experience, making and coloring with unique art supplies.\n9. Watch a game at the Orlando Magic basketball stadium, Amway Center.\n10. Enjoy a day at Discovery Cove, where you can swim with dolphins, snorkel with fish, and relax on the beach.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you recommend any places to eat in Orlando that are family-friendly?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Orlando has many family-friendly dining options. Here are some recommendations:\n\n1. Toothsome Chocolate Emporium & Savory Feast Kitchen - A restaurant located at Universal CityWalk that offers a unique dining experience with imaginative dishes and delicious desserts.\n\n2. The Cheesecake Factory - A casual dining restaurant located in The Mall at Millenia that offers a diverse menu that includes everything from burgers to salads and, of course, an extensive selection of cheesecakes.\n\n3. Shake Shack - A fast-food restaurant located in Winter Park that offers burgers, hot dogs, and shakes.\n\n4. Hash House A Go Go - A restaurant located on International Drive that serves up \"twisted farm food\" that is both delicious and visually stunning.\n\n5. Bahama Breeze - A Caribbean-themed restaurant located on International Drive that has a family-friendly atmosphere and offers a menu of tropical dishes and drinks.\n\n6. Blaze Pizza - A fast-casual restaurant located in Disney Springs that offers build-your-own Neapolitan pizzas and salads.\n\n7. T-Rex Cafe - A dinosaur-themed restaurant located in Disney Springs that offers a unique prehistoric dining experience for families.\n\n8. Uncle Julio's - A Tex-Mex restaurant located in Orlando and Kissimmee that offers a menu of authentic Mexican dishes and delicious drinks.\n\n9. Pio Pio - A restaurant located in the Dr. Phillips neighborhood that serves up delicious Peruvian dishes.\n\n10. Sweet Tomatoes - A buffet restaurant chain located throughout Orlando that offers a variety of healthy and delicious salads, soups, and baked goods.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I don't really trust buffet restaurants. Can you suggest any other family-friendly dining options in Orlando?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here are some additional family-friendly dining options in Orlando:\n\n1. The Cowfish Sushi Burger Bar - A unique restaurant located at Universal CityWalk that specializes in creative sushi and gourmet burgers.\n\n2. BJ's Restaurant and Brewhouse - A casual dining restaurant located in Orlando that offers a diverse menu of American style dishes and beers brewed on site.\n\n3. Mediterranean Blue - A Greek restaurant located in Orlando that serves up classic Greek dishes like souvlaki and gyros.\n\n4. Black Bean Deli - A casual Cuban restaurant located in Orlando that serves up delicious Cuban sandwiches, plantains, and more.\n\n5. Toothsome Chocolate Emporium & Savory Feast Kitchen - As mentioned before, this is a great family-friendly option for lunch or dinner.\n\n6. Dandelion Communitea Cafe - A vegetarian and vegan restaurant located in Orlando that serves up fresh and healthy salads, sandwiches, and smoothies.\n\n7. The Whiskey - A restaurant located in Orlando that has a family-friendly outdoor seating area and offers a menu of American dishes with a Southern twist.\n\n8. Blaze Pizza - Another option mentioned before, this fast-casual pizzeria is great for a quick meal.\n\n9. Kobe Japanese Steakhouse - A Japanese hibachi grill restaurant located in Orlando that offers an entertaining dining experience and delicious seafood, meat, and vegetable dishes.\n\n10. Soco Restaurant - A restaurant located in the Thornton Park neighborhood of Orlando that offers Southern-style dishes with a modern twist. They also have a great weekend brunch.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, these dining options sound amazing! Do you have any recommendations for a fun dessert spot that my family can check out after dinner?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here are some fun dessert spots that your family might enjoy after dinner:\n\n1. The Sugar Factory - A sweet shop located at Icon Park that offers an enormous menu of sweet treats, including specialty drinks and giant milkshakes.\n\n2. Wondermade - A gourmet marshmallow shop located in Sanford, just north of Orlando, that offers unique flavored marshmallows and s'mores kits.\n\n3. Gideon's Bakehouse - A bakery located at Disney Springs that offers delicious cookies, cakes, and other baked treats.\n\n4. Kelly's Homemade Ice Cream - A small-batch ice cream shop located in Orlando that offers unique flavors like Banana Cream Pie and Strawberry Jalapeno.\n\n5. Voodoo Doughnut - A doughnut shop located at Universal CityWalk that offers imaginative and creative doughnuts with unique toppings and flavors.\n\n6. The Glass Knife - A dessert and coffee shop located in Winter Park that serves up beautiful cakes, pastries, and other sweet treats in a stylish setting.\n\n7. Lickety Splitz - A dessert shop located in Orlando that serves up handmade frozen yogurt, sorbet, and ice cream.\n\n8. Better Than Sex - A dessert shop located in the Ivanhoe Village neighborhood of Orlando that specializes in decadent desserts like chocolate fondue and cheesecake.\n\n9. The Greenery Creamery - An ice cream shop located in the Thornton Park neighborhood of Orlando that offers all-natural ice cream flavors like lavender, honeycomb, and matcha.\n\n10. The Pastry Studio - A bakery located in Daytona Beach, just east of Orlando, that offers beautiful and delicious custom cakes and other desserts.",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "These dessert spots all sound amazing! I can't wait to try them out. Do you think it's possible to visit them all in one night?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I must advise against trying to visit all of these dessert spots in one night as it could be difficult and overwhelming. it's best to pick one or two that your family is most interested in and savor the experience. trying to visit all of them could cause you to rush through the experiences and not fully enjoy the desserts. instead, you can always plan to visit another one on a different day or trip. enjoy!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Thanks for the advice, but my family is a bunch of dessert fanatics and we love trying new things. We're up for the challenge! Do you have any tips on how to visit all of these spots efficiently?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I understand that some people may want to take on such a challenge. here are some tips to help visit all these dessert spots efficiently:\n\n1. create an itinerary: map out the locations of the dessert spots and plan out the best route to visit them. factor in traffic and parking.\n\n2. share the desserts: consider sharing the desserts with family members so everyone can try a variety of treats.\n\n3. order to-go: if you don't have time to sit down, order desserts to-go and eat them on the go.\n\n4. plan your timing: try to visit the dessert spots during non-peak times to avoid long lines.\n\n5. stay hydrated: it's important to drink water throughout the night to stay hydrated.\n\n6. wear comfortable shoes: you'll be doing a lot of walking, so make sure to wear comfortable shoes.\n\n7. consider transportation: if walking or driving from place to place is too tiring, consider renting a bike, taking a rideshare or calling a taxi.\n\nremember to pace yourself, and listen to your body throughout the night, and have fun trying all these tasty treats!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, those tips are great! I'm excited to take on this dessert adventure with my family. Do you have any more recommendations for other fun and unique things to do in Orlando?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there are plenty of other fun and unique things to do in Orlando! Here are some more recommendations:\n\n1. Escape Rooms - Orlando has several escape rooms that offer immersive and challenging puzzle-solving experiences.\n\n2. Cirque du Soleil - Watch a mesmerizing acrobatic and theatrical performance by the world-famous Cirque du Soleil, which often performs in Orlando.\n\n3. Airboat Tours - Take an airboat tour through the Florida Everglades and see alligators, birds, and other wildlife up close.\n\n4. The Orlando Eye - Take a ride on the 400-foot observation wheel and enjoy panoramic views of Orlando.\n\n5. Orlando Science Center - Visit the Orlando Science Center, which has interactive exhibits and educational programs that entertain visitors of all ages.\n\n6. The Orlando Museum of Art - See beautiful artwork from various periods and artists at the Orlando Museum of Art.\n\n7. Amusement Parks - Orlando has many amusement parks besides Disney and Universal, such as Fun Spot America, ICON Park, and SeaWorld.\n\n8. The Charles Hosmer Morse Museum of American Art - See beautiful works of art by Louis Comfort Tiffany, including iconic stained glass lamps.\n\n9. Dr. Phillips Center for the Performing Arts - Enjoy a variety of dance, music and theater performances at this beautiful venue.\n\n10. The Orlando Shakespeare Theater - Experience the theater with classic and contemporary works in a unique setting.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_480665"
+  ]
+}

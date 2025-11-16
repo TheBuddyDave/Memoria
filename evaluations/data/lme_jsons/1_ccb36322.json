@@ -1,0 +1,70 @@
+{
+  "question_id": "ccb36322",
+  "question_type": "single-session-user",
+  "question": "What is the name of the music streaming service have I been using lately?",
+  "answer": "Spotify",
+  "question_date": "2023/05/27 (Sat) 06:16",
+  "haystack_dates": [
+    "2023/05/23 (Tue) 15:24"
+  ],
+  "haystack_session_ids": [
+    "answer_f1fbb330"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm looking for some concert recommendations. I just got back from seeing The 1975 live and I'm itching to see more shows. Any suggestions?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The 1975 is an amazing live act! Congratulations on experiencing their energetic and visually stunning show! \n\nBased on their blend of indie rock, pop, and electronica, here are some concert recommendations that might scratch that live music itch:\n\n1. **Arctic Monkeys**: Like The 1975, they're a British rock band known for their catchy hooks and witty lyrics. Their live shows are high-energy and feature a mix of old and new material.\n2. **Pale Waves**: As a fellow Manchester-based band, Pale Waves share some similarities with The 1975's sound. Their music is a blend of indie rock, pop, and goth influences, and their live shows are always energetic and visually striking.\n3. **The Neighbourhood**: This American indie rock band is known for their moody, atmospheric sound and dark, synth-heavy vibes. Their live shows are often intense and captivating, with a strong focus on visuals and lighting.\n4. **Imagine Dragons**: If you enjoy The 1975's more anthemic and arena-ready tracks, Imagine Dragons might be up your alley. Their live shows are high-energy, with a strong focus on crowd interaction and visually stunning production.\n5. **Panic! At The Disco**: As a fan of The 1975's theatrical and pop-infused sound, you might enjoy Panic! At The Disco's flamboyant and theatrical live shows. Frontman Brendon Urie's vocal range and charisma are not to be missed.\n6. **The Killers**: Another band with a similar blend of indie rock and pop sensibilities, The Killers are known for their catchy hooks and energetic live performances. Their shows often feature a mix of old and new material, as well as some surprises.\n7. **Twenty One Pilots**: This American duo is known for their high-energy live shows, which often feature a mix of rock, pop, and hip-hop influences. Their performances are often visually stunning, with a strong focus on crowd interaction and acrobatic stunts.\n8. **Bleachers**: As a fan of The 1975's synth-heavy sound, you might enjoy Bleachers' indie pop and electronica-infused music. Their live shows are often high-energy and visually striking, with a strong focus on crowd interaction.\n9. **Walk The Moon**: This American indie rock band is known for their catchy hooks and energetic live performances. Their shows often feature a mix of old and new material, as well as some surprises and crowd-pleasing moments.\n10. **COIN**: As a fan of The 1975's indie rock and pop sensibilities, you might enjoy COIN's synth-heavy sound and high-energy live performances. Their shows often feature a mix of catchy hooks and visually striking visuals.\n\nKeep an eye on these bands' tour schedules and grab tickets when they come to a city near you!\n\nWhich of these recommendations resonates with you the most, or do you have any other specific preferences (e.g., genre, location, etc.) that might help me give you more tailored suggestions?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really into indie and alternative rock right now, so Arctic Monkeys and The Neighbourhood sound great. I've been listening to their songs a lot on Spotify lately.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Arctic Monkeys and The Neighbourhood are both fantastic live acts, and their music is perfect for fans of indie and alternative rock.\n\nIf you're enjoying their music on Spotify, you'll love them even more live. Here are a few more recommendations that might fit your taste:\n\n1. **The Black Keys**: As a fan of indie and alternative rock, you might enjoy The Black Keys' blues-rock sound. Their live shows are high-energy, with a focus on guitar riffs and catchy hooks.\n2. **The Strokes**: Another influential indie rock band, The Strokes are known for their garage rock sound and energetic live performances. Their shows often feature a mix of old and new material, as well as some surprises.\n3. **Interpol**: If you enjoy The Neighbourhood's darker, more atmospheric sound, you might appreciate Interpol's post-punk revival style. Their live shows are often moody and intense, with a strong focus on lighting and visuals.\n4. **The Vaccines**: This British indie rock band is known for their catchy hooks and high-energy live performances. Their music often features a mix of garage rock and post-punk influences, which might appeal to fans of Arctic Monkeys and The Neighbourhood.\n5. **Foals**: As a fan of indie and alternative rock, you might enjoy Foals' math rock sound, which combines intricate guitar work with catchy hooks and danceable rhythms. Their live shows are often intense and visually striking.\n6. **Glass Animals**: This British indie rock band is known for their blend of psychedelic rock, indie, and atmospheric soundscapes. Their live shows are often visually stunning, with a strong focus on lighting and visuals.\n7. **Cage the Elephant**: If you enjoy The Black Keys' blues-rock sound, you might appreciate Cage the Elephant's similar style. Their live shows are high-energy, with a focus on guitar riffs and catchy hooks.\n\nKeep an eye on these bands' tour schedules, and try to catch them live when they come to a city near you!\n\nAre there any specific aspects of live shows that you enjoy the most (e.g., energy, visuals, crowd interaction, etc.)? This might help me give you more tailored recommendations.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I love the energy of live shows, especially when the lead singer interacts with the crowd. That's what made The 1975's concert so amazing. I also appreciate when bands play a good mix of old and new material.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The energy of live shows is infectious, and when the lead singer engages with the crowd, it can take the experience to a whole new level!\n\nIt's great that you appreciate a good mix of old and new material, too. It's always exciting to hear new songs live, but it's also wonderful to sing along to familiar favorites.\n\nBased on your preferences, here are a few more recommendations:\n\n1. **The Libertines**: This British indie rock band is known for their high-energy live shows, which often feature crowd-surfing, stage-diving, and plenty of audience interaction. They play a great mix of old and new material, too.\n2. **Kings of Leon**: As a fan of indie and alternative rock, you might enjoy Kings of Leon's southern-tinged sound. Their live shows are often high-energy, with a focus on crowd interaction and a mix of old and new songs.\n3. **The Wombats**: This British indie rock band is known for their infectious energy and witty banter with the crowd. Their live shows often feature a mix of old and new material, and they're not afraid to throw in some surprises.\n4. **The Xcerts**: This Scottish indie rock band has a reputation for their high-energy live shows, which often feature plenty of crowd interaction and a mix of old and new songs. They're a great choice if you enjoy Arctic Monkeys and The Neighbourhood.\n5. **Catfish and the Bottlemen**: This Welsh indie rock band is known for their energetic live shows, which often feature a mix of old and new material. They have a strong focus on crowd interaction, and their frontman, Van McCann, is great at getting the audience involved.\n\nAll of these bands are known for their high-energy live shows and ability to engage with the crowd. They're a great fit for fans of The 1975, Arctic Monkeys, and The Neighbourhood.\n\nKeep an eye on their tour schedules, and try to catch them live when they come to a city near you!\n\nDo you have a favorite festival or venue that you like to attend, or are you open to exploring new places?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I usually stick to smaller, local venues since they offer a more intimate experience. I've had some great times at the local music venue downtown, where I saw The 1975 recently.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Smaller, local venues can offer a more intimate and personal experience, and it's great that you've had some fantastic times at the local music venue downtown. There's something special about being close to the band and feeling the energy of the crowd in a smaller setting.\n\nIt's wonderful that you got to see The 1975 at that venue, and I'm sure it was an unforgettable experience!\n\nSmaller venues often attract a more dedicated and passionate crowd, which can make the atmosphere even more electric. Plus, you might have a better chance to meet the band or get a more personal experience, like a meet-and-greet or a Q&A session.\n\nIf you're looking for more recommendations, I can suggest some local bands or up-and-coming acts that might be playing at your favorite venue. These shows can be a great way to discover new music and support the local scene.\n\nLet me know if you're interested, and I can try to suggest some local acts that might be up your alley!\n\nAlso, have you considered attending music festivals that feature smaller, more intimate stages or acoustic sets? These can offer a unique experience and a chance to see your favorite bands in a different setting.\n\nWhat do you think?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to exploring local acts and music festivals with smaller stages. That sounds like a great way to discover new music and experience something different.\n\nBy the way, do you have any recommendations for music gear, like turntables or guitar equipment? I've been getting back into playing guitar and I'm looking to upgrade my setup.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Exploring local acts and music festivals with smaller stages can be a fantastic way to discover new music and experience a more intimate setting.\n\nNow, about music gear... I'd be happy to help you with some recommendations! As a conversational AI, I don't have personal preferences, but I can give you some general advice and point you in the right direction.\n\nFor turntables, it really depends on your budget and what you're looking for. If you're just starting out, a beginner-friendly option like the Audio-Technica AT-LP60BK or the U-Turn Orbit might be a great choice. If you're looking to upgrade, you could consider the Pro-Ject Debut Carbon DC or the Rega Planar 1.\n\nFor guitar equipment, it's also important to consider your budget and playing style. Here are a few general recommendations:\n\n* Electric guitars: If you're looking for a versatile guitar that can handle a variety of genres, the Fender Stratocaster or the Gibson Les Paul might be great options. If you're on a budget, consider the Squier by Fender Vintage Modified Stratocaster or the Epiphone Les Paul Special II.\n* Acoustic guitars: For a beginner-friendly acoustic guitar, the Taylor GS Mini or the Yamaha FG800 might be great choices. If you're looking to upgrade, consider the Taylor 814ce or the Martin D-28.\n* Amplifiers: For a practice amp, the Fender Mustang I V.2 or the Blackstar ID:Core 10 might be great options. If you're looking for a more powerful amp, consider the Fender Deluxe Reverb or the Marshall DSL20.\n\nIt's always a good idea to try out different gear before you buy, if possible. You might also want to consider visiting a local music store or talking to a music gear expert to get more personalized recommendations.\n\nRemember, the most important thing is to find gear that feels comfortable and inspires you to play!\n\nDo you have a favorite guitar brand or style that you're particularly interested in?",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_f1fbb330"
+  ]
+}

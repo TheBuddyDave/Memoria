@@ -1,0 +1,80 @@
+{
+  "question_id": "gpt4_e072b769",
+  "question_type": "temporal-reasoning",
+  "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+  "answer": "3 weeks ago",
+  "question_date": "2023/05/06 (Sat) 05:25",
+  "haystack_dates": [
+    "2023/04/16 (Sun) 04:50"
+  ],
+  "haystack_session_ids": [
+    "answer_c19bd2bf_1"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan my next grocery trip and I was wondering if you could help me make a list of essentials I should pick up. I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you plan your grocery trip and maximize your Ibotta earnings.\n\nTo get started, I'll need to know a bit more about your dietary preferences and the types of products you typically buy. Please answer the following questions:\n\n1. Do you have any dietary restrictions or preferences (e.g., vegetarian, gluten-free, dairy-free, keto)?\n2. What is your household size?\n3. What types of groceries do you usually buy (e.g., fresh produce, meat, dairy, canned goods, snacks, baking supplies)?\n4. Do you have a preferred store or chain where you shop?\n5. Are there any specific Ibotta offers that you've been eyeing or want to prioritize?\n\nOnce I have this information, I can provide you with a list of essential items that are commonly found on Ibotta and tailored to your needs.\n\nAdditionally, here are some general tips to maximize your Ibotta earnings:\n\n* Check the Ibotta app regularly for new offers and expiring deals.\n* Plan your shopping trip around the items with the highest cashback percentages or values.\n* Buy in bulk if possible, especially for non-perishable items.\n* Consider shopping during sales or using digital coupons to stack your savings.\n* Always read the offer details and terms to ensure you understand what's required to earn the cashback.\n\nLet me know your answers to the above questions, and I'll help you create a personalized grocery list to get the most out of Ibotta!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I don't have any dietary restrictions or preferences, and I'm the only one in my household. I usually buy a mix of everything, like fresh produce, meat, dairy, canned goods, and snacks. I don't have a preferred store, but I do try to shop at places that offer cashback through Ibotta. I've been eyeing that rebate on eggs, so I'll probably prioritize that.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I've compiled a list of essential grocery items that are commonly found on Ibotta and should give you a good starting point for your next shopping trip. I've also included some tips to help you maximize your cashback earnings:\n\n**Produce:**\n\n1. Fresh fruits (e.g., apples, bananas, berries)\n2. Fresh vegetables (e.g., carrots, broccoli, bell peppers)\n3. Salad mix or greens\n4. Herbs (e.g., basil, cilantro, parsley)\n\n**Dairy and Eggs:**\n\n1. Eggs (prioritize this one for the rebate!)\n2. Milk (gallon or half-gallon)\n3. Yogurt (individual cups or a large container)\n4. Cheese (shredded, block, or string)\n\n**Meat and Protein:**\n\n1. Boneless, skinless chicken breasts\n2. Ground beef or ground turkey\n3. Salmon or other frozen fish fillets\n4. Tofu or other protein alternatives\n\n**Canned Goods:**\n\n1. Canned black beans or kidney beans\n2. Diced tomatoes\n3. Canned tuna or chicken\n4. Soups (e.g., tomato soup, black bean soup)\n\n**Snacks:**\n\n1. Granola or energy bars\n2. Nuts (e.g., almonds, walnuts)\n3. Dried fruits (e.g., cranberries, raisins)\n4. Crackers or chips\n\n**Pantry Items:**\n\n1. Bread (loaf or buns)\n2. Pasta or rice\n3. Oils (e.g., olive, coconut)\n4. Spices (e.g., salt, pepper, basil)\n\n**Beverages:**\n\n1. Juice (e.g., orange, apple)\n2. Coffee or tea\n3. Water (bottled or filtered)\n4. Soda or sparkling water\n\n**Tips to Maximize Ibotta Earnings:**\n\n1. Check Ibotta for offers on the items you need before you shop.\n2. Buy in bulk if possible, especially for non-perishable items.\n3. Look for \"any brand\" or \"any item\" offers to maximize your cashback.\n4. Stack your savings by using digital coupons or shopping during sales.\n5. Keep an eye on the Ibotta app for bonus offers or special deals.\n\nBy focusing on these essentials, you'll be able to stock your pantry and fridge while earning cashback through Ibotta. Don't forget to prioritize that egg rebate!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm also thinking of trying to reduce my plastic usage, so do you think I could get some reusable bags or containers that would be suitable for grocery shopping?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great idea! Reducing plastic usage is a wonderful step towards a more sustainable lifestyle. Reusable bags and containers can make a significant impact, and they're often eligible for cashback through Ibotta as well!\n\nHere are some eco-friendly options you might consider:\n\n**Reusable Bags:**\n\n1. Tote bags: Look for sturdy, washable totes made from cotton, canvas, or recycled materials. They're perfect for carrying groceries, and many stores offer discounts for using reusable bags.\n2. Produce bags: These are lightweight, mesh bags designed for carrying fruits and vegetables. They're usually made from breathable materials and can be washed and reused multiple times.\n\n**Reusable Containers:**\n\n1. Glass or stainless steel containers: These are great for storing and transporting items like meat, dairy, or snacks. Look for containers with secure lids and a durable design.\n2. Beeswax wraps: These are a sustainable alternative to plastic wrap for covering bowls or wrapping snacks. They're made from natural beeswax, jojoba oil, and cotton.\n\n**Tips for Using Reusable Bags and Containers:**\n\n1. Keep a few reusable bags in your car or by the door so you always have them handy.\n2. Designate specific containers for specific items (e.g., meat, dairy, snacks) to avoid cross-contamination.\n3. Clean and sanitize your reusable containers regularly to prevent bacterial growth.\n4. Consider purchasing reusable bags or containers with a brand that offers a discount or cashback through Ibotta.\n\nSome popular brands that offer eco-friendly reusable bags and containers include:\n\n* BagPodz\n* Bee's Wrap\n* Stasher Bag\n* S'well\n* LunchBots\n\nBefore making a purchase, check Ibotta for any available offers or rebates on these brands or products. You might be able to earn cashback on your eco-friendly purchases!\n\nRemember, every small change you make can add up to make a big difference in reducing plastic waste. Kudos to you for taking this step towards a more sustainable lifestyle!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been carrying reusable bags with me whenever I go shopping, and it's become a habit now. I feel good about not contributing to the plastic waste. Do you think I could also use these reusable bags for bulk shopping at places like Costco?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome to hear that you've made reusable bags a habit!\n\nYes, you can definitely use your reusable bags for bulk shopping at places like Costco! In fact, many bulk stores encourage customers to bring their own bags or containers to reduce waste. Here are some tips to keep in mind:\n\n**Using Reusable Bags for Bulk Shopping:**\n\n1. **Check store policies:** Before you head to Costco or any other bulk store, check their website or call ahead to confirm their policy on using reusable bags for bulk shopping. Some stores might have specific guidelines or restrictions.\n2. **Choose the right bags:** Select sturdy, larger reusable bags that can hold a decent amount of weight and are easy to carry. You might consider bags with reinforced handles or a flat bottom for easier loading.\n3. **Pack wisely:** When filling your reusable bags, make sure to pack items carefully to avoid damage or spills. You might consider using smaller containers or bags within your larger reusable bag to organize items and prevent messes.\n4. **Be mindful of weight:** Be aware of the weight capacity of your reusable bags and don't overload them. You don't want to risk damaging the bag or straining your back!\n5. **Clean your bags:** After each use, make sure to clean and sanitize your reusable bags to prevent cross-contamination and keep them in good condition.\n\n**Additional Tips for Bulk Shopping with Reusable Bags:**\n\n1. **Bring smaller bags for smaller items:** Consider bringing smaller reusable bags or containers for items like nuts, grains, or spices to make it easier to scoop and pour.\n2. **Use the store's scales:** If you're buying items like coffee or nuts in bulk, use the store's scales to weigh your items before pouring them into your reusable bags.\n3. **Be prepared for cashier questions:** Some cashiers might ask you to remove items from your reusable bags for scanning or weighing. Be patient and cooperative, and don't hesitate to ask for help if needed.\n\nBy using your reusable bags for bulk shopping, you'll not only reduce waste but also save money on single-use bags and potentially earn cashback through Ibotta!\n\nKeep up the great work, and happy bulk shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I was thinking of trying out a new grocery delivery service, something similar to FreshToDoor, which I tried a few weeks ago. Do you know of any other services that offer similar promotions or discounts, especially for first-time users?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Grocery delivery services can be super convenient, and it's great that you're exploring options.\n\nYes, there are several grocery delivery services that offer promotions and discounts, especially for first-time users. Here are a few options you might want to consider:\n\n1. **Instacart:** Instacart is a popular grocery delivery service that partners with local stores to deliver fresh produce, meat, dairy, and other essentials. They often offer promotions for first-time users, such as $10 off your first order or free delivery on your first purchase.\n2. **Shipt:** Shipt is a membership-based grocery delivery service that offers unlimited free delivery on orders over $35. They often provide discounts for new members, such as $15 off your first order or a free 2-week trial.\n3. **Peapod:** Peapod is an online grocery store that offers delivery or pickup options. They frequently offer promotions for new customers, such as $20 off your first order or 10% off your first purchase.\n4. **Google Express:** Google Express is a delivery service that partners with local stores to deliver groceries, household essentials, and more. They sometimes offer discounts for new users, such as $15 off your first order or free delivery on your first purchase.\n5. **Thrive Market:** Thrive Market is an online grocery store that specializes in organic and natural products. They often provide discounts for new customers, such as 25% off your first order or a free 30-day trial.\n\nWhen signing up for a new service, be sure to check their website or app for any available promotions or discounts. You can also try using promo codes or referral links from friends or family members to get a discount on your first order.\n\nAdditionally, keep an eye on your Ibotta app, as they sometimes offer cashback on grocery delivery services or online grocery purchases.\n\nRemember to read reviews, check the service's availability in your area, and review their pricing and delivery fees before committing to a particular service. Happy shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of trying out Thrive Market, as I've been trying to incorporate more organic and natural products into my diet. Do you think I could get cashback on my Thrive Market purchases through Ibotta?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thrive Market is a fantastic platform for accessing organic and natural products.\n\nAs for cashback on Thrive Market purchases through Ibotta, the answer is... YES! Ibotta has partnered with Thrive Market to offer cashback on certain purchases.\n\nHere's how it works:\n\n1. **Link your Thrive Market account:** Make sure you have an account with Thrive Market and link it to your Ibotta account. You can do this by going to the Ibotta app, searching for Thrive Market, and following the prompts to link your accounts.\n2. **Browse Thrive Market offers:** Check the Ibotta app for available cashback offers on Thrive Market purchases. These offers might be on specific products, categories, or even entire purchases.\n3. **Shop on Thrive Market:** Head to Thrive Market's website or app and make a purchase. Make sure to meet the requirements for the cashback offer you want to redeem.\n4. **Get cashback:** After your purchase, Ibotta will credit your account with the cashback amount. You can then redeem your cashback rewards for real money or use them to make future purchases.\n\nSome tips to maximize your cashback on Thrive Market purchases:\n\n* **Check Ibotta regularly:** Offers on Thrive Market products can change frequently, so make sure to check the Ibotta app regularly for new deals.\n* **Stack your savings:** Look for sales or discounts on Thrive Market and combine them with Ibotta cashback offers to maximize your savings.\n* **Read the fine print:** Always review the terms and conditions of each cashback offer to ensure you understand the requirements and any exclusions.\n\nBy shopping on Thrive Market through Ibotta, you can earn cashback on your organic and natural product purchases, making your healthy choices even more rewarding!\n\nHappy shopping, and enjoy your Thrive Market experience!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_c19bd2bf_1"
+  ]
+}

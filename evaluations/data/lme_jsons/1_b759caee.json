@@ -1,0 +1,30 @@
+{
+  "question_id": "b759caee",
+  "question_type": "single-session-assistant",
+  "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual gemstones?",
+  "answer": "@jessica_poole_jewellery",
+  "question_date": "2023/05/29 (Mon) 20:24",
+  "haystack_dates": [
+    "2023/05/20 (Sat) 19:16"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_2BSXlAr_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Write a blog post about guidance on how to buy a unique engagement rings direct from the designer, include examples of relevant designers and their instagram account",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Are you in the market for a unique engagement ring that truly stands out? One way to ensure that your ring is truly one-of-a-kind is to buy it directly from the designer. By going directly to the source, you can work with the designer to create a custom piece that reflects your personal style and the style of your partner. Plus, buying directly from the designer often means that you'll be able to get a better price and a higher quality ring.\n\nOne of the benefits of buying a ring directly from the designer is that you'll have the opportunity to work closely with them to create a custom piece. This allows you to incorporate your own personal style and preferences into the design of the ring. For example, if you love antique or vintage-inspired jewelry, you can work with the designer to create a ring that incorporates these elements. Or, if you and your partner both love nature, you could choose a ring with a natural or organic design.\n\nWhen it comes to finding a designer to work with, there are many talented individuals who create beautiful, unique engagement rings. Here are a few examples of designers who are worth considering:\n\n1. Jessica Poole (@jessica\\_poole\\_jewellery): Jessica is a UK-based jewelry designer who creates stunning, unique engagement rings using a combination of traditional and contemporary techniques. She has a passion for working with unusual gemstones and creates rings that are both modern and timeless.\n2. Rachel Boston (@rachelbostonjewellery): Rachel is a London-based jewelry designer who creates beautiful, handcrafted engagement rings. She uses a combination of precious metals and diamonds to create rings that are both elegant and unique. Rachel is also passionate about sustainability and only uses ethically sourced materials in her designs.\n3. Lauren Hunt (@laurenhuntjewellery): Lauren is a New York-based jewelry designer who creates modern, geometric engagement rings. She uses a combination of diamonds, gold, and other precious materials to create rings that are both sophisticated and edgy. Lauren's designs are perfect for couples who want a ring that truly stands out.\n\nWhen it comes to buying an engagement ring, there are many different options to consider. But, if you want a truly unique and special piece, consider buying directly from the designer. By working with a designer to create a custom ring, you can ensure that your engagement ring is truly one-of-a-kind and reflects your personal style. Plus, buying directly from the designer often means that you'll be able to get a better price and a higher quality ring.",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_2BSXlAr_0"
+  ]
+}

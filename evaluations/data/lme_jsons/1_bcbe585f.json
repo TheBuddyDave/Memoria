@@ -1,0 +1,80 @@
+{
+  "question_id": "bcbe585f",
+  "question_type": "temporal-reasoning",
+  "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+  "answer": 4,
+  "question_date": "2023/05/01 (Mon) 06:46",
+  "haystack_dates": [
+    "2023/04/01 (Sat) 11:02"
+  ],
+  "haystack_session_ids": [
+    "answer_43ba3965_1"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm planning a trip to the nearby wildlife refuge this weekend and I'm wondering if you can give me some info on what birds I might see this time of year. By the way, I just got back from a bird watching workshop at the local Audubon society today, which was really informative.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a great way to spend the day! Congratulations on taking the bird watching workshop at the Audubon society. I'm happy to help you with information on what birds you might see at the wildlife refuge this time of year.\n\nTo provide you with the most accurate information, could you please tell me:\n\n1. What is the location of the wildlife refuge you're planning to visit? (State or region)\n2. What time of year is it currently (spring, summer, fall, winter)?\n3. Are there any specific habitats or areas within the refuge you plan to focus on (e.g. wetlands, forests, grasslands)?\n\nWith this information, I can give you a better idea of what birds you might expect to see during your visit.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "It's located in the southeast region, and it's currently spring. I'm planning to explore the wetlands and forests areas, as I've heard they're good spots for spotting waterfowl and songbirds.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The southeast region in spring is a fantastic place for birding, with many species migrating through or returning to their breeding grounds.\n\nIn the wetlands and forests of the southeast during spring, you can expect to see a variety of birds. Here are some species you might encounter:\n\nWetlands:\n\n* Waterfowl:\n\t+ Wood Ducks\n\t+ Blue-winged Teal\n\t+ Green-winged Teal\n\t+ American Coots\n\t+ Mallards\n* Herons and Egrets:\n\t+ Great Blue Herons\n\t+ Great Egrets\n\t+ Snowy Egrets\n\t+ Little Blue Herons\n* Shorebirds:\n\t+ Killdeer\n\t+ Spotted Sandpipers\n\t+ Solitary Sandpipers\n\t+ Greater Yellowlegs\n* Rails:\n\t+ American Coots\n\t+ King Rails\n\t+ Virginia Rails\n\nForests:\n\n* Songbirds:\n\t+ Warblers:\n\t\t- Yellow Warblers\n\t\t- Yellow-rumped Warblers\n\t\t- Palm Warblers\n\t\t- Pine Warblers\n\t+ Tanagers:\n\t\t- Summer Tanagers\n\t\t- Scarlet Tanagers\n\t+ Orioles:\n\t\t- Baltimore Orioles\n\t\t- Orchard Orioles\n\t+ Thrushes:\n\t\t- American Robins\n\t\t- Veery\n\t\t- Wood Thrush\n* Raptors:\n\t+ Red-shouldered Hawks\n\t+ Broad-winged Hawks (migrating through)\n\t+ American Kestrels\n* Woodpeckers:\n\t+ Red-headed Woodpeckers\n\t+ Pileated Woodpeckers\n\t+ Downy Woodpeckers\n\t+ Hairy Woodpeckers\n\nKeep in mind that this is not an exhaustive list, and many other species can be present in the area. It's always a good idea to check with local birding groups or birding reports for more specific information on recent sightings in your area.\n\nRemember to bring your binoculars, field guide, and spotting scope (if you have one) to help you get a closer look and identify the birds you see. Enjoy your trip to the wildlife refuge, and happy birding!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really hoping to spot some warblers, as I've been trying to add more of them to my life list. Do you think the Yellow Warblers I saw on my guided bird walk a month and a half ago might still be around, or have they already moved on to their breeding grounds?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Warblers are a delight to spot, and adding new ones to your life list is always exciting!\n\nYellow Warblers are one of the earlier warbler species to migrate through the southeast, and they typically start moving northward in late March to early April. Since you saw them on your guided bird walk a month and a half ago, it's likely that the Yellow Warblers you saw have already moved on to their breeding grounds.\n\nHowever, it's not impossible that some stragglers might still be lingering in the area. Yellow Warblers can be found in the southeast during the spring migration, and some individuals might take a bit longer to make their way north. Additionally, some Yellow Warblers might be breeding in the southeast, particularly in areas with suitable habitat.\n\nThat being said, you might want to focus on other warbler species that are more likely to be present during this time. Some warblers that are known to migrate through the southeast during the spring, around this time of year, include:\n\n* American Goldfinch\n* Black-and-white Warbler\n* Prothonotary Warbler\n* Northern Parula\n* Yellow-throated Warbler\n* Hooded Warbler\n\nKeep in mind that the exact timing of warbler migration can vary depending on weather conditions, food availability, and other factors. It's always a good idea to check with local birding reports and birding groups for up-to-date information on recent sightings in your area.\n\nGood luck on your birding trip, and I hope you spot some of the warbler species you're looking for!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been meaning to try out the Merlin Bird ID app that Sarah recommended at the workshop today, do you think it would be helpful in identifying warblers?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Merlin Bird ID app is an excellent tool for identifying birds, including warblers! It's a fantastic resource that can help you narrow down the possibilities and make a positive ID.\n\nMerlin uses a combination of AI-powered algorithms and a comprehensive bird database to help you identify birds based on your location, time of year, and the bird's characteristics. For warblers, in particular, Merlin can be very helpful because it allows you to input specific details such as:\n\n* Size and shape\n* Plumage color and pattern\n* Head and bill shape\n* Tail and wing characteristics\n* Behavior\n* Habitat\n\nBy inputting these details, Merlin can provide you with a list of possible species, along with photos and descriptions to help you make a confident identification.\n\nOne of the strengths of Merlin is its ability to handle nuanced identification challenges, such as distinguishing between similar-looking warbler species. For example, if you're trying to decide between a Yellow Warbler and a Common Yellowthroat, Merlin's algorithm can help you tease out the subtle differences.\n\nAdditionally, Merlin is constantly being updated with new data and user input, so it's getting better and better at identifying birds all the time.\n\nSarah's recommendation is spot on – Merlin is definitely worth trying out, especially for warbler identification. Give it a shot, and I'm sure you'll find it to be a valuable tool in your birding adventures!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm wondering if Merlin can also help with bird calls and songs, as I've been trying to improve my skills in identifying birds by their songs.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Merlin Bird ID also has a fantastic feature for identifying bird calls and songs!\n\nThe Merlin app includes a vast library of bird sounds, which you can browse through by species or search for specific sounds. You can listen to recordings of individual species, compare different calls and songs, and even record and upload your own observations to help improve the database.\n\nOne of the most useful features for learning bird songs is Merlin's \"Sound ID\" tool. You can record a bird call or song using your phone's microphone, and Merlin's AI algorithm will try to match it to a species in its database. This can be super helpful when you're out in the field and hear a bird calling, but can't quite place the sound.\n\nMerlin's Sound ID feature uses machine learning to improve over time, so the more people use it, the better it gets. You can even submit your recordings to help improve the algorithm and contribute to the birding community!\n\nAdditionally, Merlin provides a \"Sound Explorer\" feature, which allows you to browse through a species' different vocalizations, such as songs, calls, and alarm calls. This can help you learn the various sounds a species makes and improve your skills in identifying birds by ear.\n\nImproving your skills in identifying birds by their songs is a great goal, and Merlin is an excellent tool to help you achieve it. With practice and patience, you'll become more confident in your ability to recognize bird calls and songs, and it will open up a whole new dimension of birding excitement!\n\nKeep in mind that Merlin is a powerful tool, but it's not a replacement for learning and practice. The more you use it, the more you'll learn, and the better you'll become at identifying birds by their songs. Happy birding!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm planning to focus on the wetlands area first, as I've heard that's where the warblers tend to congregate during migration. Do you think the Merlin app would be able to help me identify any warblers I might spot in the wetlands?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The wetlands area is an excellent spot to look for warblers during migration, and Merlin can definitely help you identify any warblers you might spot.\n\nMerlin's database includes a vast range of bird species, including warblers, and it's particularly strong on species that can be found in wetlands. When you're in the wetlands, you can use Merlin's \"Bird ID\" feature to help you identify any warblers you see.\n\nHere's how you can use Merlin to identify warblers in the wetlands:\n\n1. Open the Merlin app and select \"Bird ID\" from the main menu.\n2. Choose \"Wetlands\" as your habitat, and select the date and time of your visit.\n3. Merlin will ask you to input some details about the bird you're trying to identify, such as its size, plumage color, and any distinctive features you've observed.\n4. Based on your input, Merlin will provide you with a list of possible species, along with photos and descriptions to help you make a positive ID.\n5. If you're still unsure, you can use Merlin's \"Compare\" feature to view side-by-side comparisons of different species, which can be really helpful for distinguishing between similar-looking warblers.\n\nSome warblers you might spot in the wetlands during migration include:\n\n* Yellow Warbler\n* American Goldfinch\n* Common Yellowthroat\n* Northern Parula\n* Prothonotary Warbler\n\nKeep in mind that warblers can be tricky to identify, especially when they're in their non-breeding plumage. But with Merlin's help, you'll have a much better chance of making a positive ID.\n\nRemember to also pay attention to the bird's behavior, habitat, and any other distinctive features, as these can be important clues for identification. And don't hesitate to take photos or make notes to help you remember the details of your observation.\n\nGood luck, and I hope you spot some exciting warblers in the wetlands!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_43ba3965_1"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "question_id": "ce6d2d27",
+  "question_type": "knowledge-update",
+  "question": "What day of the week do I take a cocktail-making class?",
+  "answer": "Friday",
+  "question_date": "2023/07/12 (Wed) 04:11",
+  "haystack_dates": [
+    "2023/06/16 (Fri) 18:41",
+    "2023/06/30 (Fri) 12:19"
+  ],
+  "haystack_session_ids": [
+    "answer_73540165_1",
+    "answer_73540165_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan a dinner party menu and I was wondering if you could give me some ideas for appetizers that would pair well with spicy mango margaritas?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a fantastic choice! Spicy mango margaritas are a unique and delicious twist on the classic cocktail. Here are some appetizer ideas that would pair perfectly with them:\n\n1. **Spicy Shrimp Ceviche**: Marinate shrimp in a mixture of lime juice, mango puree, and diced jalapeños. Serve with tortilla chips or toasted coconut flakes to soak up the flavorful broth.\n2. **Mango Salsa with Plantain Chips**: A sweet and spicy salsa made with diced mango, red onion, jalapeño, cilantro, and lime juice pairs nicely with crispy plantain chips.\n3. **Grilled Pineapple and Prosciutto Skewers**: The sweetness of the grilled pineapple and the saltiness of the prosciutto complement the spicy and fruity flavors of the margarita.\n4. **Jalapeño Poppers**: Stuff jalapeños with a mixture of cream cheese, mango chutney, and cilantro, then bread and fry until crispy. Serve with a side of spicy mango salsa.\n5. **Coconut Shrimp with Mango Chili Sauce**: Breaded and fried shrimp tossed in a spicy mango chili sauce make for a delightful and tropical appetizer.\n6. **Spicy Mango Bruschetta**: Toasted baguette slices topped with diced mango, red onion, jalapeño, cilantro, and a sprinkle of queso fresco will get your guests excited for the meal to come.\n7. **Crispy Fried Wontons with Mango Salsa**: These bite-sized wontons can be filled with a spicy mango salsa or served alongside a side of salsa for dipping.\n8. **Mango and Avocado Salad**: A refreshing salad featuring diced mango, avocado, red onion, and cilantro, dressed with a zesty lime vinaigrette, will help cool down the palate between sips of the spicy margarita.\n9. **Spicy Mango Meatballs**: Mini meatballs infused with mango puree and diced jalapeños, served with toothpicks or mini tortillas, make for a flavorful and fun appetizer.\n10. **Tropical Fruit Skewers with Spicy Rum Glaze**: Skewer fresh pineapple, mango, and kiwi, then drizzle with a spicy rum glaze made with dark rum, mango puree, and a dash of cayenne pepper.\n\nThese appetizers will complement the spicy mango margaritas nicely, and their flavors will transport your dinner party to a tropical paradise!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I love these ideas! I think I'll go with the grilled pineapple and prosciutto skewers and the spicy shrimp ceviche. Do you have any recommendations for a main course that would pair well with the spicy mango margaritas?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Excellent choices! The grilled pineapple and prosciutto skewers and spicy shrimp ceviche will get your dinner party off to a fantastic start. For the main course, I'd recommend dishes that incorporate flavors and ingredients that complement the spicy, sweet, and tangy notes of the mango margaritas. Here are some main course ideas that would pair nicely:\n\n1. **Grilled Jerk Chicken with Mango Salsa**: A Caribbean-inspired dish featuring jerk-seasoned chicken breasts grilled to perfection, served with a fresh mango salsa that echoes the flavors of the margarita.\n2. **Pan-Seared Fish Tacos with Mango Avocado Salsa**: Delicate fish (such as mahi-mahi or tilapia) seared to perfection, served in tacos with a creamy mango avocado salsa, crispy tortilla strips, and a sprinkle of cilantro.\n3. **Cilantro Lime Chicken Fajitas**: Sizzling fajitas loaded with marinated chicken, sautéed onions and bell peppers, served with warm flour tortillas, and a side of cilantro lime rice that complements the herbal notes in the margarita.\n4. **Grilled Shrimp and Pineapple Skewers with Coconut Rice**: Skewers of marinated shrimp and pineapple, grilled to perfection, served with a side of creamy coconut rice and steamed vegetables.\n5. **Chipotle Lime Grilled Steak with Roasted Vegetables**: A flavorful grilled steak marinated in a chipotle lime mixture, served with a variety of roasted vegetables (such as asparagus, bell peppers, and zucchini) that have been tossed with olive oil, lime juice, and a sprinkle of cumin.\n6. **Coconut Curry Chicken with Mango Chutney**: A rich and creamy coconut curry sauce served over chicken breast or thighs, accompanied by a side of mango chutney that adds a sweet and spicy kick.\n7. **Grilled Mahi-Mahi with Mango BBQ Sauce**: A sweet and tangy mango BBQ sauce glazes the grilled mahi-mahi, served with a side of coconut rice and steamed broccoli.\n\nThese main course options incorporate elements of the spicy mango margaritas, such as the sweetness of mango, the heat of chipotle or jalapeño, and the tanginess of lime. You can choose one that fits your taste and preferences, and I'm sure your dinner party will be a huge success!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with the grilled jerk chicken with mango salsa. I've been experimenting with jerk seasoning lately and I love the flavor it adds to chicken. Do you think I could serve it with some grilled asparagus and quinoa on the side? And by the way, I have a cocktail-making class on Thursday, so I'm excited to try out some new recipes.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Grilled jerk chicken with mango salsa is a fantastic choice! The spicy and aromatic flavors of the jerk seasoning will pair beautifully with the sweet and tangy mango salsa.\n\nAnd absolutely, grilled asparagus and quinoa would make a wonderful side dish to accompany the jerk chicken! The slightly charred flavor of the asparagus will complement the smoky flavors of the jerk seasoning, while the quinoa will provide a nice textural contrast and help to soak up the juices from the chicken and salsa.\n\nGrilled asparagus is a simple but delicious side dish that's easy to prepare. Just toss the asparagus spears with olive oil, salt, and pepper, and grill them alongside the chicken until tender and slightly charred. You can also add some grated Parmesan cheese or a squeeze of lemon juice for extra flavor.\n\nQuinoa is a great choice as a side dish, too. You can flavor it with some sautéed onions, garlic, and herbs like thyme or cilantro to give it a bit of depth. Alternatively, you could try a citrus-herb quinoa recipe, which would tie in nicely with the tropical flavors of the mango salsa.\n\nNow, about that cocktail-making class – how exciting! I hope you have a blast learning new recipes and experimenting with different flavors and techniques. Don't hesitate to reach out if you need any help or inspiration with cocktail pairings for your dinner party. Spicy mango margaritas are a great starting point, but you might want to consider offering a few other options to cater to different tastes. I'd be happy to suggest some pairing ideas or recipes if you'd like!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of serving the grilled jerk chicken with a side of roasted sweet potatoes instead of quinoa. Do you think that would work?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Roasted sweet potatoes would be an excellent side dish to serve with the grilled jerk chicken and mango salsa! Sweet potatoes are a natural pairing with the warm, aromatic spices found in jerk seasoning, and their sweetness will provide a nice contrast to the savory, slightly spicy flavors of the chicken.\n\nRoasting sweet potatoes brings out their natural sweetness and adds a delicious caramelized flavor that will complement the charred, smoky flavors of the grilled chicken. You can simply toss the sweet potatoes with some olive oil, salt, and pepper, and roast them in the oven until tender and caramelized.\n\nThe sweetness of the sweet potatoes will also help to balance out the heat from the jerk seasoning, if you're concerned about the dish being too spicy. Plus, the creamy texture of the roasted sweet potatoes will provide a nice contrast to the crispy skin of the grilled chicken.\n\nTo take it up a notch, you could try adding some aromatics like onions, garlic, or thyme to the sweet potatoes while they roast, which will enhance their flavor and aroma. Alternatively, you could try roasting the sweet potatoes with some citrus juice or zest, like orange or lime, to add a bright, citrusy note to the dish.\n\nOverall, I think roasted sweet potatoes will be a fantastic side dish to serve with the grilled jerk chicken and mango salsa. Your dinner party is shaping up to be a real hit!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of making a dessert to serve after the main course. Do you have any ideas for desserts that would pair well with the spicy and sweet flavors of the mango salsa and jerk chicken?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a great idea! A dessert that complements the spicy and sweet flavors of the mango salsa and jerk chicken would be a wonderful way to round out the meal. Here are some dessert ideas that might fit the bill:\n\n1. **Coconut Lime Panna Cotta with Mango Salsa**: A creamy panna cotta infused with coconut and lime, topped with a spoonful of mango salsa, would provide a refreshing and tangy contrast to the spicy jerk chicken.\n2. **Pineapple Upside-Down Cake with Spicy Rum Glaze**: A classic pineapple upside-down cake with a twist - a spicy rum glaze made with dark rum, brown sugar, and a dash of cayenne pepper would add a surprising kick to the sweetness of the pineapple.\n3. **Mango Sorbet with Toasted Coconut and Lime Zest**: A refreshing and light mango sorbet, served with toasted coconut flakes and a sprinkle of lime zest, would cleanse the palate after the spicy jerk chicken.\n4. **Coconut Cream Pie with a Spicy Mango Chutney**: A rich coconut cream pie with a spicy mango chutney made with diced mango, onions, and jalapeño would provide a delightful contrast of textures and flavors.\n5. **Jerk-Infused Chocolate Truffles**: Yes, you read that right! Jerk-infused chocolate truffles, made with dark chocolate, jerk seasoning, and a hint of allspice, would provide a unique and intriguing dessert experience.\n6. **Pineapple-Coconut Tarts with Spicy Mango Salsa**: Mini pineapple-coconut tarts, topped with a spicy mango salsa, would offer a sweet and tangy combination that would pair nicely with the jerk chicken.\n\nThese desserts incorporate elements of the spicy and sweet flavors from the mango salsa and jerk chicken, while offering a refreshing and contrasting finish to the meal. Choose one that catches your eye, and I'm sure your dinner party will be a hit!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with the coconut lime panna cotta with mango salsa. I love the idea of a creamy dessert with a tangy and refreshing contrast. Do you have any tips on how to make the mango salsa for the dessert? Should I use the same recipe as the one I'm serving with the jerk chicken?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The coconut lime panna cotta with mango salsa is a fantastic dessert that will provide a wonderful contrast to the spicy and savory flavors of the jerk chicken.\n\nFor the mango salsa to serve with the dessert, I would recommend making a slightly sweeter and less spicy version compared to the one you're serving with the jerk chicken. You can use a similar recipe as a base, but adjust the ingredients to suit the dessert course. Here are some tips to help you create a dessert-friendly mango salsa:\n\n1. **Reduce the heat**: Omit or reduce the amount of jalapeño or other hot peppers to minimize the heat in the salsa. You want the salsa to be sweet and tangy, not spicy.\n2. **Add more mango**: Increase the amount of mango in the salsa to make it sweeter and more fruit-forward. You can use a combination of ripe and slightly underripe mango for the best flavor and texture.\n3. **Balance the acidity**: Adjust the amount of lime juice to balance the sweetness of the mango. You may want to add a bit more lime juice to cut the richness of the coconut panna cotta.\n4. **Add a hint of sweetness**: Consider adding a drizzle of honey, agave nectar, or brown sugar to the salsa to balance out the flavors. This will help the salsa complement the sweetness of the coconut panna cotta.\n5. **Fresh herbs**: Add some fresh herbs like mint, basil, or cilantro to the salsa for a bright and refreshing flavor.\n\nHere's a rough guide to get you started:\n\n**Dessert Mango Salsa Recipe**\n\n* 2 ripe mangos, diced\n* 1/2 red onion, diced\n* 1/4 cup fresh cilantro, chopped\n* 2 tablespoons lime juice\n* 1 tablespoon honey or agave nectar (optional)\n* Salt to taste\n\nMix all the ingredients together and adjust to taste. You can also add a splash of Grand Marnier or other orange-flavored liqueur to give the salsa a subtle citrus flavor.\n\nRemember, the key is to create a sweet and tangy salsa that complements the coconut lime panna cotta. Taste and adjust as you go, and don't be afraid to experiment with different flavors until you find the perfect balance. Good luck, and I hope your dinner party is a huge success!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm looking for some inspiration for a new cocktail recipe. Do you have any ideas for a refreshing summer drink that incorporates tequila? By the way, I have a cocktail-making class on Fridays, so maybe something I can experiment with then.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "What a great excuse to get creative with tequila! I'd be happy to help you with some inspiration for a refreshing summer cocktail. Here are a few ideas to get you started:\n\n1. **Cucumber Lime Refresher**: Combine tequila, fresh lime juice, cucumber syrup (made by infusing cucumber slices in simple syrup), and a splash of soda water. Garnish with a cucumber slice and a lime wheel.\n2. **Watermelon Basil Margarita**: Blend tequila, watermelon puree, fresh lime juice, and basil leaves. Strain into a salt-rimmed glass and garnish with a watermelon slice and a basil leaf.\n3. **Jalapeño Pineapple Spritz**: Mix tequila, pineapple juice, jalapeño pepper syrup (made by infusing sliced jalapeños in simple syrup), and a splash of lemon-lime soda. Garnish with a pineapple wedge and a slice of jalapeño.\n4. **Grapefruit Ginger Fizz**: Combine tequila, grapefruit juice, fresh lime juice, and ginger liqueur. Top with soda water and garnish with a slice of grapefruit and a sprig of rosemary.\n5. **Cantaloupe Agua Fresca**: Blend tequila, cantaloupe puree, fresh lime juice, and a splash of agave syrup. Strain into a glass filled with ice and garnish with a cantaloupe ball and a sprig of mint.\n6. **Spicy Mango Mule**: Mix tequila, mango puree, lime juice, ginger beer, and a dash of cayenne pepper. Serve in a copper mug with a lime wheel and a sprig of mint.\n\nThese ideas should give you a great starting point for your cocktail-making class on Fridays. Feel free to experiment with different combinations of ingredients, flavors, and garnishes to create your own unique tequila cocktail!\n\nWhich one of these recipes catches your attention, or do you have any specific flavor profiles in mind?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I like the sound of the Watermelon Basil Margarita. I've been experimenting with basil in my cocktails lately and I think it pairs well with tequila. Do you have any recommendations for a good watermelon puree recipe?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Basil and tequila are a match made in heaven! And watermelon puree is a great way to add natural sweetness and refreshing flavor to your margarita. Here's a simple recipe for homemade watermelon puree:\n\n**Watermelon Puree Recipe:**\n\nIngredients:\n\n* 3-4 cups cubed seedless watermelon (about 1 small to medium-sized melon)\n* 1 tablespoon granulated sugar (optional)\n* 1 tablespoon fresh lime juice\n\nInstructions:\n\n1. In a blender or food processor, blend the cubed watermelon until smooth.\n2. Strain the mixture through a fine-mesh sieve or cheesecloth to remove excess pulp and fibers. Discard the solids.\n3. If desired, add the sugar and lime juice to the puree and stir to combine. The sugar will help bring out the flavor and balance the tartness, while the lime juice will enhance the overall flavor profile.\n4. Taste and adjust the sweetness and lime juice to your liking.\n5. Store the puree in an airtight container in the refrigerator for up to 24 hours.\n\nSome tips to keep in mind:\n\n* Use a ripe but firm watermelon for the best flavor and texture.\n* If you're using a sweet watermelon, you may not need to add sugar.\n* You can also roast the watermelon in the oven (400°F/200°C) for about 20-30 minutes to bring out the natural sweetness and caramel flavors before pureeing. Just be sure to let it cool before blending.\n\nFor your Watermelon Basil Margarita, you can use about 1-2 ounces of the watermelon puree, depending on your desired level of flavor and sweetness.\n\n**Watermelon Basil Margarita Recipe:**\n\nIngredients:\n\n* 2 ounces tequila\n* 1 ounce fresh lime juice\n* 1/2 ounce watermelon puree\n* 1/2 ounce agave syrup\n* 1/4 ounce basil syrup (see below)\n* Salt for rimming glass\n* Ice\n* Fresh basil leaves for garnish\n\n**Basil Syrup Recipe:**\n\nIngredients:\n\n* 1 cup water\n* 1 cup granulated sugar\n* 1/4 cup fresh basil leaves\n\nInstructions:\n\n1. Combine the water and sugar in a saucepan and heat, stirring until the sugar dissolves.\n2. Add the fresh basil leaves and remove from heat. Let steep for at least 30 minutes to allow the flavors to infuse.\n3. Strain the syrup through a fine-mesh sieve or cheesecloth into a clean container. Discard the solids.\n4. Store the syrup in an airtight container in the refrigerator for up to 2 weeks.\n\nNow, go ahead and mix up your Watermelon Basil Margarita! Combine the tequila, lime juice, watermelon puree, agave syrup, and basil syrup in a shaker filled with ice. Shake until chilled, then strain into a salt-rimmed glass filled with ice. Garnish with a fresh basil leaf and a slice of watermelon, and enjoy!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try roasting the watermelon to bring out the sweetness. By the way, do you have any recommendations for a good tequila to pair with the watermelon and basil flavors?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Roasting the watermelon will definitely bring out its natural sweetness and add depth to your margarita.\n\nFor tequila, I'd recommend a blanco or reposado tequila to pair well with the watermelon and basil flavors. Here are a few options:\n\n1. **Blanco Tequila:**\n\t* Avion Silver: A crisp, clean tequila with notes of citrus and a hint of sweetness.\n\t* Casa Noble Crystal: A smooth, organic tequila with a subtle hint of agave and a clean finish.\n\t* Espolón Blanco: A bold, spicy tequila with a rich agave flavor and a crisp finish.\n2. **Reposado Tequila:**\n\t* Don Julio Reposado: A smooth, aged tequila with notes of vanilla, caramel, and a hint of oak.\n\t* Herradura Reposado: A rich, full-bodied tequila with flavors of agave, oak, and a hint of spice.\n\t* El Jimador Reposado: A well-balanced tequila with notes of agave, citrus, and a hint of vanilla.\n\nThese tequilas will complement the sweetness of the watermelon and the herbal notes of the basil without overpowering them. However, feel free to experiment with different tequilas to find the perfect pairing for your taste buds!\n\nWhen choosing a tequila, consider the following:\n\n* Blanco tequilas are typically lighter and crisper, making them perfect for showcasing the fresh flavors of the watermelon and basil.\n* Reposado tequilas are aged for a minimum of two months, which adds a richer, smoother flavor profile that can balance out the sweetness of the watermelon.\n\nRemember, the key is to find a tequila that complements the flavors without overpowering them. Experiment with different options, and don't be afraid to ask for recommendations from your local liquor store or bartender!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with Avion Silver, I've had it before and it's one of my favorites. I've been using it in my homemade margaritas and it always turns out great.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Avion Silver is a fantastic choice for a margarita, and it will pair beautifully with the watermelon and basil flavors. Its crisp, clean profile will allow the fresh flavors of the watermelon and basil to shine, while its subtle hint of sweetness will complement the agave notes.\n\nSince you're familiar with Avion Silver, you know it's a smooth and approachable tequila that won't overpower the other ingredients. Its citrus and herbal notes will also complement the lime juice and basil, creating a well-balanced flavor profile.\n\nNow that you have your tequila, watermelon puree, and basil syrup ready, it's time to bring everything together! Remember to adjust the amount of watermelon puree and basil syrup to your taste, and don't hesitate to experiment with different ratios to find your perfect balance.\n\nIf you're feeling adventurous, you could also try adding a splash of citrus, such as grapefruit or orange, to enhance the flavor profile. Or, you could garnish with a slice of watermelon, a sprig of basil, or even a slice of jalapeño to add a pop of color and freshness.\n\nHave fun mixing up your Watermelon Basil Margarita, and I hope it turns out to be a refreshing and delicious creation!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really excited to try out this recipe. Speaking of cocktails, I have a cocktail-making class on Friday, and I'm thinking of experimenting with some new recipes. Do you have any other ideas for tequila-based cocktails that I could try out?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a great opportunity to experiment with new recipes! I'd be happy to suggest some tequila-based cocktails that you could try out. Here are a few ideas to get you started:\n\n1. **Tequila Sunrise**: A classic cocktail made with tequila, orange juice, and grenadine, garnished with a slice of orange and a cherry.\n2. **Paloma**: A popular Mexican cocktail made with tequila, grapefruit juice, lime juice, and a splash of soda water, garnished with a slice of grapefruit.\n3. **Tequila Sour**: A tangy and refreshing cocktail made with tequila, lime juice, egg white, and a splash of orange liqueur, garnished with a lime wheel and a dash of nutmeg.\n4. **El Diablo**: A spicy and smoky cocktail made with tequila, ginger beer, lime juice, and a splash of cassis, garnished with a slice of lime and a sprig of mint.\n5. **Cucumber Collins**: A refreshing and light cocktail made with tequila, cucumber puree, lime juice, and a splash of soda water, garnished with a slice of cucumber and a sprig of mint.\n6. **Tequila Spritz**: A fruity and bubbly cocktail made with tequila, prosecco, lime juice, and a splash of fruit juice (such as pineapple or grapefruit), garnished with a slice of fruit and a sprig of mint.\n7. **Blood Orange Margarita**: A twist on the classic margarita made with tequila, blood orange juice, lime juice, and a splash of agave syrup, garnished with a slice of blood orange and a salt rim.\n\nThese are just a few ideas to get you started. Feel free to experiment with different combinations of ingredients, flavors, and garnishes to create your own unique tequila-based cocktails!\n\nRemember to have fun and be creative during your cocktail-making class. Don't be afraid to try new ingredients, flavor combinations, and techniques. And most importantly, enjoy the process and learn from your experiments!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a lot of fun! Thanks for the suggestions. I think I'll try out the Paloma and the Tequila Sour during my class on Friday. I've been wanting to experiment with grapefruit juice in cocktails, and the Paloma sounds like a great opportunity to do so. And the Tequila Sour sounds like a unique twist on the classic margarita.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're going to have a blast experimenting with those recipes! The Paloma is a fantastic choice to showcase grapefruit juice, and it's a very popular cocktail in Mexico. The bitterness of the grapefruit pairs perfectly with the sweetness of the tequila, and the lime juice adds a nice touch of acidity.\n\nThe Tequila Sour is indeed a unique twist on the classic margarita, and the addition of egg white gives it a silky, velvety texture. The orange liqueur adds a subtle citrus flavor that complements the tequila nicely. It's a great cocktail to try if you want to experiment with egg whites in cocktails.\n\nRemember to adjust the amount of grapefruit juice and orange liqueur to your taste, as they can be quite potent. And don't be afraid to experiment with different types of grapefruit juice, such as pink or ruby red, to see how they affect the flavor profile.\n\nAlso, if you want to take your Tequila Sour to the next level, you could try using a flavored simple syrup, such as a citrus or spice-infused syrup, to add an extra layer of depth to the cocktail.\n\nHave fun during your class, and I hope your experiments turn out amazing! If you have any more questions or need further assistance, feel free to ask.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_73540165_1",
+    "answer_73540165_2"
+  ]
+}

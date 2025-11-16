@@ -1,0 +1,145 @@
+{
+  "question_id": "852ce960",
+  "question_type": "knowledge-update",
+  "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+  "answer": "$400,000",
+  "question_date": "2023/12/09 (Sat) 11:53",
+  "haystack_dates": [
+    "2023/08/11 (Fri) 05:59",
+    "2023/11/30 (Thu) 12:13"
+  ],
+  "haystack_session_ids": [
+    "answer_3a6f1e82_1",
+    "answer_3a6f1e82_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm in the process of buying a new home and I'm trying to finalize my budget. Can you help me estimate how much I'll need for closing costs?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you estimate your closing costs.\n\nClosing costs are fees associated with the home buying process that are typically paid at the closing of the transaction. These costs can vary depending on several factors, such as the location, type of property, and type of loan you're using. Here are some common closing costs and estimated ranges to help you plan:\n\n1. **Title Insurance and Escrow Fees**:\n\t* Title insurance: 0.5% to 1.0% of the purchase price\n\t* Escrow fees: $500 to $2,000\n2. **Loan Origination Fees**:\n\t* Origination fee: 0.5% to 1.0% of the loan amount\n\t* Underwriting fee: $300 to $900\n\t* Appraisal fee: $300 to $1,000\n3. **Appraisal Fee**:\n\t* $300 to $1,000 (already included in loan origination fees above)\n4. **Credit Report Fee**:\n\t* $15 to $30\n5. **Flood Determination Fee**:\n\t* $15 to $50\n6. **Inspection Fees** (optional):\n\t* Home inspection: $300 to $1,000\n\t* Pest inspection: $50 to $150\n\t* Septic inspection: $100 to $300\n7. **Attorney Fees** (optional):\n\t* $500 to $2,000\n8. **Recording Fees**:\n\t* $50 to $200\n9. **Transfer Taxes** (varies by state and locality):\n\t* 0.1% to 2.0% of the purchase price\n10. **Other Fees**:\n\t* Courier fees: $20 to $100\n\t* Notary fees: $20 to $100\n\nTo estimate your total closing costs, you can use the following ranges:\n\n* For a conventional loan: 2% to 5% of the purchase price\n* For an FHA loan: 2.5% to 6% of the purchase price\n* For a VA loan: 1.5% to 3% of the purchase price\n* For a USDA loan: 1% to 3% of the purchase price\n\nBased on these estimates, if you're purchasing a $250,000 home, your closing costs could range from:\n\n* $5,000 to $12,500 (conventional loan)\n* $6,250 to $15,000 (FHA loan)\n* $3,750 to $7,500 (VA loan)\n* $2,500 to $7,500 (USDA loan)\n\nKeep in mind that these are rough estimates, and your actual closing costs may vary depending on your specific situation. It's a good idea to review your loan estimate and closing disclosure documents carefully to get a more accurate estimate of your closing costs.\n\nI hope this helps you plan your budget for your new home purchase!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually buying a $325,000 house, and I got pre-approved for $350,000 from Wells Fargo. What would be the estimated closing costs for my situation?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on your pre-approval!\n\nBased on your pre-approval amount of $350,000 and the purchase price of $325,000, I'll provide you with a more detailed estimate of your closing costs.\n\nAssuming you're getting a conventional loan from Wells Fargo, here's a breakdown of the estimated closing costs:\n\n1. **Title Insurance and Escrow Fees**:\n\t* Title insurance: 0.5% to 1.0% of the purchase price = $1,625 to $3,250\n\t* Escrow fees: $500 to $2,000 = $1,250 (avg.)\n\tTotal: $2,875 to $5,250\n2. **Loan Origination Fees**:\n\t* Origination fee: 0.5% to 1.0% of the loan amount = $1,750 to $3,500\n\t* Underwriting fee: $300 to $900 = $600 (avg.)\n\t* Appraisal fee: $300 to $1,000 = $650 (avg.)\n\tTotal: $2,700 to $5,050\n3. **Appraisal Fee** (already included in loan origination fees above)\n4. **Credit Report Fee**:\n\t* $15 to $30 = $22.50 (avg.)\n5. **Flood Determination Fee**:\n\t* $15 to $50 = $32.50 (avg.)\n6. **Inspection Fees** (optional):\n\t* Home inspection: $300 to $1,000 = $650 (avg.)\n\t* Pest inspection: $50 to $150 = $100 (avg.)\n\t* Septic inspection: $100 to $300 = $200 (avg.)\n\tTotal: $950 to $1,350\n7. **Attorney Fees** (optional):\n\t* $500 to $2,000 = $1,250 (avg.)\n8. **Recording Fees**:\n\t* $50 to $200 = $125 (avg.)\n9. **Transfer Taxes** (varies by state and locality):\n\t* 0.1% to 2.0% of the purchase price = $325 to $6,500 (avg. 0.5% = $1,625)\n10. **Other Fees**:\n\t* Courier fees: $20 to $100 = $60 (avg.)\n\t* Notary fees: $20 to $100 = $60 (avg.)\n\nTotal Estimated Closing Costs: $11,332 to $20,322\n\nAs a rough estimate, you can expect to pay around 3.5% to 6.2% of the purchase price in closing costs. Based on your purchase price of $325,000, that would be:\n\n* 3.5%: $11,375\n* 6.2%: $20,150\n\nKeep in mind that these are estimated ranges, and your actual closing costs may vary depending on your location, loan terms, and other factors. It's always a good idea to review your loan estimate and closing disclosure documents carefully to get a more accurate estimate of your closing costs.\n\nI hope this helps you plan your budget for your new home purchase!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you help me understand how much of the closing costs I can negotiate with the seller to cover, based on the inspection report?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The inspection report can be a powerful tool in negotiating with the seller to cover some or all of the closing costs.\n\nThe extent to which you can negotiate with the seller to cover closing costs depends on several factors, including:\n\n1. **Inspection report findings**: The severity and cost of the repairs or issues identified in the report will impact the seller's willingness to negotiate.\n2. **Local market conditions**: In a buyer's market, you may have more leverage to negotiate. In a seller's market, the seller may be less willing to compromise.\n3. **Original offer and negotiations**: If you've already negotiated the price down or have a strong offer, the seller may be more open to covering some closing costs.\n4. **Seller's motivation**: If the seller is motivated to sell quickly, they may be more willing to cover closing costs to finalize the deal.\n\nHere are some possible scenarios based on the inspection report:\n\n**Minor issues or no major concerns**:\n\n* You may be able to negotiate 0.5% to 1% of the purchase price (around $1,625 to $3,250) to cover some or all of the closing costs.\n\n**Moderate issues or needed repairs**:\n\n* You may be able to negotiate 1% to 2% of the purchase price (around $3,250 to $6,500) to cover some or all of the closing costs, depending on the cost of the repairs.\n\n**Major issues or significant repairs**:\n\n* You may be able to negotiate 2% to 3% of the purchase price (around $6,500 to $9,750) or more to cover some or all of the closing costs, depending on the severity of the issues.\n\n**Requesting credits vs. repairs**:\n\n* Instead of asking the seller to fix the issues, you can request a credit at closing to cover the cost of the repairs. This can be a more appealing option for the seller, as it avoids the hassle of coordinating repairs.\n\nWhen negotiating with the seller, be sure to:\n\n1. **Highlight the inspection report findings**: Emphasize the specific issues and estimated repair costs to demonstrate the impact on the property's value.\n2. **Provide evidence**: Share quotes or estimates from contractors to support your claims.\n3. **Be reasonable**: Don't overreach; be prepared to compromise and find a mutually acceptable solution.\n4. **Put it in writing**: Ensure any agreements or credits are included in the contract or an addendum to avoid misunderstandings.\n\nRemember, negotiation is a give-and-take process. Be prepared to negotiate and find a middle ground that works for both parties. Good luck!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I can try to negotiate with the seller to cover some of the closing costs, given the minor issues with the roof and plumbing found in the inspection report. Since we already agreed on a credit of $2,000 towards the closing costs, I was thinking of asking the seller to cover an additional 1% of the purchase price, which would be $3,250. Would that be a reasonable request, considering the inspection report findings and the local market conditions?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You've already got a good starting point with the $2,000 credit towards closing costs.\n\nRequesting an additional 1% of the purchase price ($3,250) to cover closing costs is a reasonable ask, considering the minor issues found in the inspection report. Here's why:\n\n1. **Inspection report findings**: The minor issues with the roof and plumbing do warrant some consideration. While they're not major concerns, they do require attention and will likely need to be addressed in the near future.\n2. **Initial credit already agreed upon**: The seller has already agreed to provide a $2,000 credit towards closing costs, which shows they're willing to work with you. Building on that, asking for an additional 1% of the purchase price is a reasonable escalation.\n3. **Local market conditions**: If you're in a buyer's market or a relatively balanced market, you may have more leverage to negotiate. Even in a seller's market, the seller may be willing to compromise to finalize the deal.\n\nTo make your request more effective, consider the following:\n\n1. **Emphasize the cumulative effect**: Highlight the total amount of credits you're requesting ($2,000 + $3,250 = $5,250) and how it will benefit both parties by facilitating a smoother closing process.\n2. **Be flexible**: Be open to negotiating the amount or finding alternative solutions, such as the seller paying for specific repairs or providing a home warranty.\n3. **Show your commitment**: Reiterate your enthusiasm for the property and your commitment to moving forward with the purchase, provided the seller is willing to work with you on the closing costs.\n\nHere's an example script to help you make your request:\n\n\"Hi [Seller's Agent], I hope you're doing well. I wanted to follow up on our previous discussion regarding the inspection report. As you know, we did identify some minor issues with the roof and plumbing. While they're not major concerns, we do believe they warrant some consideration. Given our initial agreement on the $2,000 credit towards closing costs, I was wondering if the seller would be willing to consider an additional 1% of the purchase price ($3,250) to help cover the remaining closing costs. This would bring the total credit to $5,250 and would greatly help us in finalizing the deal. We're still very interested in the property and believe this is a reasonable request considering the inspection report findings. Let me know if this is something the seller would be open to discussing.\"\n\nRemember to stay calm, professional, and respectful during the negotiation process. Good luck!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll ask the seller if they're willing to cover the additional 1% of the purchase price towards closing costs, given the minor issues found in the inspection report. Can you help me estimate how much I'll need to pay out of pocket for closing costs if the seller agrees to cover the additional $3,250?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "If the seller agrees to cover the additional $3,250, you'll want to estimate how much you'll need to pay out of pocket for closing costs.\n\nLet's review the estimated closing costs we discussed earlier:\n\n* Total Estimated Closing Costs: $11,332 to $20,322\n* Seller's initial credit: $2,000\n* Additional credit requested: $3,250\n\nIf the seller agrees to the additional credit, the total credit towards closing costs would be:\n\n$2,000 (initial credit) + $3,250 (additional credit) = $5,250\n\nNow, let's subtract the total credit from the estimated closing costs:\n\nLow-end estimate: $11,332 - $5,250 = $6,082\nHigh-end estimate: $20,322 - $5,250 = $15,072\n\nSo, if the seller agrees to cover the additional $3,250, you can expect to pay between $6,082 and $15,072 out of pocket for closing costs.\n\nKeep in mind that this is a rough estimate, and your actual closing costs may vary. Be sure to review your loan estimate and closing disclosure documents carefully to get a more accurate picture of your closing costs.\n\nRemember to also factor in any other expenses associated with buying a home, such as:\n\n* Down payment\n* Prepaids (insurance, taxes, interest)\n* Appraisal fee (if not included in closing costs)\n* Inspection fees (if not included in closing costs)\n* Any other expenses specific to your situation\n\nI hope this helps you plan your finances for the closing process!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you help me understand how much I'll need to pay each month for my mortgage payment, property taxes, and insurance?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you estimate your monthly mortgage payment, property taxes, and insurance.\n\nBased on your pre-approval for a $350,000 loan, let's assume you'll be financing $325,000 (purchase price) minus $25,000 (down payment) = $300,000.\n\nHere are some estimates:\n\n**Mortgage Payment:**\n\n* Loan amount: $300,000\n* Interest rate: 4% (assuming a 30-year fixed-rate mortgage)\n* Monthly payment: approximately $1,432\n\n**Property Taxes:**\n\n* Property tax rate: 1.25% of the purchase price (this may vary depending on your location)\n* Annual property taxes: $4,062.50 (1.25% of $325,000)\n* Monthly property taxes: approximately $338.54\n\n**Insurance:**\n\n* Homeowners insurance rate: 0.8% of the purchase price (this may vary depending on your location and other factors)\n* Annual insurance premium: $2,600 (0.8% of $325,000)\n* Monthly insurance premium: approximately $216.67\n\n**Total Monthly Payment:**\n\n* Mortgage payment: $1,432\n* Property taxes: $338.54\n* Insurance: $216.67\n* Total: approximately $1,987.21\n\nKeep in mind that these are rough estimates and may vary depending on your individual circumstances. Your actual mortgage payment, property taxes, and insurance premiums may be higher or lower.\n\nIt's essential to review your loan estimate and closing disclosure documents carefully to get a more accurate picture of your monthly payments. Additionally, you may want to consider other costs associated with homeownership, such as maintenance, repairs, and utilities.\n\nI hope this helps you plan your finances for your new home!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm planning to move into my new home soon and I need to set up cable and TV services. Can you recommend some providers in my area and their prices? By the way, I'm really looking forward to finally owning a home, it's been a long process, but it'll be worth it to have a backyard like the one I'll have - remember when I got pre-approved for $400,000 from Wells Fargo?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on your new home! I'm happy to help you with setting up cable and TV services.\n\nHowever, I need to clarify a few things. As a digital AI assistant, I don't have access to your personal information or previous conversations. I'm a new conversation each time you interact with me, so I don't recall you getting pre-approved for a mortgage or any other personal details.\n\nTo provide you with accurate information on cable and TV service providers in your area, I'll need to know your location. Could you please share your zip code or city and state with me? That way, I can give you a list of available providers and their prices.\n\nAlso, keep in mind that prices may vary depending on the specific services you choose, such as internet speed, TV channel packages, and any bundles or promotions. I'll do my best to provide you with a general idea of what's available in your area.\n\nLet me know your location, and I'll get started on helping you find the best cable and TV services for your new home!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm in the 78749 zip code. Also, I need to set up electricity and gas services as well. Can you give me a list of providers for those as well?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "78749 is a great area!\n\nFor cable and TV services, here are some providers available in your zip code:\n\n1. **Spectrum (Charter Communications)**: Offers a range of TV packages, including bundles with internet and phone services. Prices start at around $49.99/month for TV only.\n2. **AT&T**: Provides TV services, including DirecTV, with bundles available with internet and phone. Prices start at around $59.99/month for TV only.\n3. **Google Fiber**: Offers a high-speed internet and TV bundle, with prices starting at around $70/month.\n4. **Suddenlink**: Provides TV, internet, and phone services, with bundles available. Prices start at around $40/month for TV only.\n5. ** Grande Communications**: Offers TV, internet, and phone services, with bundles available. Prices start at around $40/month for TV only.\n\nFor electricity services, you have the option to choose from several providers in the 78749 zip code. Here are a few:\n\n1. **TXU Energy**: Offers a range of electricity plans, including fixed-rate and variable-rate options. Prices vary depending on usage and plan choice.\n2. **Reliant Energy**: Provides electricity plans with flexible pricing options, including fixed-rate and variable-rate plans.\n3. **Direct Energy**: Offers a range of electricity plans, including fixed-rate and variable-rate options, with rewards programs and discounts.\n4. **Just Energy**: Provides electricity plans with fixed-rate and variable-rate options, as well as renewable energy plans.\n5. **Pulse Power**: Offers electricity plans with fixed-rate and variable-rate options, with a focus on customer service.\n\nFor gas services, you'll need to contact your local gas provider, which is **Texas Gas Service**. They'll be able to set up your gas service and provide you with pricing information.\n\nPlease note that prices may vary depending on your specific usage, location, and other factors. I recommend visiting each provider's website or contacting them directly to get the most up-to-date pricing information and to find the best plan for your needs.\n\nRemember to also set up water and waste management services with the City of Austin or your local provider.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll need to schedule appointments for electricity and gas setup. Can you help me find a good time-tracking tool or app to keep track of all these appointments and tasks for my home move?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Staying organized during a home move can be a challenge. There are many great time-tracking tools and apps that can help you keep track of appointments, tasks, and deadlines. Here are some popular options:\n\n1. **Trello**: A visual project management tool that uses boards, lists, and cards to organize tasks. You can create boards for different aspects of your move, such as \"Appointments,\" \"Tasks,\" and \"To-Do.\"\n2. ** Todoist**: A task management app that allows you to create and prioritize tasks, set deadlines, and track progress. You can also set reminders and notifications to ensure you stay on top of your appointments and tasks.\n3. **Google Keep**: A simple note-taking app that allows you to create reminders, to-do lists, and notes. You can also set reminders and due dates for tasks.\n4. **AnyList**: A task management app that allows you to create custom lists, set reminders, and track progress. It's great for managing multiple tasks and appointments.\n5. **Moving Day**: A moving-specific app that helps you track your move, including appointments, tasks, and inventory. It also offers checklists and reminders to keep you on track.\n6. **Cozi**: A family-focused app that allows you to create shared calendars, to-do lists, and reminders. It's great for coordinating with family members or roommates during the move.\n7. **Google Calendar**: A calendar app that allows you to schedule appointments and events, set reminders, and share calendars with others.\n\nAll of these options are available as mobile apps, and many have web versions as well. You can try out a few to see which one works best for you.\n\nAdditionally, you might find it helpful to create a moving binder or folder to keep all your documents, receipts, and information organized. This can be a physical folder or a digital one using a tool like Google Drive or Dropbox.\n\nRemember to also take breaks and prioritize self-care during this busy time. Good luck with your move, and I hope these tools help you stay organized!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try out Trello for now. I also need to schedule a home insurance policy with Liberty Mutual. Do you have any tips on what I should focus on when reviewing the policy documents?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Trello is a fantastic tool for staying organized.\n\nRegarding home insurance, congratulations on taking this important step! Reviewing policy documents can be overwhelming, but focusing on the right areas will help you make an informed decision. Here are some key points to pay attention to when reviewing your Liberty Mutual home insurance policy:\n\n1. **Coverage limits**: Ensure the policy provides sufficient coverage for your home's value, personal belongings, and liability.\n2. **Deductibles**: Understand the deductible amounts for different types of claims (e.g., wind, hail, theft). A higher deductible can lower your premium, but you'll pay more out-of-pocket for claims.\n3. **Policy exclusions**: Review the list of events or items not covered by the policy, such as flood damage, earthquakes, or certain types of water damage.\n4. **Replacement cost value (RCV) vs. actual cash value (ACV)**: RCV covers the cost to replace or repair your home and belongings with similar materials, while ACV pays the depreciated value. Ensure you understand which type of coverage is included.\n5. **Liability coverage**: Check the coverage limits for liability claims, such as injuries or property damage to others.\n6. **Personal property coverage**: Review the coverage limits for personal belongings, such as jewelry, electronics, or artwork. You may need to purchase additional coverage for high-value items.\n7. **Additional living expenses**: If you're unable to live in your home due to damage, this coverage helps with temporary housing and living expenses.\n8. **Discounts**: Look for discounts you may be eligible for, such as multi-policy discounts, security system discounts, or discounts for being a non-smoker.\n9. **Policy duration and renewal**: Understand the policy's term, renewal process, and any conditions for cancellation.\n10. **Claims process**: Review the process for filing claims, including contact information, documentation requirements, and response times.\n\nWhen reviewing the policy documents, make sure to ask yourself:\n\n* Are there any areas where I need additional coverage or higher limits?\n* Are there any exclusions or limitations that concern me?\n* Are the deductibles and premiums reasonable for my budget?\n* Do I understand the claims process and what's required to file a claim?\n\nDon't hesitate to ask your Liberty Mutual agent or representative to clarify any points you're unsure about. It's essential to understand your policy to ensure you're adequately protected in case of unforeseen events.\n\nRemember to also keep your policy documents organized, either digitally or in a physical file, for easy reference.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll make sure to review the policy documents carefully. By the way, I'm still excited about my new home, and I can't wait to start moving in. Speaking of which, I need to finalize the moving details with the storage unit company. Can you help me with that?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations again on your new home! I'm happy to help with the moving details.\n\nHowever, I need to clarify that I'm a large language model, I don't have direct access to your personal information or previous conversations. I don't recall you mentioning a storage unit company or any moving details. Could you please provide more context or information about the storage unit company and what you need help with?\n\nPlease share the details, and I'll do my best to assist you in finalizing the moving arrangements.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I rented a storage unit from a company on March 1st to store my belongings while I'm in the process of closing on the house. I need to confirm the moving details with them, such as the moving date, truck size, and labor assistance. Can you help me with that?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for clarifying.\n\nI'm happy to help you with that, but I'm a large language model, I don't have the ability to directly contact the storage unit company or access their systems. However, I can guide you through the process of confirming the moving details with them.\n\nHere's a suggested approach:\n\n1. **Contact the storage unit company**: Reach out to the storage unit company's customer service department via phone or email to confirm the moving details. Have your rental agreement or contract handy to reference your account information.\n2. **Confirm the moving date**: Verify the moving date and time with the company to ensure they're aware of when you need to access your stored belongings.\n3. **Truck size and equipment**: Confirm the size of the truck or container they'll provide, as well as any additional equipment you may need, such as dollies or blankets.\n4. **Labor assistance**: If you've arranged for labor assistance, confirm the number of movers and their estimated arrival time.\n5. **Review and confirm**: Double-check all the details with the company to ensure everything is accurate and to your liking.\n\nSome example questions to ask the storage unit company:\n\n* What is the moving date and time?\n* What size truck or container will be provided?\n* Will labor assistance be available, and if so, how many movers will be sent?\n* Are there any additional fees or charges I need to be aware of?\n* What is the process for accessing my stored belongings on the moving day?\n\nBy confirming these details, you'll be well-prepared for the moving day and can ensure a smooth transition to your new home.\n\nRemember to also take photos of your stored belongings before they're loaded onto the truck, and consider creating an inventory list to keep track of your items during the move.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_3a6f1e82_1",
+    "answer_3a6f1e82_2"
+  ]
+}

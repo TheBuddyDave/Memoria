@@ -1,0 +1,80 @@
+{
+  "question_id": "b6025781",
+  "question_type": "single-session-preference",
+  "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+  "answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+  "question_date": "2023/05/29 (Mon) 10:41",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 03:28"
+  ],
+  "haystack_session_ids": [
+    "answer_8414cc57"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I need some new ideas for my meal prep, can you suggest some protein sources that go well with quinoa and roasted vegetables?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Quinoa and roasted veggies are a fantastic combo! Here are some delicious protein sources that pair well with them:\n\n1. **Grilled Chicken**: Marinate chicken breast in your favorite flavors and grill until cooked through. Slice and serve on top of quinoa and roasted veggies.\n2. **Pan-Seared Salmon**: Season salmon fillets with lemon juice, salt, and pepper, and sear in a pan until cooked through. Serve with quinoa and roasted veggies for a healthy, omega-rich meal.\n3. **Lentil or Mushroom Bolognese**: Cook lentils or mushrooms with onions, garlic, and tomatoes to create a hearty, plant-based protein source. Serve over quinoa and roasted veggies.\n4. **Roasted Turkey Breast**: Season a turkey breast with herbs and spices, and roast in the oven until cooked through. Slice and serve with quinoa and roasted veggies.\n5. **Tofu**: Marinate and bake or pan-fry tofu for a protein-rich, plant-based option. You can also crumble it into small pieces and mix with quinoa and roasted veggies.\n6. **Shrimp**: Quickly sauté shrimp with garlic, lemon, and herbs, and serve on top of quinoa and roasted veggies.\n7. **Chickpeas**: Add chickpeas to your quinoa and roasted veggies for a plant-based protein boost. You can also make a chickpea salad with quinoa, roasted veggies, and a tangy dressing.\n8. **Grilled Steak**: Grill a steak to your liking, then slice and serve with quinoa and roasted veggies for a satisfying, protein-packed meal.\n9. **Edamame**: Boil or steam edamame and season with salt, pepper, and chili flakes. Add them to your quinoa and roasted veggies for a tasty, plant-based protein source.\n10. **Tempeh**: Marinate and bake or pan-fry tempeh, a fermented soybean product, for a nutty, protein-rich option. Serve with quinoa and roasted veggies.\n\nThese protein sources offer a variety of flavors and textures to keep your meal prep interesting and delicious. Feel free to mix and match to find your favorite combinations!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's a great list! I've had grilled chicken and turkey breast before, but I've never tried lentil or mushroom bolognese. Can you give me a simple recipe to make a lentil bolognese?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Lentil bolognese is a fantastic option for a plant-based protein source, and it's surprisingly easy to make! Here's a simple recipe to get you started:\n\n**Lentil Bolognese Recipe**\n\n** Servings: 4-6**\n\n**Cooking Time: 30-40 minutes**\n\n**Ingredients:**\n\n* 1 cup dried green or brown lentils, rinsed and drained\n* 1 onion, chopped\n* 2 cloves garlic, minced\n* 2 cups mixed mushrooms (e.g., cremini, shiitake, button), sliced\n* 1 carrot, chopped\n* 1 celery stalk, chopped\n* 1 can (28 oz) crushed tomatoes\n* 1 tsp dried basil\n* 1 tsp dried oregano\n* Salt and pepper, to taste\n* 1/4 cup red wine (optional)\n\n**Instructions:**\n\n1. **Saute the aromatics**: In a large pot, heat 2 tbsp olive oil over medium heat. Add the chopped onion, garlic, carrot, and celery. Cook until the vegetables are tender, about 5-7 minutes.\n2. **Add the mushrooms**: Add the sliced mushrooms to the pot and cook until they release their liquid and start to brown, about 5 minutes.\n3. **Add the lentils and spices**: Add the rinsed lentils, dried basil, and dried oregano to the pot. Cook for 1-2 minutes, stirring constantly, until the lentils are coated with the spices.\n4. **Add the tomatoes and wine (if using)**: Add the crushed tomatoes, salt, and pepper to the pot. If using red wine, add it now. Stir well to combine.\n5. **Simmer the bolognese**: Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 20-25 minutes or until the lentils are tender.\n6. **Season and serve**: Taste and adjust the seasoning as needed. Serve the lentil bolognese over quinoa, with roasted vegetables, or as a sauce for pasta or veggies.\n\n**Tips and Variations:**\n\n* Use a mixture of lentil types, such as green, brown, and red, for a more complex flavor profile.\n* Add other aromatics like bay leaves, thyme, or rosemary to the pot for added depth.\n* For a richer flavor, add 1-2 tbsp tomato paste to the pot before adding the crushed tomatoes.\n* Experiment with different types of mushrooms, such as porcini or cremini, for varying textures and flavors.\n* Make it a one-pot meal by adding your favorite vegetables, like bell peppers or zucchini, to the pot during the last 10 minutes of simmering.\n\nGive this recipe a try, and I hope you'll enjoy the rich, savory flavor of lentil bolognese!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'd like to know some suggestions for sides or add-ins to go with the lentil bolognese and quinoa.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Lentil bolognese and quinoa make a fantastic base for a meal, and adding some tasty sides or mix-ins can elevate it to a whole new level. Here are some suggestions:\n\n**Roasted Vegetables:**\n\n* Roasted broccoli with garlic and lemon\n* Brussels sprouts with balsamic glaze and chopped nuts\n* Sweet potato wedges with rosemary and olive oil\n* Carrots with cumin and coriander\n* Asparagus with Parmesan cheese and lemon zest\n\n**Sauteed Greens:**\n\n* Spinach with garlic and lemon\n* Kale with cherry tomatoes and balsamic vinegar\n* Collard greens with onions and smoked paprika\n\n**Crunchy Add-ins:**\n\n* Toasted pumpkin seeds for a nutty flavor\n* Chopped fresh parsley or cilantro for a fresh burst\n* Crushed red pepper flakes for an spicy kick\n* Sliced or chopped nuts (e.g., almonds, walnuts, or pecans)\n\n**Cheesy Delights:**\n\n* Shaved Parmesan cheese for a salty, umami flavor\n* Crumbly feta cheese for a tangy kick\n* Grated mozzarella or ricotta for a creamy addition\n\n**Other Delicious Options:**\n\n* Sliced or diced bell peppers for a pop of color and sweetness\n* Chopped fresh herbs like basil, oregano, or thyme\n* Artichoke hearts for a unique flavor and texture\n* Sliced or chopped avocado for a creamy, healthy fat boost\n\n**Meal Prep Ideas:**\n\n* Prepare a batch of roasted vegetables on the weekend and store them in the fridge for up to 5 days.\n* Cook a large batch of quinoa and portion it out for the week.\n* Make a double batch of lentil bolognese and freeze it for up to 3 months. Simply thaw and reheat when needed.\n* Prep a container of sauteed greens or roasted vegetables and add them to your meal prep containers throughout the week.\n\nFeel free to get creative and mix-and-match these suggestions to create your perfect meal prep combination!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I was thinking of adding some roasted sweet potatoes to my meal prep this week. Do you have any suggestions on how to season them?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Roasted sweet potatoes are a fantastic addition to meal prep! They're nutritious, delicious, and pair well with a variety of flavors. Here are some seasoning suggestions to take your roasted sweet potatoes to the next level:\n\n**1. Classic Herbs:**\n* Mix together olive oil, salt, pepper, and chopped fresh herbs like rosemary, thyme, or sage.\n* Drizzle with olive oil and sprinkle with dried herbs like oregano, basil, or parsley.\n\n**2. Spicy Kick:**\n* Toss with olive oil, chili powder, cumin, and smoked paprika for a spicy, smoky flavor.\n* Add a pinch of cayenne pepper or red pepper flakes for an extra kick.\n\n**3. Mediterranean Style:**\n* Mix with olive oil, lemon juice, garlic powder, and dried oregano for a bright, herby flavor.\n* Add some chopped kalamata olives or artichoke hearts for extra Mediterranean flair.\n\n**4. Sweet and Smoky:**\n* Toss with olive oil, brown sugar, smoked paprika, and a pinch of cayenne pepper for a sweet and smoky flavor.\n* Add some chopped bacon or diced onions for a savory, caramelized flavor.\n\n**5. Indian-Inspired:**\n* Mix with olive oil, garam masala, cumin, and coriander for a warm, aromatic flavor.\n* Add some chopped cilantro or scallions for a fresh, herbaceous note.\n\n**6. Lemon Rosemary:**\n* Toss with olive oil, lemon zest, minced garlic, and chopped fresh rosemary for a bright, herbaceous flavor.\n* Squeeze some fresh lemon juice over the sweet potatoes before serving.\n\n**7. Simple Salt and Pepper:**\n* Sometimes, simplicity is the best option. Toss with olive oil, salt, and pepper for a delicious, straightforward flavor.\n\nRemember, you can always adjust the amount of seasonings to your taste. Feel free to experiment and combine different flavors to create your perfect seasoning blend!\n\nWhich seasoning option are you most excited to try?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with the Classic Herbs option. I have some fresh rosemary in my fridge that I've been meaning to use up.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Fresh rosemary is a fantastic addition to roasted sweet potatoes, and it pairs perfectly with the earthy sweetness of the sweet potatoes. The Classic Herbs option is a great way to showcase the flavors of the rosemary and sweet potatoes.\n\nHere's a simple recipe you can follow:\n\n**Roasted Sweet Potatoes with Fresh Rosemary**\n\n**Ingredients:**\n\n* 2-3 large sweet potatoes, peeled and cubed\n* 2 tbsp olive oil\n* 2 sprigs of fresh rosemary, chopped (about 2 tbsp)\n* Salt and pepper, to taste\n\n**Instructions:**\n\n1. Preheat your oven to 425°F (220°C).\n2. In a large bowl, toss the sweet potato cubes with the olive oil, chopped rosemary, salt, and pepper until they're evenly coated.\n3. Spread the sweet potatoes out in a single layer on a baking sheet lined with parchment paper.\n4. Roast in the preheated oven for about 20-25 minutes, or until the sweet potatoes are tender and caramelized, flipping them halfway through.\n5. Remove from the oven and let cool slightly before serving.\n\nThat's it! You can adjust the amount of rosemary to your liking, and feel free to add other herbs like thyme or parsley if you prefer.\n\nI hope you enjoy your roasted sweet potatoes with fresh rosemary!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of making a batch of homemade granola to snack on throughout the week. Do you have any suggestions for customizing the recipe to fit my taste preferences?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Homemade granola is a great snack to have on hand! Customizing a recipe to fit your taste preferences is a fantastic way to ensure you'll love the final product. Here are some suggestions to get you started:\n\n**Sweetness Level:**\n\n* Reduce or omit the honey or maple syrup if you prefer a less sweet granola.\n* Add a drizzle of honey or maple syrup after the granola has cooled if you prefer a sweeter snack.\n\n**Spices and Flavorings:**\n\n* Add a pinch of cinnamon, nutmeg, or cardamom for a warm, spicy flavor.\n* Use vanilla extract or a vanilla bean for a creamy, sweet flavor.\n* Add a teaspoon of cocoa powder for a chocolatey twist.\n\n**Nuts and Seeds:**\n\n* Substitute or add different nuts like almonds, cashews, or hazelnuts to change the flavor and texture.\n* Add seeds like chia, flax, or hemp for an extra nutritional boost.\n* Use peanut butter or another nut butter for added creaminess.\n\n**Dried Fruits:**\n\n* Cranberries, raisins, or cherries add natural sweetness and chewiness.\n* Apricots, apples, or pineapple provide a sweet and tangy flavor.\n* Omit dried fruits for a nutty, crunchy granola.\n\n**Grain Options:**\n\n* Use rolled oats, quinoa, or Kamut for a nutty, wholesome flavor.\n* Add some puffed rice or wheat for a lighter, crunchier texture.\n\n**Other Mix-ins:**\n\n* Coconut flakes or shredded coconut for a tropical flavor.\n* Dark chocolate chips or M&M's for a sweet and indulgent treat.\n* Cereal pieces like Cheerios or Cinnamon Toast Crunch for added crunch.\n\nRemember, the key to customizing a granola recipe is to experiment and find the combination that you enjoy the most. Don't be afraid to try new ingredients and flavor combinations!\n\nWhat's your favorite granola flavor or ingredient?",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_8414cc57"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "question_id": "4c36ccef",
+  "question_type": "single-session-assistant",
+  "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+  "answer": "Roscioli",
+  "question_date": "2023/05/23 (Tue) 04:42",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 08:55"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_448704"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Can you recommend some authentic Italian restaurants in Rome?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, here are some highly recommended authentic Italian restaurants in Rome:\n\n1. Trattoria Da Enzo al 29 - located in the Trastevere neighborhood, it's a cozy and traditional trattoria that serves classic Roman dishes.\n\n2. Roscioli - This is a gastronomic delicatessen and restaurant located near the Campo dei Fiori market. They offer the finest quality products and dishes with a focus on high-quality ingredients.\n\n3. Pizzeria La Montecarlo - is a small family-run pizzeria in the Gianicolo area that serves traditional Roman-style thin-crust pizza.\n\n4. Sora Margherita - This is a small and quaint family-owned restaurant in the Jewish Ghetto neighborhood that is known for its authentic Roman cuisine.\n\n5. La Pergola - This is a fine-dining restaurant located atop the Rome Cavalieri Hotel that offers a range of Italian and International dishes made with the finest ingredients.\n\n6. Hostaria Costanza - This restaurant is located in the heart of Rome near the Colosseum and offers classic Roman dishes in a traditional and elegant atmosphere.\n\n7. Ditirambo - This restaurant is located in the historical center of Rome and offers a high-quality menu consisting of fresh and seasonal ingredients.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Which one would you say is the best for a romantic dinner?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "For a romantic dinner, I would recommend Roscioli. It has a cozy and intimate atmosphere with soft lighting and excellent service. They also have a great wine list and a menu that offers a range of dishes made with high-quality ingredients. You can even request a private wine and cheese tasting for a unique and romantic dining experience.",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "Sounds perfect! Can you make a reservation for me at Roscioli for tomorrow evening at 7:00 pm?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry but i am unable to make reservations. however, you can visit roscioli's official website or contact them directly to make a reservation.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Do you have any suggestions for a good gelato spot in Rome?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Rome is home to some excellent gelato spots. Here are a few highly recommended ones:\n\n1. Giolitti - founded in 1900, Giolitti is one of the oldest and most famous gelaterias in Rome. They offer a range of classic flavors and seasonal specialties. 2. Fatamorgana - This is a popular gelateria that focuses on using high-quality and unique ingredients such as ginger, rosemary, and even gorgonzola cheese, to create unusual yet delicious gelato flavors. 3. Gelateria del Teatro - located close to Piazza Navona, this gelateria is known for its creative flavors such as goat cheese and fig or white chocolate and basil, as well as its aesthetically pleasing presentation. 4. La Romana - This chain of gelaterias is known for its use of fresh and natural ingredients, with flavors ranging from classic to more innovative combinations. 5. Neve di Latte - This gelateria uses only the freshest, organic ingredients that come from small farms to create its high-quality gelato. They offer a range of classic and seasonal flavors. Enjoy!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_448704"
+  ]
+}

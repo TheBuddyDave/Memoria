@@ -1,0 +1,90 @@
+{
+  "question_id": "7161e7e2",
+  "question_type": "single-session-assistant",
+  "question": "I'm checking our previous chat about the shift rotation sheet for GM social media agents. Can you remind me what was the rotation for Admon on a Sunday?",
+  "answer": "Admon was assigned to the 8 am - 4 pm (Day Shift) on Sundays.",
+  "question_date": "2023/05/26 (Fri) 02:28",
+  "haystack_dates": [
+    "2023/05/24 (Wed) 16:21"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_5Lzox6N_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "can u create a shift rotation sheet for GM social media agents",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I can help you create a shift rotation sheet for GM social media agents. Here's an example template that you can customize according to your team's needs:\n\nShift Rotation Sheet for GM Social Media Agents\n\n|  | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Week 1 | Agent 1 | Agent 2 | Agent 3 | Agent 4 | Agent 5 | Agent 6 | Agent 7 |\n| Week 2 | Agent 8 | Agent 9 | Agent 10 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Week 3 | Agent 5 | Agent 6 | Agent 7 | Agent 8 | Agent 9 | Agent 10 | Agent 1 |\n| Week 4 | Agent 2 | Agent 3 | Agent 4 | Agent 5 | Agent 6 | Agent 7 | Agent 8 |\n\nNote: You can adjust the number of agents and weeks according to your team's size and rotation schedule.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "7 agents",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a shift rotation sheet for GM social media agents with 7 agents:\n\nShift Rotation Sheet for GM Social Media Agents\n\n|  | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Week 1 | Agent 1 | Agent 2 | Agent 3 | Agent 4 | Agent 5 | Agent 6 | Agent 7 |\n| Week 2 | Agent 6 | Agent 7 | Agent 1 | Agent 2 | Agent 3 | Agent 4 | Agent 5 |\n| Week 3 | Agent 4 | Agent 5 | Agent 6 | Agent 7 | Agent 1 | Agent 2 | Agent 3 |\n| Week 4 | Agent 2 | Agent 3 | Agent 4 | Agent 5 | Agent 6 | Agent 7 | Agent 1 |\n\nNote: This rotation is for a 4-week period, with each agent working one day off per week. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "4 shifts as follows: \"8 am till 4 pm - 12 pm till 8 pm - 4 pm till 12 am - 12 am till 8 am \"",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Here's an updated version of the shift rotation sheet for GM social media agents with 7 agents and 4 shifts as follows: \"8 am till 4 pm - 12 pm till 8 pm - 4 pm till 12 am - 12 am till 8 am\":\n\nShift Rotation Sheet for GM Social Media Agents\n\n|  | 8 am - 4 pm | 12 pm - 8 pm | 4 pm - 12 am | 12 am - 8 am |\n| --- | --- | --- | --- | --- |\n| Week 1 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Week 2 | Agent 5 | Agent 6 | Agent 7 | Agent 1 |\n| Week 3 | Agent 2 | Agent 3 | Agent 4 | Agent 5 |\n| Week 4 | Agent 6 | Agent 7 | Agent 1 | Agent 2 |\n\nNote: This rotation is for a 4-week period, with each agent working one shift per day and one day off per week. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "2 days off for every agents",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here's an updated version of the shift rotation sheet for GM social media agents with 7 agents, 4 shifts, and 2 days off for every agent:\n\nShift Rotation Sheet for GM Social Media Agents\n\n|  | 8 am - 4 pm | 12 pm - 8 pm | 4 pm - 12 am | 12 am - 8 am |\n| --- | --- | --- | --- | --- |\n| Week 1 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Week 2 | Agent 5 | Agent 6 | Agent 7 | Agent 1 |\n| Week 3 | Agent 2 | Agent 3 | Agent 4 | Agent 5 |\n| Week 4 | Agent 6 | Agent 7 | Agent 1 | Agent 2 |\n| Week 5 | Agent 3 | Agent 4 | Agent 5 | Agent 6 |\n| Week 6 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Week 7 | Agent 7 | Agent 1 | Agent 2 | Agent 3 |\n| Week 8 | Agent 4 | Agent 5 | Agent 6 | Agent 7 |\n\nNote: This rotation is for an 8-week period, with each agent working one shift per day and having two days off per week. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "for only a week",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "No problem! Here's an updated version of the shift rotation sheet for GM social media agents with 7 agents, 4 shifts, and 2 days off for every agent for only a week:\n\nShift Rotation Sheet for GM Social Media Agents (1 Week)\n\n|  | 8 am - 4 pm | 12 pm - 8 pm | 4 pm - 12 am | 12 am - 8 am |\n| --- | --- | --- | --- | --- |\n| Day 1 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Day 2 | Agent 5 | Agent 6 | Agent 7 | Agent 1 |\n| Day 3 | Agent 2 | Agent 3 | Agent 4 | Agent 5 |\n| Day 4 | Agent 6 | Agent 7 | Agent 1 | Agent 2 |\n| Day 5 | Agent 3 | Agent 4 | Agent 5 | Agent 6 |\n| Day 6 | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Day 7 | Agent 7 | Agent 1 | Agent 2 | Agent 3 |\n\nNote: This rotation is for a 1-week period, with each agent working one shift per day and having two days off during the week. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Sunday - Saturday",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here's the shift rotation sheet for GM social media agents with 7 agents, 4 shifts, and 2 days off for every agent for a week starting on Sunday and ending on Saturday:\n\nShift Rotation Sheet for GM Social Media Agents (1 Week, Sunday - Saturday)\n\n|  | 8 am - 4 pm | 12 pm - 8 pm | 4 pm - 12 am | 12 am - 8 am |\n| --- | --- | --- | --- | --- |\n| Sunday | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Monday | Agent 5 | Agent 6 | Agent 7 | Agent 1 |\n| Tuesday | Agent 2 | Agent 3 | Agent 4 | Agent 5 |\n| Wednesday | Agent 6 | Agent 7 | Agent 1 | Agent 2 |\n| Thursday | Agent 3 | Agent 4 | Agent 5 | Agent 6 |\n| Friday | Agent 1 | Agent 2 | Agent 3 | Agent 4 |\n| Saturday | Agent 7 | Agent 1 | Agent 2 | Agent 3 |\n\nNote: This rotation is for a 1-week period, starting on Sunday and ending on Saturday, with each agent working one shift per day and having two days off during the week. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "agents names below:Admon\nMagdy\nEhab\nSara\nMostafa\nNemr\nAdam",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for providing the agent names. Here's an updated version of the shift rotation sheet for GM social media agents with 7 agents, 4 shifts, and 2 days off for every agent for a week starting on Sunday and ending on Saturday:\n\nShift Rotation Sheet for GM Social Media Agents (1 Week, Sunday - Saturday)\n\n|  | 8 am - 4 pm (Day Shift) | 12 pm - 8 pm (Afternoon Shift) | 4 pm - 12 am (Evening Shift) | 12 am - 8 am (Night Shift) |\n| --- | --- | --- | --- | --- |\n| Sunday | Admon | Magdy | Ehab | Sara |\n| Monday | Mostafa | Nemr | Adam | Admon |\n| Tuesday | Magdy | Ehab | Sara | Mostafa |\n| Wednesday | Nemr | Adam | Admon | Magdy |\n| Thursday | Ehab | Sara | Mostafa | Nemr |\n| Friday | Admon | Magdy | Ehab | Sara |\n| Saturday | Adam | Mostafa | Nemr | Admon |\n\nNote: This rotation is for a 1-week period, starting on Sunday and ending on Saturday, with each agent working one shift per day and having two days off during the week. The names of the agents have been added to the corresponding shift. You can adjust the duration of the rotation and the number of days off per week based on your team's specific needs.",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_5Lzox6N_0"
+  ]
+}

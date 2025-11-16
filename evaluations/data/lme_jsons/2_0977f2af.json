@@ -1,0 +1,145 @@
+{
+  "question_id": "0977f2af",
+  "question_type": "knowledge-update",
+  "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+  "answer": "Instant Pot",
+  "question_date": "2023/05/24 (Wed) 22:13",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 00:05",
+    "2023/05/21 (Sun) 22:02"
+  ],
+  "haystack_session_ids": [
+    "answer_3bf5b73b_1",
+    "answer_3bf5b73b_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan my meals for the week and was wondering if you could give me some inspiration for healthy lunch ideas that can be reheated.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Planning your meals in advance can save time, money, and stress. Here are some healthy lunch ideas that can be reheated:\n\n**Protein-Packed Options**\n\n1. **Lentil Soup**: Cook lentils with veggies and spices, then portion into individual containers for a nutritious and filling lunch.\n2. **Chicken and Rice Bowl**: Grill chicken breast, cook rice, and add steamed veggies like broccoli or carrots. Reheat and serve over rice.\n3. **Quinoa and Black Bean Bowl**: Cook quinoa and black beans, then top with diced chicken, avocado, and salsa.\n\n**Veggie Delights**\n\n1. **Roasted Veggie Wrap**: Fill whole wheat wraps with roasted veggies like eggplant, zucchini, and red bell peppers, along with hummus or goat cheese.\n2. **Veggie and Bean Chili**: Cook a big batch of chili with a variety of beans and veggies, then reheat and serve with whole grain crackers or cornbread.\n3. **Grilled Veggie and Goat Cheese Sandwich**: Layer grilled veggies like zucchini, eggplant, and red onion between whole wheat bread with goat cheese and pesto.\n\n**International Inspirations**\n\n1. **Korean-Style Chicken and Veggies**: Marinate chicken breast in Korean chili flakes and soy sauce, then cook with veggies like bell peppers and carrots. Serve with brown rice.\n2. **Indian-Style Lentil Curry**: Cook lentils and veggies in a flavorful curry sauce, served with brown rice or whole wheat naan.\n3. **Mexican Chicken and Sweet Potato**: Cook diced chicken and sweet potatoes in a spicy tomato sauce, served with brown rice and avocado.\n\n**Soups and Stews**\n\n1. **Minestrone Soup**: Cook a hearty soup with veggies, beans, and pasta in a tomato-based broth.\n2. **Chicken and Vegetable Stew**: Cook chicken breast and a variety of veggies in a flavorful broth, served with whole grain bread or crackers.\n3. **Butternut Squash Soup**: Roast butternut squash and blend with chicken or veggie broth, served with a swirl of creme fraiche.\n\nThese ideas should give you a great starting point for planning your meals. Simply cook a large batch on the weekend, portion into individual containers, and reheat as needed throughout the week. Enjoy!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually thinking of using my new Instant Pot to make some of these soups and stews. Do you have any recipes that are specifically designed for pressure cooking?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "The Instant Pot is an amazing tool for pressure cooking! I've got you covered with some delicious and easy-to-make recipes that are specifically designed for pressure cooking. Here are some recipes you might enjoy:\n\n**Soups and Stews**\n\n1. **Creamy Tomato Soup**: Cook diced tomatoes, onions, garlic, and chicken or veggie broth in 10 minutes. Blend with heavy cream and basil for a creamy soup.\n2. **Lentil Soup**: Saag paneer, green or brown lentils, onions, garlic, and spices cook in 20 minutes. Add spinach and lemon juice for a burst of flavor.\n3. **Chicken Tortilla Soup**: Cook diced chicken, onions, garlic, and tortillas in 10 minutes. Add diced tomatoes, beans, and spices for a flavorful and filling soup.\n4. **Butternut Squash Soup**: Roast butternut squash and onions, then cook with chicken or veggie broth and spices in 10 minutes. Blend with coconut milk for a creamy soup.\n5. **Beef Stew**: Cook beef cubes, onions, carrots, and potatoes in 30 minutes. Add red wine and beef broth for a rich and hearty stew.\n\n**Global Inspirations**\n\n1. **Chana Masala**: Cook chickpeas, onions, garlic, and spices in 10 minutes. Add coconut milk and cilantro for a creamy and flavorful Indian-inspired stew.\n2. **Korean Chicken Stew (Jjimdak)**: Cook chicken, potatoes, carrots, and onions in 20 minutes. Add gochujang, soy sauce, and ginger for a spicy and savory stew.\n3. **Mexican Black Bean Soup**: Cook black beans, onions, garlic, and spices in 10 minutes. Add diced tomatoes, cumin, and lime juice for a flavorful and nutritious soup.\n\n**Tips and Tricks**\n\n* Always use the \"Saute\" function to brown your onions and garlic before adding liquids to prevent burning.\n* Use the \"Manual\" or \"Pressure Cook\" function to set the cooking time and pressure level according to the recipe.\n* Let the pressure release naturally (NPR) for 10-15 minutes before quick-releasing (QR) to ensure tender and flavorful results.\n* Experiment with different spices and herbs to add depth and variety to your recipes.\n\nHere's a simple recipe to get you started:\n\n**Instant Pot Creamy Tomato Soup**\n\nIngredients:\n\n* 2 tablespoons olive oil\n* 1 onion, diced\n* 3 cloves garlic, minced\n* 2 cups diced tomatoes\n* 1 cup chicken or veggie broth\n* 1/2 cup heavy cream\n* 1 teaspoon dried basil\n* Salt and pepper, to taste\n\nInstructions:\n\n1. Press \"Saute\" and heat oil in the Instant Pot. Add onion and garlic; cook until softened.\n2. Add diced tomatoes, broth, and basil. Stir well.\n3. Close the lid and set the valve to \"Sealing\". Press \"Manual\" or \"Pressure Cook\" and set the cooking time to 10 minutes at high pressure.\n4. Let the pressure release naturally for 10 minutes, then quick-release any remaining pressure.\n5. Stir in heavy cream and season with salt and pepper to taste.\n6. Serve hot and enjoy!\n\nHappy pressure cooking with your Instant Pot!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm particularly interested in the Korean Chicken Stew recipe. Can you give me more details on the ingredients and instructions for that one? Also, do you have any recommendations for Korean chili flakes or gochujang brands that I should use?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Korean Chicken Stew (Jjimdak) is a popular and delicious dish in Korean cuisine. Here's a recipe for you to try:\n\n**Korean Chicken Stew (Jjimdak) Recipe**\n\nIngredients:\n\n* 1 lb boneless, skinless chicken thighs or drumsticks, cut into bite-sized pieces\n* 2 medium potatoes, peeled and cut into bite-sized pieces\n* 2 medium carrots, peeled and cut into bite-sized pieces\n* 1 large onion, cut into bite-sized pieces\n* 3 cloves garlic, minced\n* 2 tablespoons Gochujang (Korean chili paste)\n* 2 tablespoons soy sauce\n* 2 tablespoons Korean chili flakes (gochugaru)\n* 2 tablespoons brown sugar\n* 1 teaspoon ground black pepper\n* 2 cups chicken broth\n* 2 tablespoons sesame oil\n* 2 green onions, chopped (optional)\n* Salt, to taste\n\nInstructions:\n\n1. Press \"Saute\" on the Instant Pot and heat the sesame oil. Add the chicken and cook until browned, about 5 minutes. Remove the chicken from the pot and set aside.\n2. Add more oil if needed, then sauté the onions and garlic until softened, about 3 minutes.\n3. Add the potatoes and carrots; cook for 2 minutes.\n4. In a small bowl, whisk together the Gochujang, soy sauce, chili flakes, brown sugar, and black pepper. Add the mixture to the pot and stir to combine.\n5. Add the chicken broth and browned chicken back to the pot. Stir well to combine.\n6. Close the lid and set the valve to \"Sealing\". Press \"Manual\" or \"Pressure Cook\" and set the cooking time to 20 minutes at high pressure.\n7. Let the pressure release naturally for 10 minutes, then quick-release any remaining pressure.\n8. Season with salt to taste. Garnish with chopped green onions, if desired.\n9. Serve hot with steamed rice or noodles.\n\n**Recommended Brands for Korean Chili Flakes and Gochujang:**\n\n* **Korean Chili Flakes (Gochugaru):**\n\t+ Sempio: A popular and well-regarded brand in Korea, offering a range of gochugaru products.\n\t+ Koko: Another well-known brand with a mild to medium heat level.\n* **Gochujang:**\n\t+ Sunchang: A premium brand offering a rich, savory, and slightly sweet Gochujang.\n\t+ Chongga: A widely available brand with a good balance of sweet, savory, and spicy flavors.\n\nYou can find these brands at Asian markets or online retailers like Amazon. If you can't find these specific brands, look for other reputable brands that have good reviews.\n\n**Tips and Variations:**\n\n* Use bone-in chicken for a more authentic, fall-off-the-bone experience.\n* Add diced zucchini, bell peppers, or mushrooms for added flavor and nutrients.\n* For a spicier stew, add more chili flakes or use hot sauce like gochugaru-infused soy sauce.\n* Serve with a side of kimchi (spicy fermented Korean cabbage) for an authentic Korean meal.\n\nEnjoy your delicious and spicy Korean Chicken Stew!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm interested in trying out the Korean Chicken Stew recipe, but I'm a bit concerned about the level of spiciness. I haven't cooked with gochujang before, so I'm not sure how spicy it is. Can you give me an idea of how spicy the dish will be with the recommended amount of gochujang and chili flakes?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I completely understand your concern! Gochujang and Korean chili flakes (gochugaru) can add a significant level of heat to dishes, but the spiciness can be adjusted to your taste.\n\n**Gochujang Spiciness:**\nGochujang is a fermented Korean chili paste that has a thick, sticky consistency and a sweet, savory, and spicy flavor. The spiciness of gochujang can vary depending on the brand and type, but generally, it's considered to be moderately spicy. On the Scoville heat unit (SHU) scale, which measures the heat level of peppers, gochujang typically ranges from 1,000 to 3,000 SHU. For comparison, sriracha sauce has an SHU rating of 1,000-2,000, while Tabasco sauce has an SHU rating of 30,000-60,000.\n\n**Korean Chili Flakes (Gochugaru) Spiciness:**\nGochugaru is a type of Korean chili flake that's made from dried and crushed Korean chili peppers. It's often used to add heat to dishes, and its spiciness can vary depending on the type and brand. On the SHU scale, gochugaru typically ranges from 10,000 to 20,000 SHU, which is significantly hotter than gochujang.\n\n**Spiciness Level of the Korean Chicken Stew Recipe:**\nWith the recommended amount of gochujang (2 tablespoons) and chili flakes (2 tablespoons) in the Korean Chicken Stew recipe, the dish will have a moderate to medium-hot level of spiciness. The gochujang will add a deep, savory flavor with a slow-building heat, while the chili flakes will add a more immediate, fiery heat.\n\nIf you're concerned about the spiciness, you can adjust the amount of chili flakes to your taste. Here are some options:\n\n* Reduce the chili flakes to 1 tablespoon for a milder heat.\n* Omit the chili flakes altogether for a less spicy dish.\n* Add more chili flakes in small increments (e.g., 1/2 teaspoon at a time) to taste.\n\nRemember, you can always add more heat, but it's harder to remove it once it's added, so start with a smaller amount and adjust to your taste.\n\nI hope this helps you gauge the spiciness level of the recipe! If you have any more questions, feel free to ask.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try reducing the chili flakes to 1 tablespoon to start with, and then adjust to taste. I'm excited to try out this recipe, and I appreciate your guidance on the spiciness level. One more question - can I use chicken breast instead of thighs or drumsticks?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Reducing the chili flakes to 1 tablespoon will give you a good starting point for adjusting the spiciness to your taste.\n\n**Using Chicken Breast:**\nYes, you can use chicken breast instead of thighs or drumsticks, but keep in mind that the cooking time and texture may vary. Chicken breast is leaner and cooks more quickly than thighs or drumsticks, so you'll need to adjust the cooking time accordingly.\n\nHere are some tips for using chicken breast:\n\n* Cut the chicken breast into bite-sized pieces, about 1-2 inches in size.\n* Reduce the cooking time to 10-12 minutes at high pressure, as chicken breast cooks more quickly than thighs or drumsticks.\n* Make sure to check the internal temperature of the chicken breast to ensure it reaches 165°F (74°C) for food safety.\n\nKeep in mind that using chicken breast may result in a slightly drier texture than using thighs or drumsticks, which are typically more moist and tender. However, the flavors from the gochujang and spices will still penetrate the chicken well, and the dish will be delicious.\n\nIf you're concerned about the texture, you can also try using a combination of chicken breast and thighs or drumsticks for a more balanced texture.\n\nI hope that helps! Let me know if you have any more questions or if there's anything else I can assist you with. Enjoy your Korean Chicken Stew!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll go ahead and start preparing the ingredients for the Korean Chicken Stew. Thanks for the guidance on the spiciness level and the tips for using chicken breast. I'll make sure to adjust the cooking time accordingly.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm excited for you to try out the Korean Chicken Stew recipe. Remember to taste and adjust the seasoning as you go, and don't hesitate to reach out if you have any more questions or need further guidance.\n\nAdjusting the cooking time for chicken breast is key, so make sure to keep an eye on the pressure cooker's timer and the internal temperature of the chicken.\n\nMost importantly, have fun and enjoy the process of cooking a new recipe! Korean Chicken Stew is a delicious and flavorful dish, and I'm sure you'll love it.\n\nIf you'd like, feel free to share your experience or any questions you may have while cooking. I'll be here to help. Happy cooking!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm looking for some healthy meal ideas for the week. Can you suggest some recipes that use beans and lentils? By the way, I just made a delicious chili con carne recently and I'm thinking of making something similar.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Bean and lentil-based meals are not only delicious but also packed with protein, fiber, and nutrients. Since you enjoyed making chili con carne, I'll suggest some recipes that share similarities with it. Here are some healthy meal ideas that feature beans and lentils as the main ingredients:\n\n**Bean-based recipes:**\n\n1. **Black Bean and Sweet Potato Enchiladas**: A twist on traditional enchiladas, this recipe uses roasted sweet potatoes and black beans, wrapped in whole wheat tortillas and topped with a spicy tomato sauce.\n2. **Cuban Black Bean and Rice Bowl**: A flavorful and filling bowl filled with sautéed black beans, onions, bell peppers, and garlic, served over brown rice and topped with diced avocado and a squeeze of lime juice.\n3. **White Bean and Spinach Stew**: A hearty, comforting stew made with cannellini beans, spinach, garlic, and cherry tomatoes, served with a side of crusty whole grain bread.\n\n**Lentil-based recipes:**\n\n1. **Indian-Style Red Lentil Curry**: A flavorful and aromatic curry made with red lentils, onions, ginger, garlic, and a blend of Indian spices, served with brown rice or whole wheat naan.\n2. **Lentil and Vegetable Stew**: A comforting, one-pot meal featuring green or brown lentils, mixed vegetables (such as carrots, potatoes, and zucchini), and aromatic spices.\n3. **Lentil and Mushroom Bolognese**: A vegetarian take on the classic Italian sauce, made with red lentils, mushrooms, onions, and tomatoes, served with whole wheat spaghetti.\n\n**Other ideas:**\n\n1. **Vegan Chili**: A plant-based version of your chili con carne, made with a variety of beans (such as kidney beans, black beans, and pinto beans), tomatoes, and spices.\n2. **Bean and Lentil Chili**: A hearty, protein-packed chili that combines the best of both worlds, featuring a mix of beans and lentils, tomatoes, and spices.\n3. **Frijoles Refritos (Refried Beans)**: A Mexican staple made with pinto beans, onions, garlic, and spices, perfect as a side dish or used as a filling for tacos or burritos.\n\nThese recipes offer a great starting point for a delicious and nutritious meal prep. You can always adjust the ingredients and spices to suit your taste preferences. Enjoy exploring these recipes and happy cooking!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually thinking of using the Air Fryer I got yesterday to make some crispy sweet potato fries to go with the meals. Do you have any tips on how to get the best results with it?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "What a great idea! Air Fryer sweet potato fries are a fantastic side dish that pairs well with many of the meals I mentioned earlier. Here are some tips to help you achieve crispy and delicious sweet potato fries in your Air Fryer:\n\n**Preparation:**\n\n1. **Choose the right sweet potatoes**: Look for sweet potatoes that are high in starch, like Russet or Idaho potatoes, as they will yield a crisper exterior.\n2. **Cut the sweet potatoes correctly**: Cut the sweet potatoes into long, thin strips, about 1/2 inch thick (1 cm). Try to make the cuts as uniform as possible so that they cook evenly.\n3. **Soak the sweet potato strips**: To remove excess starch and help the fries become crisper, soak the cut sweet potatoes in cold water for at least 30 minutes. After soaking, pat them dry with paper towels to remove excess moisture.\n\n**Air Fryer Settings:**\n\n1. **Temperature**: Set the Air Fryer to 400°F (200°C).\n2. **Cooking time**: Cooking time will vary depending on the thickness of your sweet potato strips and your desired level of crispiness. As a general guideline, cook for 12-15 minutes, shaking the basket halfway through.\n3. **Shake the basket**: Halfway through the cooking time, shake the basket to redistribute the fries and ensure even cooking.\n\n**Tips for Crispy Fries:**\n\n1. **Don't overcrowd the basket**: Cook the sweet potato fries in batches if necessary, to ensure they have enough room to cook evenly. Overcrowding can lead to steaming instead of crisping.\n2. **Use a small amount of oil**: You can lightly spray the sweet potato fries with oil (e.g., avocado oil or cooking spray) before cooking, but be cautious not to over-oil, as this can prevent crisping.\n3. **Don't open the Air Fryer too often**: Resist the temptation to check on the fries too frequently, as this can release heat and affect the crisping process.\n4. **Season after cooking**: Season the sweet potato fries with salt and any other desired seasonings after cooking, as the heat can cause seasonings to burn or lose flavor.\n\n**Additional Tips:**\n\n1. **Experiment with seasonings**: Try different seasoning combinations, such as paprika, garlic powder, or chili powder, to add flavor to your sweet potato fries.\n2. **Keep an eye on the fries**: Monitor the fries during the cooking process, and adjust the cooking time or temperature as needed to achieve your desired level of crispiness.\n\nBy following these tips, you should be able to achieve deliciously crispy sweet potato fries in your Air Fryer. Enjoy them with your bean- or lentil-based meals!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I was thinking of trying out that Cuban Black Bean and Rice Bowl recipe you mentioned, and I think the sweet potato fries would go really well with it. Do you have any suggestions for a simple dessert to round out the meal?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Cuban Black Bean and Rice Bowl is a flavorful and nutritious meal, and the sweet potato fries will complement it nicely. For a simple yet satisfying dessert, I recommend considering the following options:\n\n**Option 1: Fresh Fruit Salad**\n\n* Cut up a variety of fresh fruits like strawberries, grapes, kiwi, and pineapple, and mix them together in a bowl.\n* Add a splash of lime juice and a bit of sugar to taste.\n* You can also add a sprinkle of mint leaves for garnish.\n\nThis fruit salad is light, refreshing, and packed with vitamins and antioxidants. It's a great way to end a meal without feeling too full or guilty.\n\n**Option 2: Coconut Lime Yogurt Parfait**\n\n* Layer Greek yogurt, shredded coconut, and fresh fruit (like berries, sliced banana, or diced mango) in a glass or bowl.\n* Drizzle with a bit of honey and sprinkle with a pinch of salt.\n* Add a sprinkle of toasted coconut flakes on top for extra flavor and texture.\n\nThis dessert is creamy, sweet, and tangy, with the coconut and lime adding a nice tropical twist.\n\n**Option 3: Banana \"Nice\" Cream**\n\n* Freeze bananas and blend them into a creamy \"ice cream\" using a food processor or blender.\n* Add a pinch of salt and a drizzle of honey to taste.\n* You can also mix in some cocoa powder or peanut butter for a chocolate or peanut butter banana nice cream.\n\nThis dessert is a healthier alternative to traditional ice cream, and it's also dairy-free and vegan-friendly.\n\nThese desserts are all quick, easy, and light, making them perfect for a weeknight dinner. They'll provide a sweet finish to your Cuban Black Bean and Rice Bowl with sweet potato fries meal without overpowering the flavors. Enjoy!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with the fruit salad, it sounds super refreshing and easy to make. Thanks for the ideas!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! The fruit salad is a great choice - it's a light, refreshing, and nutritious way to end a meal. Plus, it's so easy to customize with your favorite fruits and flavors. I'm glad I could help with some inspiration.\n\nI hope you have a fantastic time making your Cuban Black Bean and Rice Bowl, sweet potato fries, and fruit salad. Don't hesitate to reach out if you have any more questions or need further assistance. Enjoy your delicious and healthy meal!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What's the best way to store leftovers from the Cuban Black Bean and Rice Bowl? Should I refrigerate or freeze them?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "When it comes to storing leftovers from the Cuban Black Bean and Rice Bowl, both refrigeration and freezing are viable options, depending on your needs and preferences. Here's a breakdown of each method:\n\n**Refrigeration:**\n\n* Store the leftovers in airtight, shallow containers to prevent moisture from accumulating and to keep flavors from transferring.\n* Refrigerate at 40°F (4°C) or below within 2 hours of cooking.\n* Cooked black beans, rice, and vegetables can be safely stored in the refrigerator for 3 to 5 days.\n* Reheat the leftovers to an internal temperature of 165°F (74°C) before consuming.\n\nRefrigeration is a great option if you plan to consume the leftovers within a few days. The flavors will remain vibrant, and the texture will stay relatively fresh.\n\n**Freezing:**\n\n* Cool the leftovers to room temperature to prevent the formation of condensation, which can lead to freezer burn.\n* Transfer the cooled leftovers to airtight, freezer-safe containers or freezer bags, making sure to remove as much air as possible.\n* Label the containers/bags with the date and contents.\n* Frozen cooked black beans, rice, and vegetables can be stored for 3 to 6 months.\n* When reheating, thaw the leftovers overnight in the refrigerator or reheat them from frozen in the microwave or on the stovetop, making sure to reach an internal temperature of 165°F (74°C).\n\nFreezing is an excellent option if you want to enjoy your Cuban Black Bean and Rice Bowl at a later date or if you've made a large batch and want to portion out individual servings. The flavors and textures will remain relatively intact, and you can simply thaw and reheat as needed.\n\nRemember to always check the leftovers for any signs of spoilage before consuming them, such as an off smell, slimy texture, or mold growth. If in doubt, it's better to err on the side of caution and discard the leftovers.\n\nI hope that helps!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "How do I store the sweet potato fries? Should I refrigerate or freeze them as well?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "When it comes to storing sweet potato fries, it's essential to keep them crispy and fresh for as long as possible. Here are some tips on how to store them:\n\n**Short-term storage (up to 24 hours):**\n\n* Cool the sweet potato fries to room temperature to stop the cooking process.\n* Place the cooled fries in an airtight container, such as a paper bag, cardboard box, or a container with a paper towel-lined lid.\n* Store the container in a cool, dry place, like a pantry or cupboard.\n* The fries will remain crispy for a few hours, but they'll start to lose their crunchiness over time.\n\n**Refrigeration (up to 3 days):**\n\n* Cool the sweet potato fries to room temperature.\n* Place the cooled fries in an airtight container, such as a glass or plastic container with a tight-fitting lid.\n* Store the container in the refrigerator at 40°F (4°C) or below.\n* The fries will retain some crispiness, but they might become slightly soft and soggy.\n\n**Freezing (up to 3 months):**\n\n* Cool the sweet potato fries to room temperature.\n* Place the cooled fries in a single layer on a baking sheet lined with parchment paper.\n* Put the baking sheet in the freezer and let the fries freeze completely (about 1-2 hours).\n* Once frozen, transfer the fries to airtight, freezer-safe containers or freezer bags, making sure to remove as much air as possible.\n* Label the containers/bags with the date and contents.\n* Frozen sweet potato fries can be reheated in the oven or Air Fryer to restore crispiness.\n\nWhen reheating frozen sweet potato fries, you can try the following methods:\n\n* Oven: Preheat to 400°F (200°C). Spread the frozen fries in a single layer on a baking sheet and bake for 10-15 minutes, or until crispy.\n* Air Fryer: Preheat to 400°F (200°C). Cook the frozen fries in batches, shaking halfway through, until crispy (about 5-7 minutes).\n\nRemember to always check the sweet potato fries for any signs of spoilage before consuming them, such as an off smell, slimy texture, or mold growth. If in doubt, it's better to err on the side of caution and discard the fries.\n\nI hope that helps you store your sweet potato fries and keep them crispy for a longer period!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_3bf5b73b_1",
+    "answer_3bf5b73b_2"
+  ]
+}

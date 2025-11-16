@@ -1,0 +1,60 @@
+{
+  "question_id": "dc439ea3",
+  "question_type": "single-session-assistant",
+  "question": "I was looking back at our previous conversation about Native American powwows and I was wondering, which traditional game did you say was often performed by skilled dancers at powwows?",
+  "answer": "Hoop Dance",
+  "question_date": "2023/05/29 (Mon) 16:06",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 01:59"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_459954"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "What are the traditional games played during a Native American powwow?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "There are many traditional games that are played during Native American powwows. Some of the most popular include:\n\n1. Stick Game - This traditional game is played with stick markers and a bowl. It is a game of chance and skill, and requires players to guess the location of the marked stick.\n\n2. Hand Games - This is a traditional gambling game that involves two teams of players. The game is played with bones or sticks and requires each team to guess which hand the opposing team is hiding the bone or stick.\n\n3. Drum and Dance Competitions - These competitions are a popular feature of powwows. Drum groups compete against each other to create the best rhythm, while dancers compete based on their style and skill.\n\n4. Indian Relay - This is a fast-paced horse racing event that involves multiple riders and horse exchanges. The goal is to complete a circuit around the track in the shortest time possible.\n\n5. Lacrosse - This traditional game is played with a ball and a long-handled stick. Players use the stick to catch and throw the ball, and score points by hitting the opposing team's goal.\n\n6. Double Ball - This is a fast-paced game that involves catching and throwing a small ball with two sticks. The goal is to score points by hitting a goal post with the ball.\n\n7. Hoop Dance - This traditional dance involves intricate movements with multiple hoops, and is often performed by skilled dancers at powwows.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, I didn't realize there were so many traditional games played during powwows. Which one do you think is the most exciting to watch?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal feelings or opinions. however, each of the traditional games has its unique excitement and thrill. it depends on personal preferences, but generally, the drum and dance competition attracts the largest crowds and is considered the highlight of a powwow. the athleticism and grace of the dancers, combined with the beat of the drum, create an electrifying atmosphere that many find thrilling to watch. similarly, the indian relay and lacrosse are also considered very exhilarating and captivating events by many people.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's so cool! I've always been interested in Native American culture and now I definitely want to attend a powwow. Do you have any recommendations for the best powwows to attend?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "As an AI, I do not have personal preferences or opinions, but there are many well-known powwows across North America, each with its unique style and traditions. Some of the most popular ones include:\n\n1. Gathering of Nations - This is one of the largest powwows in North America and takes place in Albuquerque, New Mexico.\n\n2. Denver March Powwow - Held each spring in the Colorado State Fairgrounds in Denver, it is a cultural event that showcases the history and traditions of the indigenous tribes of the region.\n\n3. Black Hills Powwow - This is one of the longest-running powwows in South Dakota, and is held annually in the city of Rapid City.\n\n4. Stanford Powwow - Held at Stanford University in California, it is one of the most well-attended powwows on the West Coast.\n\n5. United Tribes International Powwow - This powwow takes place in Bismarck, North Dakota during the first weekend of September and is one of the premier powwows in the United States.\n\nIt is always best to check with the organizers of a particular powwow to ensure that it aligns with your expectations, as dates, locations, and details can change from year to year.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely look into those powwows and try to attend one soon. Do you have any tips for what to wear or bring to a powwow?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here are some tips for what to wear and bring to a powwow:\n\n1. Dress appropriately - As the powwow is a cultural event, it is respectful to dress appropriately. You can choose to wear traditional Native American clothing or casual attire. Avoid wearing clothing with offensive images or slogans. 2. Comfortable shoes - Wear comfortable shoes as you may be standing or walking for an extended period. 3. Bring a chair or blanket - It's a good idea to bring a comfortable chair or blanket to sit on, as seating may be limited. 4. Sunscreen and hat - Bring sunscreen as the powwow may be held outdoors and a hat to protect from the sun. 5. Respectful behavior - Be respectful and attentive during the events. Avoid taking pictures without permission, and always be mindful of your surroundings. 6. Bring cash - Bring cash as some powwows may have vendors selling Native American crafts, food, and souvenirs. 7. Water - Bring a water bottle to stay hydrated. These are just a few things to keep in mind to ensure you have a comfortable and respectful experience at a powwow.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_459954"
+  ]
+}

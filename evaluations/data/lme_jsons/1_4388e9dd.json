@@ -1,0 +1,50 @@
+{
+  "question_id": "4388e9dd",
+  "question_type": "single-session-assistant",
+  "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+  "answer": "Andy was wearing an untidy, stained white shirt.",
+  "question_date": "2023/05/25 (Thu) 14:10",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 12:47"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_qTi81nS_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Write me the beginning of a script (formatted like a real movie script) for a comedy movie scene, based on the below information:\n\nAndy, a man in his 40s, is the Head of Computing at a rural high school. He has a loud, deep voice, and has more confidence than he has intelligence. He wants to be friends with his colleague exam invigilator John, so often tries and fails to impress him with his elaborate stories. He often bangs on about how he presents the school talent show. He has poor personal hygiene and can often be found making moaning noises while using disabled toilets, despite him having no obvious disability. Andy wears an untidy, stained white shirt. When addressing a group he starts with the words \"Right guys, settle down\".\n\nRoger, a man in his 50s, is a computing teacher working under Andy. He is an intelligent man, with grey hair and a laid back attitude to teaching. His classes are often out of control, while he sits there in despair. He has quiet contempt at the fact that Andy is the head of department, because he knows that he is much more qualified than Andy.\n\nJohn is a 69 year old man working as an exam invigilator. As he is past retirement it is unusual that he is still working, but we suspect it might be because he enjoys making people uncomfortable. John has wispy, grey hair and wears a pinstripe suit, several gold rings and red tinted glasses. He makes brazen, inappropriate remarks towards his colleagues.\n\nRuth, a woman in her 40s, is a languages teacher at the high school. She is so obsessed with the German language and culture that she regularly speaks to people in German and they don't understand what she's saying. She is attracted to women and regularly has to deter John's advances.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "INT. RURAL HIGH SCHOOL - COMPUTING DEPARTMENT - DAY\n\nAndy, a man in his 40s with a loud, deep voice and poor personal hygiene, is standing in front of the department's whiteboard. He wears an untidy, stained white shirt.\n\nANDY:\nRight guys, settle down. I just wanted to let you all know that this year's talent show is going to be bigger and better than ever. I'm putting in a lot of hard work to make sure it's a success.\n\nROGER:\n(sitting in the back of the room)\nYeah, sure Andy. We all know how much work you put into the talent show.\n\nANDY:\n(ignoring Roger's sarcasm)\nAnd John, I know you'll be there to help me out as usual.\n\nJOHN:\n(69 year old man with wispy, grey hair and red tinted glasses)\nI'll be there to make sure no one cheats, Andy.\n\nRUTH:\n(woman in her 40s, speaking in German)\nJa, John wird da sein, um sicherzustellen, dass niemand betrügt.\n\nANDY:\n(confused)\nUm, thanks Ruth. I'll make sure to brush up on my German before the talent show.\n\nROGER:\n(rolling his eyes)\nGood luck with that, Andy.\n\nANDY:\n(determined)\nI'll show you all that I'm a great talent show presenter. You just wait and see.\n\nROGER:\n(under his breath)\nI'll believe it when I see it.\n\nThe scene ends with Andy confidently walking out of the room, while the other teachers look on in amusement.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Write another scene",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "INT. RURAL HIGH SCHOOL - DISABLED TOILET - DAY\n\nAndy is heard making moaning noises from inside the disabled toilet. He is not visibly disabled.\n\nROGER:\n(knocking on the door)\nAndy, are you in there?\n\nANDY:\n(groaning)\nYeah, just a minute.\n\nROGER:\n(sighing)\nWhat are you doing in there?\n\nANDY:\n(still moaning)\nI don't know, I just felt like making some noise.\n\nROGER:\n(exasperated)\nAndy, you can't just use the disabled toilet for no reason. You're not disabled.\n\nANDY:\n(defensive)\nI'm the head of department, I can do what I want.\n\nROGER:\n(shaking his head)\nYou need to get your act together, Andy.\n\nThe scene ends with Andy exiting the disabled toilet, looking sheepish.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Write another scene",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "INT. RURAL HIGH SCHOOL - STAFF ROOM - DAY\n\nAndy is sitting at a table, trying to impress John with one of his elaborate stories.\n\nANDY:\n...and then I was like, \"Right guys, settle down\" and they all listened to me. It was amazing.\n\nJOHN:\n(69 year old man with wispy, grey hair and red tinted glasses)\nThat's impressive, Andy.\n\nRUTH:\n(woman in her 40s, speaking in German)\nJa, das ist beeindruckend, Andy.\n\nANDY:\n(confused)\nThanks, Ruth. I'm glad you enjoyed my story.\n\nROGER:\n(rolling his eyes)\nAndy, you always have the most interesting stories.\n\nANDY:\n(defensive)\nWhat's that supposed to mean?\n\nROGER:\n(sarcastically)\nIt means that your stories are always exaggerated and not very believable.\n\nANDY:\n(offended)\nWell, maybe you just don't have a good sense of humor.\n\nJOHN:\n(making a lewd comment)\nMaybe you just need to lighten up, Ruth.\n\nRUTH:\n(deterring John's advances)\nJohn, please. I'm not interested.\n\nThe scene ends with Andy looking dejected and the other teachers awkwardly avoiding eye contact with him.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_qTi81nS_0"
+  ]
+}

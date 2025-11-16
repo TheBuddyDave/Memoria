@@ -1,0 +1,120 @@
+{
+  "question_id": "4baee567",
+  "question_type": "single-session-assistant",
+  "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+  "answer": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+  "question_date": "2023/05/27 (Sat) 04:28",
+  "haystack_dates": [
+    "2023/05/23 (Tue) 14:45"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_i9adwQn_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "hi, have you been trained on www.hotcopper.com.au ?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I am not aware of any specific training on the website hotcopper.com.au. However, I have been trained on a wide variety of internet content, so I may be able to provide information or answer questions related to the topics discussed on that website. Can I help you with something specific?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "what was the most discussed stock code on that forum in 2020",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, I do not have the information you are looking for. My knowledge cut-off is 2021 and I do not have access to real-time data or historical data on specific discussions on the hotcopper.com.au forum. I'm a language model and I can provide information based on the text I was trained on. Is there something else I can help you with?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "is a negatively geared or positively geared property more valuable in australia ?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Negatively geared and positively geared properties refer to the cash flow of a rental property. A negatively geared property is one where the rental income is less than the expenses, such as mortgage payments, property management fees, and maintenance costs. This means that the owner of a negatively geared property is effectively subsidizing their rental income with their own money.\n\nA positively geared property, on the other hand, is one where the rental income exceeds the expenses, providing a positive cash flow for the owner.\n\nThe value of a property is generally determined by the real estate market conditions, the location of the property, the quality of the property, and the level of demand for rental properties in that area. In Australia, positively geared properties are considered more valuable than negatively geared properties, because they provide a steady and reliable income stream and are less risky for the owner. However, it also depends on the investor's strategy and goals. Some investors prefer negatively geared properties because they can claim the losses as tax deductions and the potential capital growth in the long run.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "can we focus on nfl historical results?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I'd be happy to provide information on historical results in the National Football League (NFL). The NFL is a professional American football league consisting of 32 teams, divided equally between the National Football Conference (NFC) and the American Football Conference (AFC). The NFL is one of the four major professional sports leagues in North America, and the highest professional level of American football in the world.\n\nI can provide information on team standings, playoffs results, Super Bowl Winners, individual and team records, coaches and players statistics and many more. What specific information would you like to know?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "how many times have the chiefs played the jaguars?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Kansas City Chiefs and the Jacksonville Jaguars are two teams that are part of the American Football Conference (AFC) in the National Football League (NFL).\n\nAs of my knowledge cut-off in 2021, The Kansas City Chiefs and the Jacksonville Jaguars have played each other 23 times since their first meeting in 1995. The Chiefs have won 14 games, while the Jaguars have won 9 games.\n\nPlease note that these statistics may have changed since my knowledge cut-off date and these results are based on regular season games only, not including playoffs games.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "of those 23 games how many were played in kansas?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs. The remaining 11 games were played at TIAA Bank Field, Jacksonville, Florida, which is the home stadium of the Jacksonville Jaguars.\nIt is worth mentioning that these statistics are based on regular season games only, not including playoffs games.",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "of those 12 games in kansas, how many did the chiefs win?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Of the 12 games that were played between the Kansas City Chiefs and the Jacksonville Jaguars at Arrowhead Stadium in Kansas City, Missouri, the Chiefs won 10 games, while the Jaguars won 2 games.\nPlease note that these statistics are based on regular season games only, not including playoffs games. Also, as my knowledge cut-off date is 2021, these statistics may have changed since then.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "how about the same detail for eagles vs giants where eagles are hosting",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Philadelphia Eagles and the New York Giants are two teams that are part of the National Football Conference (NFC) in the National Football League (NFL).\n\nAs of my knowledge cut-off in 2021, The Philadelphia Eagles and the New York Giants have played each other 149 times since their first meeting in 1933. The Eagles have won 72 games, while the Giants have won 76 games.\n\nIn terms of games played at Lincoln Financial Field, which is the home stadium of the Philadelphia Eagles, the two teams have played 17 games. The Eagles have won 12 games, while the Giants have won 5 games.\nI don't have information on the specific margin of victory for each of those games, but the Eagles have a good record when they host the Giants at their home stadium.\nIt is worth mentioning that these statistics are based on regular season games only, not including playoffs games.\nKeep in mind that my knowledge cut-off is 2021, and these statistics may have changed since then.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "bills vs bengals?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Buffalo Bills and the Cincinnati Bengals are two teams that are part of the American Football Conference (AFC) in the National Football League (NFL).\n\nAs of my knowledge cut-off in 2021, The Buffalo Bills and the Cincinnati Bengals have played each other 25 times since their first meeting in 1968. The Bills have won 13 games, while the Bengals have won 12 games.\n\nIn terms of games played at New Era Field, which is the home stadium of the Buffalo Bills, the two teams have played 11 games. The Bills have won 7 games, while the Bengals have won 4 games.\nI don't have information on the specific margin of victory for each of those games, but the Bills have a good record when they host the Bengals at their home stadium.\nIt is worth mentioning that these statistics are based on regular season games only, not including playoffs games.\nKeep in mind that my knowledge cut-off is 2021, and these statistics may have changed since then.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "49ers vs cowboys, 49ers hosting",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The San Francisco 49ers and the Dallas Cowboys are two teams that are part of the National Football Conference (NFC) in the National Football League (NFL).\n\nAs of my knowledge cut-off in 2021, The San Francisco 49ers and the Dallas Cowboys have played each other 28 times since their first meeting in 1970. The 49ers have won 17 games, while the Cowboys have won 11 games.\n\nIn terms of games played at Levi's Stadium, which is the home stadium of the San Francisco 49ers, the two teams have played 2 games. The 49ers have won 1 game, while the Cowboys have won 1 game.\nI don't have information on the specific margin of victory for each of those games, but the 49ers and the Cowboys have a tied record when the 49ers host the cowboys at their home stadium.\nIt is worth mentioning that these statistics are based on regular season games only, not including playoffs games.\nKeep in mind that my knowledge cut-off is 2021, and these statistics may have changed since then.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_i9adwQn_0"
+  ]
+}

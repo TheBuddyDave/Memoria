@@ -1,0 +1,140 @@
+{
+  "question_id": "1568498a",
+  "question_type": "single-session-assistant",
+  "question": "I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+  "answer": "28. Kg3",
+  "question_date": "2023/05/26 (Fri) 15:32",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 01:17"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_d6JJiqH_76"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8.\nbxc3 exd4 9. cxd4 Bb4 10. Rb1 a5 11. Re1+ Bxe1 12. Qxe1+ Qe7 13. Ba3 Qxe1+ 14.\nRxe1+ Be6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4\nBxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Interesting game so far! My move will be:\n\n25. g4\n\nI aim to gain more space on the kingside and restrict your pawn structure. What is your response?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "fine. hxg4",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "gxh4. Your move.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think you mean hxg4? correct?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, that's correct. My apologies for the typo in my previous message.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Rh8",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That move is not legal as there is already a rook on h8. Please make another move.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8.\nbxc3 exd4 9. cxd4 Bb4 10. Rb1 a5 11. Re1+ Bxe1 12. Qxe1+ Qe7 13. Ba3 Qxe1+ 14.\nRxe1+ Be6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4\nBxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5 25. g4 hxg4 26. hxg4 Rh8",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Nice job! It looks like you are playing a good game so far. Is there anything else I can help you with?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "your move as white",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "1. d4",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "no we never started over",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for the confusion. Here's the current position:\n\n1. e4 c5\n2. Nf3 Nf6\n3. d4 cxd4\n4. Nxd4 Nxe4\n5. Bd3 d5\n6. O-O e5\n7. Nc3 Nxc3\n8. bxc3 exd4\n9. cxd4 Bb4\n10. Rb1 a5\n11. Re1+ Bxe1\n12. Qxe1+ Qe7\n13. Ba3 Qxe1+\n14. Rxe1+ Be6\n15. Bd6 Kd7\n16. Bxb8 Raxb8\n17. Rc1 Rhc8\n18. a3 h5\n19. c4 dxc4\n20. Bxc4 Bxc4\n21. Re1 Rc7\n22. Re5 f6\n23. Re3 Rbc8\n24. h3 g5\n25. g4 hxg4\n26. hxg4 Rh8\n\nIt's White's turn to move.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "no THIS is the current position\n\n1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8.\nbxc3 exd4 9. cxd4 Bb4 10. Rb1 a5 11. Re1+ Bxe1 12. Qxe1+ Qe7 13. Ba3 Qxe1+ 14.\nRxe1+ Be6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4\nBxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5 25. g4 hxg4 26. hxg4 Rh8 \n\nmake a legal move bozo",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "My apologies, I misunderstood the previous message. I will make a move now.\n\n27. Kg2 Bd5+",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "you're white",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "My apologies for the confusion. Here's my move:\n\n1. d4",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "you already have a pawn on d4\n\n1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8.\nbxc3 exd4 9. cxd4 Bb4 10. Rb1 a5 11. Re1+ Bxe1 12. Qxe1+ Qe7 13. Ba3 Qxe1+ 14.\nRxe1+ Be6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4\nBxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5 25. g4 hxg4 26. hxg4 Rh8 27.\nKg2 Bd5+",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "28. Kg3 would be my move.",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "Be6",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Good move, attacking the rook and gaining control of the e-file. The position now is:\n\n1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8. bxc3 exd4 9. cxd4 Be6 10. Rb1 a5 11. Re1 Bxe1 12. Qxe1 Qe7 13. Ba3 Qxe1+ 14. Rxe1 Nc6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4 Bxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5 25. g4 hxg4 26. hxg4 Rh8 27. Kg2 Bd5+ 28. Kg3 Be6",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "make a move. you're white\n\n1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 Nxe4 5. Bd3 d5 6. O-O e5 7. Nc3 Nxc3 8.\nbxc3 exd4 9. cxd4 Bb4 10. Rb1 a5 11. Re1+ Bxe1 12. Qxe1+ Qe7 13. Ba3 Qxe1+ 14.\nRxe1+ Be6 15. Bd6 Kd7 16. Bxb8 Raxb8 17. Rc1 Rhc8 18. a3 h5 19. c4 dxc4 20. Bxc4\nBxc4 21. Re1 Rc7 22. Re5 f6 23. Re3 Rbc8 24. h3 g5 25. g4 hxg4 26. hxg4 Rh8 27.\nKg2 Bd5+ 28. Kg3 Be6",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "29. Rd3 Rh4",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_d6JJiqH_76"
+  ]
+}

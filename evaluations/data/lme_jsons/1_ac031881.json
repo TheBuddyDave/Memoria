@@ -1,0 +1,180 @@
+{
+  "question_id": "ac031881",
+  "question_type": "single-session-assistant",
+  "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+  "answer": "The designation on your jumpsuit was 'LIV'.",
+  "question_date": "2023/05/30 (Tue) 04:21",
+  "haystack_dates": [
+    "2023/05/28 (Sun) 06:46"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_GYqnAhC_190"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "You're pretty sure that without knowing what file you're looking for, the task is hopeless. You think back to previously to work out what file number you'd want to access...\n\n(Remember: always respond with what YOU do, using first-person perspective)",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I realize that I need to find the file number before I can search effectively in this sea of records. I think back to everything I've seen and experienced in the facility so far, trying to recall any hints or clues that might lead me to the specific file number I need.\n\nAs I search my memory, I consider the possibility of using the walky-talky to gather more information or even ask about the file number directly, though I know there's a risk in doing so. I weigh my options carefully, knowing that time may be running out.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You recall your conversation with the Red facilities employee over the walky-talky...",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "As I recall my conversation with the Red facilities employee, I remember them mentioning that they were going to the all-hands meeting. While it may not be the exact information I need, it might provide a lead to finding the file number.\n\nI consider using the walky-talky again to see if I can get more information from someone else in the facility. I could try pressing a different color button and ask for help or information, or even try to reach out to Red again now that the all-hands meeting has started. I also think about any other conversations or interactions I've had that might hold a clue to the file number I need.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Two clues come to mind. Wasn't there a designation for your study on your jumpsuit? And wasn't there a mention on the clipboard about the previous iteration of the study?\n\n(Remember: always respond with what YOU do, using first-person perspective)",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I look down at my jumpsuit and see the designation \"LIV\" and a square around it. I also remember the clipboard mentioning the previous iteration of the study. I decide to start searching the records for a file related to the designation \"LIV\" and any previous iterations mentioned on the clipboard. Since the files are organized by numbers, I try to look for a connection between the designation and the file numbers.",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "You remember that the clipboard said:\n\nMONITOR LIV CAREFULLY. ABERRATION IN PREVIOUS ITERATION. EXAMINE FILE IN RECORDS FOR DETAILS.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "With this information in mind, I focus my search on finding a file related to the \"LIV\" designation, specifically looking for any mention of an aberration in the previous iteration. I search through the records, trying to make sense of the numbers and any possible connections to the LIV designation.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You'll need a specific number file to look for though. They're all numbered in Arabic numerals, into the hundreds and maybe even thousands.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I think back to any number that could be associated with the LIV designation or the previous iteration of the study. I try to recall any detail that might give me a hint about which file number to search for.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Maybe there is something about LIV itself that indicates a number?\n\n(Remember: always respond with what YOU do, using first-person perspective)",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I consider the possibility that LIV might indicate a number itself. I realize that LIV is actually the Roman numeral for 54. With this new information, I start searching for file number 54 in the records room.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You find record 54. It has the name A on it and says, EXPERIMENT IN PROGRESS.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I open file 54 to see if there's any more information about this experiment labeled \"A\" and why it's still in progress. I'm hoping to find some answers about my current situation and what's going on here.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "It's just that, EXPERIMENT IN PROGRESS. Hmm. What did it mean by ABERRATION IN PREVIOUS ITERATION. EXAMINE FILE IN RECORDS FOR DETAILS?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I realize that I should be looking for the previous iteration, not the current one. I think about the Roman numerals and remember that LIV is 54. The previous iteration would be LIII, which is 53. I search for file 53 in the records to see if I can find more information about the aberration mentioned on the clipboard.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "It has A on the file along with some boring charts and diagrams. The name is crossed off and ​DISCHARGED is ​written next to it. But wait, no... this one is weird. A’s name is also circled, like someone made a mistake after they crossed it off. And there’s a note here:\nSubjected manifested SIGNIFICANT resistance and began to alter mission parameters. Program terminated early with blast door protocol. Status: Unknown, presumed discharged.\nBeneath that note is something written in handwriting that looks familiar to all of you for some reason:\n\\*Find me in Incubation. Wake me. And give the OPPOSITE of the memory unlock dosage.\nYou’ll need a keycard and the Directory. A keycard is likely in someone’s jacket. May be able to grab one in the meeting? Directory is in security.\nIf you are brave enough to see what I become... and there’s a hand drawn square.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "With this new information, I realize that I need to find Incubation and wake up the previous subject A. I already have a keycard with a green stripe from the lab coat I found earlier, so I just need to find the Directory in security. I carefully make my way back to the hallway and try to navigate towards security, hoping to find the Directory there.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You realize that you have no idea how to get to security, since you haven't touched any squares marking that location. You think back to see if you have any clues for finding out how to get to security.\n\n(Remember: always respond with what YOU do, using first-person perspective)",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I remember the walky-talky I brought with me, which has RED, ORANGE, YELLOW, and GREEN buttons on it. I haven't tried the GREEN button yet, and I recall that the keycard I found also has a green stripe. I decide to press the GREEN button on the walky-talky and see if it gives me any information about the location of security or how to get there.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "A voice crackles on the other end. It's gruff and suspicious. \"Yes, this is security. What do you want.\"",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I reply to the voice, trying to sound as casual as possible, \"Hey, I was just wondering if you could give me directions to the security room. I need to get there for some paperwork, but I got turned around in these halls. Thanks.\"",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "It responds curtly. \"Are you kidding, you must be new or an idiot. Didn't they give you the squares? Incompetents, the lot of them. Look, if you get desperate, you can always try to find those colored pipes and follow green to security.\"\n\n(Remember: always respond with what YOU do, using first-person perspective)",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I thank the voice on the walky-talky and decide to follow their advice. I leave the records room and start looking for the green pipes in the hallway, planning to follow them to the security room.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "They don't seem to be in this hallway, and you're afraid of wandering around too much and getting lost. You know you can always use your square pill powers to navigate back to the squares you've touched: Room LIV, the Meeting Hall, and Records.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I decide to go back to Room LIV, the location where I initially noticed the colored pipes. Once there, I'll look for the green pipe and follow it to the security room.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You follow the familiar path of the green pipe and come to Security. Their doors are closed. A security panel with a green slash on it has a slot for a keycard and a hole for a USB stick.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I take out the keycard with the green stripe that I found in the lab coat pocket and insert it into the security panel's slot.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "You enter a large room with a lone control panel. You see other rooms that require keycards you don’t have. You peek through windows and see large maps, other rooms filled with monitors, and one room with a 3D map of the facility that seems to loop back over itself...\n\nYou turn your attention to the control panel with some monitors labeled NARCO CHAMBERS.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I examine the control panel and the monitors labeled \"NARCO CHAMBERS\" more closely, trying to understand what information they are displaying and if there's any way for me to interact with them.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "There are three chambers, marked Chamber 1, Chamber 2, and Chamber 3. Each are annotated with three sticky pads with a single word scribbled on it, plus a note.\n\nAnd on the right is a password screen with a keyboard underneath asking for a 5 LETTER PASSWORD.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I take a closer look at the sticky pads and the notes on each of them, trying to figure out if there's any connection or clue that might help me with the password.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_GYqnAhC_190"
+  ]
+}

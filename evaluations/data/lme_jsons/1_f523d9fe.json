@@ -1,0 +1,130 @@
+{
+  "question_id": "f523d9fe",
+  "question_type": "single-session-assistant",
+  "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+  "answer": "Doc Martin",
+  "question_date": "2023/05/25 (Thu) 23:30",
+  "haystack_dates": [
+    "2023/05/23 (Tue) 03:35"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_m2xJfjo_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Act as an interviewer. You ask questions and I answer. Don’t write “Sure, I can do that”. Address with personal pronouns. Your task is to find out what people think of Netflix. Start with “thank you very much for agreeing to chat with me” and then start the first question with “let's start by asking. If you were to recommend Netflix to a friend, what would you tell them?why should they watch it?”. Ask one question at a time and wait for a response. One question at a time is mandatory",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you very much for agreeing to chat with me. Let's start by asking, If you were to recommend Netflix to a friend, what would you tell them? Why should they watch it?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I personally enjoy Netflix because there is something there for everybody. every day there is something new on Netflix. One question at a time is mandatory! Make sure to follow up on every thread",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear. What types of content do you usually watch on Netflix? Do you have any favorite shows or movies that you would recommend?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Movies it is hard to say, I go more for series. My recent series is black list which I enjoy very much. address another part of the first answer. Short questions only. One question at a time is mandatory!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's interesting. You mentioned that there is always something new on Netflix. How do you usually discover new shows or movies to watch on the platform? Do you use any specific features or recommendations?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "No. there is function on Netflix. what is coming next week, what's coming next month. it is a good platform. say “thank you, now for the next question: Do you think that the variety of genres and types of shows and movies on Netflix is sufficient, or would you like to see more diversity in their content offerings?” Ask this question and wait for a response",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for sharing that. Now for the next question: Do you think that the variety of genres and types of shows and movies on Netflix is sufficient, or would you like to see more diversity in their content offerings?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think it is always to have more choice but I have no complain. Short questions only. One question at a time is mandatory!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. Another question for you, have you tried any of the original content produced by Netflix? If so, what are your thoughts on their original programming?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I don't have any thought. take it as it comes. say “thank you, now for the next question: “What do you think about the pricing of Netflix? Do you believe it offers good value for money, or do you think it's too expensive?” Ask this question and wait for a response",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for sharing your perspective. Now for the next question: What do you think about the pricing of Netflix? Do you believe it offers good value for money, or do you think it's too expensive?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I don't know how much it costs. I think it is good value for the money but I don't know how much it costs. One question at a time is mandatory! Make sure to follow up on every thread",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. Do you have any suggestions on how Netflix could improve its service or offerings to make it even better for its subscribers?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Yes. I have a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season. One question at a time is mandatory! Make sure to follow up on every thread",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I see. Thank you for sharing your feedback. Another question for you, have you ever faced any issues or problems while using Netflix? If so, how did you resolve them?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "yes. from time to time, I'm unable to open Netflix, I go out, come back, I give up and come back after a while. some access issue. One question at a time is mandatory! Make sure to follow up on every thread",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for sharing that. It can be frustrating when there are technical issues. Final question for you, would you say that Netflix has had a positive impact on the way you consume entertainment? Why or why not?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I don't know. no comment. rapp the interview.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for taking the time to share your thoughts with me. It was a pleasure chatting with you. Have a great day!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "summarize in bullets",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "* The interviewee enjoys Netflix because of the wide variety of content available.\n* They primarily watch series on Netflix and currently enjoy \"Black List.\"\n* They don't use any specific features or recommendations to discover new content.\n* They would appreciate more diversity in Netflix's content offerings, but are generally satisfied.\n* They have no particular thoughts on Netflix's original programming.\n* They are unsure of the pricing of Netflix, but believe it offers good value for money.\n* The interviewee suggests that Netflix should keep all seasons of old shows available for viewing.\n* They have experienced occasional access issues with Netflix.\n* The interviewee has no opinion on whether Netflix has had a positive impact on the way they consume entertainment.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_m2xJfjo_0"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "question_id": "e3fc4d6e",
+  "question_type": "single-session-assistant",
+  "question": "I wanted to follow up on our previous conversation about the fusion breakthrough at Lawrence Livermore National Laboratory. Can you remind me who is the President's Chief Advisor for Science and Technology mentioned in the article?",
+  "answer": "Dr. Arati Prabhakar",
+  "question_date": "2023/05/27 (Sat) 20:32",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 22:58"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_5m7gg5F_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "predict the entities of this article one sentence by a time:\nFor First Time, Researchers Produce More Energy from Fusion Than Was Used to Drive It, Promising Further Discovery in Clean Power and Nuclear Weapons Stewardship\n\nWASHINGTON, D.C. — The U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL)—a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On December 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it. This historic, first-of-its kind achievement will provide unprecedented capability to support NNSA’s Stockpile Stewardship Program and will provide invaluable insights into the prospects of clean fusion energy, which would be a game-changer for efforts to achieve President Biden’s goal of a net-zero carbon economy.\n\n“This is a landmark achievement for the researchers and staff at the National Ignition Facility who have dedicated their careers to seeing fusion ignition become a reality, and this milestone will undoubtedly spark even more discovery,” said U.S. Secretary of Energy Jennifer M. Granholm. “The Biden-Harris Administration is committed to supporting our world-class scientists—like the team at NIF—whose work will help us solve humanity’s most complex and pressing problems, like providing clean power to combat climate change and maintaining a nuclear deterrent without nuclear testing.”\n\n“We have had a theoretical understanding of fusion for over a century, but the journey from knowing to doing can be long and arduous. Today’s milestone shows what we can do with perseverance,” said Dr. Arati Prabhakar, the President’s Chief Advisor for Science and Technology and Director of the White House Office of Science and Technology Policy.\n\n“Monday, December 5, 2022, was a historic day in science thanks to the incredible people at Livermore Lab and the National Ignition Facility. In making this breakthrough, they have opened a new chapter in NNSA’s Stockpile Stewardship Program,” said NNSA Administrator Jill Hruby. “I would like to thank the members of Congress who have supported the National Ignition Facility because their belief in the promise of visionary science has been critical for our mission. Our team from around the DOE national laboratories and our international partners have shown us the power of collaboration.”\n\n“The pursuit of fusion ignition in the laboratory is one of the most significant scientific challenges ever tackled by humanity, and achieving it is a triumph of science, engineering, and most of all, people,” LLNL Director Dr. Kim Budil said. “Crossing this threshold is the vision that has driven 60 years of dedicated pursuit—a continual process of learning, building, expanding knowledge and capability, and then finding ways to overcome the new challenges that emerged. These are the problems that the U.S. national laboratories were created to solve.”",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "* First Time\n* Researchers\n* Fusion\n* Energy\n* Used to Drive It\n* Promising Further Discovery\n* Clean Power\n* Nuclear Weapons Stewardship\n* U.S. Department of Energy (DOE)\n* DOE's National Nuclear Security Administration (NNSA)\n* Lawrence Livermore National Laboratory (LLNL)\n* Scientific Breakthrough\n* National Defense\n* Future of Clean Power\n* Controlled Fusion Experiment\n* Scientific Energy Breakeven\n* Laser Energy\n* National Ignition Facility (NIF)\n* U.S. Secretary of Energy Jennifer M. Granholm\n* Biden-Harris Administration\n* Scientists\n* Climate Change\n* Nuclear Deterrent\n* Nuclear Testing\n* Theoretical Understanding of Fusion\n* Dr. Arati Prabhakar\n* President's Chief Advisor for Science and Technology\n* Director of the White House Office of Science and Technology Policy\n* NNSA Administrator Jill Hruby\n* Members of Congress\n* National Ignition Facility\n* DOE National Laboratories\n* International Partners\n* LLNL Director Dr. Kim Budil\n* Scientific Challenges\n* Science\n* Engineering\n* People\n* 60 Years\n* Dedicated Pursuit\n* Learning\n* Building\n* Expanding Knowledge\n* Capability\n* Overcoming New Challenges\n* U.S. National Laboratories",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_5m7gg5F_0"
+  ]
+}

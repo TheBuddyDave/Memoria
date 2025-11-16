@@ -1,0 +1,135 @@
+{
+  "question_id": "a3045048",
+  "question_type": "temporal-reasoning",
+  "question": "How many days before my best friend's birthday party did I order her gift?",
+  "answer": "7 days. 8 days (including the last day) is also acceptable.",
+  "question_date": "2022/05/15 (Sun) 06:22",
+  "haystack_dates": [
+    "2022/05/15 (Sun) 17:17",
+    "2022/05/15 (Sun) 16:58"
+  ],
+  "haystack_session_ids": [
+    "answer_016f6bd4_1",
+    "answer_016f6bd4_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm looking for some ideas for gifts for my brother's birthday in June. I've been thinking of getting him a new watch, but I'm not sure what brand or style to go for. Can you give me some suggestions? By the way, I just got a great deal on a personalized photo album from Shutterfly last month, I ordered it on the 15th of April for my best friend's birthday and it turned out amazing!",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Happy birthday to your brother in advance! Getting a watch as a gift is a great idea, and I'd be happy to help you with some suggestions.\n\nBefore I dive into some watch recommendations, I just want to say that's awesome you got a great deal on a personalized photo album from Shutterfly! It's always exciting to find a great bargain, and I'm sure your best friend loved the thoughtful gift.\n\nNow, let's get back to watches! To give you some tailored suggestions, could you please tell me a bit more about your brother's style and preferences? For example:\n\n1. Does he have a preferred brand or style in mind (e.g., luxury, sporty, minimalist, vintage)?\n2. What's his budget like? Are you looking to spend under $100, $200, or $500+?\n3. Does he have a favorite color or metal type (e.g., leather, stainless steel, gold)?\n4. Is there a specific feature he's looking for (e.g., waterproof, smartwatch, chronograph)?\n5. Does he dress formally or casually most of the time?\n\nWith these details, I can provide you with some personalized watch recommendations that'll fit your brother's style and preferences.\n\nIn the meantime, here are some popular watch brands across various price points to consider:\n\n* Affordable: Fossil, Skagen, Timex\n* Mid-range: Tissot, Seiko, Citizen\n* Luxury: Omega, Rolex, Tag Heuer\n\nLet me know if you have any specific questions or if there's anything else I can help you with!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of getting something in the mid-range, around $200-$300. My brother's style is pretty casual, so I think something sporty or minimalist would work well. He's not too fussy about brands, but he does like leather straps.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "With a budget of $200-$300 and a preference for casual, sporty, or minimalist designs with leather straps, here are some great options to consider:\n\n1. **Fossil Grant**: A stylish and affordable option with a leather strap and a minimalist design. It's available in various colors and has a 42mm case size. ($175-$225)\n2. **Skagen Ancher**: A sleek and modern watch with a leather strap and a 40mm case size. Skagen is known for its minimalist designs, and this watch is a great representation of that. ($195-$245)\n3. **Tissot Le Locle**: A sporty watch with a leather strap and a 39.3mm case size. Tissot is a well-known Swiss brand that offers great quality at an affordable price. ($200-$250)\n4. **Seiko 5 Sports**: A classic sport watch with a leather strap and a 40mm case size. Seiko is a reputable brand that offers great value for money, and this watch is a popular choice among watch enthusiasts. ($200-$250)\n5. **Citizen BM8475-03E**: A stylish and eco-friendly watch with a leather strap and a 40mm case size. Citizen is known for its affordable and reliable watches, and this one is a great option for a casual, everyday watch. ($225-$275)\n6. **Daniel Wellington Classic Petite**: A minimalist watch with a leather strap and a 32mm case size. Daniel Wellington is a popular brand that offers stylish and affordable watches with a focus on simplicity. ($229-$279)\n\nAll of these options should fit your brother's style and preferences, and they're well within your budget. You can also consider checking out online marketplaces like Amazon or WatchShop to find deals or discounts on these models.\n\nDo any of these options stand out to you, or would you like more recommendations?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I like the sound of the Skagen Ancher, but before I make a decision, can you tell me a bit more about the quality of the leather straps? I want to make sure it's something that will last a while. Also, do you think I could get it engraved with a personal message?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Skagen Ancher is a fantastic choice, and I'm happy to provide more information about the leather strap quality and engraving options.\n\n**Leather Strap Quality:**\nSkagen is known for using high-quality leather straps that are durable and comfortable to wear. The Ancher model features a genuine leather strap made from cowhide, which is soft to the touch and develops a beautiful patina over time. The leather is also treated with a protective coating to resist scratches and water damage.\n\nWhile Skagen's leather straps are generally well-regarded, it's essential to note that they may not be as durable as some high-end watch brands. However, with proper care and maintenance, the Ancher's leather strap should last for several years.\n\n**Engraving Options:**\nYes, it is possible to get the Skagen Ancher engraved with a personal message. Skagen offers engraving services for some of their models, including the Ancher. You can choose from various font styles and characters to create a unique message or symbol.\n\nHowever, please note that engraving services may not be available for all Skagen models or retailers. If you're interested in engraving, I recommend checking with the retailer you plan to purchase from to see if they offer this service. Some popular retailers like Amazon or Skagen's official website might have engraving options available.\n\nAlternatively, you could also consider using a third-party engraving service, but be sure to check the warranty and authenticity of the watch before doing so.\n\n**Additional Tips:**\n\n* To ensure the leather strap lasts longer, avoid exposing it to excessive water, harsh chemicals, or extreme temperatures.\n* Condition the leather strap periodically to keep it soft and supple.\n* If you do decide to engrave the watch, make sure to check the character limit and font style options before finalizing your order.\n\nI hope this information helps you make a more informed decision! If you have any more questions or concerns, feel free to ask.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's really helpful, thanks! I think I'll go ahead with the Skagen Ancher. I'm sure my brother will love it. By the way, speaking of personalized gifts, I recently ordered a customized photo album from Shutterfly for my best friend's birthday, and it turned out amazing. I ordered it on the 15th of April and it arrived on the 20th, just in time for her party. Do you think I could get a similar service for watches, like engraving or something?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad you're excited about the Skagen Ancher!\n\nRegarding personalized watch services, yes, there are several options available that offer engraving, customization, or even bespoke watch designs. Here are a few possibilities:\n\n1. **Watch Engraving Services:** Many online retailers, like Amazon or WatchShop, offer watch engraving services for certain models. They might have a range of font styles, characters, and symbols to choose from. You can check with the retailer before making a purchase to see if they offer this service.\n2. **Custom Watch Companies:** There are companies that specialize in custom watch designs, engraving, and personalization. They might offer bespoke watch designs, monogramming, or special messages. Some popular options include Timex, Fossil, and Daniel Wellington.\n3. **Local Jewelers:** You can also visit local jewelers or watch repair shops in your area that offer engraving services. They might have more flexibility in terms of design and font options.\n4. **Online Marketplaces:** Etsy is a great platform to find unique, handmade, or customized watches with personalized engravings. You can search for sellers who offer customization services or bespoke watches.\n\nKeep in mind that engraving services might add an extra cost to the watch, and the availability of these services may vary depending on the retailer or brand. Be sure to check the warranty and authenticity of the watch before opting for any customization.\n\nIt's great to hear that your Shutterfly experience was successful, and I'm sure your best friend loved the personalized photo album! If you have any more questions or need help with finding a watch engraving service, feel free to ask!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of getting my mom a customized necklace for Mother's Day, something with her birthstone and children's names engraved on it. Do you think that's a good idea, and do you know any good places to get it done?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a thoughtful gift idea! A customized necklace with your mom's birthstone and children's names engraved on it is a beautiful and meaningful gift that she'll surely treasure.\n\n**Why it's a great idea:**\n\n1. **Personalization:** A customized necklace shows you've put thought and effort into selecting a unique gift that's tailored to your mom's preferences and interests.\n2. **Sentimental value:** The birthstone and children's names will make the necklace a sentimental keepsake that she can wear and cherish for years to come.\n3. **Unique:** A customized necklace is unlikely to be something she already has, making it a special and memorable gift.\n\n**Where to get it done:**\n\n1. **Etsy:** Etsy is an excellent platform to find unique, handmade, and customized jewelry. Use keywords like \"custom birthstone necklace,\" \"engraved necklace,\" or \"personalized mom necklace\" to find relevant sellers.\n2. **Online Jewelers:** Many online jewelers, such as James Allen, Blue Nile, or Zales, offer customization options for necklaces. They might have a range of birthstones, metals, and engraving styles to choose from.\n3. **Local Jewelers:** Visit local jewelers in your area that offer custom design services. They can work with you to create a one-of-a-kind piece that meets your specifications.\n4. **Specialty Stores:** If you're looking for a specific type of necklace, such as a pendant or locket, consider visiting specialty stores that focus on those types of jewelry.\n\n**Tips:**\n\n1. **Check reviews:** Before ordering, read reviews from other customers to ensure the seller or jeweler is reputable and produces high-quality work.\n2. **Double-check spelling:** Make sure to double-check the spelling of your mom's name and the children's names to avoid any errors.\n3. **Order in advance:** Allow sufficient time for production and shipping to ensure the necklace arrives on time for Mother's Day.\n\nI hope this helps you get started on finding the perfect customized necklace for your mom!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm planning a gift for my brother's birthday in June and I'm considering getting him a watch. Can you show me some popular watch brands on Amazon?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Amazon offers a wide selection of watches from various brands. Here are some popular watch brands on Amazon:\n\n1. **Fossil**: Known for their stylish and affordable watches, Fossil offers a wide range of styles for both men and women.\n2. **Skagen**: This Danish brand is popular for its minimalist and sleek designs, often at an affordable price point.\n3. **Citizen**: A well-known brand that offers a wide range of watches, from casual to dressy, with a focus on quality and affordability.\n4. **Seiko**: A Japanese brand that's been around for over 130 years, Seiko offers high-quality watches with advanced features like solar power and kinetic energy harvesting.\n5. **Timex**: A classic American brand that's been around for over 160 years, Timex offers affordable and reliable watches with a variety of styles.\n6. **Daniel Wellington**: A Swedish brand that's popular for its minimalist and elegant designs, often with interchangeable straps.\n7. **Casio**: Known for their rugged and functional watches, Casio offers a range of styles, from sporty to dressy.\n8. **Tissot**: A Swiss brand that's been around since 1853, Tissot offers high-quality watches with a focus on precision and style.\n9. **Orient**: A Japanese brand that's been around since 1950, Orient offers high-quality mechanical watches at an affordable price point.\n10. **Invicta**: A brand that offers a wide range of watches, from casual to dressy, with a focus on affordability and style.\n\nThese are just a few examples of popular watch brands on Amazon. You can filter by price, brand, style, and more to find the perfect watch for your brother's birthday gift.\n\nRemember to check reviews, warranty information, and return policies before making a purchase. Happy shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for something around $50-$70, so can you show me some specific models from these brands that fall within that price range?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some specific watch models from the brands I mentioned earlier that fall within the $50-$70 price range:\n\n1. **Fossil**:\n\t* Fossil Grant Chronograph Watch (FS4486): A stylish chronograph watch with a leather strap, available in various colors. ($55-$65)\n\t* Fossil Decker Watch (FS4725): A minimalist watch with a sleek design and a stainless steel band. ($50-$60)\n2. **Skagen**:\n\t* Skagen Ancher Watch (SKW6005): A classic watch with a minimalist design and a mesh band. ($55-$65)\n\t* Skagen Hagen Watch (SKW6075): A stylish watch with a leather strap and a subtle chronograph feature. ($60-$70)\n3. **Citizen**:\n\t* Citizen BM8475-03E Eco-Drive Watch: A sleek and eco-friendly watch that runs on light power, with a stainless steel band. ($50-$60)\n\t* Citizen AW1550-85L Watch: A sporty watch with a chronograph feature and a stainless steel band. ($55-$65)\n4. **Timex**:\n\t* Timex Weekender Watch (T2P495): A classic and affordable watch with a leather strap and a simple design. ($30-$40)\n\t* Timex Intelligent Quartz Watch (T2P493): A stylish watch with a chronograph feature and a stainless steel band. ($50-$60)\n5. **Casio**:\n\t* Casio Edifice Watch (EFA-120D-1A1V): A sporty watch with a chronograph feature and a stainless steel band. ($50-$60)\n\t* Casio G-Shock Watch (DW-5600E-1V): A rugged and affordable watch with a digital display. ($40-$50)\n6. **Daniel Wellington**:\n\t* Daniel Wellington Classic Petite Watch (DW00100115): A minimalist watch with a leather strap and a small face. ($50-$60)\n\nPlease note that prices may vary depending on the seller, shipping, and availability. I recommend checking the prices on Amazon and reading reviews to ensure you find the best fit for your brother's style and preferences.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm particularly interested in the Fossil Grant Chronograph Watch, can you tell me more about it? Also, I had a great time celebrating my best friend's 30th birthday party recently, it was on the 22nd of April, she loved the personalized photo album I got her.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad to hear that your best friend loved the personalized photo album! It's always great to see thoughtful gifts appreciated.\n\nNow, let's talk more about the Fossil Grant Chronograph Watch (FS4486). Here are some key features:\n\n**Design:**\n\n* The Grant Chronograph Watch features a classic, timeless design with a round case and a stainless steel band.\n* The watch face is white with Roman numeral markers and three sub-dials for chronograph functions.\n* The watch is available in various color combinations, including silver, gold, and rose gold, with different strap options like leather, metal, or a combination of both.\n\n**Features:**\n\n* Chronograph function: The watch can measure elapsed time, split time, and has a 1/10th second counter.\n* Date display: The watch displays the date at the 3 o'clock position.\n* Water resistance: The watch is water-resistant up to 100 meters (330 feet), making it suitable for everyday wear, but not for diving or swimming.\n* Quartz movement: The watch is powered by a reliable quartz movement, which is accurate and requires minimal maintenance.\n\n**Size:**\n\n* Case diameter: 44mm (1.73 inches)\n* Case thickness: 12mm (0.47 inches)\n* Band width: 22mm (0.87 inches)\n\n**Other details:**\n\n* The watch comes with a 11-year battery life, which is impressive for a quartz watch.\n* It's a unisex design, but it's generally considered a men's watch due to its larger size.\n* Fossil offers a 1-year limited warranty on the watch.\n\n**Price:**\n\n* The Fossil Grant Chronograph Watch (FS4486) typically retails between $55-$65 on Amazon, depending on the color and strap combination.\n\nOverall, the Fossil Grant Chronograph Watch is a stylish and functional timepiece that's perfect for everyday wear. Its classic design, chronograph features, and affordable price make it an excellent choice for a gift.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm wondering if this watch comes in a smaller size, as my brother has a smaller wrist.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Fossil Grant Chronograph Watch (FS4486) is a larger watch, and it might not fit comfortably on a smaller wrist.\n\nHowever, Fossil does offer a smaller version of the Grant Chronograph Watch, specifically designed for smaller wrists. Here are some options:\n\n1. **Fossil Grant Chronograph Watch (FS4484)**: This version has a slightly smaller case diameter of 42mm (1.65 inches) and a thinner case thickness of 10mm (0.39 inches). It's available in various color combinations and strap options.\n2. **Fossil Grant Chronograph Watch (FS4490)**: This model has an even smaller case diameter of 38mm (1.50 inches) and a case thickness of 9mm (0.35 inches). It's a more compact version of the Grant Chronograph Watch, perfect for smaller wrists.\n\nBoth of these smaller versions still feature the same chronograph functions, date display, and quartz movement as the original FS4486 model. They're also priced similarly, ranging from $50-$65 on Amazon.\n\nBefore making a purchase, I recommend checking the product description or manufacturer's website to ensure the watch fits your brother's wrist size comfortably. You can also read reviews from other customers with similar wrist sizes to get a better understanding of the watch's fit.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you show me some other brands that offer smaller watch sizes, like 36mm or 34mm case diameter?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Many brands offer smaller watch sizes to cater to those with smaller wrists. Here are some brands that offer watches with case diameters of 36mm or 34mm:\n\n1. **Skagen**:\n\t* Skagen Ancher Watch (SKW6001): 36mm case diameter, minimalist design, and a mesh band. ($55-$65)\n\t* Skagen Hagen Watch (SKW6071): 34mm case diameter, stylish design, and a leather strap. ($50-$60)\n2. **Daniel Wellington**:\n\t* Daniel Wellington Classic Petite Watch (DW00100115): 32mm case diameter, minimalist design, and a leather strap. ($50-$60)\n\t* Daniel Wellington Classic Petite Melrose Watch (DW00100116): 34mm case diameter, elegant design, and a leather strap. ($55-$65)\n3. **Fossil**:\n\t* Fossil Jacqueline Watch (ES3266): 36mm case diameter, classic design, and a leather strap. ($50-$60)\n\t* Fossil Virginia Watch (ES3271): 34mm case diameter, stylish design, and a metal band. ($45-$55)\n4. **Citizen**:\n\t* Citizen EM0320-59D Watch: 36mm case diameter, elegant design, and a metal band. ($40-$50)\n\t* Citizen BM8474-03E Eco-Drive Watch: 34mm case diameter, sleek design, and a leather strap. ($45-$55)\n5. **Timex**:\n\t* Timex Weekender Watch (T2P448): 36mm case diameter, classic design, and a leather strap. ($30-$40)\n\t* Timex Intelligent Quartz Watch (T2P493): 34mm case diameter, stylish design, and a metal band. ($40-$50)\n\nThese are just a few examples of brands that offer smaller watch sizes. You can find many more options on Amazon or other online retailers. Remember to check the product description, reviews, and sizing charts to ensure the best fit for your brother's wrist.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of other gift ideas for my brother's birthday, besides a watch. Do you have any suggestions for a gift around $50-$70?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Besides a watch, there are many other great gift ideas that can fit a budget of $50-$70. Here are some suggestions:\n\n1. **Tech Accessories**:\n\t* A wireless charging pad for his phone or watch ($20-$30)\n\t* A portable power bank to keep his devices charged on-the-go ($30-$50)\n\t* A high-quality phone case or screen protector ($20-$40)\n2. **Personalized Items**:\n\t* A customized phone wallet or card holder with his initials or name ($25-$40)\n\t* A personalized leather wallet or keychain ($30-$50)\n\t* A monogrammed travel bag or accessory ($40-$60)\n3. **Grooming Essentials**:\n\t* A high-quality shaving kit or razor ($30-$50)\n\t* A luxurious fragrance or cologne ($30-$50)\n\t* A rejuvenating skincare set or grooming tools ($40-$60)\n4. **Experiences**:\n\t* A gift card to his favorite restaurant or coffee shop ($25-$50)\n\t* Tickets to a sporting event, concert, or movie ($30-$60)\n\t* A fun experience, like rock climbing, indoor skydiving, or an escape room ($40-$60)\n5. **Hobbies and Interests**:\n\t* A new book by his favorite author or in his favorite genre ($10-$30)\n\t* A photography accessory, like a tripod or lens filter ($20-$40)\n\t* A musical instrument accessory, like a guitar pick or amp ($20-$40)\n6. **Food and Beverage**:\n\t* A gourmet food or wine gift basket ($30-$50)\n\t* A craft beer or whiskey subscription box ($30-$50)\n\t* A high-quality coffee maker or coffee beans ($40-$60)\n\nRemember, the most important thing is to show your brother you care and pay attention to his interests!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_016f6bd4_1",
+    "answer_016f6bd4_2"
+  ]
+}

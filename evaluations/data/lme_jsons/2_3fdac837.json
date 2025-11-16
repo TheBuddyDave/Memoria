@@ -1,0 +1,125 @@
+{
+  "question_id": "3fdac837",
+  "question_type": "multi-session",
+  "question": "What is the total number of days I spent in Japan and Chicago?",
+  "answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+  "question_date": "2023/05/28 (Sun) 22:56",
+  "haystack_dates": [
+    "2023/05/24 (Wed) 04:19",
+    "2023/05/28 (Sun) 00:10"
+  ],
+  "haystack_session_ids": [
+    "answer_419d21d5_2",
+    "answer_419d21d5_1"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm planning a trip to Chicago and was wondering if you could recommend some good restaurants in the city. I've been to Chicago before and I loved the city.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're a returning visitor! Chicago is an amazing city, isn't it? I'd be happy to help you with some fantastic restaurant recommendations.\n\nBefore I dive into that, I have to ask: What kind of cuisine are you in the mood for? Are you looking for classic Chicago-style eats like deep-dish pizza, Italian beef sandwiches, or hot dogs? Or do you prefer something more modern and trendy?\n\nAlso, are there any specific neighborhoods or areas you're planning to explore during your trip? That can help me give you more targeted recommendations.\n\nLet me know, and I'll give you some personalized recs!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually looking for some good Italian restaurants, I had some great Italian food during my last 4-day trip to Chicago.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Italian food in Chicago is a must-try! You're in luck because Chicago has a rich Italian-American heritage, and the city is home to many authentic Italian restaurants that will transport your taste buds to the Tuscan countryside. Here are some highly-recommended Italian restaurants in Chicago:\n\n1. **Alinea**: While not traditional Italian, Alinea is a Michelin three-star restaurant that offers an avant-garde, experimental Italian-inspired tasting menu. (Average price: $250-$300 per person)\n2. **Spiaggia**: This upscale Italian restaurant boasts a beautiful view of the Chicago River and serves contemporary Italian cuisine with a focus on seasonal ingredients. (Average price: $50-$70 per person)\n3. **Carmine's**: A family-style Italian restaurant with generous portions and reasonable prices. Try their famous chicken or veal parmesan. (Average price: $20-$30 per person)\n4. **Monteverde Restaurant & Pastificio**: This West Loop spot is known for its handmade pasta and creative Italian dishes. Don't miss their cacio e pepe. (Average price: $30-$45 per person)\n5. **Giorigo's**: A cozy, family-owned Italian restaurant in the North Center neighborhood serving up classic dishes like lasagna, ravioli, and osso buco. (Average price: $25-$35 per person)\n6. **Formento's**: This Italian-American restaurant in the West Loop offers house-made pastas, wood-fired pizzas, and a retro vibe. (Average price: $25-$35 per person)\n7. **The Polo Café**: This intimate, family-run restaurant in the West Loop serves up traditional Italian dishes with a focus on seafood. (Average price: $30-$45 per person)\n\nReservations are highly recommended for these popular spots, especially if you're planning to visit during peak hours or on weekends.\n\nWhich one of these options sounds appealing to you, or would you like more recommendations?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try Carmine's, I've heard good things about it. Do you have any recommendations for hotels near the restaurant?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Carmine's is a great choice for delicious Italian food at a reasonable price.\n\nAs for hotels near Carmine's, I've got you covered! Carmine's has two locations in Chicago: one in the River North neighborhood and another in the Streeterville neighborhood. Here are some hotel recommendations near each location:\n\n**River North Location (1043 N Rush St):**\n\n1. **The Langham Chicago**: A luxurious hotel with elegant rooms, a world-class spa, and a great location. (About 0.4 miles, 8-minute walk to Carmine's)\n2. **The Wit Hotel**: A trendy hotel with modern rooms, a rooftop bar, and a fun atmosphere. (About 0.5 miles, 10-minute walk to Carmine's)\n3. **Kimpton Hotel Monaco Chicago**: A stylish hotel with comfortable rooms, a fitness center, and a pet-friendly policy. (About 0.5 miles, 10-minute walk to Carmine's)\n\n**Streeterville Location (330 N State St):**\n\n1. **Loews Chicago Hotel**: A modern hotel with spacious rooms, a rooftop pool, and a great location near the Riverwalk. (About 0.2 miles, 4-minute walk to Carmine's)\n2. **The Sheraton Grand Chicago**: A large hotel with comfortable rooms, a fitness center, and a convenient location. (About 0.3 miles, 6-minute walk to Carmine's)\n3. **Hyatt Centric The Loop Chicago**: A stylish hotel with modern rooms, a rooftop bar, and a great location near Millennium Park. (About 0.4 miles, 8-minute walk to Carmine's)\n\nKeep in mind that prices may vary depending on the time of year and availability. I recommend checking hotel websites, travel websites (like Expedia, Booking.com, or Hotels.com), or using a hotel search engine like Trivago to find the best deals.\n\nWhich of these hotels catches your eye, or would you like more recommendations?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll check out The Wit Hotel. I like the sound of the rooftop bar. By the way, I had a great time exploring the city during my last trip in March, especially walking along the Lake Michigan shoreline.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Wit Hotel's rooftop bar, ROOF, is a popular spot to enjoy a drink and take in the city views. You'll love it!\n\nI'm so glad to hear you had a great time exploring Chicago during your last trip in March! The Lake Michigan shoreline is indeed a beautiful spot to walk and take in the sights. The city's lakefront path, which stretches from North Avenue Beach to Navy Pier, offers stunning views of the city skyline and the lake.\n\nIf you're interested in exploring more of the lakefront, you might want to consider visiting some of the city's beautiful beaches, like Oak Street Beach or North Avenue Beach. During the summer months, these beaches are perfect spots to soak up the sun, take a dip in the lake, or try your hand at water sports like kayaking or paddleboarding.\n\nIf you're looking for more outdoor activities, you could also explore Millennium Park, which is just a short walk from The Wit Hotel. The park is home to iconic landmarks like the \"Cloud Gate\" sculpture (also known as \"The Bean\"), the Jay Pritzker Pavilion, and the beautiful Lurie Garden.\n\nWhat are your interests? Are you looking for more outdoor activities, cultural attractions, or something else during your trip?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely check out Millennium Park and the lakefront path. I actually spent most of my time in the city center during my last trip, so it'll be nice to explore more of the city's outdoor areas. By the way, do you have any recommendations for transportation from the airport to the hotel?\nHere is your response.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Millennium Park and the lakefront path are must-visit spots in Chicago.\n\nFor transportation from the airport to The Wit Hotel, you have several options:\n\n1. **Taxi**: Taxis are readily available outside both terminals at O'Hare International Airport (ORD). The trip to The Wit Hotel should take around 30-40 minutes, depending on traffic, and cost approximately $40-$50.\n2. **Ride-hailing (Uber/Lyft)**: Ride-hailing services are also available at O'Hare Airport. You can find the pickup areas at the airport, and the trip to The Wit Hotel should take around 30-40 minutes, depending on traffic. Prices vary depending on the time of day and traffic conditions.\n3. **CTA 'L' Train (Blue Line)**: The most budget-friendly option is to take the CTA 'L' Train (Blue Line) from O'Hare Airport to the Clark/Lake station in the Loop. From there, it's a short 5-minute walk to The Wit Hotel. The trip takes around 45 minutes, and the fare is $3.00.\n4. **Shuttle Services**: There are several shuttle services available from O'Hare Airport to The Wit Hotel, such as Go Airport Shuttle or Airport Super Shuttle. These services can be booked in advance and cost around $25-$35 per person, each way.\n5. **Private Car Service**: If you prefer a more luxurious and hassle-free experience, you can book a private car service to take you from the airport to The Wit Hotel. This option is more expensive, with prices starting at around $60-$70, each way.\n\nWhich transportation option do you think you'll choose?\n\n(By the way, if you have any more questions or need help with anything else, feel free to ask!)",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll go with Uber or Lyft, it's usually more convenient for me. By the way, I've been using these services a lot lately, especially during my recent trips.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great choice! Uber and Lyft are convenient and often more affordable than traditional taxi services. Since you're already familiar with these platforms, it's a no-brainer to use them for your trip to Chicago.\n\nNow, let's get back to your upcoming trip. Are you planning on purchasing a Chicago CityPASS or exploring any of the city's many museums during your stay?",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm planning a trip to Asia and I was wondering if you could recommend some must-visit places in Tokyo. I went to Japan before from April 15th to 22nd, and I fell in love with the city.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Tokyo is an amazing city! Since you've already been to Japan before, I'll assume you've covered the usual tourist spots like Shibuya Crossing, Tokyo Tower, and the Tsukiji Outer Market. Here are some unique and off-the-beaten-path recommendations for your next visit:\n\n1. **Neon Districts**: Explore the lesser-known neon districts like Shinjuku's Kabukicho, Ikebukuro's Gyoza Stadium, or Kichijoji's Harmonica Yokocho. These areas offer a more local and authentic taste of Tokyo's nightlife.\n2. **TEAMLAB Borderless**: This digital art museum in Odaiba is a mesmerizing experience. The interactive exhibits and stunning visuals will leave you in awe.\n3. **Kagurazaka**: This charming neighborhood is known for its traditional Japanese architecture, quaint shops, and beautiful gardens. It's a great place to experience old Japan.\n4. **Yanaka**: This historic district is famous for its traditional shops, cafes, and restaurants. Take a stroll down the charming Yanaka Ginza shopping street and visit the nearby Tennoji Temple.\n5. **Sumo Tournament**: If you're visiting Tokyo during sumo season (January, May, or September), attending a live tournament at the Ryogoku Kokugikan is an unforgettable experience.\n6. **Golden Gai**: This tiny alleyway in Shinjuku is filled with tiny bars and yakitori restaurants. It's a great place to try some local drinks and snacks.\n7. **Todoroki Valley**: This hidden gem is a peaceful oasis in the heart of the city. Take a stroll along the river and enjoy the lush greenery.\n8. **Ghibli Museum**: If you're a fan of Studio Ghibli, this museum in Mitaka is a must-visit. The museum showcases the studio's works and offers a beautiful garden and a small theater.\n9. **Ameya Yokocho**: This bustling marketplace in Ueno offers a wide range of fresh produce, snacks, and souvenirs. It's a great place to try some local street food.\n10. **Tsukishima**: This man-made island in Tokyo Bay is known for its monjayaki restaurants. Try this unique Tokyo-style savory pancake at one of the many restaurants in the area.\n\nThese recommendations should give you a deeper insight into Tokyo's culture, food, and hidden gems. Enjoy your next trip to Tokyo!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually planning to visit other cities in Asia besides Tokyo. Can you recommend some popular destinations in Asia that I can visit within a 5-hour flight radius from Tokyo?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "There are many amazing destinations in Asia within a 5-hour flight radius from Tokyo. Here are some popular options:\n\n1. **Seoul, South Korea** (2.5 hours from Tokyo): Explore the vibrant city's palaces, markets, and K-pop culture. Must-try: Bibimbap and Korean BBQ.\n2. **Hong Kong, China** (4.5 hours from Tokyo): This former British colony offers a unique blend of East and West. Visit Victoria Peak, Wong Tai Sin Temple, and try Cantonese cuisine like Dim Sum.\n3. **Taipei, Taiwan** (3.5 hours from Tokyo): Discover the city's night markets, try delicious street food like beef noodle soup, and visit the iconic Taipei 101 skyscraper.\n4. **Beijing, China** (4.5 hours from Tokyo): Explore the Great Wall of China, Forbidden City, and try authentic Peking duck.\n5. **Bangkok, Thailand** (5 hours from Tokyo): Experience the bustling streets, night markets, and delicious street food of this vibrant city. Don't miss the Grand Palace and Wat Phra Kaew.\n6. **Macau, China** (4.5 hours from Tokyo): This former Portuguese colony is known for its casinos, historic architecture, and delicious Macanese cuisine.\n7. **Shanghai, China** (4.5 hours from Tokyo): Visit the iconic Bund, Shanghai Tower, and try the city's famous xiaolongbao (soup dumplings).\n8. **Kuala Lumpur, Malaysia** (5 hours from Tokyo): Explore the Petronas Twin Towers, Batu Caves, and try the city's multicultural cuisine, including Malay, Chinese, and Indian food.\n9. **Hanoi, Vietnam** (4.5 hours from Tokyo): Discover the Old Quarter, Ho Chi Minh Mausoleum, and try delicious Vietnamese cuisine like pho and banh mi.\n10. **Singapore** (5 hours from Tokyo): This cosmopolitan city-state offers Gardens by the Bay, Marina Bay Sands, and a foodie's paradise with its multicultural cuisine.\n\nThese destinations offer a mix of culture, history, food, and entertainment, and are easily accessible from Tokyo. Enjoy your travels!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you recommend some airlines that operate direct flights from Tokyo to these destinations?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some airlines that operate direct flights from Tokyo to the destinations I mentioned earlier:\n\n1. **Seoul, South Korea**:\n\t* Japan Airlines (Narita or Haneda)\n\t* Korean Air (Narita or Haneda)\n\t* Asiana Airlines (Narita or Haneda)\n2. **Hong Kong, China**:\n\t* Japan Airlines (Narita or Haneda)\n\t* Cathay Pacific (Narita or Haneda)\n\t* Hong Kong Airlines (Narita)\n3. **Taipei, Taiwan**:\n\t* Japan Airlines (Narita or Haneda)\n\t* China Airlines (Narita or Haneda)\n\t* Eva Air (Narita or Haneda)\n4. **Beijing, China**:\n\t* Japan Airlines (Narita or Haneda)\n\t* All Nippon Airways (Narita or Haneda)\n\t* Air China (Narita or Haneda)\n5. **Bangkok, Thailand**:\n\t* Japan Airlines (Narita or Haneda)\n\t* Thai Airways (Narita or Haneda)\n\t* All Nippon Airways (Narita)\n6. **Macau, China**:\n\t* Japan Airlines (Narita)\n\t* All Nippon Airways (Narita)\n\t* Macau Airlines (Narita)\n7. **Shanghai, China**:\n\t* Japan Airlines (Narita or Haneda)\n\t* All Nippon Airways (Narita or Haneda)\n\t* China Eastern Airlines (Narita or Haneda)\n8. **Kuala Lumpur, Malaysia**:\n\t* Japan Airlines (Narita)\n\t* Malaysia Airlines (Narita)\n\t* All Nippon Airways (Narita)\n9. **Hanoi, Vietnam**:\n\t* Japan Airlines (Narita)\n\t* Vietnam Airlines (Narita or Haneda)\n\t* Vietjet Air (Narita)\n10. **Singapore**:\n\t* Japan Airlines (Narita or Haneda)\n\t* Singapore Airlines (Narita or Haneda)\n\t* Scoot (Narita)\n\nPlease note that direct flights may not be available every day, and flight schedules may vary depending on the season. I recommend checking with the airlines for the latest schedules and fares. Additionally, you can use flight comparison websites like Skyscanner, Expedia, or Kayak to find the best flights for your travel dates.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually loyal to a particular airline, which I've been using for most of my international trips, and I've accumulated enough miles to reach silver status. I was wondering if you could help me find out if this airline operates direct flights from Tokyo to any of these destinations.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on reaching silver status with your preferred airline!\n\nI'd be happy to help you find out if your airline operates direct flights from Tokyo to your desired destinations. Could you please tell me the name of your airline? That way, I can check their route network and provide you with more personalized information.\n\nAdditionally, you can also check your airline's website or mobile app to see if they operate direct flights from Tokyo to your desired destinations. You can also log in to your account to see if you have any available award flights or upgrades using your accumulated miles.\n\nLet me know if there's anything else I can assist you with!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_419d21d5_2",
+    "answer_419d21d5_1"
+  ]
+}

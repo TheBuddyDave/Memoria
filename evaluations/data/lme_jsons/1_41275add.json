@@ -1,0 +1,30 @@
+{
+  "question_id": "41275add",
+  "question_type": "single-session-assistant",
+  "question": "I wanted to follow up on our previous conversation about YouTube videos for workplace posture. Can you remind me of the Mayo Clinic video you recommended?",
+  "answer": "The video is 'How to Sit Properly at a Desk to Avoid Back Pain' and the link is https://www.youtube.com/watch?v=UfOvNlX9Hh0.",
+  "question_date": "2023/05/27 (Sat) 11:04",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 04:15"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_81riySf_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "any youtube video i can share with them?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! There are plenty of helpful videos on YouTube that demonstrate proper workplace posture and provide tips for staying comfortable while working at a desk. Here are a few videos you could share with your staff:\n\n1. \"How to Sit Properly at a Desk to Avoid Back Pain\" by the Mayo Clinic: <https://www.youtube.com/watch?v=UfOvNlX9Hh0>\n2. \"5 Tips for Better Posture at Your Desk\" by Harvard Health Publishing: <https://www.youtube.com/watch?v=LT_dFRnmdGs>\n3. \"Office Ergonomics - Computer Workstation Ergonomics\" by Ohio State University Wexner Medical Center: <https://www.youtube.com/watch?v=0TtTXsQsRd8>\n4. \"10 Easy Ways to Improve Your Posture at Work\" by Healthline: <https://www.youtube.com/watch?v=nvVbWYfNn_0>\n\nThese videos offer clear demonstrations and practical advice for improving workplace posture and reducing discomfort. Sharing these resources with your staff can help to promote a healthier, more comfortable work environment.",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_81riySf_0"
+  ]
+}

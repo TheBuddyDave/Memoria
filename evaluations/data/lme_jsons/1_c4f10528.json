@@ -1,0 +1,90 @@
+{
+  "question_id": "c4f10528",
+  "question_type": "single-session-assistant",
+  "question": "I'm planning to visit Bandung again and I was wondering if you could remind me of the name of that restaurant in Cihampelas Walk that serves a great Nasi Goreng?",
+  "answer": "Miss Bee Providore",
+  "question_date": "2023/05/25 (Thu) 15:43",
+  "haystack_dates": [
+    "2023/05/22 (Mon) 22:17"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_234453"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "What are some unique shopping experiences to be had in Bandung?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "As an AI language model, I don't have personal experiences, but based on research, here are some unique shopping experiences to be had in Bandung:\n\n1. Factory outlets: Bandung is well known for being a factory outlet (FO) paradise. You can find many factory outlets selling local and international brands at discounted prices.\n\n2. Pasar Baru: This is Bandung's oldest and largest traditional market, selling everything from clothing and accessories to food and home goods. It's a great place to experience the hustle and bustle of a traditional market.\n\n3. Braga Street: This historic street is lined with old colonial buildings that have been turned into trendy cafes, restaurants, and boutique shops. It's a great place to find unique souvenirs and gifts.\n\n4. Cihampelas Walk: Also known as Ciwalk, this shopping center is famous for its denim street, where you can find a wide range of denim products, from jeans to jackets.\n\n5. Dago Street: This street is home to many boutiques, art galleries, and cafes, making it a popular spot for young and trendy shoppers.\n\n6. Rumah Mode: This popular factory outlet is famous for its Balinese-inspired architecture and stylish clothing and accessories.\n\n7. Kartika Sari: This bakery is famous for its chocolate brownies and other Indonesian snacks, making it a great place to pick up some tasty treats to take home.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, there are so many shopping destinations in Bandung! Which one do you think I should visit first?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "As an AI language model, I cannot provide personal opinions or biases. However, it entirely depends on what you are looking for. Each of these shopping destinations has its unique charm and items that make them a must-visit. If you love discounted branded items, then you should head over to the factory outlets. If you're into traditional markets, then Pasar Baru is a great choice. If you're looking for something unique and trendy, then Braga Street and Dago Street are fantastic options. It all depends on your preferences, needs, and desires. It's best to research each location to determine which one aligns more with your shopping goals!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll start with Cihampelas Walk to check out the denim street. Can you recommend any good restaurants or cafes in the area?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! There are many good restaurants and cafes in the Cihampelas Walk area. Here are a few options:\n\n1. Miss Bee Providore: This restaurant serves a mix of western and Indonesian cuisine and has a cozy and stylish interior. 2. Bakery & Co: A great place to relax and enjoy a cup of coffee and a pastry. 3. Raa Cha Suki & BBQ: If you're looking for something spicy and delicious, this Thai restaurant is a great option. 4. Sumoboo: This Japanese shaved ice dessert place features a wide variety of flavors, toppings, and combinations. 5. Holycow! Steakhouse by Chef Afit: This steakhouse has a warm atmosphere and serves high-quality steaks at reasonable prices. These are just a few of the many options you can explore in the area. Make sure to do some research and read reviews before making a final decision. Enjoy your visit!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm definitely going to try out Miss Bee Providore for some delicious food. Do they have any signature dishes I should try?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Miss Bee Providore offers a variety of delicious dishes, both Western and Indonesian cuisine. Here are a few signature dishes you should definitely try:\n\n1. Miss Bee's Nasi Goreng: Their take on the classic Indonesian fried rice dish is a must-try! It's served with a side of prawn crackers and topped with a fried egg. 2. Yoghurt Granola Bowl: This is a great option if you're looking for something healthy and refreshing. It's made with homemade granola, fresh fruit, and yogurt. 3. Fried Chicken Burger: This signature burger features a juicy chicken patty, crispy bacon, lettuce, tomato, and a special aioli sauce. It's served with a side of fries. 4. Beef Rendang: If you're looking for a traditional Indonesian dish, try their version of beef rendang. It's a slow-cooked beef dish in a flavorful, spicy coconut milk sauce. 5. Chocolate Brownie: Finish off your meal with a sweet treat - Miss Bee's chocolate brownie is a local favorite and is served warm with vanilla ice cream and chocolate sauce. These are just a few of the many delicious options, so feel free to explore their menu and try something new!",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "Yum, all of those dishes sound amazing! I'm definitely going to try the Miss Bee's Nasi Goreng and finish it off with the chocolate brownie.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Enjoy your meal at Miss Bee Providore and have a great time shopping at Cihampelas Walk!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm so excited to explore more of Bandung! Do you have any recommendations for other fun activities to do in the city?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, Bandung has plenty of fun activities to offer! Here are a few recommendations:\n\n1. Visit a volcano: Bandung is located near several active and dormant volcanoes, including Tangkuban Perahu and Kawah Putih. You can take a day trip to visit these fascinating natural wonders.\n\n2. Explore the tea plantations: Bandung is also known for its tea plantations, such as the Malabar Tea Plantation and the Puncak Tea Garden. You can take a tour of these plantations, enjoy a cup of tea, and enjoy the beautiful scenery.\n\n3. Visit the Trans Studio Bandung: This is one of Indonesia's largest indoor theme parks, with rides, attractions, and entertainment for all ages.\n\n4. Go shopping at the Paris Van Java mall: This mall is known for its luxurious and trendy boutiques, restaurants, and cafes, as well as its modern architecture.\n\n5. Take a cooking class: Bandung is famous for its cuisine, and you can take a cooking class to learn how to make traditional Indonesian dishes such as nasi goreng, sate, and rendang.\n\n6. Visit the Saung Angklung Udjo: This is a cultural center that features traditional music and dance performances with the angklung, a traditional Indonesian instrument made from bamboo.\n\nThese are just a few of the many activities that you can do in Bandung. Make sure to do some research and plan your trip accordingly, depending on your interests and preferences. Have fun exploring!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, those are all great suggestions! I think I might check out the tea plantations, do you have any recommendations for a good tea house to visit?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there are several tea houses in Bandung that you can visit. Here are a few recommendations:\n\n1. Kampung Daun: This is a popular and picturesque tea house that features traditional Sundanese architecture and beautiful gardens. They serve a wide variety of teas and Indonesian dishes.\n\n2. Lawangwangi Creative Space: This tea house is located on a hilltop with beautiful views of Bandung city. They serve a variety of teas and have a nice selection of Indonesian and Western dishes.\n\n3. Calista Tea House: This elegant tea house features a cozy atmosphere and serves a wide variety of teas, as well as Indonesian and Western dishes.\n\n4. Original Dutch Tea House: This tea house is located in the heart of Bandung and features a colonial-style interior. They serve a variety of teas, including Dutch tea blends, and have a small selection of Indonesian dishes.\n\nAll of these tea houses offer beautiful settings and a unique experience, so you can choose the one that best fits your preferences. Make sure to try some of their delicious teas and take in the beautiful scenery!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_234453"
+  ]
+}

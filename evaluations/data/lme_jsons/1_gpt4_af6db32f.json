@@ -1,0 +1,80 @@
+{
+  "question_id": "gpt4_af6db32f",
+  "question_type": "temporal-reasoning",
+  "question": "How many days ago did I watch the Super Bowl?",
+  "answer": "17 days ago. 18 days (including the last day) is also acceptable.",
+  "question_date": "2023/03/01 (Wed) 00:28",
+  "haystack_dates": [
+    "2023/02/12 (Sun) 05:07"
+  ],
+  "haystack_session_ids": [
+    "answer_184c8f56_1"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan a fantasy football draft party and I was thinking of serving some food that's similar to what I had at my friend's house today when we watched the Super Bowl - you know, pizza and wings. Do you have any recommendations for good wing sauces or pizza toppings that would be a hit with my friends? By the way, Go Chiefs!",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "A fantasy football draft party sounds like a blast! Serving pizza and wings is a great idea, as they're classic combo that's easy to customize to please a crowd. I've got some recommendations for wing sauces and pizza toppings that are sure to be a touchdown with your friends.\n\n**Wing Sauces:**\n\n1. **Buffalo-Style**: A classic choice, made with hot sauce and butter. You can't go wrong with this spicy and tangy combo.\n2. **Honey Mustard**: A sweet and tangy alternative to traditional buffalo sauce. It's a great option for those who prefer a milder flavor.\n3. **BBQ**: Sweet and smoky, BBQ wings are perfect for those who prefer a non-spicy option.\n4. **Sriracha Ranch**: A spicy and creamy sauce that's perfect for those who like a little heat and a lot of flavor.\n5. **Garlic Parmesan**: For a non-traditional wing sauce, try a garlic parmesan sauce with a sprinkle of parsley for a fresh twist.\n\n**Pizza Toppings:**\n\n1. **Meat Lover's**: A classic combo of pepperoni, sausage, bacon, and sometimes ham.\n2. **The Works**: Load up on toppings like mushrooms, onions, bell peppers, olives, and extra cheese.\n3. **BBQ Chicken**: A twist on traditional pizza, featuring grilled chicken, BBQ sauce, and red onion.\n4. **Mediterranean**: Feta cheese, kalamata olives, artichoke hearts, and sun-dried tomatoes for a flavorful and refreshing option.\n5. **White Pizza**: A simple yet elegant option featuring ricotta cheese, garlic, and fresh spinach.\n\n**Additional Tips:**\n\n* Consider offering a variety of dipping sauces, like blue cheese, ranch, or honey mustard, to complement your wing sauces.\n* Set up a pizza bar with different toppings and let your friends create their own masterpieces.\n* Don't forget to have plenty of cold beverages on hand, like soda, beer, or sports drinks.\n* If you want to get creative, consider serving some football-themed foods, like \"Quarterback Rings\" (onion rings) or \"Field Goal Sliders\" (mini burgers).\n\nNow, go forth and plan an epic fantasy football draft party that'll make your friends cheer! And, of course, Go Chiefs!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually thinking of having the party on a Sunday, so I can catch up on some NFL games before the draft. Do you have any recommendations for good sports bars in the area that show NFL games, in case some of my friends want to catch a game before the party?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Having your party on a Sunday is a great way to tie in with the NFL games. However, I'm a large language model, I don't have access to your location, so I can't recommend specific sports bars in your area.\n\nBut I can suggest a few ways to find great sports bars near you that show NFL games:\n\n1. **Google Search**: Type in \"sports bars near me\" or \"NFL bars near me\" and Google will show you the nearest options along with their addresses, phone numbers, and reviews.\n2. **Yelp**: Yelp is a great platform to find sports bars in your area. You can filter your search by rating, distance, and hours of operation.\n3. **NFL Website**: The NFL website has a \"Bar Finder\" feature that allows you to enter your zip code and find official NFL bars in your area.\n4. **Facebook**: Check Facebook for local sports bars in your area and see if they have events or posts about showing NFL games.\n5. **Ask Around**: Ask your friends, colleagues, or coworkers for recommendations. They might have some insider knowledge on the best sports bars in the area.\n\nOnce you have a list of potential sports bars, you can check their websites or call them to confirm that they'll be showing the games you're interested in. Some popular sports bar chains that usually show NFL games include:\n\n* Buffalo Wild Wings\n* Hooters\n* Dave & Buster's\n* Fox Sports Grill\n* Sports Column\n\nMake sure to check the bar's schedule and availability in advance, especially if you're planning to meet up with a large group. Have fun!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I was thinking, since we're having a fantasy football draft party, it would be cool to have some TVs set up to show some football highlights or analysis before the draft. Do you have any recommendations for some good sports shows or channels that would get us pumped up for the draft?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a great idea! Having some football-related content playing in the background can definitely get everyone in the right mindset for the draft. Here are some sports shows and channels that are perfect for getting you and your friends pumped up for the fantasy football draft:\n\n**NFL Network**:\n\n* **Good Morning Football**: A morning show that covers the latest NFL news, analysis, and highlights.\n* **NFL Total Access**: A daily show that features news, analysis, and interviews with players and coaches.\n* **NFL Fantasy Live**: A show dedicated to fantasy football, with expert advice, news, and updates.\n\n**ESPN**:\n\n* **SportsCenter**: A flagship show that covers the latest sports news, highlights, and analysis.\n* **NFL Live**: A daily show that features news, analysis, and debate about the NFL.\n* **Fantasy Football Now**: A show that provides fantasy football advice, news, and updates.\n\n**Other Channels**:\n\n* **Fox Sports 1 (FS1)**: Features shows like **Skip and Shannon: Undisputed**, **The Herd with Colin Cowherd**, and **Speak for Yourself**, which often discuss NFL news and analysis.\n* **CBS Sports Network**: Offers shows like **NFL Monday QB**, **That Other Pregame Show**, and **Fantasy Football Today**, which provide analysis and fantasy advice.\n\n**Specific Shows**:\n\n* **Sunday NFL Countdown** (ESPN): A pre-game show that airs on Sundays, featuring analysis and predictions from experts like Adam Schefter and Chris Mortensen.\n* **Fantasy Football Today** (CBS Sports Network): A show that provides fantasy football advice, news, and updates, hosted by experts like Jamey Eisenberg and Dave Richard.\n\n**Online Options**:\n\n* **NFL.com**: The official NFL website often streams live coverage of press conferences, analysis, and highlights.\n* **Yahoo! Sports**: Features fantasy football advice, news, and updates, as well as live coverage of NFL games and analysis.\n\nSet up a few TVs with these channels and shows playing in the background, and you'll create a fun and engaging atmosphere for your fantasy football draft party. Just make sure to keep the volume at a reasonable level so your guests can still chat and focus on their draft prep!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of also having some sports-themed decorations to get everyone in the mood. Do you have any ideas for some simple yet effective decorations that would fit the theme?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sports-themed decorations can really help set the tone for a fun and engaging fantasy football draft party. Here are some simple yet effective ideas to get you started:\n\n**Balloons and Streamers**:\n\n* Use balloons in team colors or with football-themed designs (e.g., footballs, helmets, or referee flags).\n* Hang streamers in team colors or with a football field pattern to add a pop of color to the room.\n\n**Football Field Backdrop**:\n\n* Create a DIY football field backdrop using green tablecloths or paper rolls with white tape to create yard lines.\n* Hang it behind the draft board or food table for a fun photo opportunity.\n\n**Jerseys and Helmets**:\n\n* Hang up jerseys of popular NFL teams or players around the room.\n* Display football helmets on tables or shelves to add a touch of authenticity.\n\n**Football-Shaped Decorations**:\n\n* Use football-shaped balloons, centerpieces, or even a football-shaped piñata to add a fun touch.\n* Create a \"End Zone\" area with football-shaped snacks, like football field-themed cookies or brownies.\n\n**Draft Board**:\n\n* Create a large draft board with a grid paper or a whiteboard to display the draft order and team rosters.\n* Use stickers or magnets with team logos to mark each pick.\n\n**Football-Themed Tableware**:\n\n* Use football-themed plates, cups, and napkins to add a touch of theme to your snack table.\n* Set up a \"Concession Stand\" with popcorn, hot dogs, and other stadium-style snacks.\n\n**Team Flags**:\n\n* Hang up team flags around the room to represent each team in the league.\n* Use them to create a \"Team Zone\" where owners can display their team's colors and logo.\n\n**Miscellaneous**:\n\n* Set up a \"Fantasy Football Championship\" trophy or a \"Draft Winner\" trophy to display during the party.\n* Create a \"Fantasy Football Draft Day\" banner to hang above the food table or entrance.\n\nRemember, the key is to have fun and be creative! With these ideas, you'll create a festive atmosphere that'll get everyone excited for the fantasy football draft.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I was thinking, since I won $20 from my colleague after the Super Bowl, maybe I should use some of that money to get some prizes for the fantasy football draft party. Do you have any ideas for some fun and creative prizes that would be fitting for the occasion?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "What a great idea! Using your Super Bowl winnings to get prizes for the fantasy football draft party is a fantastic way to share the excitement and create a fun atmosphere. Here are some fun and creative prize ideas that are fitting for the occasion:\n\n**Football-Themed Prizes**:\n\n* **Football-shaped trophies**: Award a trophy to the winner of the draft, the most creative team name, or the best team logo.\n* **NFL team-branded items**: Get items like hats, koozies, or water bottles with NFL team logos to give away as prizes.\n* **Football-themed snacks**: Offer a \"Snack Pack\" with gourmet snacks like buffalo wings, pretzels, or popcorn in football-themed containers.\n\n**Draft-Specific Prizes**:\n\n* **\"Best Draft Pick\" award**: Give a prize to the owner who selects the highest-scoring player in the draft.\n* **\"Worst Draft Pick\" award**: Offer a humorous prize to the owner who selects the lowest-scoring player in the draft.\n* **\"Most Creative Team Name\" award**: Award a prize to the owner with the most creative, funny, or clever team name.\n\n**Experiences**:\n\n* **\"Commissioner for a Week\"**: Offer the winner the chance to be the commissioner for a week, making key decisions for the league.\n* **\"Free Entry to Next Year's Draft\"**: Give the winner free entry to next year's draft party, complete with food, drinks, and prizes.\n* **\"Personalized Fantasy Football Advice\"**: Offer a prize where the winner gets personalized fantasy football advice from a self-proclaimed expert (you or a friend).\n\n**Humorous Prizes**:\n\n* **\"Loser's Trophy\"**: Give a humorous trophy or plaque to the owner who finishes last in the league.\n* **\"Fantasy Football Survival Kit\"**: Create a kit with items like coffee, aspirin, and a stress ball to help owners survive the fantasy football season.\n* **\"Fantasy Football For Dummies\" book**: Offer a humorous prize like a \"Fantasy Football For Dummies\" book to the owner who needs a little extra help.\n\nRemember to keep the prizes light-hearted and fun, as the goal is to create a enjoyable atmosphere for your friends. You can also get creative and come up with your own unique prizes that fit your group's personality and sense of humor. Good luck, and have fun!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll get a few prizes that are a mix of football-themed items and humorous awards. Maybe I'll get a few NFL team-branded hats, some football-shaped snacks, and a \"Worst Draft Pick\" trophy. That way, everyone will have a good laugh and some fun prizes to look forward to. Thanks for the ideas!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a great plan! You're covering all the bases with a mix of football-themed items, humorous awards, and some fun snacks to boot! The NFL team-branded hats will be a great prize for the serious football fans, while the football-shaped snacks will add a playful touch. And, of course, the \"Worst Draft Pick\" trophy will provide some good-natured teasing and humor to the party.\n\nRemember, the key is to have fun and not take things too seriously. Fantasy football is all about enjoying the game with friends, and your prizes will definitely contribute to a lively and entertaining atmosphere. I'm sure your friends will appreciate the effort you're putting into making this a memorable draft party.\n\nIf you need any more help or have any other questions, feel free to ask. Otherwise, I hope you and your friends have an amazing time at the draft party, and may the best team win!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_184c8f56_1"
+  ]
+}

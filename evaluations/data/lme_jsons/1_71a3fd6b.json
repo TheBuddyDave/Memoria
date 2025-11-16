@@ -1,0 +1,50 @@
+{
+  "question_id": "71a3fd6b",
+  "question_type": "single-session-assistant",
+  "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+  "answer": "+49 (0) 62 32 / 14 23 - 0",
+  "question_date": "2023/05/29 (Mon) 10:13",
+  "haystack_dates": [
+    "2023/05/28 (Sun) 05:24"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_417348"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Are there any upcoming sporting events in Speyer that visitors can attend or participate in?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I do not have access to real-time information about events or functions happening in speyer. however, visitors can check local event calendars, sports club websites or consult with the tourism board of speyer to know about any upcoming sporting events. additionally, major sporting events in germany such as the bundesliga, triathlon events, or marathon races might feature speyer as a destination, and visitors can participate in those.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you provide me with the contact details of the local tourism board of Speyer?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! You can contact the tourism board of Speyer using the following details:\n\nSpeyer Tourismus Marketing GmbH\nMaximilianstraße 13\n67346 Speyer\nPhone: +49 (0) 62 32 / 14 23 - 0\nEmail: info@speyer.de\nWebsite: https://www.speyer.de/",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "Thanks for providing me with the contact details of the tourism board of Speyer. Can you tell me how I can get to Speyer from Frankfurt?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there are several ways to get to Speyer from Frankfurt. Here are some options:\n\n1. By car: Speyer is about 1 hour and 10 minutes drive from Frankfurt. You can rent a car at Frankfurt airport or in the city and drive to Speyer on the A67 and A61 highways.\n\n2. By train: The train is a convenient way to get to Speyer from Frankfurt. You can take a train from Frankfurt's main train station Frankfurt am Main Hauptbahnhof to Speyer Hauptbahnhof. The journey takes around 1 hour and 20 minutes, and there are several direct and indirect trains available throughout the day.\n\n3. By bus: You can also take a bus from Frankfurt to Speyer. There are several bus companies that operate between the two cities, and the journey takes around 1 hour and 30 minutes.\n\n4. By taxi: You can take a taxi from Frankfurt Airport or the city center to Speyer. The journey takes around 1 hour and can be quite expensive.\n\nI hope this information helps you!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_417348"
+  ]
+}

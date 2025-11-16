@@ -1,0 +1,145 @@
+{
+  "question_id": "7405e8b1",
+  "question_type": "multi-session",
+  "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+  "answer": "Yes.",
+  "question_date": "2023/05/30 (Tue) 16:15",
+  "haystack_dates": [
+    "2023/05/25 (Thu) 22:22",
+    "2023/05/27 (Sat) 23:58"
+  ],
+  "haystack_session_ids": [
+    "answer_80323f3f_1",
+    "answer_80323f3f_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm thinking of trying out meal kit delivery services and was wondering if you have any recommendations or promotions available for popular brands like Blue Apron or Plated. By the way, I recently tried HelloFresh and got a 40% discount on my first order, which was a great deal!",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Meal kit delivery services are a fantastic way to explore new recipes and cooking techniques from the comfort of your own kitchen. I'd be happy to help you with recommendations and promotions for popular brands like Blue Apron and Plated.\n\n**Current Promotions:**\n\n1. **Blue Apron**: New customers can get $60 off their first three orders (20% off each order) by using the code **DELIVERY60** at checkout.\n2. **Plated**: First-time customers can enjoy 50% off their first order (up to $40 off) with the code **PLATED50**. Additionally, they often offer free shipping on first orders.\n3. **HelloFresh** (since you mentioned you've tried them already): They frequently offer promotions, so keep an eye on their website or sign up for their newsletter to stay informed. You can also refer friends and family to get $20 off your next order.\n\n**Other Popular Brands:**\n\n1. **Sun Basket**: Offers $40 off your first order with code **SUN40**. They cater to various dietary needs, including vegan, gluten-free, and low-carb.\n2. **Home Chef**: New customers can get $30 off their first order with code **HOME30**. They offer a wide range of recipes and flexible subscription plans.\n3. **Green Chef**: First-time customers can enjoy 50% off their first order (up to $50 off) with code **GREEN50**. They focus on organic and non-GMO ingredients.\n\n**Tips and Considerations:**\n\n1. **Read reviews**: Check out reviews from multiple sources to get a sense of the meal quality, recipe variety, and customer service for each brand.\n2. **Dietary restrictions**: Make sure the brand you choose accommodates your dietary needs and preferences.\n3. **Pricing and plans**: Compare the pricing and flexibility of different brands to find the one that best fits your budget and cooking frequency.\n4. **Cancellation policies**: Understand the cancellation and refund policies before committing to a subscription.\n\nI hope this helps you make an informed decision and enjoy your meal kit delivery experience!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's a lot of options. I think I'll take a closer look at Sun Basket and Home Chef. Have you heard anything about their customer service and how easy it is to skip or cancel orders if I need to?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sun Basket and Home Chef are both well-established players in the meal kit delivery market. Here's what I've gathered about their customer service and flexibility:\n\n**Sun Basket:**\n\n1. **Customer Service**: Sun Basket is known for its responsive customer service. They offer phone, email, and chat support, and they're generally quick to respond to customer inquiries.\n2. **Skipping or Canceling Orders**: You can skip or cancel orders up to 5 days before the scheduled delivery date without incurring any fees. You can do this easily through your online account or by contacting their customer service team.\n3. **Flexibility**: Sun Basket offers a flexible subscription plan, allowing you to pause or cancel your subscription at any time. They also offer a \"Flexible Plan\" that lets you choose the number of meals and recipes you want to receive each week.\n\n**Home Chef:**\n\n1. **Customer Service**: Home Chef's customer service is also highly rated. They offer phone, email, and chat support, and they're known for being helpful and responsive.\n2. **Skipping or Canceling Orders**: You can skip or cancel orders up to 12 pm CST (Central Standard Time) on the Friday before your scheduled delivery date. This can be done through your online account or by contacting their customer service team.\n3. **Flexibility**: Home Chef offers a flexible subscription plan, allowing you to skip weeks, pause, or cancel your subscription at any time. They also offer a \"Customize It\" feature, which lets you swap out ingredients or swap recipes if you don't like the ones chosen for you.\n\nBoth Sun Basket and Home Chef have a strong focus on customer satisfaction, and they're willing to work with customers to resolve any issues that may arise.\n\n**Additional Tips:**\n\n1. **Read the fine print**: Before signing up, make sure you understand the terms and conditions, including the cancellation policies and any potential fees.\n2. **Keep track of your account**: Regularly check your account settings and upcoming orders to avoid any unwanted deliveries.\n3. **Communicate with customer service**: If you need to make changes to your order or subscription, don't hesitate to reach out to customer service. They're there to help!\n\nBy doing your research and understanding the terms and conditions, you can have a positive experience with either Sun Basket or Home Chef.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's helpful to know. I'll definitely take a closer look at their customer service and flexibility before making a decision. By the way, I've been trying to cut down on eating out and have been using coupons for online food delivery services like Grubhub and UberEats. Have you got any promotions or discounts available for those services?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Cutting down on eating out is a great goal! Using coupons and promotions for online food delivery services can definitely help make it more affordable. I've got some deals for you:\n\n**Grubhub:**\n\n1. **New User Discount**: First-time users can get 15% off their first order with code **GRUB15**.\n2. **Referral Program**: Refer friends to Grubhub and earn $10 in Grubhub credits for each successful referral.\n3. **Daily Deals**: Check the Grubhub website or app for daily deals and discounts on specific restaurants or cuisines.\n4. **Perks**: Grubhub offers a loyalty program called Perks, which provides exclusive discounts, free delivery, and other benefits.\n\n**UberEats:**\n\n1. **New User Discount**: First-time users can get $5 off their first order with code **EATS5**.\n2. **Referral Program**: Refer friends to UberEats and earn $5 in UberEats credits for each successful referral.\n3. **Promo Codes**: Keep an eye on the UberEats website, social media, or email newsletters for promo codes and limited-time offers.\n4. **Uber Rewards**: If you're an Uber ride-user, you can earn points and redeem them for UberEats credits and other rewards through the Uber Rewards program.\n\n**Other Food Delivery Services:**\n\n1. **DoorDash**: New users can get $5 off their first order with code **DOORDASH5**. They also offer a referral program and daily deals.\n2. **Postmates**: First-time users can get $10 off their first order with code **POSTMATES10**. They also offer a referral program and limited-time promotions.\n3. **Caviar**: New users can get 20% off their first order with code **CAVIAR20**. They also offer a referral program and exclusive deals.\n\n**Tips:**\n\n1. **Stack discounts**: Combine promo codes with other offers, like referral credits or daily deals, to maximize your savings.\n2. **Check for local deals**: Some restaurants or franchises may offer exclusive deals or discounts through these food delivery services.\n3. **Follow social media**: Keep an eye on the social media accounts of your favorite food delivery services to catch limited-time promotions and offers.\n\nRemember to always read the terms and conditions for each promo code or offer to ensure you understand the requirements and any restrictions. Happy saving!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been using these services a lot lately, especially UberEats. Anyway, back to meal kit delivery services... Do you think I should prioritize services that offer more recipe variety or those that cater to specific dietary needs?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It's great that you've been enjoying UberEats!\n\nNow, regarding meal kit delivery services, both recipe variety and catering to specific dietary needs are important considerations. It ultimately depends on your personal preferences and priorities. Here are some points to consider:\n\n**Recipe Variety:**\n\n1. **Keeps things interesting**: A service with a diverse recipe selection can help prevent meal monotony and keep your culinary journey exciting.\n2. **Caters to different tastes**: If you live with others, a service with a wide range of recipes can accommodate different tastes and preferences.\n3. **Expands cooking skills**: Cooking a variety of recipes can help you develop new skills and confidence in the kitchen.\n\n**Catering to Specific Dietary Needs:**\n\n1. **Meets specific requirements**: If you have specific dietary restrictions or preferences (e.g., vegan, gluten-free, low-carb), a service that caters to those needs can ensure you receive suitable meals.\n2. **Health and wellness**: A service that focuses on healthy, balanced meals can support your overall well-being and fitness goals.\n3. **Convenience**: A service that caters to your dietary needs can save you time and effort in meal planning and grocery shopping.\n\n**Ultimate Priority:**\n\n1. **Identify your non-negotiables**: If you have specific dietary requirements or restrictions, prioritize a service that can accommodate those needs.\n2. **Balance variety and specificity**: If you don't have strict dietary requirements, consider a service that offers a balance between recipe variety and catering to specific dietary needs.\n\nSome meal kit delivery services, like Sun Basket and Home Chef, offer a range of recipes and cater to various dietary needs. Others, like Purple Carrot (vegan) or Green Chef (organic and non-GMO), focus on specific dietary preferences.\n\nReflect on your priorities and consider the following questions:\n\n* Do you have specific dietary requirements or restrictions?\n* Are you looking to explore new cuisines and recipes?\n* Do you prioritize health and wellness in your meal choices?\n\nBy weighing these factors, you can make an informed decision and choose a meal kit delivery service that best fits your needs and preferences.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll prioritize services that cater to specific dietary needs, as I've been trying to cut down on carbs and sugar. Do you think Sun Basket or Home Chef would be a good fit for me, considering my dietary preferences?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Given your focus on reducing carbs and sugar, I think both Sun Basket and Home Chef can be a good fit for you. Here's how they cater to low-carb and low-sugar diets:\n\n**Sun Basket:**\n\n1. **Low-Carb Options**: Sun Basket offers a \"Low-Carb\" meal plan, which features recipes with fewer than 35g of net carbs per serving. They also provide carb counts for each recipe.\n2. **Sugar-Conscious**: Many of their recipes are naturally low in added sugars, and they offer a \"Sugar-Conscious\" filter on their website to help you find recipes that meet your sugar goals.\n3. **Diabetic-Friendly**: Sun Basket has a \"Diabetic-Friendly\" meal plan, which is designed in collaboration with the American Diabetes Association. This plan features recipes that are balanced and low in carbs, sugar, and saturated fat.\n\n**Home Chef:**\n\n1. **Low-Carb Options**: Home Chef offers a \"Low-Carb\" meal plan, which features recipes with fewer than 30g of net carbs per serving. They also provide carb counts for each recipe.\n2. **Customization**: Home Chef allows you to customize your meal plan by selecting \"Low-Carb\" as a dietary preference. They'll then provide recipes that cater to your needs.\n3. **Sugar-Free Options**: Home Chef offers some sugar-free and low-sugar recipes, and they're working to expand their options in this area.\n\nBoth Sun Basket and Home Chef can accommodate your low-carb and low-sugar dietary preferences. However, if I had to give you a slight nudge, I'd say Sun Basket might be a better fit. They have a more extensive selection of low-carb and sugar-conscious recipes, and their meal plans are designed to be more flexible and customizable.\n\nThat being said, I recommend exploring both options and reviewing their menus, recipes, and nutritional information to see which one aligns better with your specific needs and preferences. You can also consider reaching out to their customer service teams to ask about their low-carb and low-sugar options and how they can accommodate your dietary requirements.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll take a closer look at Sun Basket's low-carb meal plan and see if it fits my needs. Can you tell me more about their pricing and delivery options?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sun Basket's pricing and delivery options are competitive with other meal kit delivery services. Here's an overview:\n\n**Pricing:**\n\n1. **Low-Carb Meal Plan**: Sun Basket's Low-Carb meal plan starts at $11.49 per serving, with a minimum order of 3 meals for 2 people per week (totaling $68.94). This works out to around $34.47 per meal for a 2-person plan.\n2. **Other Meal Plans**: Sun Basket offers various meal plans, including Vegetarian, Vegan, Gluten-Free, and Classic, which range in price from $9.99 to $12.99 per serving.\n\n**Delivery Options:**\n\n1. **Shipping**: Sun Basket ships to all 50 states in the US, with the exception of Alaska and Hawaii.\n2. **Delivery Days**: Meals are delivered on Tuesdays, Wednesdays, or Thursdays, depending on your location.\n3. **Delivery Windows**: You can choose from a morning (8am-1pm) or afternoon (1pm-8pm) delivery window.\n4. **Flexibility**: Sun Basket allows you to skip weeks, pause, or cancel your subscription at any time.\n\n**Other Perks:**\n\n1. **Free Shipping**: Sun Basket offers free shipping on all orders over $60.\n2. **Recipe Variety**: They offer 18 new recipes each week, with options to swap out ingredients or choose from a variety of protein sources.\n3. **High-Quality Ingredients**: Sun Basket sources high-quality, sustainable ingredients, including organic produce and responsibly sourced meats.\n\n**Discounts and Promotions:**\n\n1. **New Customer Discount**: Sun Basket often offers a discount for new customers, which can range from $20 to $40 off your first order.\n2. **Referral Program**: Refer friends to Sun Basket and earn $25 in credits for each successful referral.\n\nBefore signing up, I recommend checking the Sun Basket website for any promotions or discounts that might be available.",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm planning to order food from UberEats again this week and I was wondering if you could help me find some good deals or promo codes? By the way, last week I got 20% off my UberEats order, which was awesome!",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you find some good deals or promo codes for your next UberEats order.\n\nFirst, let me just clarify that I'm a large language model, I don't have have access to your personal account or order history, so I didn't know about your 20% off discount last week. But I'm glad to hear you got a great deal!\n\nTo find current deals and promo codes, here are some tips:\n\n1. **Check the UberEats website or app**: Look for a \"Deals\" or \"Promotions\" section on the website or app, where you can find limited-time offers, discounts, or bundle deals.\n2. **Sign up for UberEats email newsletters**: By signing up, you'll receive exclusive promotions, offers, and updates on new restaurants and deals.\n3. **Follow UberEats on social media**: Keep an eye on UberEats' social media accounts (Facebook, Twitter, Instagram) for promo codes, flash sales, or special offers.\n4. **Look for referral codes**: If you have friends or family members who use UberEats, ask them if they have a referral code to share. You can earn credits or discounts by using their code.\n5. **Check online coupon websites**: Websites like RetailMeNot, Coupons.com, or Groupon often feature UberEats promo codes or discounts.\n6. **Use cashback apps**: Apps like Rakuten (formerly known as Ebates), TopCashback, or Ibotta offer cashback on UberEats purchases, which can be a great way to save money.\n7. **Check your email for personalized offers**: If you've ordered from UberEats before, you might receive personalized offers or promo codes via email.\n\nRemember to always read the terms and conditions of any promo code or deal to ensure it's valid for your location and order.\n\nI hope these tips help you find a great deal for your next UberEats order!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Do you think there are any specific types of restaurants or cuisines that usually have more promo codes or discounts available?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "While promo codes and discounts can vary widely, some types of restaurants or cuisines might be more likely to offer promotions than others. Here are some general observations:\n\n1. **Newly added restaurants**: Restaurants that are new to UberEats might offer promotions to attract more customers and build their reputation on the platform.\n2. **Chain restaurants**: Large chain restaurants, like McDonald's, Subway, or Pizza Hut, often have more resources to offer promotions and discounts to drive sales.\n3. **Fast food and quick service**: Fast food and quick-service restaurants, like burgers, sandwiches, or salads, might offer more promotions due to their high volume of orders and competitive market.\n4. **Asian cuisine**: Restaurants serving Asian food, such as Chinese, Japanese, Korean, or Vietnamese, often offer discounts or promotions, possibly due to the high demand for these cuisines on food delivery platforms.\n5. **Vegetarian or vegan options**: Restaurants with vegetarian or vegan options might offer promotions to attract customers with dietary restrictions or preferences.\n6. **Breakfast or brunch spots**: Restaurants serving breakfast or brunch might offer promotions during off-peak hours or weekdays to drive sales.\n7. **Local or independent eateries**: Smaller, independent restaurants might offer promotions to compete with larger chains and attract more customers to their business.\n\nKeep in mind that these are general trends and not hard and fast rules. Promotions can vary greatly depending on your location, the restaurant's target audience, and the time of year.\n\nTo increase your chances of finding promo codes or discounts, try the following:\n\n* Use the UberEats app or website to search for restaurants in these categories.\n* Filter your search by \"Deals\" or \"Promotions\" to find restaurants with active offers.\n* Check the restaurant's social media pages or website for exclusive promotions.\n* Sign up for the restaurant's loyalty program or email newsletter to receive exclusive offers.\n\nRemember to always read the terms and conditions of any promo code or discount to ensure it's valid for your order.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That's really helpful! I was actually thinking of ordering from that new Italian place downtown again. Do you think they might have any promotions or discounts available?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Italian food is always a great choice!\n\nAs I mentioned earlier, newly added restaurants like the new Italian place downtown might offer promotions to attract more customers and build their reputation on the platform. It's definitely worth checking out!\n\nHere are some tips to find potential promotions or discounts:\n\n1. **Check the UberEats app or website**: Look for the Italian restaurant's page on UberEats and see if they have any active promotions or deals listed.\n2. **Visit their social media pages**: Check the restaurant's social media profiles (Facebook, Instagram, Twitter) to see if they've posted any promotions, discounts, or special offers.\n3. **Sign up for their email newsletter**: If the restaurant has a website, sign up for their email newsletter to receive exclusive offers, promotions, or updates on new menu items.\n4. **Look for \"First Order\" discounts**: As a new restaurant on UberEats, they might offer a discount for first-time customers. Keep an eye out for these types of promotions.\n5. **Check for bundle deals or combos**: Italian restaurants often offer bundle deals or combos that include a pasta dish, salad, and bread. These can be a great way to save money and try more of their menu items.\n\nIf you don't find any promotions or discounts, you can always try contacting the restaurant directly to ask if they have any special offers available. They might be willing to provide a discount or promo code for your order.\n\nBuon appetito, and I hope you enjoy your Italian food!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely check out their social media pages and website for promotions. By the way, I was thinking of trying their veggie lasagna, have you heard anything about it?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The veggie lasagna sounds like a delicious choice!\n\nAs a digital AI assistant, I don't have personal experiences or opinions, nor do I have access to specific information about individual restaurants or their menu items. However, I can suggest some ways to help you make an informed decision:\n\n1. **Check reviews**: Look up reviews on UberEats, Yelp, or Google Reviews to see what other customers have said about the veggie lasagna. Pay attention to the ratings and comments to get an idea of the dish's quality and popularity.\n2. **Menu description**: Read the menu description on UberEats or the restaurant's website to get an idea of the ingredients, cooking methods, and flavor profile.\n3. **Ask the restaurant**: If you're still unsure, you can contact the restaurant directly through UberEats or their website and ask about the veggie lasagna. They might be able to provide more information or recommendations.\n4. **Check the restaurant's social media**: Sometimes, restaurants will post photos or descriptions of their dishes on social media. You might be able to find some visual inspiration or get a better sense of what to expect.\n\nBy doing your research, you'll be able to make a more informed decision about trying the veggie lasagna. Buon appetito, and I hope you enjoy your meal!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll definitely check out the reviews and menu description. Do you think it's possible to get a discount on that specific dish or is it usually the entire order that gets discounted?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Discounts can vary, but I can give you some general insights.\n\nTypically, discounts on food delivery platforms like UberEats are applied to the entire order, rather than a specific dish. This means that if you have a promo code or discount, it will be deducted from the total cost of your order, including the veggie lasagna, any other items you've added, and any applicable fees.\n\nHowever, some restaurants might offer specific promotions or discounts on certain dishes, like \"Buy one get one free\" or \"10% off our veggie lasagna.\" These types of promotions are usually advertised on the restaurant's page on UberEats, their social media, or website.\n\nIn some cases, you might be able to find a promo code that's specific to a particular dish or menu category. For example, \"VEGGLASAGNA20\" might be a code that gives you 20% off the veggie lasagna. These codes are usually limited to specific restaurants or menu items, so be sure to read the terms and conditions before applying them.\n\nIf you're looking for a discount on the veggie lasagna specifically, I'd recommend checking the restaurant's page on UberEats, their social media, or website for any promotions or discounts. You can also try contacting the restaurant directly to ask if they have any special offers on that dish.\n\nRemember to always read the terms and conditions of any promo code or discount to ensure it's valid for your order and location.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Do you think it's possible to get a discount on the delivery fee itself, or is it usually the food items that get discounted?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Discounts on delivery fees are less common than discounts on food items, but they do exist.\n\nTypically, promotions and discounts on food delivery platforms like UberEats are applied to the food items themselves, rather than the delivery fee. This means that you're more likely to find discounts on specific menu items, combos, or bundles, rather than the delivery fee.\n\nHowever, there are some cases where you might be able to get a discount on the delivery fee:\n\n1. **First-time user discounts**: Some food delivery platforms offer discounts on the delivery fee for first-time users. These discounts are usually applied automatically during the checkout process.\n2. **Promo codes**: Occasionally, you might find promo codes that offer a discount on the delivery fee. These codes are usually limited to specific restaurants, areas, or time periods, so be sure to read the terms and conditions.\n3. **Free delivery**: Some restaurants or food delivery platforms offer free delivery on orders above a certain amount or on specific menu items. This can be a great way to save on the delivery fee.\n4. **Subscription services**: Some food delivery platforms offer subscription services that include discounts on delivery fees. For example, UberEats' Pass subscription service offers unlimited free delivery on eligible orders.\n5. **Limited-time offers**: During peak hours, special events, or holidays, food delivery platforms might offer discounts on delivery fees to incentivize orders.\n\nTo increase your chances of getting a discount on the delivery fee, I recommend:\n\n* Checking the food delivery platform's website, social media, or app for promotions and offers.\n* Signing up for their email newsletter or loyalty program to receive exclusive offers.\n* Using cashback apps or browser extensions that offer rebates on food delivery fees.\n* Contacting the restaurant or food delivery platform directly to ask about any available discounts.\n\nRemember to always read the terms and conditions of any promo code or discount to ensure it's valid for your order and location.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_80323f3f_1",
+    "answer_80323f3f_2"
+  ]
+}

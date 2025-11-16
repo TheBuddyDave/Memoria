@@ -1,0 +1,80 @@
+{
+  "question_id": "3d86fd0a",
+  "question_type": "single-session-user",
+  "question": "Where did I meet Sophia?",
+  "answer": "a coffee shop in the city",
+  "question_date": "2023/05/25 (Thu) 15:35",
+  "haystack_dates": [
+    "2023/05/20 (Sat) 02:25"
+  ],
+  "haystack_session_ids": [
+    "answer_19c24c11"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I need help organizing my contacts. Can you create a list of people I've met recently and their interests? Maybe that'll help me remember to follow up with them.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you organize your contacts. However, I'm a large language model, I don't have access to your personal contacts or interactions. But I can help you create a template to help you organize your contacts and their interests.\n\nHere's a template you can use:\n\n**Recent Contacts and Interests**\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| [Name 1] | [Event/Meeting] | [Hobbies, work, etc.] | [Next step, e.g., \"Send article about [topic]\"] |\n| [Name 2] | [Event/Meeting] | [Hobbies, work, etc.] | [Next step, e.g., \"Schedule coffee meeting\"] |\n| ... | ... | ... | ... |\n\nYou can fill in the columns with the following information:\n\n* **Name**: The person's name\n* **How We Met**: Where and how you met the person (e.g., networking event, conference, mutual friend)\n* **Interests**: Their hobbies, work, or topics they're interested in (e.g., sports, books, entrepreneurship)\n* **Follow-up Action**: A specific action you want to take to follow up with the person (e.g., send an article, schedule a meeting, make an introduction)\n\nHere's an example:\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| John Smith | Industry Conference | Hiking, startup founder | Send article about new outdoor gear |\n| Emily Chen | Mutual Friend | Photography, travel | Schedule coffee meeting to discuss travel tips |\n| Michael Brown | Networking Event | Sports, marketing | Introduce him to a colleague in sports industry |\n\nFeel free to add or remove columns as needed, and fill in the information as you remember it. This should help you keep track of your recent contacts and follow up with them in a meaningful way!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll start filling out the template. Under \"How We Met\", I'll include the location where I met them. For Sophia, it was a coffee shop in the city.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great idea! Including the location can help you remember the context of your meeting and make it easier to recall your conversation. Here's an updated template with Sophia's information:\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| Sophia | Coffee Shop (City) |  |  |\n\nNow, can you tell me more about Sophia? What did you talk about, and what are her interests? Was she looking for any advice or help, or did you discuss any common goals or projects? The more details you can remember, the better you'll be able to follow up with her in a meaningful way.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "She's into indie music, and we talked about some new bands to check out. I recommended some coffee spots to her too.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you had a great conversation with Sophia. Here's an updated template:\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| Sophia | Coffee Shop (City) | Indie music, coffee | Send her a list of new indie music releases |\n\nYou could follow up with Sophia by sending her a list of new indie music releases or recommendations, or even invite her to a concert or music event. You could also ask her if she's tried out any of the coffee spots you recommended and get her feedback.\n\nRemember to keep your follow-up action specific and actionable, so you can easily follow through and stay top of mind with Sophia.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What about the other people I met recently? Like the yoga instructor Rachel and the guy David from the bookstore?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Let's add them to the template as well!\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| Sophia | Coffee Shop (City) | Indie music, coffee | Send her a list of new indie music releases |\n| Rachel | Yoga Studio | Yoga, wellness | Ask about upcoming yoga workshops or events |\n| David | Bookstore | Literature, writing | Recommend a book or author, ask about his writing projects |\n\nFor Rachel, you could follow up by asking about upcoming yoga workshops or events she's leading, or even ask for feedback on your own yoga practice. This shows you're interested in her expertise and care about your shared interest in yoga.\n\nFor David, you could recommend a book or author you think he'd enjoy, or ask about his writing projects and offer to provide feedback or support. This can help you build a connection around your shared love of literature.\n\nFeel free to add more people to the list as you think of them, and don't hesitate to reach out if you need any more help or guidance!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What about the mechanic Juan, Lucy from the animal shelter, Maria the chef, and Alex from the train? I met them all recently too.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, you've met a lot of people recently! Let's add them to the template:\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| Sophia | Coffee Shop (City) | Indie music, coffee | Send her a list of new indie music releases |\n| Rachel | Yoga Studio | Yoga, wellness | Ask about upcoming yoga workshops or events |\n| David | Bookstore | Literature, writing | Recommend a book or author, ask about his writing projects |\n| Juan | Car Repair Shop | Cars, mechanics | Ask about car maintenance tips or recommend a car-related resource |\n| Lucy | Animal Shelter | Animals, volunteering | Ask about volunteer opportunities or donate to the shelter |\n| Maria | Cooking Class | Cooking, foodie | Share a recipe or ask about her favorite cooking techniques |\n| Alex | Train Commute |  |  |\n\nNow, let's fill in some details for each of them:\n\n* For Juan, you could follow up by asking about car maintenance tips or recommend a car-related resource, such as a blog or YouTube channel.\n* For Lucy, you could ask about volunteer opportunities at the animal shelter or make a donation to support their cause.\n* For Maria, you could share a recipe you think she'd enjoy or ask about her favorite cooking techniques.\n* For Alex, what did you talk about on the train? Was there a particular topic or interest you shared? If you can't remember, you could simply send a friendly message saying it was nice meeting him and ask how he's doing.\n\nRemember to keep your follow-up actions specific and relevant to your conversation, and don't be afraid to reach out and reconnect with these people!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Alex and I talked about our jobs and commutes, and he recommended some podcasts to listen to.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great conversation starter. Here's the updated template:\n\n| Name | How We Met | Interests | Follow-up Action |\n| --- | --- | --- | --- |\n| Sophia | Coffee Shop (City) | Indie music, coffee | Send her a list of new indie music releases |\n| Rachel | Yoga Studio | Yoga, wellness | Ask about upcoming yoga workshops or events |\n| David | Bookstore | Literature, writing | Recommend a book or author, ask about his writing projects |\n| Juan | Car Repair Shop | Cars, mechanics | Ask about car maintenance tips or recommend a car-related resource |\n| Lucy | Animal Shelter | Animals, volunteering | Ask about volunteer opportunities or donate to the shelter |\n| Maria | Cooking Class | Cooking, foodie | Share a recipe or ask about her favorite cooking techniques |\n| Alex | Train Commute | Commuting, podcasts | Thank him for podcast recs, ask about his favorite episodes |\n\nFor Alex, you could send a message thanking him for the podcast recommendations and ask about his favorite episodes or what he's been listening to lately. This shows you value his opinion and are interested in continuing the conversation.\n\nNow that you have this list, take some time to review it and start following up with these people. Remember to keep your messages personalized and relevant to your conversations, and don't be afraid to reach out and reconnect!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_19c24c11"
+  ]
+}

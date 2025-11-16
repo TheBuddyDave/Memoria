@@ -1,0 +1,70 @@
+{
+  "question_id": "8077ef71",
+  "question_type": "temporal-reasoning",
+  "question": "How many days ago did I attend a networking event?",
+  "answer": "26 days. 27 days (including the last day) is also acceptable.",
+  "question_date": "2022/04/04 (Mon) 01:38",
+  "haystack_dates": [
+    "2022/03/09 (Wed) 04:12"
+  ],
+  "haystack_session_ids": [
+    "answer_0dd54b7c_1"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm looking to plan out my schedule for the upcoming week. I have a few commitments already, but I want to make sure I don't overbook myself. By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained. Can you help me organize my tasks and appointments for the next few days?",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you plan out your schedule for the week.\n\nFirst, let's take into account your current state - you're feeling drained after the networking event, so it's essential to prioritize self-care and make sure you're not overcommitting yourself.\n\nTo get started, can you tell me about your existing commitments for the week? What do you already have planned, and when are those commitments scheduled?\n\nAlso, what are your top priorities for the week? Are there any tasks or projects that you need to focus on, or any deadlines you're working towards?\n\nLastly, what kind of tasks do you find most energizing and enjoyable, and which ones tend to drain your energy? This will help me suggest a schedule that balances your commitments with your energy levels and priorities.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I have a meeting at 2 PM on Tuesday, and I also need to work on a project that's due by the end of the week. As for energizing tasks, I find that exercising and meal-prepping give me a lot of energy.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Let's break down your schedule for the week.\n\nConsidering you're feeling drained today, I recommend taking it easy tonight and getting a good night's rest. You can use tomorrow (Monday) to recharge and focus on self-care.\n\nHere's a suggested plan for the next few days:\n\n**Monday**\n\n* Morning: Sleep in and take your time getting ready\n* Afternoon: Fit in a energizing activity, such as a workout or a walk/jog\n* Late Afternoon: Meal-prep for the next few days to save time and energy\n* Evening: Relax and unwind with a book, movie, or a calming activity\n\n**Tuesday**\n\n* Morning: Focus on your project work (try to get a good chunk done before your meeting)\n* 2 PM: Attend your meeting\n* Afternoon: Continue working on your project, taking breaks as needed\n* Evening: Review your progress and plan your next steps for the project\n\n**Wednesday**\n\n* Morning: Dedicated project work time\n* Afternoon: Take a break and fit in another energizing activity (e.g., exercise, yoga, or a creative pursuit)\n* Evening: Continue working on your project or review what you've accomplished so far\n\n**Thursday**\n\n* Morning: Project work\n* Afternoon: Review and finalize your project (aim to complete it by the end of the day)\n* Evening: Relax and celebrate completing your project!\n\n**Friday**\n\n* Take the day to relax, catch up on any remaining tasks, or plan for the weekend\n\nThis schedule allows you to pace yourself, prioritize your project, and make time for energizing activities to help you stay motivated and focused. Feel free to adjust it as needed to suit your preferences and energy levels.\n\nHow does this look to you?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What do you think about incorporating some downtime this weekend to recharge before the next busy week? Are there any specific activities you'd like to fit in, such as watching TV shows, reading, or spending time with friends and family?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Incorporating downtime this weekend is an excellent idea! It's essential to recharge before diving into another busy week. I'm glad you're thinking ahead.\n\nTo make the most of your weekend, let's allocate some time for relaxation and leisure activities. Here's a suggested plan:\n\n**Saturday**\n\n* Morning: Sleep in and have a slow morning (no rush!)\n* Afternoon: Choose one or two activities that bring you joy, such as:\n\t+ Catching up on your favorite TV show or watching a movie\n\t+ Reading a book or article you've been meaning to get to\n\t+ Taking a relaxing walk or doing some light stretching\n\t+ Cooking a favorite meal or trying a new recipe\n* Evening: Spend time with friends or family, or enjoy a quiet evening to yourself\n\n**Sunday**\n\n* Morning: Continue with relaxation mode (you can even take a nap if you need to!)\n* Afternoon: Fit in another activity that rejuvenates you, such as:\n\t+ Practicing a hobby or creative pursuit\n\t+ Taking a yoga class or doing some meditation\n\t+ Planning a fun outing or activity for the next week\n\t+ Simply enjoying a cup of coffee or tea in peace\n* Evening: Begin winding down for the night, preparing for the upcoming week\n\nRemember, this is your downtime, so feel free to customize it to your liking! If you have any specific activities or tasks you want to fit in, now's the time to do so.\n\nBy prioritizing relaxation and self-care this weekend, you'll be better equipped to tackle the next busy week ahead.\n\nHow does this sound?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a great plan. I was thinking of watching some TV shows and catching up on laundry over the weekend.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a perfect way to unwind and recharge! Watching TV shows can be a great way to relax and escape into a different world for a while, and catching up on laundry is a great way to stay on top of your tasks without feeling overwhelmed.\n\nRemember to pace yourself and take breaks in between tasks, so you don't feel like you're doing too much. You can even set aside dedicated time for laundry, and then reward yourself with some TV time afterwards.\n\nAlso, consider setting a \"no work\" rule for the weekend, so you can fully disconnect from work-related tasks and focus on relaxation. This will help you come back to your project and other commitments feeling refreshed and motivated.\n\nOne more thing: don't forget to be kind to yourself and prioritize self-care. If you need an extra hour of sleep, take it. If you want to indulge in your favorite snack, go for it. Remember, this is your downtime, and it's all about recharging and having fun!\n\nHow many episodes of your favorite show are you planning to binge-watch this weekend?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I just remembered that I need to deposit a check at the bank. Would you be able to remind me to do that at some point this week?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to remind you to deposit the check. Let's fit it into your schedule.\n\nConsidering your busy days are Tuesday and Thursday, I recommend doing it on Monday or Wednesday. You could do it on Monday morning, before you start your project work, or on Wednesday afternoon, after your project work and before you take a break.\n\nHere's an updated schedule:\n\n**Monday**\n\n* Morning: Deposit the check at the bank\n* Afternoon: Fit in a energizing activity (e.g., exercise, meal-prep)\n* Evening: Relax and unwind\n\nor\n\n**Wednesday**\n\n* Morning: Project work\n* Afternoon: Deposit the check at the bank\n* Late Afternoon: Take a break and fit in an energizing activity (e.g., exercise, yoga)\n* Evening: Continue working on your project or review your progress\n\nChoose the day and time that works best for you, and make sure to set a reminder so you don't forget!\n\nIs that all taken care of?",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_0dd54b7c_1"
+  ]
+}

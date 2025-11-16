@@ -1,0 +1,80 @@
+{
+  "question_id": "8464fc84",
+  "question_type": "single-session-assistant",
+  "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+  "answer": "Roscioli",
+  "question_date": "2023/05/30 (Tue) 12:39",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 14:03"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_467053"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "What is the significance of the Vatican in Rome, and what can visitors expect to see inside its walls?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "The Vatican is the smallest independent state in the world and the spiritual center of the Catholic faith. It is the official residence of the Pope, who is the head of the Catholic Church. Visitors can expect to see many amazing works of art, including some of the world's most famous paintings and sculptures, by artists like Michelangelo, Raphael, and Bernini. In addition, visitors can also see the Sistine Chapel, which is famous for its ceiling painted by Michelangelo, and St. Peter's Basilica, which is one of the world's largest churches and is home to many significant works of art and relics. Visitors can also see the Vatican Museums, which has one of the world's largest collections of art, including ancient Roman sculptures and Renaissance masterpieces.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, that sounds amazing! Do you recommend any specific area or exhibit to see first?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I do not have personal experiences or preferences. however, many visitors suggest that the sistine chapel is a must-see, as the intricate and vivid ceiling painting by michelangelo is awe-inspiring. it's also advisable to book a tour in advance to avoid long lines and to ensure that you are getting the most out of your visit to the vatican.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm excited to see the Sistine Chapel and St. Peter's Basilica. Any recommendations for good places to eat nearby?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "There are many great food options near the Vatican. One popular option is Pizzarium, which has been rated as one of the best pizza places in Rome. Another option is La Locanda dei Girasoli, which serves authentic Italian dishes in a cozy atmosphere. There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine. Finally, Caffè Vaticano is a historic coffee shop where you can enjoy your coffee and pastry while enjoying the view of St. Peter's Basilica. Don't hesitate to ask the locals for their recommendations as well!",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "I'll be sure to try some of those places out. Do you know if there are any souvenir shops around the Vatican?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there are several souvenir shops around the Vatican where you can pick up a variety of items. Most of the souvenir shops offer a wide range of religious-themed souvenirs, including statues, rosaries, crosses, and other decorative pieces. Additionally, you can find souvenirs of the Vatican, including postcards, books, and prints of famous artworks, such as The Last Judgment by Michelangelo. Keep in mind that some of these shops can be quite touristy and may have higher prices than shops outside the Vatican walls, so be sure to shop around and compare prices before making your purchase.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I can't wait to visit the Vatican and try out those restaurants. Do you have any other tips for visiting Rome?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here are some additional tips for visiting Rome:\n\n1. Take comfortable walking shoes: Rome is a city best explored on foot, and there's plenty to see and do, so comfortable shoes are essential. 2. Visit the popular sights early in the day or late in the evening: This is a great way to avoid the large crowds and long lines. 3. Dress appropriately when visiting churches and other religious sites: Keep in mind that many religious sites require visitors to cover their shoulders and wear long pants or skirts. 4. Beware of pickpockets: As in many tourist destinations, pickpocketing can be an issue in Rome, especially in crowded areas. Be sure to keep an eye on your belongings and watch out for suspicious activity. 5. Use public transportation: Rome has an extensive public transportation system consisting of metro, buses, and trams, which is an inexpensive way to get around the city. 6. Try some gelato: Rome is famous for its gelato, and you'll find gelato shops dotted around the city. Be sure to try some during your visit! 7. Don't forget to throw a coin in the Trevi Fountain: According to tradition, throwing a coin in the Trevi Fountain will ensure your return to Rome.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll make sure to keep comfortable shoes and my valuables safe. Do you have any specific gelato shops you recommend? I'm a huge fan!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here are some of the most popular gelato shops in Rome:\n\n1. Gelateria del Teatro - known for their creative flavors such as white peach and lavender or dark chocolate and orange. 2. Giolitti - a historic gelato shop that has been in business for over 100 years, and known for their fig, coconut and hazelnut flavors. 3. Fatamorgana - a small chain of gelato shops that are popular for their gluten-free and vegan options, and flavors such as cinnamon, honey and rosemary. 4. San Crispino - also a historic gelato shop that has been around since 1947, and is known for their classic flavors like tiramisu and pistachio. 5. La Romana - a popular chain that is known for their fresh ingredients, and seasonal flavors like fig and ricotta. Remember, there are many more gelato shops in Rome, and locals often have their own favorite places hidden away in the city. Don't be afraid to ask around for recommendations!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_467053"
+  ]
+}

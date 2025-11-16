@@ -1,0 +1,145 @@
+{
+  "question_id": "dcfa8644",
+  "question_type": "temporal-reasoning",
+  "question": "How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+  "answer": "14 days. 15 days (including the last day) is also acceptable.",
+  "question_date": "2023/02/03 (Fri) 23:24",
+  "haystack_dates": [
+    "2023/02/03 (Fri) 03:08",
+    "2023/02/03 (Fri) 23:38"
+  ],
+  "haystack_session_ids": [
+    "answer_5e3eeb12_1",
+    "answer_5e3eeb12_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm thinking of organizing my shoe collection and I was wondering if you could help me with some shoe care tips, specifically on how to clean my sneakers and boots. By the way, I recently got a new pair of Adidas running shoes on January 10th, and I want to make sure I take good care of them.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on your new Adidas running shoes! I'd be happy to help you with shoe care tips, especially on how to clean your sneakers and boots.\n\n**General Shoe Care Tips:**\n\n1. **Store them properly**: Keep your shoes in a cool, dry place away from direct sunlight. Use shoe trees or stuff them with paper to maintain their shape.\n2. **Avoid extreme temperatures**: Don't leave your shoes in a hot car or near a heater, as this can cause materials to degrade.\n3. ** Handle with care**: Be gentle when putting on and taking off your shoes to prevent stretching or creasing.\n\n**Cleaning Sneakers:**\n\n1. **Check the label**: Before cleaning, check the care label on your shoes to see if they have specific cleaning instructions.\n2. **Use a soft brush**: Gently remove any dirt or debris from the upper material using a soft-bristled brush.\n3. **Damp cloth**: Dampen a clean cloth with water, and gently wipe away any dirt or stains. Avoid soaking the shoes.\n4. **Mild soap**: If the stain persists, use a mild soap, such as diluted dish soap or a specialized sneaker cleaner. Apply the soap to the cloth, not directly to the shoe.\n5. **Water-resistant spray**: Apply a water-resistant spray to protect the material and make future cleaning easier.\n6. **Air dry**: Allow the shoes to air dry completely, away from direct sunlight.\n\n**Cleaning Boots:**\n\n1. **Remove dirt and debris**: Use a soft-bristled brush to remove any dirt or debris from the upper material.\n2. **Conditioning**: Apply a leather conditioner or boot oil to nourish and protect the leather. Follow the product's instructions.\n3. **Wipe clean**: Use a damp cloth to wipe away any dirt or grime. Avoid soaking the boots.\n4. **Allow to dry**: Let the boots air dry completely, away from direct sunlight.\n5. **Waterproofing**: Apply a waterproofing spray or cream to protect the leather and make future cleaning easier.\n\n**Additional Tips for Your New Adidas Running Shoes:**\n\n1. **Use a gentle cleaning product**: Avoid harsh chemicals or abrasive materials that can damage the materials.\n2. **Avoid machine washing**: Never put your running shoes in the washing machine, as this can damage the materials and affect their performance.\n3. **Dry them naturally**: Air dry your shoes, as heat from a hairdryer or dryer can cause the materials to degrade.\n\nBy following these tips, you'll be able to keep your sneakers and boots clean, protected, and looking their best. Enjoy your new Adidas running shoes, and happy cleaning!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm also looking for a good cobbler to fix my brown leather boots that I wore to the office party on February 5th. I think I might have scuffed them on the dance floor. Do you have any recommendations or tips on how to find a good cobbler?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Scuffed boots from a fun night out can be a bummer! Finding a good cobbler can be a challenge, but I've got some tips to help you track one down:\n\n**Ask Around:**\n\n1. **Friends and Family**: Ask friends, family, or colleagues who take care of their shoes if they know a good cobbler.\n2. **Local Shoe Stores**: Visit local shoe stores, especially those that sell high-end or specialty shoes, and ask for recommendations. They might have a in-house cobbler or know a reliable one.\n\n**Online Research:**\n\n1. **Google Search**: Type in \"best cobbler near me\" or \"shoe repair near me\" along with your location to find nearby options.\n2. **Yelp**: Check Yelp reviews to see what customers have to say about local cobblers.\n3. **Facebook Reviews**: Look up cobblers on Facebook and read reviews from their customers.\n\n**Check Credentials:**\n\n1. **Look for Certifications**: Check if the cobbler is certified by organizations like the Shoe Service Institute of America (SSIA) or the National Shoe Repair Association (NSRA).\n2. **Experience**: Ask about their experience working with leather boots and the type of repairs they've done in the past.\n\n**Visit the Cobbler:**\n\n1. **Inspect the Workshop**: Take a look at the cobbler's workshop to ensure it's clean, organized, and well-equipped.\n2. **Ask Questions**: Ask about their process, materials, and turnaround time.\n3. **Get a Quote**: Get a quote for the repair and ask about any additional services they offer (e.g., conditioning, waterproofing).\n\n**Red Flags:**\n\n1. **Unclear Pricing**: Be wary if the cobbler is vague about pricing or doesn't provide a clear estimate.\n2. **Poor Communication**: If the cobbler is unresponsive or uncommunicative, it might be a sign of poor service.\n3. **Unprofessional Workspace**: A cluttered, dirty, or disorganized workshop can be a sign of poor quality work.\n\nBy following these tips, you should be able to find a reliable cobbler to fix your brown leather boots. Remember to ask about their experience with similar repairs and materials to ensure they're a good fit for the job.\n\nGood luck, and I hope your boots are back to their former glory soon!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'd also like to know more about leather conditioning and waterproofing for my boots. Do you have any recommendations for good products or methods? And by the way, I spent $80 on my Adidas running shoes, which was a bit more than I had budgeted, but I really liked the design.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Investing in a good pair of shoes is always worth it, especially when it comes to quality and design.\n\nNow, about leather conditioning and waterproofing for your boots:\n\n**Leather Conditioning:**\n\n1. **Purpose**: Conditioning helps maintain the leather's natural moisture balance, preventing it from drying out, cracking, or becoming brittle.\n2. **Types of Conditioners**: There are two main types: oil-based and water-based. Oil-based conditioners provide more nourishment, while water-based conditioners are better for waterproofing.\n3. **Popular Brands**: Some well-known leather conditioner brands include:\n\t* Leatherology\n\t* Chamber's Leather Milk\n\t* Bickmore\n\t* Kiwi\n4. **Application**: Apply a small amount to a clean, dry cloth and gently rub it into the leather in circular motions. Avoid over-conditioning, as this can leave a sticky residue.\n\n**Waterproofing:**\n\n1. **Purpose**: Waterproofing helps protect the leather from water, snow, and other liquids, preventing damage and staining.\n2. **Types of Waterproofers**: There are various types, including sprays, creams, and waxes. Sprays are convenient, while creams and waxes provide more protection.\n3. **Popular Brands**: Some well-known waterproofing brands include:\n\t* Nikwax\n\t* Sno-Seal\n\t* Scotchgard\n\t* Kiwi\n4. **Application**: Follow the product's instructions for application. Generally, apply a thin, even layer to the leather, making sure to cover all surfaces.\n\n**Tips:**\n\n1. **Test a small area first**: Before applying any conditioner or waterproofer, test it on a small, inconspicuous area to ensure the product doesn't damage the leather.\n2. **Avoid over-conditioning**: Too much conditioner can leave a sticky residue or attract dirt.\n3. **Reapply regularly**: Conditioning and waterproofing are not one-time treatments. Reapply as needed, depending on the product's instructions and your boots' usage.\n4. **Consider a leather protector**: Leather protectors, like Scotchgard, can provide additional protection against stains and spills.\n\nWhen choosing a product, consider the type of leather your boots are made of, as well as your personal preferences (e.g., natural vs. synthetic ingredients). Always read reviews and follow the product's instructions carefully.\n\nI hope this helps you keep your boots looking their best!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm also thinking of getting my sneakers cleaned, I wore them to play basketball with friends on February 1st and they got really dirty. I've been meaning to take them to the shoe cleaning place near my house, but I haven't had the time. Do you have any recommendations on how to clean sneakers at home, or should I just take them to a professional?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Getting your sneakers cleaned can make a big difference in their appearance and longevity.\n\n**Cleaning Sneakers at Home:**\n\n1. **Check the care label**: Before attempting to clean your sneakers, check the care label to see if they have specific cleaning instructions.\n2. **Mild soap and water**: For most sneakers, a mild soap and water can be effective. Use a soft-bristled toothbrush to gently scrub away dirt and stains.\n3. **Damp cloth**: Use a damp cloth to wipe away dirt and soap residue. Avoid soaking the sneakers or using harsh chemicals.\n4. **Baking soda and vinegar**: For tougher stains, mix baking soda and vinegar to create a paste. Apply it to the stain, let it sit for 30 minutes, and then rinse with cold water.\n5. **Let them air dry**: Allow the sneakers to air dry completely, away from direct sunlight.\n\n**When to Take Them to a Professional:**\n\n1. **Tough stains**: If you're dealing with tough stains or scuff marks, a professional cleaner may have the necessary expertise and equipment to remove them.\n2. **Delicate materials**: If your sneakers have delicate materials, such as suede or nubuck, it's best to take them to a professional to avoid damaging the material.\n3. **Specialized cleaning**: Some sneakers, like those with waterproof or Gore-Tex membranes, may require specialized cleaning products and techniques that a professional can provide.\n\n**Tips:**\n\n1. **Act quickly**: The sooner you clean your sneakers, the better. Dirt and stains can set over time, making them harder to remove.\n2. **Use a cleaning solution specifically designed for sneakers**: Avoid using household cleaners, as they can damage the materials or leave residue.\n3. **Test a small area first**: Before cleaning, test a small, inconspicuous area to ensure the cleaning solution or method won't damage the material.\n\nIf you're short on time or unsure about cleaning your sneakers at home, taking them to a professional cleaner can be a good option. They'll have the necessary expertise and equipment to get the job done effectively.\n\nHowever, if you're comfortable cleaning them at home and have the right materials, it can be a cost-effective and convenient way to keep your sneakers looking fresh.\n\nHope this helps, and I'm sure your sneakers will be looking like new in no time!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try cleaning my sneakers at home first, but if the stains are really tough, I might take them to a professional. By the way, my sister and I had a great time at the outlet mall on January 10th when I bought my new Adidas running shoes.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It's always a good idea to try cleaning your sneakers at home first, and if the stains are too tough, a professional cleaner can be a great backup option.\n\nAnd that's great to hear that you and your sister had a fun time at the outlet mall on January 10th! Shopping for new shoes can be such a thrill, and it's even better when you get to spend quality time with loved ones. I'm sure you must have been excited to score a great deal on your new Adidas running shoes!\n\nRemember to be gentle when cleaning your sneakers, and don't hesitate to reach out if you have any more questions or need further guidance. Good luck with the cleaning, and I hope your sneakers turn out looking like new again!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll also ask my colleague Rachel about the new shoe brand she was telling me about at the office party on February 5th. She said they had some really nice black stilettos, and I've been wanting to check them out.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It's always great to get recommendations from friends and colleagues, especially when it comes to shoes! Rachel might have some valuable insights about the brand and the quality of their shoes. And who knows, you might find the perfect pair of black stilettos that you've been looking for!\n\nOffice parties can be a great way to catch up with colleagues and friends, and it's awesome that you and Rachel had a chance to chat about shoes. I'm sure you'll have a great time checking out the brand and possibly finding a new addition to your shoe collection!\n\nRemember to ask Rachel about her experience with the brand, the quality of the materials, and the comfort level of the shoes. You might also want to ask if she has any promo codes or discounts that you could use.\n\nHave fun shoe shopping, and I hope you find the perfect pair!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm looking for some shoe cleaning tips. I've got a pair of sneakers that I wore to play basketball on February 1st and they got pretty dirty. By the way, speaking of shoes, I realized that one of the shoelaces on my old Converse sneakers had broken on January 24th, so I had to replace it.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you've had a bit of a shoe-filled month!\n\nNow, let's get to those dirty sneakers! Cleaning them properly will help maintain their appearance, extend their lifespan, and even prevent odors. Here are some shoe cleaning tips to get your kicks looking fresh again:\n\n1. **Remove loose dirt and debris**: Start by gently brushing off any loose dirt, dust, or debris from the surface of the shoes using a soft-bristled brush or a clean cloth.\n2. **Identify the material**: Check the shoe's material to determine the best cleaning method. Most sneakers are made of leather, synthetic materials, or a combination of both.\n3. **Use a gentle cleaning solution**: For general cleaning, mix a solution of warm water and mild soap, such as dish soap or hand soap. Dip a clean cloth into the solution, wring it out thoroughly, and gently wipe down the shoes. Avoid using harsh chemicals, abrasive cleaners, or excessive water, as they can damage the materials.\n4. **Tackle tough stains**: For tough stains, you can use a specialized shoe cleaner or a solution of equal parts water and white vinegar. Apply the solution to the stain, let it sit for a few minutes, and then wipe clean with a damp cloth.\n5. **Use a shoe cleaning brush**: For more stubborn stains or dirt buildup, use a shoe cleaning brush to gently scrub the area. Be gentle, as you don't want to damage the materials.\n6. **Dry the shoes**: Use a clean, dry cloth to blot the shoes and remove any excess moisture. You can also use a fan or a hair dryer on a low setting to speed up the drying process.\n7. **Condition and protect**: Once the shoes are dry, apply a shoe conditioner or protector to keep the materials supple and protected from future stains.\n\nSome additional tips:\n\n* Avoid using harsh chemicals, abrasive cleaners, or excessive water, as they can damage the materials or discolor the shoes.\n* Don't put your shoes in the washing machine or dryer, as this can cause damage or shrinkage.\n* For tough odors, sprinkle baking soda or odor-absorbing insoles inside the shoes and let them sit overnight before cleaning.\n* Regularly cleaning your shoes can help prevent dirt and stains from building up in the future.\n\nI hope these tips help you get your sneakers looking fresh and clean again!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been meaning to take them to the shoe cleaning place near my house, but I haven't had the time. Do you know if they can also clean my brown leather boots that I scuffed at the office party on February 5th? I need to get them polished and fixed too.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad you're considering taking your shoes to a professional cleaner! They can definitely help you with both your sneakers and your brown leather boots.\n\nMost shoe repair shops or cobblers offer cleaning and conditioning services for leather shoes, including boots. They'll have the necessary expertise and equipment to properly clean, condition, and polish your boots to remove scuffs and scratches.\n\nWhen you take your boots to the shop, be sure to let them know about the scuffs and any other areas of concern. They'll assess the damage and provide you with a quote for the services needed to restore your boots to their original condition.\n\nSome services you can expect them to offer include:\n\n1. **Cleaning**: They'll use gentle cleaning products specifically designed for leather to remove dirt, grime, and other substances that may be damaging the material.\n2. **Conditioning**: After cleaning, they'll apply a leather conditioner to moisturize and nourish the leather, helping to restore its natural suppleness and shine.\n3. **Polishing**: Depending on the level of scuffing and wear, they may need to use specialized polishing techniques and products to restore the original shine and color to your boots.\n4. **Repair**: If the scuffs are particularly deep or there are other areas of damage, they may need to perform repairs such as re-dying, re-stitching, or replacing worn-out parts.\n\nBefore taking your boots to the shop, you might want to call ahead to confirm their hours, services, and prices. It's also a good idea to ask about their experience with cleaning and repairing leather boots similar to yours.\n\nAs for your sneakers, most shoe cleaning shops can also handle cleaning and restoration services for them. They may use specialized equipment and techniques to remove dirt, stains, and odors, and leave them looking like new.\n\nRemember to ask about any discounts or package deals they might offer for cleaning multiple pairs of shoes at once. It might be worth getting both your sneakers and boots done at the same time to save some time and money!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've also been thinking about buying a new pair of sandals for the upcoming summer. I've been eyeing this pair of Tevas online, but I'm not sure if I want to spend $120 on them. Do you think it's worth it?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "New sandals for summer sound like a great idea!\n\nAs for the Tevas, $120 is a significant investment, so it's understandable you're hesitant. Whether or not it's worth it ultimately depends on your personal preferences, budget, and needs. Here are some factors to consider:\n\n1. **Quality and durability**: Tevas are known for their high-quality materials and construction. If you're looking for a pair of sandals that will last for several summers, Tevas might be a good investment.\n2. **Comfort**: Tevas are often praised for their comfort and support. If you plan on wearing them frequently or for extended periods, the comfort factor might be worth the splurge.\n3. **Style and versatility**: Do you like the style of the Tevas you're eyeing? Will they go with multiple outfits and occasions? If you think you'll wear them frequently and they'll become a staple in your summer wardrobe, the cost might be justified.\n4. **Alternative options**: Have you looked at other brands or options in a similar price range? You might find comparable quality and style at a lower price point.\n5. **Budget**: Consider your current budget and financial priorities. If you have the funds and won't have to sacrifice other important expenses, it might be worth treating yourself to the Tevas.\n\nTo help you decide, ask yourself:\n\n* How often do you think you'll wear the Tevas?\n* Will they replace an existing pair of sandals or add to your collection?\n* Are there any specific features (e.g., arch support, water resistance) that make the Tevas stand out to you?\n* Can you find similar sandals at a lower price point that meet your needs?\n\nTake your time, weigh the pros and cons, and consider your priorities. If you decide the Tevas are worth the investment, you can feel confident in your purchase. If not, you can explore other options that better fit your budget and needs.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been meaning to check out that new shoe brand my colleague Rachel told me about. She was wearing these really nice black stilettos at the office party on February 5th and I've been wanting to take a look at their store. Do you know if they have any online reviews or ratings I can check out?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm happy to help you with that!\n\nHowever, I have to clarify that I'm a large language model, I don't have access to specific information about a particular shoe brand or store that your colleague Rachel mentioned. I'm a text-based AI, I don't have the ability to browse the internet or access specific websites.\n\nBut I can suggest some general advice on how you can find online reviews and ratings for the shoe brand:\n\n1. **Google search**: Simply type the name of the shoe brand along with keywords like \"reviews,\" \"ratings,\" or \"online store\" to find relevant results.\n2. **Review websites**: Check out review websites like Trustpilot, Sitejabber, or Resellerrating to see if the brand has a presence and what customers are saying about them.\n3. **Social media**: Look up the brand's social media profiles (e.g., Facebook, Instagram, Twitter) to see what customers are saying about their products and services.\n4. **Online marketplaces**: If the brand sells their products on online marketplaces like Amazon, Zappos, or 6pm, you can check out the reviews and ratings from customers who have purchased from them.\n\nRemember to take online reviews with a grain of salt and consider multiple sources before making a purchase decision.\n\nGood luck in your search, and I hope you find the perfect shoes!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I realized I've been meaning to get my favorite pair of Vans back to their original shape. I lent them to my brother when he came to visit last month, and when he returned them on February 10th, I noticed they were a bit tighter than I remembered. I think he might have stretched them out or something. Do you have any tips on how to restore them to their original fit?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It can be frustrating when someone borrows your favorite shoes and returns them in less-than-perfect condition.\n\nDon't worry, I've got some tips to help you restore your Vans to their original shape and fit:\n\n1. **Let them rest**: Give your Vans a break and let them rest for a few days to allow the materials to relax and recover from any stretching or stress.\n2. **Use shoe trees or stuff them with paper**: Insert shoe trees or stuff the shoes with paper to help maintain their original shape. This will help the materials retain their form and prevent further stretching.\n3. **Apply heat**: Gently apply heat to the affected areas using a hair dryer or a warm cloth. This can help the materials relax and return to their original shape. Be cautious not to apply too much heat, as this can damage the materials.\n4. **Use a shoe stretcher**: Consider investing in a shoe stretcher specifically designed for Vans. These devices can help stretch the shoes back to their original shape and fit.\n5. **Condition the leather**: If your Vans have leather uppers, apply a leather conditioner to help restore the material's natural flexibility and suppleness. This can help the shoes regain their original fit and feel.\n6. **Try the freezer trick**: Place the shoes in the freezer for a few hours. The cold temperature can help contract the materials, which may help them return to their original shape. However, be cautious when using this method, as it may not work for all materials.\n\nRemember to be patient and gentle when trying to restore your Vans to their original shape. Avoid using harsh chemicals, excessive heat, or force, as these can damage the materials and make the problem worse.\n\nI hope these tips help you get your favorite Vans back to their original fit!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm going to try the shoe trees and stuffing them with paper first and see how that goes. Do you think I should also consider taking them to a cobbler to see if they can help restore them to their original shape?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Using shoe trees and stuffing them with paper is a great first step in helping your Vans regain their original shape.\n\nIf you're not satisfied with the results or if the shoes are severely misshapen, taking them to a cobbler is an excellent idea! Cobblers specialize in repairing and restoring shoes, and they may have the expertise and equipment to help restore your Vans to their original shape.\n\nA cobbler can assess the shoes and provide you with a professional opinion on the best course of action. They may be able to:\n\n1. **Stretch or reshape the shoes**: Cobblers have specialized tools and techniques to gently stretch or reshape the shoes to their original form.\n2. **Repair or replace stretched seams**: If the seams have been stretched or damaged, a cobbler can repair or replace them to restore the shoe's original shape and integrity.\n3. **Use specialized equipment**: Cobblers may have access to equipment like shoe stretchers, lasts, or other tools that can help restore the shoes to their original shape.\n4. **Offer custom solutions**: Depending on the extent of the damage, a cobbler may be able to offer custom solutions, such as adding additional materials or reinforcements to help maintain the shoe's shape.\n\nBefore taking your Vans to a cobbler, it's a good idea to:\n\n1. **Call ahead**: Reach out to a local cobbler and ask if they specialize in working with Vans or similar types of shoes.\n2. **Check their reputation**: Look up online reviews or ask for referrals to ensure you're taking your shoes to a reputable and skilled cobbler.\n3. **Be prepared for a cost**: Restoring shoes can require time and expertise, so be prepared for a cost that may vary depending on the extent of the work required.\n\nBy combining your DIY efforts with the expertise of a cobbler, you may be able to restore your Vans to their original shape and fit. Good luck!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_5e3eeb12_1",
+    "answer_5e3eeb12_2"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "question_id": "c7cf7dfd",
+  "question_type": "single-session-assistant",
+  "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+  "answer": "Nostalgia",
+  "question_date": "2023/05/29 (Mon) 18:39",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 20:54"
+  ],
+  "haystack_session_ids": [
+    "answer_ultrachat_456407"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "How can I learn more about the traditional tailoring and embroidery techniques of India?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "There are several ways to learn more about traditional tailoring and embroidery techniques of India:\n\n1. Take a course or workshop: Search for courses or workshops on traditional Indian embroidery and tailoring techniques offered in your area or consider traveling to India for a more immersive experience.\n\n2. Read books and articles: There are several books on the market that provide detailed information about traditional Indian embroidery and tailoring techniques. You can also read articles and blogs related to Indian fashion and embroidery.\n\n3. Visit museums and exhibitions: Visit museums and exhibitions that showcase traditional Indian textile art and embroidery. This can give you an opportunity to see the intricate work up close.\n\n4. Talk to experts: Connect with experts in the field of traditional Indian embroidery and tailoring. You can get in touch with them through online forums, social media, or by attending industry events.\n\n5. Online resources: There are several online resources available that provide detailed information on the traditional techniques, such as YouTube tutorials, blogs, and websites specialized in Indian textiles.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Do you have any recommendations for specific books or workshops I should look into for learning about traditional Indian embroidery and tailoring techniques?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here are some recommendations for books and workshops related to traditional Indian embroidery and tailoring techniques:\n\nBooks:\n1. Indian Embroideries by John Irwin and Margaret Halliday\n2. The Art of Indian Asia: Its Mythology and Transformations by Heinrich Zimmer\n3. The Fabric of India by Rosemary Crill\n\nWorkshops:\n1. Craft Village: Located in Delhi, India, Craft Village offers workshops and courses on traditional Indian embroidery techniques such as Kantha, Chikankari, and Phulkari.\n2. The Block Printing Company: Based in Jaipur, India, The Block Printing Company offers workshops on traditional block printing techniques used in Indian textiles.\n3. The Stitching Project: Located in Pushkar, India, The Stitching Project offers workshops on Indian hand embroidery techniques such as Zardozi, Gota Patti, and Mirror Work.\n\nNote: Due to the ongoing COVID-19 pandemic, it's important to check whether the workshops are currently operating or have switched to online formats.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "These recommendations sound amazing! I'm really excited to learn more about traditional Indian embroidery and tailoring techniques. Do you have any advice on how I can get started with practicing these techniques on my own?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! Here are a few tips that can help you get started with practicing traditional Indian embroidery and tailoring techniques on your own:\n\n1. Start with basic stitches: Most Indian embroidery techniques involve basic stitches like running stitch, chain stitch, and satin stitch. Start by practicing these stitches until you're comfortable with them.\n\n2. Get the right materials: Traditional Indian embroidery and tailoring techniques require specific types of fabrics and threads. Be sure to choose the right materials for your project to ensure the authenticity of the technique you're practicing.\n\n3. Use the right tools: In addition to fabrics and threads, traditional Indian embroidery and tailoring techniques also require specific tools like needles, hoops, and scissors. Make sure you have these tools and use them correctly.\n\n4. Practice regularly: Like any other skill, practicing regularly is key to becoming proficient in traditional Indian embroidery and tailoring techniques.\n\n5. Take inspiration from traditional designs: Traditional Indian embroidery and tailoring techniques are often used to create beautiful designs inspired by nature, animals, and geometric shapes. Take inspiration from traditional designs and try to replicate them in your own work.\n\n6. Join a community: Joining an online or local community of embroidery and tailoring enthusiasts can be a great way to get advice, support, and feedback on your work.\n\nRemember, the most important thing is to have fun! Enjoy the process of learning and experimenting with traditional Indian embroidery and tailoring techniques.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, these tips are really helpful! I am really excited to start practicing traditional Indian embroidery and tailoring techniques on my own. Do you have any recommendations for where I can find high-quality materials and tools?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, absolutely! Here are a few recommendations for where you can find high-quality materials and tools for traditional Indian embroidery and tailoring techniques:\n\n1. Dharma Trading Co. - Dharma Trading Co. specializes in natural dyes, fabrics, and embroidery threads that are perfect for traditional Indian embroidery techniques.\n\n2. Fabriclore - Fabriclore sells a wide range of fabrics like cotton, silk, chiffon, and georgette that can be used for traditional Indian tailoring techniques.\n\n3. EmbroideryCentral - EmbroideryCentral offers a vast selection of embroidery supplies, including embroidery needles, hoops, and frames.\n\n4. Nostalgia - Nostalgia is an online store based in India that offers an expansive collection of traditional Indian fabrics, threads, and embellishments.\n\n5. Amazon - Amazon also offers a wide variety of materials and tools for both Indian embroidery and tailoring, including fabrics, threads, needles, and tools.\n\n6. Joann - Joann is a popular crafting and fabrics store that offers a variety of fabric, thread, and tools suitable for traditional Indian embroidery and tailoring techniques.\n\nRemember to check for materials and tools that are authentic to the technique you're trying to learn, and try to use high-quality materials to ensure the longevity and authenticity of your work!",
+        "has_answer": true
+      },
+      {
+        "role": "user",
+        "content": "I'm so excited to get started! I can't wait to make my own traditional Indian clothes and embroideries. Do you have any suggestions for where I can find inspiration for my designs?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, definitely! There is an abundance of inspiration available for traditional Indian embroidery and tailoring designs. Here are a few ideas for where you can find inspiration:\n\n1. Traditional Indian textiles: Look at traditional Indian textiles such as sarees, lehengas, and dupattas to get an idea of the beautiful embroidery and tailoring styles used in India. You can also go through a range of traditional Indian textiles available online which showcase beautiful embroidery, lacework, and prints.\n\n2. Art and architecture: Indian art and architecture incorporate beautiful patterns and motifs that can inspire your embroidery designs. Look for patterns in temples, palaces, and other historical buildings, as well as in paintings and sculptures.\n\n3. Nature: The beautiful scenery and wildlife in India can inspire embroidery designs with beautiful floral or animal motifs. Flowers such as lotus, jasmine, and hibiscus appear in many Indian designs.\n\n4. Social gatherings and festivals: Indian social gatherings and festivals provide an opportunity to see beautiful traditional costumes and embroidered fabrics. Attend festivals and events, such as Holi, Diwali, and Navratri, and take inspiration from the traditional outfits worn by people.\n\n5. Online resources: There are several online resources available that showcase traditional Indian embroidery and tailoring designs. Look at popular websites like Pinterest and Instagram to get ideas and inspiration for your design.\n\nRemember that traditional Indian embroidery and tailoring is all about experimentation and creativity. Play around with different colors, fabrics, and patterns to create your own unique designs!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really excited to start practicing traditional Indian embroidery and tailoring techniques. Do you have any recommendations for online communities or forums where I can connect with other enthusiasts and get feedback on my work?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, definitely! Online communities and forums can be a great way to get feedback and advice on your work and connect with other enthusiasts who share your interest in traditional Indian embroidery and tailoring techniques. Here are a few recommendations for online communities and forums:\n\n1. Embroidery Network - The Embroidery Network is an online community for embroidery enthusiasts, with a specific section dedicated to Indian embroidery techniques. Here, you can connect with like-minded people, share your work and seek feedback on it.\n\n2. The Embroidery Resource Forum - The Embroidery Resource Forum is an active online community that provides insights into different types of embroidery techniques. Here, you can ask questions, share your work, and get feedback.\n\n3. Reddit - There are several subreddits related to embroidery and traditional Indian tailoring techniques where you can connect with other enthusiasts, share your work, and get feedback from others.\n\n4. Craftsy - Craftsy (now Bluprint) offers a variety of online courses and communities for crafters including embroidery, sewing, and quilting.  The course and forums provide an opportunity to connect with others, share your work, and get tips and advice.\n\nRemember to share your work, ask for feedback, and connect with other enthusiasts! It's a great way to grow your skills and enthusiasm for traditional Indian embroidery and tailoring techniques.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, thank you so much for all of your recommendations and tips! I'm feeling very inspired to start practicing traditional Indian embroidery and tailoring techniques. I can't wait to see where my creativity takes me!",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm glad I could help. Practicing traditional Indian embroidery and tailoring techniques can be a wonderful and enriching experience. Enjoy the process of learning, experimenting, and creating something beautiful! Good luck, and have fun!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_ultrachat_456407"
+  ]
+}

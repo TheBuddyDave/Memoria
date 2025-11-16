@@ -1,0 +1,40 @@
+{
+  "question_id": "3249768e",
+  "question_type": "single-session-assistant",
+  "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was?",
+  "answer": "Absinthe",
+  "question_date": "2023/05/26 (Fri) 05:10",
+  "haystack_dates": [
+    "2023/05/24 (Wed) 05:42"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_CaxTGYP_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "What 5 bottles should I buy to be able to make the widest variety of cocktails Share Prompt",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "To make the widest variety of cocktails, I would recommend purchasing the following five bottles:\n\n1. Gin: Gin is a versatile spirit that can be used to make a variety of classic cocktails such as the Martini, Negroni, and Gin and Tonic.\n2. Vodka: Vodka is another versatile spirit that can be used in many cocktails, such as the Cosmopolitan, Bloody Mary, and Vodka Martini.\n3. Rum: Rum is a great addition to any cocktail bar as it can be used in tropical drinks like the Mojito, Daiquiri, and Pina Colada.\n4. Whiskey: Whiskey is a classic cocktail ingredient that can be used in many drinks, such as the Old Fashioned, Manhattan, and Whiskey Sour.\n5. Triple Sec: Triple Sec is an orange-flavored liqueur that is commonly used in cocktails like the Margarita, Cosmopolitan, and Sidecar. It adds a citrusy sweetness and complexity to drinks.\n\nWith these five bottles, you will have a solid foundation to make a wide variety of cocktails. Of course, you can always expand your collection over time as you discover new recipes and flavors that you enjoy.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What 5 bottles of liquours, apertifs, digestifs, etc should I buy to be able to make the widest variety of Gin based cocktailShare Prompt",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "To make the widest variety of gin-based cocktails, I would recommend purchasing the following five bottles of liquors, aperitifs, and digestifs:\n\n1. Sweet Vermouth: Sweet vermouth is a fortified wine that is a key ingredient in classic cocktails like the Negroni and Manhattan. It adds a sweet and herbal flavor to drinks.\n2. Dry Vermouth: Dry vermouth is also a fortified wine that is used in classic cocktails like the Martini and Gibson. It adds a dry and crisp flavor to drinks.\n3. Campari: Campari is a bitter aperitif that is used in classic cocktails like the Negroni and Americano. It adds a bitter and herbal flavor to drinks.\n4. Elderflower Liqueur: Elderflower liqueur is a sweet and floral liqueur that can be used in a variety of gin-based cocktails. It adds a delicate and aromatic flavor to drinks.\n5. Absinthe: Absinthe is a strong and herbal liqueur that is used in classic cocktails like the Sazerac and Corpse Reviver #2. It adds a complex and anise-flavored element to drinks.\n\nWith these five bottles, you will have a solid foundation to make a wide variety of gin-based cocktails, including classics like the Negroni, Martini, and Sazerac. Of course, there are many other ingredients and flavors that you can experiment with to create unique and delicious cocktails.",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_CaxTGYP_0"
+  ]
+}

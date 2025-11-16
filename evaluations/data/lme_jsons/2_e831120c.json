@@ -1,0 +1,145 @@
+{
+  "question_id": "e831120c",
+  "question_type": "multi-session",
+  "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+  "answer": "3.5 weeks",
+  "question_date": "2023/05/30 (Tue) 08:15",
+  "haystack_dates": [
+    "2023/05/21 (Sun) 12:44",
+    "2023/05/21 (Sun) 13:46"
+  ],
+  "haystack_session_ids": [
+    "answer_86c505e7_1",
+    "answer_86c505e7_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to organize my movie watching history, can you help me create a list or something? By the way, I've had some crazy movie binges lately, like when I watched all 22 Marvel Cinematic Universe movies in two weeks.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, that's impressive! I'd be happy to help you create a list to organize your movie watching history.\n\nThere are several ways to approach this, but here are a few ideas:\n\n**Option 1: Simple Text List**\n\nWe can start with a simple text list where you can add each movie title, along with the date you watched it. You can use a note-taking app like Evernote, OneNote, or even a Google Doc.\n\n**Option 2: Spreadsheet**\n\nIf you're comfortable with spreadsheets, we can create a table with columns for:\n\n* Movie Title\n* Release Year\n* Watch Date\n* Rating (if you want to track your ratings)\n* Notes (if you want to jot down thoughts or comments about the movie)\n\nYou can use Google Sheets, Microsoft Excel, or LibreOffice Calc.\n\n**Option 3: Movie Tracking Apps**\n\nThere are several apps designed specifically for tracking movie watching history, such as:\n\n* Letterboxd (web, iOS, Android)\n* IMDb Watchlist (web, iOS, Android)\n* FilmAffinity (web, iOS, Android)\n* Cinema Clock (iOS, Android)\n\nThese apps often allow you to:\n\n* Add movies to a watchlist or watched list\n* Rate and review movies\n* Track your watch history\n* Set reminders for new releases\n* Follow friends and see their watch history\n\nWhich option sounds appealing to you? Or do you have a different approach in mind?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think the spreadsheet option sounds good. Can you help me set up the columns and stuff? I'm not super comfortable with spreadsheets.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you set up a movie tracking spreadsheet.\n\nHere's a suggested template to get you started:\n\n**Movie Tracking Spreadsheet Template**\n\n**Columns:**\n\n1. **Movie Title** (e.g., \"The Avengers\")\n2. **Release Year** (e.g., 2012)\n3. **Watch Date** (e.g., 2023-02-15)\n4. **Rating** (e.g., 4/5 or 8/10)\n5. **Notes** (e.g., \"Loved the action scenes!\")\n6. **Franchise/ Series** (e.g., \"Marvel Cinematic Universe\")\n7. **Genre** (e.g., \"Superhero\", \"Action\", \"Comedy\", etc.)\n8. **Format** (e.g., \"Theater\", \"Streaming\", \"Blu-ray\", etc.)\n9. **Re-watch** (e.g., \"Yes\" or \"No\")\n\n**Optional Columns:**\n\n1. **Director**\n2. **Cast** (e.g., \"Robert Downey Jr., Chris Evans, Mark Ruffalo\")\n3. ** Runtime** (e.g., 143 minutes)\n4. **Language** (e.g., \"English\", \"Spanish\", etc.)\n\n**How to set it up:**\n\n1. Open a new spreadsheet in Google Sheets (or your preferred spreadsheet software).\n2. Create a new sheet by clicking the \"+\" button at the bottom of the screen.\n3. Name the sheet something like \"Movie Tracker\" or \"Watched Movies\".\n4. In the first row, enter the column headers (e.g., \"Movie Title\", \"Release Year\", etc.).\n5. Start adding your movies! Enter each movie's information in a new row.\n\n**Tips:**\n\n* You can adjust the column widths by dragging the borders or using the \"Format\" menu.\n* Use the \"Filter\" function to quickly sort and find movies by genre, franchise, or rating.\n* Consider using conditional formatting to highlight movies you've re-watched or to differentiate between ratings.\n* You can also add more columns or modify the template to fit your specific needs.\n\nIf you need help with anything or have questions, feel free to ask!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll add a column for the type of movie, like sequel, remake, or standalone. And can I also add a column for the platform I watched it on, like Amazon Prime or in theaters?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Excellent suggestions!\n\n**Adding a \"Type\" column:**\n\nYou can add a \"Type\" column to categorize movies as:\n\n* Sequel\n* Remake\n* Standalone\n* Prequel\n* Spin-off\n* Reboot\n* etc.\n\nThis will help you track the relationships between movies and franchises.\n\n**Adding a \"Platform\" column:**\n\nYou can add a \"Platform\" column to track where you watched each movie, such as:\n\n* Theaters\n* Amazon Prime\n* Netflix\n* Hulu\n* Disney+\n* Blu-ray/DVD\n* YouTube\n* iTunes\n* etc.\n\nThis will help you keep track of your viewing habits and the platforms you use most.\n\nHere's the updated template:\n\n**Movie Tracking Spreadsheet Template (Updated)**\n\n**Columns:**\n\n1. **Movie Title** (e.g., \"The Avengers\")\n2. **Release Year** (e.g., 2012)\n3. **Watch Date** (e.g., 2023-02-15)\n4. **Rating** (e.g., 4/5 or 8/10)\n5. **Notes** (e.g., \"Loved the action scenes!\")\n6. **Franchise/ Series** (e.g., \"Marvel Cinematic Universe\")\n7. **Genre** (e.g., \"Superhero\", \"Action\", \"Comedy\", etc.)\n8. **Type** (e.g., \"Sequel\", \"Standalone\", etc.)\n9. **Platform** (e.g., \"Theaters\", \"Amazon Prime\", etc.)\n10. **Format** (e.g., \"Theater\", \"Streaming\", \"Blu-ray\", etc.)\n11. **Re-watch** (e.g., \"Yes\" or \"No\")\n\n**Optional Columns:**\n\n1. **Director**\n2. **Cast** (e.g., \"Robert Downey Jr., Chris Evans, Mark Ruffalo\")\n3. **Runtime** (e.g., 143 minutes)\n4. **Language** (e.g., \"English\", \"Spanish\", etc.)\n\nRemember, you can always add or remove columns as needed to fit your tracking style.\n\nHow's that looking? Do you have any other ideas for columns or features you'd like to add?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Yeah, that looks great. I think I'll also add a column for the month I watched it, so I can see what I watched each month.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Adding a \"Month Watched\" column will allow you to track your viewing habits over time and see what you watched each month. This can be useful for:\n\n* Identifying patterns in your viewing habits (e.g., do you tend to watch more movies during certain months?)\n* Creating a \"best of\" list for each month or year\n* Seeing how your tastes and preferences change over time\n\nYou can add the \"Month Watched\" column as a text column, using the month name (e.g., \"January\", \"February\", etc.) or a numerical value (e.g., \"1\" for January, \"2\" for February, etc.).\n\nHere's the updated template:\n\n**Movie Tracking Spreadsheet Template (Updated)**\n\n**Columns:**\n\n1. **Movie Title** (e.g., \"The Avengers\")\n2. **Release Year** (e.g., 2012)\n3. **Watch Date** (e.g., 2023-02-15)\n4. **Rating** (e.g., 4/5 or 8/10)\n5. **Notes** (e.g., \"Loved the action scenes!\")\n6. **Franchise/ Series** (e.g., \"Marvel Cinematic Universe\")\n7. **Genre** (e.g., \"Superhero\", \"Action\", \"Comedy\", etc.)\n8. **Type** (e.g., \"Sequel\", \"Standalone\", etc.)\n9. **Platform** (e.g., \"Theaters\", \"Amazon Prime\", etc.)\n10. **Format** (e.g., \"Theater\", \"Streaming\", \"Blu-ray\", etc.)\n11. **Re-watch** (e.g., \"Yes\" or \"No\")\n12. **Month Watched** (e.g., \"February\", \"02\", etc.)\n\n**Optional Columns:**\n\n1. **Director**\n2. **Cast** (e.g., \"Robert Downey Jr., Chris Evans, Mark Ruffalo\")\n3. **Runtime** (e.g., 143 minutes)\n4. **Language** (e.g., \"English\", \"Spanish\", etc.)\n\nNow that you have your template set up, you can start populating it with your movie data!\n\nRemember, you can always adjust the template as needed to fit your tracking style. If you have any more questions or need further assistance, feel free to ask!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you help me with entering my data? I have a lot of movies to add, and it's a bit overwhelming. Is there a way to quickly enter multiple movies at once, or do I need to add them one by one?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I totally understand! Entering a large amount of data can be daunting.\n\nFortunately, there are ways to quickly enter multiple movies at once. Here are a few methods to help you speed up the process:\n\n**Method 1: Copy and Paste from a List**\n\nIf you have a list of movies in a text file or a note-taking app, you can copy and paste them into your spreadsheet. Here's how:\n\n1. Open your list of movies in a text editor or note-taking app.\n2. Select all the movies and copy them (Ctrl+C or Cmd+C).\n3. Open your spreadsheet and select the first cell in the \"Movie Title\" column.\n4. Right-click and select \"Paste\" (or use Ctrl+V or Cmd+V).\n5. The movies will be pasted into the spreadsheet, one per row.\n\n**Method 2: Use a Formula to Auto-Fill Columns**\n\nIf you have a list of movies with some columns already populated (e.g., title, release year, rating), you can use formulas to auto-fill other columns. For example, if you have a list of movies with titles and release years, you can use a formula to auto-fill the \"Franchise/Series\" column.\n\n1. Enter the formula in the first cell of the column you want to auto-fill.\n2. Use the `IF` function to check if the title matches a specific franchise or series.\n3. If the condition is true, enter the franchise or series name.\n\nExample formula: `=IF(A2=\"The Avengers\", \"Marvel Cinematic Universe\", \"\")`\n\n**Method 3: Use Online Tools or APIs**\n\nThere are online tools and APIs that can help you quickly add movies to your spreadsheet. For example:\n\n1. IMDb's API: You can use IMDb's API to fetch movie data and import it into your spreadsheet.\n2. Movie databases: Websites like Letterboxd, IMDb, or Rotten Tomatoes allow you to export your watchlist or create a CSV file with movie data.\n3. Spreadsheet add-ons: Some spreadsheet add-ons, like AutoCrat or MovieDB, can help you import movie data from online sources.\n\n**Method 4: Break it Down into Chunks**\n\nIf you have a large number of movies to add, break it down into smaller chunks. Set a goal to add, say, 10-20 movies at a time. This will make the task less overwhelming and help you stay focused.\n\nRemember to take breaks and save your progress regularly to avoid losing any data.\n\nWhich method do you think you'll find most helpful? Or do you have any other questions about entering data quickly?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think I'll try Method 1, copying and pasting from a list. I have all my movies written down in a note-taking app, so I can just copy and paste them into the spreadsheet.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Method 1 is a great way to quickly get your movies into the spreadsheet.\n\nBefore you start copying and pasting, make sure to format your list in a way that will make it easy to paste into the spreadsheet. Here are some tips:\n\n1. **Separate each movie with a line break**: Make sure each movie title is on a new line, so that when you paste it into the spreadsheet, each movie will go into a new row.\n2. **Use a consistent format**: Try to use a consistent format for each movie, such as \"Title (Year)\" or \"Title - Rating\". This will make it easier to paste the data into the correct columns.\n3. **Remove any unnecessary characters**: Remove any unnecessary characters, such as commas or semicolons, that might cause issues when pasting into the spreadsheet.\n\nOnce you've formatted your list, follow these steps:\n\n1. Copy the list of movies from your note-taking app.\n2. Open your spreadsheet and select the first cell in the \"Movie Title\" column.\n3. Right-click and select \"Paste\" (or use Ctrl+V or Cmd+V).\n4. The movies will be pasted into the spreadsheet, one per row.\n5. Use the spreadsheet's auto-fill feature to fill in the rest of the columns. You can do this by dragging the fill handle (the small square at the bottom right of the cell) down to fill in the rest of the column.\n\nIf you need to, you can always adjust the formatting or add additional columns later.\n\nHow's that? Are you ready to give it a try?",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to keep track of all the movies I've watched recently. Can you help me organize them in a list or something? By the way, I just finished a Star Wars marathon, watched all the main films in a week and a half, it was a wild ride!",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like an epic Star Wars marathon! I'd be happy to help you keep track of the movies you've watched. Let's get started!\n\nTo organize your movie list, I can suggest a few options:\n\n1. **Simple List**: We can create a plain list of movie titles, with the most recent ones at the top.\n2. **Categorized List**: We can categorize your movies by genre (e.g., action, comedy, sci-fi, etc.), director, or release year.\n3. **Movie Log**: We can create a log with columns for movie title, release year, genre, rating (out of 5 stars), and a brief review or notes.\n\nWhich option sounds appealing to you?\n\nAlso, since you just finished a Star Wars marathon, let's add those movies to the list first! Here's a suggested format:\n\n**Star Wars Marathon**\n\n1. Episode I: The Phantom Menace (1999)\n2. Episode II: Attack of the Clones (2002)\n3. Episode III: Revenge of the Sith (2005)\n4. Episode IV: A New Hope (1977)\n5. Episode V: The Empire Strikes Back (1980)\n6. Episode VI: Return of the Jedi (1983)\n7. Episode VII: The Force Awakens (2015)\n8. Episode VIII: The Last Jedi (2017)\n9. Episode IX: The Rise of Skywalker (2019)\n\nFeel free to add any additional information, like your rating or a brief review, for each movie.\n\nWhat's next? Do you have any other movies you'd like to add to the list?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I think the simple list would be fine. And yeah, I'll add those Star Wars movies to the list. I also watched Rogue One and Solo, so add those too. After that, let's add the Marvel movies I watched a while back.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Here's your simple list with the Star Wars movies, including Rogue One and Solo:\n\n**Movie List**\n\n1. Star Wars: Episode IX - The Rise of Skywalker (2019)\n2. Star Wars: Episode VIII - The Last Jedi (2017)\n3. Star Wars: Episode VII - The Force Awakens (2015)\n4. Star Wars: Episode VI - Return of the Jedi (1983)\n5. Star Wars: Episode V - The Empire Strikes Back (1980)\n6. Star Wars: Episode IV - A New Hope (1977)\n7. Star Wars: Episode III - Revenge of the Sith (2005)\n8. Star Wars: Episode II - Attack of the Clones (2002)\n9. Star Wars: Episode I - The Phantom Menace (1999)\n10. Rogue One: A Star Wars Story (2016)\n11. Solo: A Star Wars Story (2018)\n\nNow, let's add the Marvel movies you watched a while back. Which ones did you watch? Were they from the Marvel Cinematic Universe (MCU) or other Marvel movies like the X-Men franchise?\n\nType away, and I'll add them to the list!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I watched all the MCU movies, all 22 of them. I did it in about two weeks, it was a lot but worth it.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, that's impressive! Watching all 22 MCU movies in two weeks is a marathon-worthy feat! I'll add them to your list. Here's the updated list:\n\n**Movie List**\n\n1. Star Wars: Episode IX - The Rise of Skywalker (2019)\n2. Star Wars: Episode VIII - The Last Jedi (2017)\n3. Star Wars: Episode VII - The Force Awakens (2015)\n4. Star Wars: Episode VI - Return of the Jedi (1983)\n5. Star Wars: Episode V - The Empire Strikes Back (1980)\n6. Star Wars: Episode IV - A New Hope (1977)\n7. Star Wars: Episode III - Revenge of the Sith (2005)\n8. Star Wars: Episode II - Attack of the Clones (2002)\n9. Star Wars: Episode I - The Phantom Menace (1999)\n10. Rogue One: A Star Wars Story (2016)\n11. Solo: A Star Wars Story (2018)\n12. Iron Man (2008)\n13. The Incredible Hulk (2008)\n14. Iron Man 2 (2010)\n15. Thor (2011)\n16. Captain America: The First Avenger (2011)\n17. The Avengers (2012)\n18. Iron Man 3 (2013)\n19. Thor: The Dark World (2013)\n20. Captain America: The Winter Soldier (2014)\n21. Guardians of the Galaxy (2014)\n22. Avengers: Age of Ultron (2015)\n23. Ant-Man (2015)\n24. Captain America: Civil War (2016)\n25. Doctor Strange (2016)\n26. Guardians of the Galaxy Vol. 2 (2017)\n27. Spider-Man: Homecoming (2017)\n28. Thor: Ragnarok (2017)\n29. Black Panther (2018)\n30. Avengers: Infinity War (2018)\n31. Ant-Man and the Wasp (2018)\n32. Captain Marvel (2019)\n33. Avengers: Endgame (2019)\n34. Spider-Man: Far From Home (2019)\n\nYou've got an impressive list going on! Do you have any other movies you'd like to add to the list?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "What about the other movies you mentioned, like Captain Marvel, Us, Shazam!, A Quiet Place, and the others? Would you like to add those to the list as well?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for the confusion! I didn't mention those movies earlier, so you must have watched them recently as well! Congratulations on keeping up with new releases!\n\nLet's add those movies to your list:\n\n**Movie List**\n\n1. Star Wars: Episode IX - The Rise of Skywalker (2019)\n2. Star Wars: Episode VIII - The Last Jedi (2017)\n3. Star Wars: Episode VII - The Force Awakens (2015)\n4. Star Wars: Episode VI - Return of the Jedi (1983)\n5. Star Wars: Episode V - The Empire Strikes Back (1980)\n6. Star Wars: Episode IV - A New Hope (1977)\n7. Star Wars: Episode III - Revenge of the Sith (2005)\n8. Star Wars: Episode II - Attack of the Clones (2002)\n9. Star Wars: Episode I - The Phantom Menace (1999)\n10. Rogue One: A Star Wars Story (2016)\n11. Solo: A Star Wars Story (2018)\n12. Iron Man (2008)\n13. The Incredible Hulk (2008)\n14. Iron Man 2 (2010)\n15. Thor (2011)\n16. Captain America: The First Avenger (2011)\n17. The Avengers (2012)\n18. Iron Man 3 (2013)\n19. Thor: The Dark World (2013)\n20. Captain America: The Winter Soldier (2014)\n21. Guardians of the Galaxy (2014)\n22. Avengers: Age of Ultron (2015)\n23. Ant-Man (2015)\n24. Captain America: Civil War (2016)\n25. Doctor Strange (2016)\n26. Guardians of the Galaxy Vol. 2 (2017)\n27. Spider-Man: Homecoming (2017)\n28. Thor: Ragnarok (2017)\n29. Black Panther (2018)\n30. Avengers: Infinity War (2018)\n31. Ant-Man and the Wasp (2018)\n32. Captain Marvel (2019)\n33. Avengers: Endgame (2019)\n34. Spider-Man: Far From Home (2019)\n35. Us (2019)\n36. Shazam! (2019)\n37. A Quiet Place (2018)\n\nFeel free to add any other movies you've watched recently or want to keep track of. I'm here to help you keep your movie list organized!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I also watched Spider-Man: Into the Spider-Verse, Crazy Rich Asians, 2001: A Space Odyssey, The Shawshank Redemption, and Jurassic Park. And recently, I saw Toy Story 4, Midsommar, and The Lion King remake.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, you've been watching a wide range of movies! I'll add them to your list:\n\n**Movie List**\n\n1. Star Wars: Episode IX - The Rise of Skywalker (2019)\n2. Star Wars: Episode VIII - The Last Jedi (2017)\n3. Star Wars: Episode VII - The Force Awakens (2015)\n4. Star Wars: Episode VI - Return of the Jedi (1983)\n5. Star Wars: Episode V - The Empire Strikes Back (1980)\n6. Star Wars: Episode IV - A New Hope (1977)\n7. Star Wars: Episode III - Revenge of the Sith (2005)\n8. Star Wars: Episode II - Attack of the Clones (2002)\n9. Star Wars: Episode I - The Phantom Menace (1999)\n10. Rogue One: A Star Wars Story (2016)\n11. Solo: A Star Wars Story (2018)\n12. Iron Man (2008)\n13. The Incredible Hulk (2008)\n14. Iron Man 2 (2010)\n15. Thor (2011)\n16. Captain America: The First Avenger (2011)\n17. The Avengers (2012)\n18. Iron Man 3 (2013)\n19. Thor: The Dark World (2013)\n20. Captain America: The Winter Soldier (2014)\n21. Guardians of the Galaxy (2014)\n22. Avengers: Age of Ultron (2015)\n23. Ant-Man (2015)\n24. Captain America: Civil War (2016)\n25. Doctor Strange (2016)\n26. Guardians of the Galaxy Vol. 2 (2017)\n27. Spider-Man: Homecoming (2017)\n28. Thor: Ragnarok (2017)\n29. Black Panther (2018)\n30. Avengers: Infinity War (2018)\n31. Ant-Man and the Wasp (2018)\n32. Captain Marvel (2019)\n33. Avengers: Endgame (2019)\n34. Spider-Man: Far From Home (2019)\n35. Us (2019)\n36. Shazam! (2019)\n37. A Quiet Place (2018)\n38. Spider-Man: Into the Spider-Verse (2018)\n39. Crazy Rich Asians (2018)\n40. 2001: A Space Odyssey (1968)\n41. The Shawshank Redemption (1994)\n42. Jurassic Park (1993)\n43. Toy Story 4 (2019)\n44. Midsommar (2019)\n45. The Lion King (2019)\n\nYou've got a great mix of classic films, Marvel movies, and recent releases! Do you have any other movies you'd like to add to the list?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I also watched Game of Thrones, the entire first season, and I'm currently on season 5 of The Office.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're not just a movie buff, but also a TV show enthusiast! I'll add the TV shows to your list:\n\n**Movie List**\n\n1. Star Wars: Episode IX - The Rise of Skywalker (2019)\n2. Star Wars: Episode VIII - The Last Jedi (2017)\n3. Star Wars: Episode VII - The Force Awakens (2015)\n4. Star Wars: Episode VI - Return of the Jedi (1983)\n5. Star Wars: Episode V - The Empire Strikes Back (1980)\n6. Star Wars: Episode IV - A New Hope (1977)\n7. Star Wars: Episode III - Revenge of the Sith (2005)\n8. Star Wars: Episode II - Attack of the Clones (2002)\n9. Star Wars: Episode I - The Phantom Menace (1999)\n10. Rogue One: A Star Wars Story (2016)\n11. Solo: A Star Wars Story (2018)\n12. Iron Man (2008)\n13. The Incredible Hulk (2008)\n14. Iron Man 2 (2010)\n15. Thor (2011)\n16. Captain America: The First Avenger (2011)\n17. The Avengers (2012)\n18. Iron Man 3 (2013)\n19. Thor: The Dark World (2013)\n20. Captain America: The Winter Soldier (2014)\n21. Guardians of the Galaxy (2014)\n22. Avengers: Age of Ultron (2015)\n23. Ant-Man (2015)\n24. Captain America: Civil War (2016)\n25. Doctor Strange (2016)\n26. Guardians of the Galaxy Vol. 2 (2017)\n27. Spider-Man: Homecoming (2017)\n28. Thor: Ragnarok (2017)\n29. Black Panther (2018)\n30. Avengers: Infinity War (2018)\n31. Ant-Man and the Wasp (2018)\n32. Captain Marvel (2019)\n33. Avengers: Endgame (2019)\n34. Spider-Man: Far From Home (2019)\n35. Us (2019)\n36. Shazam! (2019)\n37. A Quiet Place (2018)\n38. Spider-Man: Into the Spider-Verse (2018)\n39. Crazy Rich Asians (2018)\n40. 2001: A Space Odyssey (1968)\n41. The Shawshank Redemption (1994)\n42. Jurassic Park (1993)\n43. Toy Story 4 (2019)\n44. Midsommar (2019)\n45. The Lion King (2019)\n\n**TV Shows**\n\n1. Game of Thrones (Season 1)\n2. The Office (Currently on Season 5)\n\nFeel free to add more movies or TV shows as you watch them! I'll be happy to keep track of your viewing history.",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_86c505e7_1",
+    "answer_86c505e7_2"
+  ]
+}

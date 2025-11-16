@@ -1,0 +1,30 @@
+{
+  "question_id": "1903aded",
+  "question_type": "single-session-assistant",
+  "question": "I think we discussed work from home jobs for seniors earlier. Can you remind me what was the 7th job in the list you provided?",
+  "answer": "Transcriptionist.",
+  "question_date": "2023/05/30 (Tue) 15:53",
+  "haystack_dates": [
+    "2023/05/27 (Sat) 00:59"
+  ],
+  "haystack_session_ids": [
+    "answer_sharegpt_hA7AkP3_0"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "Brainstorm ideas for work from home jobs for seniors",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "1. Virtual customer service representative\n2. Telehealth professional\n3. Remote bookkeeper\n4. Virtual tutor or teacher\n5. Freelance writer or editor\n6. Online survey taker\n7. Transcriptionist\n8. Social media manager\n9. Virtual travel agent\n10. E-commerce seller\n11. Remote IT support specialist\n12. Home-based customer service representative\n13. Online data entry specialist\n14. Telemarketing representative\n15. Virtual administrative assistant",
+        "has_answer": true
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_sharegpt_hA7AkP3_0"
+  ]
+}

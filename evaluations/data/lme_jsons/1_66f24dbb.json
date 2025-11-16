@@ -1,0 +1,80 @@
+{
+  "question_id": "66f24dbb",
+  "question_type": "single-session-user",
+  "question": "What did I buy for my sister's birthday gift?",
+  "answer": "a yellow dress",
+  "question_date": "2023/05/30 (Tue) 04:48",
+  "haystack_dates": [
+    "2023/05/26 (Fri) 11:54"
+  ],
+  "haystack_session_ids": [
+    "answer_fea2e4d3"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to get organized and keep track of all the gifts I've bought recently. Can you help me make a list of all the occasions and gifts I've gotten for others?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help you keep track of the gifts you've bought. Let's get started!\n\nTo make a list, I'll need you to provide me with some information. Please feel free to share the following details:\n\n1. Occasions: What occasions have you bought gifts for recently? (e.g., birthdays, holidays, weddings, graduations, etc.)\n2. Gifts: What gifts have you bought for each occasion? (e.g., specific items, categories, or experiences)\n3. Recipients: Who are the gifts for? (e.g., names, relationships, or groups)\n\nYou can share as much or as little information as you'd like, and I'll help you organize it into a list. If you need any prompts or examples, just let me know!\n\nOnce we get started, you can add or edit the list as needed. This will help you keep track of your gifts and make it easier to plan for future occasions.\n\nLet's get organized!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Here's a start - I've bought gifts for my sister's birthday, my mom, my neighbor Mrs. Johnson, coworkers, my best friend's baby shower, and my brother's new apartment.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Let's break down each occasion and gift. Please feel free to add more details as we go along.\n\n**Sister's Birthday**\n\n* Occasion: Sister's birthday\n* Gift(s): _______________________________________ (what did you get her?)\n\n**Gift for Mom**\n\n* Occasion: Just because/No specific occasion\n* Gift(s): _______________________________________ (what did you get her?)\n\n**Gift for Mrs. Johnson**\n\n* Occasion: _______________________________________ (was it a holiday, just because, or another reason?)\n* Gift(s): _______________________________________ (what did you get her?)\n\n**Coworkers**\n\n* Occasion: _______________________________________ (was it a holiday, team-building, or another reason?)\n* Gift(s): _______________________________________ (what did you get them? e.g., individual gifts or a group gift?)\n\n**Best Friend's Baby Shower**\n\n* Occasion: Baby shower\n* Gift(s): _______________________________________ (what did you get for the baby?)\n\n**Brother's New Apartment**\n\n* Occasion: Housewarming/new apartment\n* Gift(s): _______________________________________ (what did you get him for his new place?)\n\nFill in the blanks with the gifts you've purchased, and I'll help you organize them into a neat list. If you need any reminders or prompts, just let me know!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "For my sister's birthday, I got her a yellow dress and a pair of earrings to match.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the updated list:\n\n**Sister's Birthday**\n\n* Occasion: Sister's birthday\n* Gift(s):\n\t+ Yellow dress\n\t+ Pair of earrings (matching the dress)\n\nLet's move on to the next one!\n\n**Gift for Mom**\n\n* Occasion: Just because/No specific occasion\n* Gift(s): _______________________________________ (what did you get her?)\n\nWhat did you get for your mom?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I got her a pair of silver hoop earrings with a small pearl in the center.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Lovely!\n\nHere's the updated list:\n\n**Sister's Birthday**\n\n* Occasion: Sister's birthday\n* Gift(s):\n\t+ Yellow dress\n\t+ Pair of earrings (matching the dress)\n\n**Gift for Mom**\n\n* Occasion: Just because/No specific occasion\n* Gift(s):\n\t+ Pair of silver hoop earrings with a small pearl in the center\n\nNext up!\n\n**Gift for Mrs. Johnson**\n\n* Occasion: _______________________________________ (was it a holiday, just because, or another reason?)\n* Gift(s): _______________________________________ (what did you get her?)\n\nWhat's the occasion and gift for Mrs. Johnson?",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I got her some groceries and flowers when she was recovering from surgery.\nassistant:That's very thoughtful of you!\n\nHere's the updated list:\n\n**Sister's Birthday**\n\n* Occasion: Sister's birthday\n* Gift(s):\n\t+ Yellow dress\n\t+ Pair of earrings (matching the dress)\n\n**Gift for Mom**\n\n* Occasion: Just because/No specific occasion\n* Gift(s):\n\t+ Pair of silver hoop earrings with a small pearl in the center\n\n**Gift for Mrs. Johnson**\n\n* Occasion: Recovery from surgery\n* Gift(s):\n\t+ Groceries\n\t+ Flowers\n\nLet's move on to the coworkers.\n\n**Coworkers**\n\n* Occasion: _______________________________________ (was it a holiday, team-building, or another reason?)\n* Gift(s): _______________________________________ (what did you get them? e.g., individual gifts or a group gift?)\n\nWhat's the occasion and gift for your coworkers?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Waiting for your response...",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "We had a team-building event and I got them some snacks and drinks, like granola bars, nuts, and energy drinks. And we also had a going-away party for Rachel, and I chipped in to get her a gift - a beautiful journal and a set of nice pens.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you've been quite thoughtful and generous with your coworkers!\n\nHere's the updated list:\n\n**Sister's Birthday**\n\n* Occasion: Sister's birthday\n* Gift(s):\n\t+ Yellow dress\n\t+ Pair of earrings (matching the dress)\n\n**Gift for Mom**\n\n* Occasion: Just because/No specific occasion\n* Gift(s):\n\t+ Pair of silver hoop earrings with a small pearl in the center\n\n**Gift for Mrs. Johnson**\n\n* Occasion: Recovery from surgery\n* Gift(s):\n\t+ Groceries\n\t+ Flowers\n\n**Coworkers**\n\n* Occasion: Team-building event and going-away party for Rachel\n* Gift(s):\n\t+ Snacks (granola bars, nuts)\n\t+ Drinks (energy drinks)\n\t+ Gift for Rachel:\n\t\t- Beautiful journal\n\t\t- Set of nice pens\n\nNext up!\n\n**Best Friend's Baby Shower**\n\n* Occasion: Baby shower\n* Gift(s): _______________________________________ (what did you get for the baby?)\n\nWhat's the gift for your best friend's baby?",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_fea2e4d3"
+  ]
+}

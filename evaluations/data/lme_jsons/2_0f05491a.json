@@ -1,0 +1,145 @@
+{
+  "question_id": "0f05491a",
+  "question_type": "knowledge-update",
+  "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+  "answer": 120,
+  "question_date": "2023/08/01 (Tue) 14:49",
+  "haystack_dates": [
+    "2023/07/11 (Tue) 18:10",
+    "2023/07/30 (Sun) 03:56"
+  ],
+  "haystack_session_ids": [
+    "answer_d6d2eba8_1",
+    "answer_d6d2eba8_2"
+  ],
+  "haystack_sessions": [
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan my shopping trip for the week and I was wondering if you could give me a list of the items that are on sale at my local grocery store this week?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm happy to help! However, I'm a large language model, I don't have access to real-time information about specific grocery stores or their sales. I'm not able to provide you with a list of items that are on sale at your local grocery store this week.\n\nBut I can suggest a few options to help you plan your shopping trip:\n\n1. **Check the store's website**: Most grocery stores post their weekly ads and sales on their website. You can visit your local store's website and look for the \"Weekly Ad\" or \"Sales\" section to see what's on sale this week.\n2. **Sign up for the store's email newsletter**: Many stores offer exclusive deals and sales to their email subscribers. By signing up, you'll receive notifications about upcoming sales and promotions.\n3. **Use a grocery shopping app**: Apps like Flipp, Checkout 51, or RetailMeNot aggregate sales data from various stores and allow you to browse weekly ads and plan your shopping trip.\n4. **Check social media**: Follow your local grocery store on social media platforms like Facebook or Twitter, where they often post about sales and promotions.\n5. **Visit the store**: If you're unable to find the information online, you can visit the store and check their weekly ad or ask a store employee about the current sales.\n\nRemember to always plan your shopping trip according to your needs and dietary preferences, and happy shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'll try to check the store's website and see what's on sale this week. By the way, do you know if there are any good deals on coffee beans or coffee makers this week? I've been thinking of stocking up on coffee for my daily routine.",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad you're planning to check the store's website! Unfortunately, I don't have access to real-time sales data, so I can't tell you about specific deals on coffee beans or coffee makers at your local store.\n\nHowever, I can offer some general tips to help you find good deals on coffee beans and coffee makers:\n\n1. **Look for sales on coffee beans**: Many grocery stores offer discounts on coffee beans during certain times of the year or as part of their weekly sales. Keep an eye out for buy-one-get-one-free deals, percentage-off discounts, or bundle deals.\n2. **Check online retailers**: Online stores like Amazon, Walmart, or Target often have a wide selection of coffee beans and coffee makers at competitive prices. You can also check for deals, discounts, or coupons on these websites.\n3. **Consider buying in bulk**: If you drink coffee regularly, buying coffee beans in bulk can be a cost-effective option. Look for stores that offer discounts for bulk purchases or consider subscribing to a coffee bean delivery service.\n4. **Keep an eye on coffee maker sales**: If you're in the market for a new coffee maker, look for sales during holiday weekends, Black Friday, or Cyber Monday. You can also check for discounts on certified refurbished or open-box models.\n5. **Use cashback apps**: Cashback apps like Rakuten (formerly known as Ebates), TopCashback, or Fetch Rewards offer rebates on certain purchases, including coffee beans and coffee makers.\n\nRemember to always check prices, read reviews, and consider your budget before making a purchase.\n\nI hope these tips help you find a great deal on coffee beans or a coffee maker!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I've been using my Starbucks Rewards app and I was wondering if you know any tips on how to earn stars faster?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "A Starbucks fan, eh? I'm happy to help you maximize your Starbucks Rewards experience!\n\nHere are some tips to help you earn stars faster:\n\n1. **Make purchases during Double Star Days**: Keep an eye on the Starbucks Rewards app for Double Star Days, when you can earn double the stars on your purchases.\n2. **Use the Starbucks app to order and pay**: You'll earn 2 stars for every $1 spent when you order and pay through the app. If you pay with a registered Starbucks Card or mobile payment, you'll earn 3 stars for every $1 spent.\n3. **Link a credit or debit card**: Link a credit or debit card to your Starbucks Rewards account to earn stars on every purchase, even if you don't use the app to order and pay.\n4. **Take advantage of bonus star offers**: The app often features bonus star offers, such as \"Earn 10 stars when you buy a latte\" or \"Get 20 stars when you try a new drink.\" Keep an eye out for these offers and take advantage of them to boost your star earnings.\n5. **Participate in challenges and games**: The Starbucks Rewards app occasionally features challenges or games that reward stars for completing specific tasks, like buying a certain number of drinks or visiting a store a certain number of times.\n6. **Refer friends**: Invite friends to join Starbucks Rewards, and you'll both earn 200 stars when they make their first purchase using the app.\n7. **Earn stars with Starbucks partners**: If you have a Starbucks Rewards Visa Card or a Starbucks Rewards credit card, you can earn stars on everyday purchases, not just at Starbucks.\n8. **Don't forget to redeem your stars**: Make sure to redeem your stars for rewards before they expire. You can redeem stars for free drinks, food, or other rewards.\n9. **Use the \"Star Tracker\" feature**: The app's Star Tracker feature helps you keep track of your progress toward rewards and alerts you when you're close to earning a reward.\n10. **Stay active and engaged**: The more you use the app and make purchases, the more opportunities you'll have to earn stars and redeem rewards.\n\nBy following these tips, you'll be well on your way to earning stars faster and enjoying more rewards from Starbucks!\n\nRemember to always check the Starbucks Rewards app for the most up-to-date information on earning and redeeming stars.",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually trying to reach the gold level on my Starbucks Rewards app, do you know how many stars I need for that?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Reaching the Gold level is a great goal! To become a Gold member, you need to earn 300 stars within a 12-month period. This will unlock exclusive benefits, such as:\n\n* Free drinks and food rewards with fewer stars\n* Extra stars for every dollar you spend\n* Priority ordering and pick-up at participating stores\n* A free birthday drink or treat\n* And more!\n\nOnce you reach 300 stars, you'll maintain your Gold status for the remainder of the 12-month period and the following 12 months. After that, you'll need to earn another 300 stars to maintain your Gold status.\n\nRemember, you can earn stars by making purchases, completing challenges, and participating in bonus star offers through the Starbucks Rewards app. Keep track of your progress and stay on top of your star earnings to reach Gold level in no time!\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I actually forgot to ask, how many stars do I need to reach the gold level on my Starbucks Rewards app?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "I'm happy to help! To reach the Gold level on the Starbucks Rewards app, you need to earn a total of **400 stars** within a 12-month period. This will unlock all the exclusive benefits that come with being a Gold member.\n\nRemember, you can earn stars by making purchases, completing challenges, and participating in bonus star offers through the app. Keep track of your progress and stay on top of your star earnings to reach Gold level in no time!\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Wait, I apologize for the mistake earlier! To correct myself, I actually need **125 stars** to reach the Gold level on the Starbucks Rewards app, not 400.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for the correction! I apologize for the mistake earlier. You are absolutely right, to reach the Gold level on the Starbucks Rewards app, you need to earn a total of **125 stars** within a 12-month period. I appreciate you bringing this to my attention and I'll make sure to correct my knowledge with the correct information.\n\nThank you for helping me improve my accuracy and for being a part of the conversation!",
+        "has_answer": false
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "I'm trying to plan my weekend shopping trip. Can you give me some ideas on what to buy at Sephora?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Sephora is a beauty lover's paradise! You can find a wide range of products from various brands, so I'll give you some ideas based on popular categories and current trends. Feel free to pick and choose based on your interests and skin type!\n\n**Skincare:**\n\n1. Drunk Elephant products: Their Beste No. 9 Jelly Cleanser, Protini Polypeptide Cream, and Slaai Makeup-Melting Butter Cleanser are fan favorites.\n2. Sunday Riley Power Couple: This duo includes the popular Good Genes Lactic Acid Treatment and the Auto Correct Eye Cream.\n3. Laneige Water Bank Moisturizing Cream: A hydrating moisturizer perfect for dry skin.\n4. Dr. Dennis Gross Skincare Alpha Beta Peel Body & Face: A gentle, at-home peel for radiant skin.\n\n**Makeup:**\n\n1. NARS Audacious Lipsticks: Try the iconic Heat Wave or a new shade from their latest collection.\n2. Huda Beauty Rose Gold Remastered Eyeshadow Palette: A stunning, versatile palette with 18 shades.\n3. Anastasia Beverly Hills Brow Wiz: A cult favorite for defining and filling brows.\n4. Tarte Amazonian Clay 12-Hour Full-Coverage Foundation: A best-selling foundation with great coverage and a natural finish.\n\n**Fragrances:**\n\n1. Jo Malone London Blackberry & Bay: A fresh, fruity scent perfect for spring.\n2. Tom Ford Black Orchid: A sophisticated, oriental fragrance for evening wear.\n3. Viktor & Rolf Flowerbomb: A floral, feminine scent with a modern twist.\n4. Gucci Bamboo Eau de Parfum: A light, airy fragrance with notes of green tea and white flowers.\n\n**Tools and Accessories:**\n\n1. Sephora Collection Pro Brushes: Invest in a few high-quality brushes for a flawless makeup application.\n2. Beautyblender Sponge: A must-have for blending foundation and concealer.\n3. Drunk Elephant The Littles: A travel-sized skincare set perfect for on-the-go.\n4. Sephora Collection Makeup Remover Wipes: Gentle, effective wipes for quick makeup removal.\n\n**Trendy Products:**\n\n1. Fenty Beauty by Rihanna Pro Filt'r Foundation: A highly pigmented, inclusive foundation range.\n2. Glossier Boy Brow: A brow gel that adds volume and texture.\n3. Urban Decay Naked Palette: A classic, neutral eyeshadow palette.\n4. Sunday Riley Good Genes: A lactic acid treatment that exfoliates and brightens.\n\nRemember to check out Sephora's sales and promotions, and don't hesitate to ask for recommendations from their knowledgeable staff. Happy shopping!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm also thinking of stopping by Starbucks after Sephora. Do you know what's the easiest way to earn stars on my Starbucks Rewards app?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "A perfect combo: beauty shopping and coffee! Earning stars on your Starbucks Rewards app is a great way to redeem rewards and treats. Here are some easy ways to earn stars:\n\n1. **Make a purchase:** Earn 2 stars for every $1 you spend at Starbucks, including drinks, food, and merchandise.\n2. **Pay with the app:** Use the Starbucks app to pay and earn an extra star for every dollar spent.\n3. **Order ahead:** Place an order ahead through the app and earn an extra star for every dollar spent.\n4. **Take advantage of Double Star Days:** Starbucks often offers Double Star Days, where you earn double the stars on your purchases. Keep an eye on the app or sign up for email notifications to stay informed.\n5. **Starbucks Rewards Visa Card:** If you have the Starbucks Rewards Visa Card, you'll earn 3 stars for every dollar spent at Starbucks and 1 star for every dollar spent outside of Starbucks.\n6. **Refuel and Earn:** When you buy a Starbucks beverage, earn stars for every dollar spent on fuel at participating Exxon and Mobil stations.\n7. **Starbucks Rewards Games:** Participate in games and challenges within the app to earn bonus stars.\n8. **Birthday Reward:** As a Starbucks Rewards member, you'll receive a free birthday reward, which can be redeemed during your birthday month.\n9. **Referrals:** Refer friends to join Starbucks Rewards, and you'll both earn 200 stars when they make their first purchase.\n10. **Check the app:** Regularly check the app for special offers, promotions, and limited-time earning opportunities.\n\nTo maximize your star earnings, consider the following:\n\n* Make sure you're earning stars for every purchase by scanning your app or registered card.\n* Take advantage of the 2x star multiplier when you pay with the app or order ahead.\n* Plan your purchases during Double Star Days or special promotions.\n* Use your Starbucks Rewards Visa Card for daily purchases to earn stars outside of Starbucks.\n\nHappy sipping and earning!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm trying to reach the gold level on my Starbucks Rewards app, which I know requires a certain number of stars. Can you remind me how many stars I need to reach gold?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "You're aiming for gold! To reach the Gold level on your Starbucks Rewards app, you need to earn a total of **300 stars** within a 12-month period. Once you reach 300 stars, you'll be upgraded to Gold status, which comes with some fantastic benefits, such as:\n\n* Free drinks and treats: Redeem stars for free drinks and food items\n* Extra stars: Earn 2x stars on every dollar spent\n* Priority service: Get priority service at participating stores\n* Free refills: Enjoy free refills on brewed coffee and tea\n* Personalized offers: Receive exclusive offers and discounts\n\nTo track your progress, open your Starbucks Rewards app and check your star balance. You can also view your star history and see how many stars you need to reach the next level.\n\nRemember, you can earn stars through various methods, such as making purchases, paying with the app, ordering ahead, and participating in special promotions. Good luck, and I hope you reach Gold status soon!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Actually, I need 120 stars to reach the gold level, not 300. Anyway, thanks for the tips on earning stars. I'll try to make the most out of my Starbucks visits. By the way, do you know what's the best way to organize my loyalty cards and rewards points? I've been using a spreadsheet, but I'm open to other suggestions.",
+        "has_answer": true
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for the mistake! You're correct that reaching Gold level on Starbucks Rewards requires 120 stars. I'll make sure to update my knowledge with the correct information.\n\nNow, about organizing your loyalty cards and rewards points... A spreadsheet is a great way to keep track of your rewards, but there are other options you might find more convenient:\n\n1. **Loyalty card apps:** Apps like Stocard, Loyalty Card Manager, or Reward Card allow you to store your loyalty cards digitally and track your points. You can also receive notifications when you're near a participating store or when your points are about to expire.\n2. **Digital wallets:** Many digital wallets, such as Apple Wallet or Google Pay, allow you to add loyalty cards and track your rewards.\n3. **Browser extensions:** Browser extensions like Loyalty Checker or Rewards Keeper can help you track your rewards points and alert you to expiring points or special offers.\n4. **Physical card holders:** If you prefer a physical solution, consider a loyalty card holder or a small binder to keep your cards organized. You can also attach a small notebook to keep track of your points and expiration dates.\n5. **Reward tracking websites:** Websites like AwardWallet or TravelBank allow you to track your rewards points across multiple loyalty programs, including credit cards, airlines, and hotels.\n\nExperiment with different methods to find the one that works best for you. You might also consider setting reminders for when your points are about to expire or when you need to earn a certain number of points to reach a reward level.\n\nRemember, the key is to find a system that you're comfortable with and can easily maintain. Happy reward tracking!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of buying a new laptop, and I've been considering Best Buy's loyalty program, My Best Buy. Do you know how many points I need to earn a $10 gift card?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "New laptop shopping! My Best Buy is a great loyalty program to consider. To earn a $10 gift card, you need to accumulate 250 points in the My Best Buy program. Here's a quick breakdown of the program's rewards structure:\n\n* 250 points = $10 reward certificate\n* 500 points = $20 reward certificate\n* 1,000 points = $40 reward certificate\n\nYou earn 1 point for every $1 spent at Best Buy, and Elite Plus members earn 1.5 points per $1 spent. You can also earn points through other activities, such as:\n\n* Completing online reviews (25 points per review)\n* Participating in online surveys (25 points per survey)\n* Purchasing Best Buy's protection plans (50 points per plan)\n\nPoints expire 60 days after they're earned, so be sure to redeem them regularly. You can track your points and redeem rewards through the My Best Buy website or mobile app.\n\nRemember to consider other benefits of the My Best Buy program, such as exclusive sales, early access to deals, and free shipping on online orders. Happy shopping for your new laptop!",
+        "has_answer": false
+      },
+      {
+        "role": "user",
+        "content": "Can you also tell me how many points I need to redeem a $10 gift card on Fetch Rewards?",
+        "has_answer": false
+      },
+      {
+        "role": "assistant",
+        "content": "Another loyalty program! On Fetch Rewards, you need 3,000 points to redeem a $10 gift card. Here's a quick rundown of Fetch Rewards' redemption options:\n\n* 3,000 points = $10 gift card\n* 5,000 points = $15 gift card\n* 10,000 points = $25 gift card\n* 25,000 points = $50 gift card\n\nYou earn points by uploading receipts from participating stores, including grocery stores, gas stations, and restaurants. The points you earn vary depending on the type of receipt and the store you shop at.\n\nFetch Rewards also offers other redemption options, such as sweepstakes entries, charitable donations, and discounts on gas and other purchases. You can track your points and redeem rewards through the Fetch Rewards app.\n\nRemember to check the app regularly for special offers, bonuses, and limited-time promotions to maximize your point earnings!",
+        "has_answer": false
+      }
+    ]
+  ],
+  "answer_session_ids": [
+    "answer_d6d2eba8_1",
+    "answer_d6d2eba8_2"
+  ]
+}
