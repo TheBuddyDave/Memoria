@@ -1,0 +1,1784 @@
+[
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.7887,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.228,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.6909,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.136,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.6657,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.242,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.69,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.125,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.7619,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.099,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.6984,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.106,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.7581,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.131,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.1035,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.61,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.5341,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.763,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.6845,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.148,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_001",
+    "our_sku": "SKU_038",
+    "price": 5.8643,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.234,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 6.0076,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.181,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 6.003,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.061,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.9489,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.184,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.9827,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.199,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 6.1175,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.216,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.9803,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.134,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 6.1231,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.119,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.3806,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.824,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.9777,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.892,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.9537,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.921,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_002",
+    "our_sku": "SKU_039",
+    "price": 5.866,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.889,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.0838,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.15,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.091,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.1,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.1991,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.241,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 8.6335,
+    "promo_flag": true,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.163,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.168,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.209,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.1894,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.15,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.0725,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.173,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 8.2222,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.81,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.0451,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.599,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 9.0021,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.799,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_003",
+    "our_sku": "SKU_040",
+    "price": 8.8881,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.814,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.9954,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.063,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 13.1447,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.201,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.782,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.189,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 13.0576,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.24,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.9119,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.131,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.9291,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.227,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 13.1318,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.162,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 11.5396,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.5,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.6892,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.538,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.8917,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.734,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_004",
+    "our_sku": "SKU_041",
+    "price": 12.9543,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.722,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8194,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.141,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.7673,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.156,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8336,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.166,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8399,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.183,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8381,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.153,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.7679,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.083,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.794,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.185,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.5698,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.675,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8369,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.497,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8139,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.382,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_005",
+    "our_sku": "SKU_042",
+    "price": 2.8504,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.249,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.0549,
+    "promo_flag": true,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.091,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.5765,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.08,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 13.9917,
+    "promo_flag": true,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.165,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.7235,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.119,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.4554,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.197,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.4409,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.242,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.5644,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.128,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 13.3258,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.783,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.6695,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.746,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.4792,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.781,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_006",
+    "our_sku": "SKU_043",
+    "price": 14.9056,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.333,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.4502,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.085,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.1763,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.065,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.4436,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.152,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.348,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.214,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.1115,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.074,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.4837,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.087,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.4252,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.209,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 13.3462,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.639,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.5221,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.508,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 13.8735,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.795,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_007",
+    "our_sku": "SKU_050",
+    "price": 14.4146,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.706,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 13.1484,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.102,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.1905,
+    "promo_flag": true,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.086,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.8454,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.099,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.8566,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.187,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 13.0958,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.115,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.9861,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.184,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.8936,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.061,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 11.8362,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.874,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.5739,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.884,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 13.0208,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.782,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_008",
+    "our_sku": "SKU_051",
+    "price": 12.8215,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.551,
+    "leader_sku_flag": true
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.9233,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.073,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 13.1056,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.14,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.1665,
+    "promo_flag": true,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.141,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 13.1484,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.125,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.9142,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.084,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.8681,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.124,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.1229,
+    "promo_flag": true,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.056,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 12.8095,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.358,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 13.2125,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.306,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 13.307,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.392,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_009",
+    "our_sku": "SKU_010",
+    "price": 13.2378,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.177,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.3451,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.062,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.1525,
+    "promo_flag": true,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.087,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.318,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.22,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.4159,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.168,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.4433,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.068,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.3615,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.075,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.3205,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.169,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.4356,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.224,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.3079,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.454,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.4788,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.18,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_010",
+    "our_sku": "SKU_015",
+    "price": 5.3742,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.521,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.276,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.119,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.3072,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.083,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.4118,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.157,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.5071,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.229,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.336,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.114,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.2833,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.071,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.2638,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.222,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 8.9545,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.686,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.2278,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.444,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.2296,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.595,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_011",
+    "our_sku": "SKU_060",
+    "price": 9.4012,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.535,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.0863,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.106,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 7.736,
+    "promo_flag": true,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.07,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.166,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.08,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.1581,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.11,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.2142,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.22,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 7.9058,
+    "promo_flag": true,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.103,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.3022,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.219,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.2948,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.288,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.2525,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.569,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.0363,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.314,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_012",
+    "our_sku": "SKU_075",
+    "price": 8.3093,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.313,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.6195,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.165,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.2653,
+    "promo_flag": true,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.065,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.6856,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.088,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.5955,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.197,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.6665,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.085,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.5971,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.175,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.6564,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.132,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.5881,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.249,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.5261,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.14,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.7737,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.306,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_013",
+    "our_sku": "SKU_120",
+    "price": 6.6454,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.286,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.5505,
+    "promo_flag": true,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.111,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6783,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.078,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6715,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.221,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.668,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.189,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6065,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.147,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6143,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.078,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6227,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.232,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.5178,
+    "promo_flag": true,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.35,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6956,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.111,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6837,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.538,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_014",
+    "our_sku": "SKU_180",
+    "price": 3.6139,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.396,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.1916,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.188,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.3692,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.18,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.4608,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.241,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.169,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.16,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 11.5578,
+    "promo_flag": true,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.191,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.5223,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.167,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.1914,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.226,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.1587,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.255,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.4592,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.521,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.536,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.2,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_015",
+    "our_sku": "SKU_220",
+    "price": 12.1892,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.41,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.3804,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.175,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.5489,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.238,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.4622,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.215,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.4427,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.083,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.4911,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.181,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 6.974,
+    "promo_flag": true,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.16,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.3571,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.072,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.5087,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.264,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.6197,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.387,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.5235,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.558,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_016",
+    "our_sku": "SKU_250",
+    "price": 7.4162,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.448,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 10.9844,
+    "promo_flag": false,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.12,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.1794,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.24,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.0706,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.103,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 10.7052,
+    "promo_flag": true,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.101,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.0574,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.066,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.0232,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.214,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 10.9677,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.077,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 10.8969,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.104,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 10.831,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.151,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.1014,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.249,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_017",
+    "our_sku": "SKU_270",
+    "price": 11.1296,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.347,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.0759,
+    "promo_flag": true,
+    "asof": "2025-11-05T06:00:00Z",
+    "reversion_prob": 0.245,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.9344,
+    "promo_flag": false,
+    "asof": "2025-11-06T06:00:00Z",
+    "reversion_prob": 0.17,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.8886,
+    "promo_flag": false,
+    "asof": "2025-11-07T06:00:00Z",
+    "reversion_prob": 0.146,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.7957,
+    "promo_flag": false,
+    "asof": "2025-11-08T06:00:00Z",
+    "reversion_prob": 0.096,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.6831,
+    "promo_flag": false,
+    "asof": "2025-11-09T06:00:00Z",
+    "reversion_prob": 0.249,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.7195,
+    "promo_flag": false,
+    "asof": "2025-11-10T06:00:00Z",
+    "reversion_prob": 0.203,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.9663,
+    "promo_flag": false,
+    "asof": "2025-11-11T06:00:00Z",
+    "reversion_prob": 0.221,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.9516,
+    "promo_flag": false,
+    "asof": "2025-11-12T06:00:00Z",
+    "reversion_prob": 0.294,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 11.0417,
+    "promo_flag": false,
+    "asof": "2025-11-13T06:00:00Z",
+    "reversion_prob": 0.422,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.8597,
+    "promo_flag": false,
+    "asof": "2025-11-14T06:00:00Z",
+    "reversion_prob": 0.345,
+    "leader_sku_flag": false
+  },
+  {
+    "competitor_sku": "CMP_SKU_018",
+    "our_sku": "SKU_295",
+    "price": 10.7981,
+    "promo_flag": false,
+    "asof": "2025-11-15T06:00:00Z",
+    "reversion_prob": 0.357,
+    "leader_sku_flag": false
+  }
+]

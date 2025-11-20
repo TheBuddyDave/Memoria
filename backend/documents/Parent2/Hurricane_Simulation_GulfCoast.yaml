@@ -1,0 +1,836 @@
+facilities:
+  DC-01:
+    region: Gulf_Coast
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 90000
+    capacity_reduced: 45000
+    facility_down_pct:
+      "2025-09-01": 40
+      "2025-09-02": 55
+      "2025-09-03": 60
+      "2025-09-05": 50
+      "2025-09-10": 30
+      "2025-09-21": 0
+
+  DC-03:
+    region: Gulf_Coast
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 80000
+    capacity_reduced: 36000
+    facility_down_pct:
+      "2025-09-01": 35
+      "2025-09-02": 45
+      "2025-09-03": 55
+      "2025-09-05": 45
+      "2025-09-10": 25
+      "2025-09-21": 0
+
+  DC-05:
+    region: Gulf_Coast
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 120000
+    capacity_reduced: 24000
+    facility_down_pct:
+      "2025-09-01": 70
+      "2025-09-02": 80
+      "2025-09-03": 90
+      "2025-09-05": 75
+      "2025-09-10": 55
+      "2025-09-14": 30
+      "2025-09-21": 5
+
+  DC-07:
+    region: Gulf_Coast
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 110000
+    capacity_reduced: 22000
+    facility_down_pct:
+      "2025-09-01": 65
+      "2025-09-02": 78
+      "2025-09-03": 85
+      "2025-09-05": 70
+      "2025-09-10": 50
+      "2025-09-14": 25
+      "2025-09-21": 5
+
+  DC-09:
+    region: Central
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 95000
+    capacity_reduced: 90000
+    facility_down_pct:
+      "2025-09-01": 5
+      "2025-09-03": 5
+      "2025-09-07": 3
+      "2025-09-14": 0
+      "2025-09-21": 0
+
+  DC-12:
+    region: Inland
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 130000
+    capacity_reduced: 135000   # surge utilization; effectively 0% down, slight over-time
+    facility_down_pct:
+      "2025-09-01": 0
+      "2025-09-03": 0
+      "2025-09-07": 0
+      "2025-09-10": 0
+      "2025-09-21": 0
+
+  DC-14:
+    region: Inland
+    start_date: 2025-09-01
+    end_date: 2025-09-21
+    capacity_baseline: 125000
+    capacity_reduced: 130000
+    facility_down_pct:
+      "2025-09-01": 0
+      "2025-09-03": 0
+      "2025-09-07": 0
+      "2025-09-10": 0
+      "2025-09-21": 0
+
+lanes:
+  # DC-05 outbound (coastal, heavily impacted)
+  - lane_id: DC05_to_MKT_GC1
+    origin_dc: DC-05
+    dest_dc_or_market: MKT-GulfCity-1
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.40
+    max_loads_per_day:
+      baseline: 22
+      scenario: 0
+
+  - lane_id: DC05_to_MKT_GC2
+    origin_dc: DC-05
+    dest_dc_or_market: MKT-GulfCity-2
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.42
+    max_loads_per_day:
+      baseline: 18
+      scenario: 0
+
+  - lane_id: DC05_to_DC09
+    origin_dc: DC-05
+    dest_dc_or_market: DC-09
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.35
+    max_loads_per_day:
+      baseline: 16
+      scenario: 4
+
+  - lane_id: DC05_to_DC12
+    origin_dc: DC-05
+    dest_dc_or_market: DC-12
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.30
+    max_loads_per_day:
+      baseline: 14
+      scenario: 5
+
+  - lane_id: DC05_to_MKT_GC3
+    origin_dc: DC-05
+    dest_dc_or_market: MKT-GulfCity-3
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.38
+    max_loads_per_day:
+      baseline: 12
+      scenario: 0
+
+  - lane_id: DC05_to_MKT_IN1
+    origin_dc: DC-05
+    dest_dc_or_market: MKT-Inland-1
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.32
+    max_loads_per_day:
+      baseline: 10
+      scenario: 3
+
+  # DC-07 outbound (coastal, heavily impacted)
+  - lane_id: DC07_to_MKT_GC4
+    origin_dc: DC-07
+    dest_dc_or_market: MKT-GulfCity-4
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.45
+    max_loads_per_day:
+      baseline: 20
+      scenario: 0
+
+  - lane_id: DC07_to_MKT_GC5
+    origin_dc: DC-07
+    dest_dc_or_market: MKT-GulfCity-5
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.44
+    max_loads_per_day:
+      baseline: 18
+      scenario: 0
+
+  - lane_id: DC07_to_DC12
+    origin_dc: DC-07
+    dest_dc_or_market: DC-12
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.33
+    max_loads_per_day:
+      baseline: 15
+      scenario: 5
+
+  - lane_id: DC07_to_DC14
+    origin_dc: DC-07
+    dest_dc_or_market: DC-14
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.31
+    max_loads_per_day:
+      baseline: 14
+      scenario: 4
+
+  - lane_id: DC07_to_MKT_IN2
+    origin_dc: DC-07
+    dest_dc_or_market: MKT-Inland-2
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.29
+    max_loads_per_day:
+      baseline: 12
+      scenario: 4
+
+  - lane_id: DC07_to_MKT_GC6
+    origin_dc: DC-07
+    dest_dc_or_market: MKT-GulfCity-6
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.41
+    max_loads_per_day:
+      baseline: 10
+      scenario: 0
+
+  # DC-01 outbound
+  - lane_id: DC01_to_MKT_GC1
+    origin_dc: DC-01
+    dest_dc_or_market: MKT-GulfCity-1
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.25
+    max_loads_per_day:
+      baseline: 15
+      scenario: 6
+
+  - lane_id: DC01_to_MKT_IN3
+    origin_dc: DC-01
+    dest_dc_or_market: MKT-Inland-3
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.22
+    max_loads_per_day:
+      baseline: 14
+      scenario: 7
+
+  - lane_id: DC01_to_DC12
+    origin_dc: DC-01
+    dest_dc_or_market: DC-12
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.18
+    max_loads_per_day:
+      baseline: 10
+      scenario: 12
+
+  - lane_id: DC01_to_DC14
+    origin_dc: DC-01
+    dest_dc_or_market: DC-14
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.19
+    max_loads_per_day:
+      baseline: 8
+      scenario: 11
+
+  # DC-03 outbound
+  - lane_id: DC03_to_MKT_GC2
+    origin_dc: DC-03
+    dest_dc_or_market: MKT-GulfCity-2
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.26
+    max_loads_per_day:
+      baseline: 14
+      scenario: 6
+
+  - lane_id: DC03_to_MKT_IN4
+    origin_dc: DC-03
+    dest_dc_or_market: MKT-Inland-4
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.24
+    max_loads_per_day:
+      baseline: 12
+      scenario: 6
+
+  - lane_id: DC03_to_DC12
+    origin_dc: DC-03
+    dest_dc_or_market: DC-12
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.18
+    max_loads_per_day:
+      baseline: 10
+      scenario: 13
+
+  - lane_id: DC03_to_DC14
+    origin_dc: DC-03
+    dest_dc_or_market: DC-14
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.19
+    max_loads_per_day:
+      baseline: 9
+      scenario: 12
+
+  # DC-09 outbound (central)
+  - lane_id: DC09_to_MKT_IN1
+    origin_dc: DC-09
+    dest_dc_or_market: MKT-Inland-1
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.16
+    max_loads_per_day:
+      baseline: 12
+      scenario: 14
+
+  - lane_id: DC09_to_MKT_IN2
+    origin_dc: DC-09
+    dest_dc_or_market: MKT-Inland-2
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.17
+    max_loads_per_day:
+      baseline: 12
+      scenario: 15
+
+  - lane_id: DC09_to_MKT_GC3
+    origin_dc: DC-09
+    dest_dc_or_market: MKT-GulfCity-3
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.22
+    max_loads_per_day:
+      baseline: 10
+      scenario: 6
+
+  - lane_id: DC09_to_DC12
+    origin_dc: DC-09
+    dest_dc_or_market: DC-12
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 8
+      scenario: 12
+
+  - lane_id: DC09_to_DC14
+    origin_dc: DC-09
+    dest_dc_or_market: DC-14
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 8
+      scenario: 12
+
+  # DC-12 outbound (inland hub, main reroute anchor)
+  - lane_id: DC12_to_MKT_GC1
+    origin_dc: DC-12
+    dest_dc_or_market: MKT-GulfCity-1
+    status: open
+    hos_binding: true
+    fuel_surcharge_pct: 0.20
+    max_loads_per_day:
+      baseline: 15
+      scenario: 22
+
+  - lane_id: DC12_to_MKT_GC2
+    origin_dc: DC-12
+    dest_dc_or_market: MKT-GulfCity-2
+    status: open
+    hos_binding: true
+    fuel_surcharge_pct: 0.21
+    max_loads_per_day:
+      baseline: 14
+      scenario: 21
+
+  - lane_id: DC12_to_MKT_IN3
+    origin_dc: DC-12
+    dest_dc_or_market: MKT-Inland-3
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 18
+      scenario: 26
+
+  - lane_id: DC12_to_MKT_IN4
+    origin_dc: DC-12
+    dest_dc_or_market: MKT-Inland-4
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.16
+    max_loads_per_day:
+      baseline: 18
+      scenario: 26
+
+  - lane_id: DC12_to_MKT_IN5
+    origin_dc: DC-12
+    dest_dc_or_market: MKT-Inland-5
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 16
+      scenario: 24
+
+  - lane_id: DC12_to_DC14
+    origin_dc: DC-12
+    dest_dc_or_market: DC-14
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.14
+    max_loads_per_day:
+      baseline: 10
+      scenario: 16
+
+  # DC-14 outbound (inland hub, secondary reroute anchor)
+  - lane_id: DC14_to_MKT_GC4
+    origin_dc: DC-14
+    dest_dc_or_market: MKT-GulfCity-4
+    status: open
+    hos_binding: true
+    fuel_surcharge_pct: 0.22
+    max_loads_per_day:
+      baseline: 12
+      scenario: 20
+
+  - lane_id: DC14_to_MKT_GC5
+    origin_dc: DC-14
+    dest_dc_or_market: MKT-GulfCity-5
+    status: open
+    hos_binding: true
+    fuel_surcharge_pct: 0.23
+    max_loads_per_day:
+      baseline: 12
+      scenario: 20
+
+  - lane_id: DC14_to_MKT_IN1
+    origin_dc: DC-14
+    dest_dc_or_market: MKT-Inland-1
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 18
+      scenario: 25
+
+  - lane_id: DC14_to_MKT_IN2
+    origin_dc: DC-14
+    dest_dc_or_market: MKT-Inland-2
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.15
+    max_loads_per_day:
+      baseline: 18
+      scenario: 25
+
+  - lane_id: DC14_to_MKT_IN5
+    origin_dc: DC-14
+    dest_dc_or_market: MKT-Inland-5
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.16
+    max_loads_per_day:
+      baseline: 16
+      scenario: 24
+
+  - lane_id: DC14_to_DC09
+    origin_dc: DC-14
+    dest_dc_or_market: DC-09
+    status: open
+    hos_binding: false
+    fuel_surcharge_pct: 0.14
+    max_loads_per_day:
+      baseline: 10
+      scenario: 14
+
+  # Cross-hub / backup lanes (some constrained)
+  - lane_id: DC12_to_DC03
+    origin_dc: DC-12
+    dest_dc_or_market: DC-03
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.20
+    max_loads_per_day:
+      baseline: 8
+      scenario: 4
+
+  - lane_id: DC14_to_DC01
+    origin_dc: DC-14
+    dest_dc_or_market: DC-01
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.21
+    max_loads_per_day:
+      baseline: 8
+      scenario: 4
+
+  - lane_id: DC09_to_DC01
+    origin_dc: DC-09
+    dest_dc_or_market: DC-01
+    status: constrained
+    hos_binding: true
+    fuel_surcharge_pct: 0.20
+    max_loads_per_day:
+      baseline: 6
+      scenario: 3
+
+  - lane_id: DC03_to_MKT_GC6
+    origin_dc: DC-03
+    dest_dc_or_market: MKT-GulfCity-6
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.35
+    max_loads_per_day:
+      baseline: 8
+      scenario: 0
+
+  - lane_id: DC01_to_MKT_GC5
+    origin_dc: DC-01
+    dest_dc_or_market: MKT-GulfCity-5
+    status: closed
+    hos_binding: true
+    fuel_surcharge_pct: 0.34
+    max_loads_per_day:
+      baseline: 8
+      scenario: 0
+
+energy:
+  diesel_price_baseline: 3.45
+  diesel_price_surge: 4.65
+  electricity_index_baseline: 1.00
+  electricity_index_surge: 1.18
+  fuel_surcharge_index_notes: >
+    Lane-level fuel_surcharge_pct values are multipliers over baseline fuel cost
+    applied on top of diesel_price_surge during the event window.
+
+demand:
+  - region: Gulf_Coast
+    sku_cluster: GC_TOP_001
+    demand_baseline: 800
+    demand_multiplier: 2.2
+    priority_tier: top_decile
+  - region: Gulf_Coast
+    sku_cluster: GC_TOP_002
+    demand_baseline: 700
+    demand_multiplier: 2.0
+    priority_tier: top_decile
+  - region: Gulf_Coast
+    sku_cluster: GC_TOP_003
+    demand_baseline: 650
+    demand_multiplier: 1.9
+    priority_tier: top_decile
+  - region: Gulf_Coast
+    sku_cluster: GC_TOP_004
+    demand_baseline: 600
+    demand_multiplier: 1.8
+    priority_tier: top_decile
+  - region: Gulf_Coast
+    sku_cluster: GC_TOP_005
+    demand_baseline: 550
+    demand_multiplier: 1.7
+    priority_tier: top_decile
+  - region: Inland_South
+    sku_cluster: IN_TOP_001
+    demand_baseline: 500
+    demand_multiplier: 2.1
+    priority_tier: top_decile
+  - region: Inland_South
+    sku_cluster: IN_TOP_002
+    demand_baseline: 480
+    demand_multiplier: 2.0
+    priority_tier: top_decile
+  - region: Inland_South
+    sku_cluster: IN_TOP_003
+    demand_baseline: 460
+    demand_multiplier: 1.9
+    priority_tier: top_decile
+  - region: Inland_South
+    sku_cluster: IN_TOP_004
+    demand_baseline: 440
+    demand_multiplier: 1.8
+    priority_tier: top_decile
+  - region: Inland_South
+    sku_cluster: IN_TOP_005
+    demand_baseline: 420
+    demand_multiplier: 1.7
+    priority_tier: top_decile
+  - region: Central
+    sku_cluster: CE_TOP_001
+    demand_baseline: 700
+    demand_multiplier: 1.6
+    priority_tier: top_decile
+  - region: Central
+    sku_cluster: CE_TOP_002
+    demand_baseline: 650
+    demand_multiplier: 1.5
+    priority_tier: top_decile
+  - region: Central
+    sku_cluster: CE_TOP_003
+    demand_baseline: 600
+    demand_multiplier: 1.6
+    priority_tier: top_decile
+  - region: Central
+    sku_cluster: CE_TOP_004
+    demand_baseline: 580
+    demand_multiplier: 1.7
+    priority_tier: top_decile
+  - region: Central
+    sku_cluster: CE_TOP_005
+    demand_baseline: 560
+    demand_multiplier: 1.8
+    priority_tier: top_decile
+
+  # Normal-priority / non-top-decile clusters (shielded less aggressively)
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_001
+    demand_baseline: 400
+    demand_multiplier: 1.3
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_002
+    demand_baseline: 380
+    demand_multiplier: 1.2
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_003
+    demand_baseline: 360
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_004
+    demand_baseline: 340
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_005
+    demand_baseline: 320
+    demand_multiplier: 1.0
+    priority_tier: normal
+
+  - region: Inland_South
+    sku_cluster: IN_NORM_001
+    demand_baseline: 300
+    demand_multiplier: 1.2
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_002
+    demand_baseline: 280
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_003
+    demand_baseline: 260
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_004
+    demand_baseline: 240
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_005
+    demand_baseline: 220
+    demand_multiplier: 0.9
+    priority_tier: normal
+
+  - region: Central
+    sku_cluster: CE_NORM_001
+    demand_baseline: 500
+    demand_multiplier: 1.3
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_002
+    demand_baseline: 480
+    demand_multiplier: 1.2
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_003
+    demand_baseline: 460
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_004
+    demand_baseline: 440
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_005
+    demand_baseline: 420
+    demand_multiplier: 0.9
+    priority_tier: normal
+
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_006
+    demand_baseline: 300
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_007
+    demand_baseline: 280
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Gulf_Coast
+    sku_cluster: GC_NORM_008
+    demand_baseline: 260
+    demand_multiplier: 0.95
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_006
+    demand_baseline: 260
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_007
+    demand_baseline: 240
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Inland_South
+    sku_cluster: IN_NORM_008
+    demand_baseline: 220
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_006
+    demand_baseline: 400
+    demand_multiplier: 1.1
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_007
+    demand_baseline: 380
+    demand_multiplier: 1.0
+    priority_tier: normal
+  - region: Central
+    sku_cluster: CE_NORM_008
+    demand_baseline: 360
+    demand_multiplier: 0.95
+    priority_tier: normal
+
+recovery_curves:
+  facilities:
+    DC-05:
+      days: [0, 2, 5, 10, 14, 21]
+      capacity_pct: [10, 20, 45, 70, 85, 100]
+    DC-07:
+      days: [0, 2, 5, 10, 14, 21]
+      capacity_pct: [15, 25, 50, 72, 88, 100]
+    DC-01:
+      days: [0, 3, 7, 14, 21]
+      capacity_pct: [60, 65, 75, 90, 100]
+    DC-03:
+      days: [0, 3, 7, 14, 21]
+      capacity_pct: [65, 70, 80, 92, 100]
+    DC-09:
+      days: [0, 3, 7, 14, 21]
+      capacity_pct: [95, 98, 100, 100, 100]
+    DC-12:
+      days: [0, 3, 7, 14, 21]
+      capacity_pct: [100, 105, 110, 110, 105]
+    DC-14:
+      days: [0, 3, 7, 14, 21]
+      capacity_pct: [100, 108, 112, 112, 108]
+
+  lanes:
+    - lane_id: DC05_to_MKT_GC1
+      days: [0, 3, 7, 14, 21]
+      status: ["closed", "closed", "constrained", "open", "open"]
+      capacity_pct: [0, 0, 40, 80, 100]
+
+    - lane_id: DC05_to_DC12
+      days: [0, 3, 7, 14, 21]
+      status: ["constrained", "constrained", "constrained", "open", "open"]
+      capacity_pct: [30, 40, 60, 90, 100]
+
+    - lane_id: DC07_to_MKT_GC4
+      days: [0, 3, 7, 14, 21]
+      status: ["closed", "closed", "constrained", "open", "open"]
+      capacity_pct: [0, 0, 50, 85, 100]
+
+    - lane_id: DC07_to_DC12
+      days: [0, 3, 7, 14, 21]
+      status: ["constrained", "constrained", "open", "open", "open"]
+      capacity_pct: [40, 55, 85, 100, 100]
+
+    - lane_id: DC12_to_MKT_GC1
+      days: [0, 3, 7, 14, 21]
+      status: ["open", "open", "open", "open", "open"]
+      capacity_pct: [100, 115, 130, 130, 120]
+
+    - lane_id: DC12_to_MKT_IN3
+      days: [0, 3, 7, 14, 21]
+      status: ["open", "open", "open", "open", "open"]
+      capacity_pct: [100, 120, 135, 135, 125]
+
+    - lane_id: DC14_to_MKT_GC4
+      days: [0, 3, 7, 14, 21]
+      status: ["open", "open", "open", "open", "open"]
+      capacity_pct: [100, 120, 130, 130, 120]
+
+    - lane_id: DC14_to_MKT_IN1
+      days: [0, 3, 7, 14, 21]
+      status: ["open", "open", "open", "open", "open"]
+      capacity_pct: [100, 120, 135, 135, 125]
+
+    - lane_id: DC03_to_MKT_GC6
+      days: [0, 3, 7, 14, 21]
+      status: ["closed", "closed", "constrained", "open", "open"]
+      capacity_pct: [0, 0, 40, 80, 100]
+
+    - lane_id: DC01_to_MKT_GC5
+      days: [0, 3, 7, 14, 21]
+      status: ["closed", "closed", "constrained", "open", "open"]
+      capacity_pct: [0, 0, 45, 85, 100]
+
+config_gaps:
+  dynamic_yard_slotting:
+    description: >
+      Yard slotting is modeled as static per facility; there are no
+      rules to dynamically reprioritize inbound/outbound yard slots
+      when DC-12 and DC-14 absorb overflow from coastal DCs.
+    impact_on_drill: >
+      During the simulation, inbound containers at DC-12 and DC-14 may
+      queue up unrealistically without triggering yard re-slotting.
+      This should surface as a manual intervention requirement and
+      highlight the need for automated yard-slot optimization.
+
+  carrier_swap_rules:
+    description: >
+      Each lane implicitly assumes a fixed carrier; there is no
+      configuration for automatically swapping to alternate carriers
+      when a lane becomes constrained or closed.
+    impact_on_drill: >
+      When lanes ex-DC-05 and ex-DC-07 are closed or constrained,
+      the engine can reroute via inland hubs but cannot automatically
+      execute carrier swaps within a lane. The playbook should call
+      this out as an automation gap and document manual carrier
+      reassignment steps.

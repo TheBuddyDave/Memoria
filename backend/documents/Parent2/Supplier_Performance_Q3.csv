@@ -1,0 +1,26 @@
+Supplier_ID,Product_Line,Lead_Time,Lead_Time_SD,Unit_Cost,On_Time_Rate,Defect_Rate,Region,Port,Weather_Basin,RebateTerms,Historical_Delay_Corr_342,Historical_Delay_Corr_219,Historical_Delay_Corr_455
+342,Electronics,40,9.5,4.5,0.82,0.025,Asia_Pacific,LGB,Pacific,3% volume rebate; extended terms net 75,1.0,0.05,0.08
+219,Electronics,33,4.5,4.54,0.96,0.012,Asia_Pacific,HOU,Gulf,1.5% rebate; on-time bonus SLA,0.06,1.0,0.04
+455,Home_Appliances,35,5.2,4.56,0.97,0.01,Europe,NYNJ,Atlantic,2% rebate; quality incentive program,0.04,0.05,1.0
+301,Home_Appliances,33,3.85,5.2237,0.9596,0.0262,Asia_Pacific,HOU,Gulf,2% rebate on quarterly volume,0.018,0.267,0.291
+302,Electronics,39,3.0,4.8279,0.9807,0.0146,Europe,HOU,Gulf,"Tiered rebate: 1% up to 10k units, 2% above",0.362,0.025,0.029
+303,Small_Devices,39,5.03,4.7983,0.9782,0.0094,North_America,LGB,Pacific,2% rebate on quarterly volume,0.266,0.222,0.24
+304,Furniture,40,9.26,4.7473,0.8313,0.0108,Asia_Pacific,LGB,Pacific,2% rebate on quarterly volume,0.853,0.082,0.185
+305,Furniture,38,4.37,4.9339,0.945,0.0262,Europe,LGB,Pacific,2% rebate on quarterly volume,0.335,0.147,0.201
+306,Furniture,36,3.51,5.3082,0.9501,0.0272,Europe,NYNJ,Atlantic,1.5% rebate; early-pay discount 1%/15 net 45,0.392,0.161,0.097
+307,Small_Devices,29,5.83,5.1389,0.9801,0.0201,Asia_Pacific,OAK,Pacific,2% rebate on quarterly volume,0.05,0.068,0.026
+308,Furniture,33,4.63,5.0358,0.9491,0.0161,Latin_America,LGB,Pacific,2% rebate on quarterly volume,0.374,0.229,0.218
+309,Toys,28,4.48,5.1187,0.9282,0.0272,Europe,LGB,Pacific,"Tiered rebate: 1% up to 10k units, 2% above",0.298,0.186,0.073
+310,Home_Appliances,35,4.34,5.0798,0.9581,0.0071,Latin_America,SEA,Pacific,2% rebate on quarterly volume,0.251,0.03,0.053
+311,Electronics,38,3.75,4.8669,0.985,0.0154,Latin_America,LGB,Pacific,No rebate; annual marketing fund,0.393,0.222,0.298
+312,Small_Devices,34,5.82,5.4399,0.9727,0.0258,Asia_Pacific,SAV,Atlantic,"Tiered rebate: 1% up to 10k units, 2% above",0.295,0.194,0.126
+313,Home_Appliances,40,8.12,4.8675,0.8509,0.0219,Asia_Pacific,LGB,Pacific,2% rebate on quarterly volume,0.743,0.3,0.165
+314,Small_Devices,43,9.42,4.667,0.8407,0.0085,Asia_Pacific,LGB,Pacific,"Tiered rebate: 1% up to 10k units, 2% above",0.892,0.065,0.119
+315,Electronics,34,4.85,5.455,0.9478,0.0261,Latin_America,SAV,Atlantic,No rebate; annual marketing fund,0.065,0.021,0.056
+316,Electronics,28,5.94,5.4301,0.9619,0.0068,North_America,SAV,Atlantic,"Tiered rebate: 1% up to 10k units, 2% above",0.112,0.023,0.116
+317,Toys,42,8.06,4.7008,0.8371,0.0231,Asia_Pacific,LGB,Pacific,2% rebate on quarterly volume,0.746,0.263,0.278
+318,Toys,43,9.85,4.4351,0.8608,0.0179,Asia_Pacific,LGB,Pacific,1.5% rebate; early-pay discount 1%/15 net 45,0.88,0.136,0.088
+319,Electronics,32,3.35,4.9508,0.9588,0.0129,Latin_America,LGB,Pacific,2% rebate on quarterly volume,0.261,0.05,0.208
+320,Electronics,35,3.81,5.1946,0.9545,0.0154,Europe,NYNJ,Atlantic,1.5% rebate; early-pay discount 1%/15 net 45,0.118,0.292,0.111
+321,Small_Devices,39,3.01,5.1668,0.9837,0.0088,North_America,HOU,Gulf,No rebate; annual marketing fund,0.159,0.201,0.027
+322,Furniture,36,3.48,5.1433,0.9273,0.0229,North_America,LGB,Pacific,2% rebate on quarterly volume,0.389,0.3,0.226

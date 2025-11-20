@@ -1,0 +1,4145 @@
+{
+  "coef_table": [
+    {
+      "sku_id": "SKU_001",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.271,
+      "cross_price_elasticity_top_rival": -0.134,
+      "intercept": 2.687,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_002",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.335,
+      "cross_price_elasticity_top_rival": -0.366,
+      "intercept": 4.191,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_003",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.466,
+      "cross_price_elasticity_top_rival": -0.028,
+      "intercept": 3.868,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_004",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.495,
+      "cross_price_elasticity_top_rival": -0.23,
+      "intercept": 3.012,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_005",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.426,
+      "cross_price_elasticity_top_rival": 0.045,
+      "intercept": 2.38,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_006",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.215,
+      "cross_price_elasticity_top_rival": -0.203,
+      "intercept": 4.26,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_007",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.222,
+      "cross_price_elasticity_top_rival": 0.094,
+      "intercept": 3.842,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_008",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.273,
+      "cross_price_elasticity_top_rival": -0.223,
+      "intercept": 4.062,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_009",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.259,
+      "cross_price_elasticity_top_rival": -0.368,
+      "intercept": 4.739,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_010",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.281,
+      "cross_price_elasticity_top_rival": -0.089,
+      "intercept": 3.191,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_011",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.274,
+      "cross_price_elasticity_top_rival": -0.233,
+      "intercept": 2.774,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_012",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.337,
+      "cross_price_elasticity_top_rival": -0.063,
+      "intercept": 3.526,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_013",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.428,
+      "cross_price_elasticity_top_rival": -0.061,
+      "intercept": 3.929,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_014",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.399,
+      "cross_price_elasticity_top_rival": -0.272,
+      "intercept": 2.109,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_015",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.291,
+      "cross_price_elasticity_top_rival": -0.04,
+      "intercept": 2.49,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_016",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.47,
+      "cross_price_elasticity_top_rival": 0.1,
+      "intercept": 4.295,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_017",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.417,
+      "cross_price_elasticity_top_rival": -0.378,
+      "intercept": 3.257,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_018",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.27,
+      "cross_price_elasticity_top_rival": -0.042,
+      "intercept": 4.035,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_019",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.352,
+      "cross_price_elasticity_top_rival": 0.087,
+      "intercept": 4.601,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_020",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.258,
+      "cross_price_elasticity_top_rival": -0.149,
+      "intercept": 3.914,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_021",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.206,
+      "cross_price_elasticity_top_rival": -0.111,
+      "intercept": 2.485,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_022",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.425,
+      "cross_price_elasticity_top_rival": -0.119,
+      "intercept": 4.412,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_023",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.461,
+      "cross_price_elasticity_top_rival": -0.293,
+      "intercept": 2.704,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_024",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.27,
+      "cross_price_elasticity_top_rival": 0.08,
+      "intercept": 2.69,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_025",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.321,
+      "cross_price_elasticity_top_rival": -0.059,
+      "intercept": 2.164,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_026",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.398,
+      "cross_price_elasticity_top_rival": -0.082,
+      "intercept": 3.555,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_027",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.438,
+      "cross_price_elasticity_top_rival": 0.013,
+      "intercept": 3.088,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_028",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.244,
+      "cross_price_elasticity_top_rival": -0.117,
+      "intercept": 4.006,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_029",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.437,
+      "cross_price_elasticity_top_rival": -0.033,
+      "intercept": 4.766,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_030",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.232,
+      "cross_price_elasticity_top_rival": -0.231,
+      "intercept": 4.012,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_031",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.471,
+      "cross_price_elasticity_top_rival": -0.153,
+      "intercept": 4.38,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_032",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.294,
+      "cross_price_elasticity_top_rival": -0.056,
+      "intercept": 2.708,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_033",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.425,
+      "cross_price_elasticity_top_rival": -0.064,
+      "intercept": 3.575,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_034",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.27,
+      "cross_price_elasticity_top_rival": -0.217,
+      "intercept": 4.499,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_035",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.342,
+      "cross_price_elasticity_top_rival": 0.072,
+      "intercept": 4.277,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_036",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.244,
+      "cross_price_elasticity_top_rival": 0.053,
+      "intercept": 2.762,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_037",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.237,
+      "cross_price_elasticity_top_rival": -0.266,
+      "intercept": 4.31,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_038",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.755,
+      "cross_price_elasticity_top_rival": -0.142,
+      "intercept": 4.836,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_039",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.867,
+      "cross_price_elasticity_top_rival": -0.305,
+      "intercept": 2.466,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_040",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.432,
+      "cross_price_elasticity_top_rival": -0.485,
+      "intercept": 2.976,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_041",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.747,
+      "cross_price_elasticity_top_rival": -0.117,
+      "intercept": 3.673,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_042",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.398,
+      "cross_price_elasticity_top_rival": -0.104,
+      "intercept": 3.068,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_043",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.673,
+      "cross_price_elasticity_top_rival": -0.408,
+      "intercept": 3.943,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_044",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.6,
+      "cross_price_elasticity_top_rival": -0.46,
+      "intercept": 4.856,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_045",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.504,
+      "cross_price_elasticity_top_rival": -0.173,
+      "intercept": 2.293,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_046",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.587,
+      "cross_price_elasticity_top_rival": -0.409,
+      "intercept": 3.243,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_047",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.708,
+      "cross_price_elasticity_top_rival": -0.146,
+      "intercept": 2.204,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_048",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.347,
+      "cross_price_elasticity_top_rival": -0.172,
+      "intercept": 4.27,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_049",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.184,
+      "cross_price_elasticity_top_rival": -0.205,
+      "intercept": 3.996,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_050",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.418,
+      "cross_price_elasticity_top_rival": -0.331,
+      "intercept": 2.697,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_051",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -2.575,
+      "cross_price_elasticity_top_rival": -0.179,
+      "intercept": 3.892,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_052",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.713,
+      "cross_price_elasticity_top_rival": -0.261,
+      "intercept": 2.795,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_053",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.254,
+      "cross_price_elasticity_top_rival": -0.05,
+      "intercept": 4.033,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_054",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.102,
+      "cross_price_elasticity_top_rival": -0.085,
+      "intercept": 2.102,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_055",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.184,
+      "cross_price_elasticity_top_rival": 0.054,
+      "intercept": 3.824,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_056",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.035,
+      "cross_price_elasticity_top_rival": -0.343,
+      "intercept": 2.94,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_057",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.283,
+      "cross_price_elasticity_top_rival": -0.129,
+      "intercept": 3.972,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_058",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.364,
+      "cross_price_elasticity_top_rival": -0.361,
+      "intercept": 3.587,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_059",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.602,
+      "cross_price_elasticity_top_rival": 0.092,
+      "intercept": 4.335,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_060",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.751,
+      "cross_price_elasticity_top_rival": -0.095,
+      "intercept": 4.768,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_061",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.544,
+      "cross_price_elasticity_top_rival": -0.163,
+      "intercept": 3.817,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_062",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.377,
+      "cross_price_elasticity_top_rival": -0.252,
+      "intercept": 2.682,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_063",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.727,
+      "cross_price_elasticity_top_rival": -0.004,
+      "intercept": 2.086,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_064",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.241,
+      "cross_price_elasticity_top_rival": -0.342,
+      "intercept": 3.449,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_065",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.83,
+      "cross_price_elasticity_top_rival": -0.365,
+      "intercept": 3.399,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_066",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.402,
+      "cross_price_elasticity_top_rival": -0.135,
+      "intercept": 3.075,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_067",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.351,
+      "cross_price_elasticity_top_rival": 0.075,
+      "intercept": 4.127,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_068",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.501,
+      "cross_price_elasticity_top_rival": -0.069,
+      "intercept": 2.621,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_069",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.392,
+      "cross_price_elasticity_top_rival": 0.059,
+      "intercept": 2.817,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_070",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.432,
+      "cross_price_elasticity_top_rival": -0.234,
+      "intercept": 3.013,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_071",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.954,
+      "cross_price_elasticity_top_rival": -0.249,
+      "intercept": 2.598,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_072",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.365,
+      "cross_price_elasticity_top_rival": -0.14,
+      "intercept": 4.55,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_073",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.081,
+      "cross_price_elasticity_top_rival": -0.181,
+      "intercept": 3.535,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_074",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.575,
+      "cross_price_elasticity_top_rival": 0.063,
+      "intercept": 4.97,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_075",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.728,
+      "cross_price_elasticity_top_rival": -0.299,
+      "intercept": 3.639,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_076",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.329,
+      "cross_price_elasticity_top_rival": -0.141,
+      "intercept": 4.686,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_077",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.996,
+      "cross_price_elasticity_top_rival": -0.362,
+      "intercept": 4.715,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_078",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.858,
+      "cross_price_elasticity_top_rival": -0.136,
+      "intercept": 4.486,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_079",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.234,
+      "cross_price_elasticity_top_rival": -0.393,
+      "intercept": 3.26,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_080",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.165,
+      "cross_price_elasticity_top_rival": -0.295,
+      "intercept": 3.65,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_081",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.236,
+      "cross_price_elasticity_top_rival": -0.2,
+      "intercept": 2.641,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_082",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.974,
+      "cross_price_elasticity_top_rival": -0.034,
+      "intercept": 2.708,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_083",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.443,
+      "cross_price_elasticity_top_rival": -0.197,
+      "intercept": 2.983,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_084",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.474,
+      "cross_price_elasticity_top_rival": -0.226,
+      "intercept": 3.081,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_085",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.167,
+      "cross_price_elasticity_top_rival": -0.108,
+      "intercept": 4.8,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_086",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.118,
+      "cross_price_elasticity_top_rival": -0.073,
+      "intercept": 4.551,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_087",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.585,
+      "cross_price_elasticity_top_rival": -0.094,
+      "intercept": 3.356,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_088",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.656,
+      "cross_price_elasticity_top_rival": -0.275,
+      "intercept": 4.56,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_089",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.424,
+      "cross_price_elasticity_top_rival": 0.093,
+      "intercept": 2.647,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_090",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.26,
+      "cross_price_elasticity_top_rival": 0.073,
+      "intercept": 4.962,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_091",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.844,
+      "cross_price_elasticity_top_rival": -0.375,
+      "intercept": 3.786,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_092",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.896,
+      "cross_price_elasticity_top_rival": 0.097,
+      "intercept": 2.596,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_093",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.331,
+      "cross_price_elasticity_top_rival": -0.104,
+      "intercept": 4.961,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_094",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.517,
+      "cross_price_elasticity_top_rival": -0.032,
+      "intercept": 4.194,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_095",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.42,
+      "cross_price_elasticity_top_rival": -0.195,
+      "intercept": 4.915,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_096",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.517,
+      "cross_price_elasticity_top_rival": -0.337,
+      "intercept": 2.548,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_097",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.667,
+      "cross_price_elasticity_top_rival": -0.052,
+      "intercept": 2.096,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_098",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.304,
+      "cross_price_elasticity_top_rival": -0.016,
+      "intercept": 3.282,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_099",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.885,
+      "cross_price_elasticity_top_rival": -0.193,
+      "intercept": 4.055,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_100",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.468,
+      "cross_price_elasticity_top_rival": -0.368,
+      "intercept": 3.358,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_101",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.452,
+      "cross_price_elasticity_top_rival": -0.263,
+      "intercept": 4.33,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_102",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.835,
+      "cross_price_elasticity_top_rival": -0.244,
+      "intercept": 4.108,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_103",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.747,
+      "cross_price_elasticity_top_rival": -0.117,
+      "intercept": 3.953,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_104",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.865,
+      "cross_price_elasticity_top_rival": -0.063,
+      "intercept": 2.124,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_105",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.804,
+      "cross_price_elasticity_top_rival": 0.039,
+      "intercept": 3.557,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_106",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.681,
+      "cross_price_elasticity_top_rival": -0.285,
+      "intercept": 2.038,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_107",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.682,
+      "cross_price_elasticity_top_rival": 0.028,
+      "intercept": 4.259,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_108",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.682,
+      "cross_price_elasticity_top_rival": -0.156,
+      "intercept": 2.717,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_109",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.531,
+      "cross_price_elasticity_top_rival": -0.012,
+      "intercept": 4.251,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_110",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.493,
+      "cross_price_elasticity_top_rival": -0.396,
+      "intercept": 3.482,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_111",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.304,
+      "cross_price_elasticity_top_rival": -0.187,
+      "intercept": 4.02,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_112",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.407,
+      "cross_price_elasticity_top_rival": -0.171,
+      "intercept": 3.252,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_113",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.629,
+      "cross_price_elasticity_top_rival": -0.266,
+      "intercept": 2.794,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_114",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.545,
+      "cross_price_elasticity_top_rival": 0.079,
+      "intercept": 4.617,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_115",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.508,
+      "cross_price_elasticity_top_rival": -0.216,
+      "intercept": 3.541,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_116",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.744,
+      "cross_price_elasticity_top_rival": -0.368,
+      "intercept": 4.163,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_117",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.533,
+      "cross_price_elasticity_top_rival": -0.236,
+      "intercept": 3.932,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_118",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.937,
+      "cross_price_elasticity_top_rival": -0.17,
+      "intercept": 2.713,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_119",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.599,
+      "cross_price_elasticity_top_rival": -0.352,
+      "intercept": 2.811,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_120",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.357,
+      "cross_price_elasticity_top_rival": -0.148,
+      "intercept": 2.221,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_121",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.478,
+      "cross_price_elasticity_top_rival": -0.32,
+      "intercept": 3.228,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_122",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.954,
+      "cross_price_elasticity_top_rival": 0.075,
+      "intercept": 3.625,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_123",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.247,
+      "cross_price_elasticity_top_rival": -0.08,
+      "intercept": 4.223,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_124",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.875,
+      "cross_price_elasticity_top_rival": -0.349,
+      "intercept": 3.613,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_125",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.436,
+      "cross_price_elasticity_top_rival": -0.15,
+      "intercept": 4.026,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_126",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.456,
+      "cross_price_elasticity_top_rival": -0.397,
+      "intercept": 2.802,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_127",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.366,
+      "cross_price_elasticity_top_rival": -0.368,
+      "intercept": 3.673,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_128",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.316,
+      "cross_price_elasticity_top_rival": -0.274,
+      "intercept": 2.714,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_129",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.947,
+      "cross_price_elasticity_top_rival": 0.097,
+      "intercept": 2.333,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_130",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.822,
+      "cross_price_elasticity_top_rival": -0.234,
+      "intercept": 4.945,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_131",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.444,
+      "cross_price_elasticity_top_rival": -0.392,
+      "intercept": 3.912,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_132",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -2.319,
+      "cross_price_elasticity_top_rival": 0.081,
+      "intercept": 4.62,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_133",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.546,
+      "cross_price_elasticity_top_rival": -0.14,
+      "intercept": 3.457,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_134",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -2.041,
+      "cross_price_elasticity_top_rival": -0.14,
+      "intercept": 4.027,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_135",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.476,
+      "cross_price_elasticity_top_rival": 0.002,
+      "intercept": 4.405,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_136",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.038,
+      "cross_price_elasticity_top_rival": -0.359,
+      "intercept": 4.387,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_137",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.505,
+      "cross_price_elasticity_top_rival": -0.263,
+      "intercept": 2.168,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_138",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.138,
+      "cross_price_elasticity_top_rival": 0.013,
+      "intercept": 4.668,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_139",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.402,
+      "cross_price_elasticity_top_rival": -0.206,
+      "intercept": 3.982,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_140",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.624,
+      "cross_price_elasticity_top_rival": -0.206,
+      "intercept": 2.553,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_141",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.843,
+      "cross_price_elasticity_top_rival": -0.083,
+      "intercept": 4.447,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_142",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.42,
+      "cross_price_elasticity_top_rival": -0.129,
+      "intercept": 2.869,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_143",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.33,
+      "cross_price_elasticity_top_rival": -0.371,
+      "intercept": 2.299,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_144",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.042,
+      "cross_price_elasticity_top_rival": -0.269,
+      "intercept": 2.286,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_145",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.697,
+      "cross_price_elasticity_top_rival": -0.127,
+      "intercept": 3.1,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_146",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.625,
+      "cross_price_elasticity_top_rival": 0.032,
+      "intercept": 4.505,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_147",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -2.496,
+      "cross_price_elasticity_top_rival": 0.036,
+      "intercept": 3.642,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_148",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.426,
+      "cross_price_elasticity_top_rival": -0.32,
+      "intercept": 3.244,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_149",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.664,
+      "cross_price_elasticity_top_rival": -0.127,
+      "intercept": 3.087,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_150",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.311,
+      "cross_price_elasticity_top_rival": -0.146,
+      "intercept": 4.118,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_151",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.577,
+      "cross_price_elasticity_top_rival": -0.031,
+      "intercept": 3.705,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_152",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.3,
+      "cross_price_elasticity_top_rival": -0.114,
+      "intercept": 2.799,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_153",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.691,
+      "cross_price_elasticity_top_rival": -0.294,
+      "intercept": 4.136,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_154",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.67,
+      "cross_price_elasticity_top_rival": -0.09,
+      "intercept": 4.857,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_155",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.352,
+      "cross_price_elasticity_top_rival": -0.376,
+      "intercept": 4.702,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_156",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.741,
+      "cross_price_elasticity_top_rival": -0.201,
+      "intercept": 3.134,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_157",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.517,
+      "cross_price_elasticity_top_rival": 0.093,
+      "intercept": 2.041,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_158",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.354,
+      "cross_price_elasticity_top_rival": -0.351,
+      "intercept": 2.019,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_159",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.918,
+      "cross_price_elasticity_top_rival": -0.266,
+      "intercept": 3.746,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_160",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.854,
+      "cross_price_elasticity_top_rival": -0.009,
+      "intercept": 3.349,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_161",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.06,
+      "cross_price_elasticity_top_rival": -0.373,
+      "intercept": 2.818,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_162",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.417,
+      "cross_price_elasticity_top_rival": 0.082,
+      "intercept": 2.547,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_163",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.891,
+      "cross_price_elasticity_top_rival": -0.309,
+      "intercept": 4.676,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_164",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.669,
+      "cross_price_elasticity_top_rival": -0.057,
+      "intercept": 3.639,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_165",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.413,
+      "cross_price_elasticity_top_rival": -0.234,
+      "intercept": 2.829,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_166",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.685,
+      "cross_price_elasticity_top_rival": 0.002,
+      "intercept": 3.649,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_167",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.534,
+      "cross_price_elasticity_top_rival": -0.135,
+      "intercept": 4.733,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_168",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.688,
+      "cross_price_elasticity_top_rival": -0.088,
+      "intercept": 2.039,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_169",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.793,
+      "cross_price_elasticity_top_rival": -0.305,
+      "intercept": 2.458,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_170",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.258,
+      "cross_price_elasticity_top_rival": -0.007,
+      "intercept": 3.212,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_171",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.661,
+      "cross_price_elasticity_top_rival": 0.065,
+      "intercept": 4.595,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_172",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.37,
+      "cross_price_elasticity_top_rival": -0.216,
+      "intercept": 3.124,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_173",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.434,
+      "cross_price_elasticity_top_rival": -0.202,
+      "intercept": 4.853,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_174",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.626,
+      "cross_price_elasticity_top_rival": -0.066,
+      "intercept": 2.298,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_175",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.423,
+      "cross_price_elasticity_top_rival": 0.029,
+      "intercept": 3.716,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_176",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.775,
+      "cross_price_elasticity_top_rival": -0.02,
+      "intercept": 2.339,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_177",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.21,
+      "cross_price_elasticity_top_rival": -0.098,
+      "intercept": 4.019,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_178",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.692,
+      "cross_price_elasticity_top_rival": -0.274,
+      "intercept": 4.208,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_179",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.009,
+      "cross_price_elasticity_top_rival": -0.399,
+      "intercept": 2.297,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_180",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.499,
+      "cross_price_elasticity_top_rival": 0.016,
+      "intercept": 4.467,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_181",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.754,
+      "cross_price_elasticity_top_rival": -0.247,
+      "intercept": 4.903,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_182",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.22,
+      "cross_price_elasticity_top_rival": -0.362,
+      "intercept": 4.269,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_183",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.624,
+      "cross_price_elasticity_top_rival": -0.106,
+      "intercept": 3.81,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_184",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.342,
+      "cross_price_elasticity_top_rival": 0.044,
+      "intercept": 2.635,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_185",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.424,
+      "cross_price_elasticity_top_rival": -0.127,
+      "intercept": 3.382,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_186",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.879,
+      "cross_price_elasticity_top_rival": -0.027,
+      "intercept": 3.083,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_187",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.291,
+      "cross_price_elasticity_top_rival": 0.008,
+      "intercept": 4.437,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_188",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.279,
+      "cross_price_elasticity_top_rival": -0.132,
+      "intercept": 3.266,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_189",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.536,
+      "cross_price_elasticity_top_rival": -0.398,
+      "intercept": 3.295,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_190",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.758,
+      "cross_price_elasticity_top_rival": -0.05,
+      "intercept": 2.74,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_191",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.755,
+      "cross_price_elasticity_top_rival": -0.029,
+      "intercept": 2.867,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_192",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.89,
+      "cross_price_elasticity_top_rival": 0.082,
+      "intercept": 4.61,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_193",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.847,
+      "cross_price_elasticity_top_rival": -0.243,
+      "intercept": 4.362,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_194",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.652,
+      "cross_price_elasticity_top_rival": -0.287,
+      "intercept": 4.792,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_195",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.639,
+      "cross_price_elasticity_top_rival": -0.342,
+      "intercept": 4.001,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_196",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.369,
+      "cross_price_elasticity_top_rival": -0.223,
+      "intercept": 2.587,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_197",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.046,
+      "cross_price_elasticity_top_rival": 0.018,
+      "intercept": 4.344,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_198",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.373,
+      "cross_price_elasticity_top_rival": -0.109,
+      "intercept": 2.379,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_199",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -2.157,
+      "cross_price_elasticity_top_rival": 0.094,
+      "intercept": 2.959,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_200",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.404,
+      "cross_price_elasticity_top_rival": 0.02,
+      "intercept": 2.219,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_201",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.915,
+      "cross_price_elasticity_top_rival": -0.344,
+      "intercept": 4.869,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_202",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.917,
+      "cross_price_elasticity_top_rival": 0.044,
+      "intercept": 2.834,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_203",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.318,
+      "cross_price_elasticity_top_rival": -0.141,
+      "intercept": 4.388,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_204",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.991,
+      "cross_price_elasticity_top_rival": -0.141,
+      "intercept": 3.426,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_205",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.304,
+      "cross_price_elasticity_top_rival": -0.102,
+      "intercept": 3.661,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_206",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.49,
+      "cross_price_elasticity_top_rival": -0.358,
+      "intercept": 2.15,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_207",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.505,
+      "cross_price_elasticity_top_rival": -0.386,
+      "intercept": 2.911,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_208",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.348,
+      "cross_price_elasticity_top_rival": 0.033,
+      "intercept": 3.689,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_209",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.328,
+      "cross_price_elasticity_top_rival": -0.276,
+      "intercept": 3.596,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_210",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.933,
+      "cross_price_elasticity_top_rival": -0.201,
+      "intercept": 4.405,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_211",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.685,
+      "cross_price_elasticity_top_rival": -0.196,
+      "intercept": 2.681,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_212",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.406,
+      "cross_price_elasticity_top_rival": -0.33,
+      "intercept": 2.057,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_213",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.21,
+      "cross_price_elasticity_top_rival": -0.169,
+      "intercept": 3.13,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_214",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.464,
+      "cross_price_elasticity_top_rival": -0.17,
+      "intercept": 4.625,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_215",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.557,
+      "cross_price_elasticity_top_rival": -0.082,
+      "intercept": 3.232,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_216",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.263,
+      "cross_price_elasticity_top_rival": -0.067,
+      "intercept": 2.251,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_217",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.829,
+      "cross_price_elasticity_top_rival": -0.135,
+      "intercept": 4.793,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_218",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.076,
+      "cross_price_elasticity_top_rival": -0.283,
+      "intercept": 4.203,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_219",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.547,
+      "cross_price_elasticity_top_rival": -0.283,
+      "intercept": 3.069,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_220",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.435,
+      "cross_price_elasticity_top_rival": -0.074,
+      "intercept": 2.005,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_221",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.495,
+      "cross_price_elasticity_top_rival": -0.022,
+      "intercept": 4.948,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_222",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.973,
+      "cross_price_elasticity_top_rival": -0.285,
+      "intercept": 3.236,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_223",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.5,
+      "cross_price_elasticity_top_rival": -0.314,
+      "intercept": 4.374,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_224",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.92,
+      "cross_price_elasticity_top_rival": 0.07,
+      "intercept": 3.305,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_225",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.346,
+      "cross_price_elasticity_top_rival": -0.062,
+      "intercept": 4.506,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_226",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.631,
+      "cross_price_elasticity_top_rival": -0.262,
+      "intercept": 3.74,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_227",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.603,
+      "cross_price_elasticity_top_rival": -0.083,
+      "intercept": 3.728,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_228",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.479,
+      "cross_price_elasticity_top_rival": -0.383,
+      "intercept": 2.506,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_229",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.83,
+      "cross_price_elasticity_top_rival": -0.123,
+      "intercept": 3.086,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_230",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.607,
+      "cross_price_elasticity_top_rival": -0.162,
+      "intercept": 3.378,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_231",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.826,
+      "cross_price_elasticity_top_rival": -0.186,
+      "intercept": 3.318,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_232",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.353,
+      "cross_price_elasticity_top_rival": -0.232,
+      "intercept": 4.365,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_233",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.588,
+      "cross_price_elasticity_top_rival": -0.048,
+      "intercept": 2.224,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_234",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.773,
+      "cross_price_elasticity_top_rival": -0.009,
+      "intercept": 3.183,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_235",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.377,
+      "cross_price_elasticity_top_rival": -0.069,
+      "intercept": 3.347,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_236",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.756,
+      "cross_price_elasticity_top_rival": -0.348,
+      "intercept": 4.511,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_237",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.798,
+      "cross_price_elasticity_top_rival": -0.302,
+      "intercept": 4.56,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_238",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.767,
+      "cross_price_elasticity_top_rival": -0.292,
+      "intercept": 2.107,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_239",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.372,
+      "cross_price_elasticity_top_rival": -0.386,
+      "intercept": 2.42,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_240",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.455,
+      "cross_price_elasticity_top_rival": -0.089,
+      "intercept": 3.608,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_241",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.445,
+      "cross_price_elasticity_top_rival": -0.252,
+      "intercept": 2.704,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_242",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.187,
+      "cross_price_elasticity_top_rival": -0.285,
+      "intercept": 3.491,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_243",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.596,
+      "cross_price_elasticity_top_rival": -0.162,
+      "intercept": 2.477,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_244",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -2.536,
+      "cross_price_elasticity_top_rival": -0.223,
+      "intercept": 2.606,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_245",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.329,
+      "cross_price_elasticity_top_rival": -0.23,
+      "intercept": 4.749,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_246",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -1.811,
+      "cross_price_elasticity_top_rival": -0.227,
+      "intercept": 4.002,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_247",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.008,
+      "cross_price_elasticity_top_rival": -0.052,
+      "intercept": 4.217,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_248",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.378,
+      "cross_price_elasticity_top_rival": 0.053,
+      "intercept": 2.979,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_249",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.938,
+      "cross_price_elasticity_top_rival": -0.281,
+      "intercept": 4.229,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_250",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.793,
+      "cross_price_elasticity_top_rival": -0.341,
+      "intercept": 2.519,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_251",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.727,
+      "cross_price_elasticity_top_rival": -0.045,
+      "intercept": 2.612,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_252",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -1.914,
+      "cross_price_elasticity_top_rival": -0.374,
+      "intercept": 3.523,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_253",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -2.42,
+      "cross_price_elasticity_top_rival": -0.109,
+      "intercept": 4.416,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_254",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.024,
+      "cross_price_elasticity_top_rival": -0.026,
+      "intercept": 3.486,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_255",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -1.627,
+      "cross_price_elasticity_top_rival": -0.232,
+      "intercept": 2.053,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_256",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -1.553,
+      "cross_price_elasticity_top_rival": -0.013,
+      "intercept": 3.025,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_257",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.144,
+      "cross_price_elasticity_top_rival": -0.277,
+      "intercept": 4.739,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_258",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.631,
+      "cross_price_elasticity_top_rival": -0.264,
+      "intercept": 3.255,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_259",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.365,
+      "cross_price_elasticity_top_rival": -0.236,
+      "intercept": 2.453,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_260",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.086,
+      "cross_price_elasticity_top_rival": -0.067,
+      "intercept": 3.428,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_261",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.955,
+      "cross_price_elasticity_top_rival": -0.033,
+      "intercept": 3.077,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_262",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.749,
+      "cross_price_elasticity_top_rival": -0.119,
+      "intercept": 4.357,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_263",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.063,
+      "cross_price_elasticity_top_rival": -0.084,
+      "intercept": 2.031,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_264",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -2.278,
+      "cross_price_elasticity_top_rival": -0.273,
+      "intercept": 3.469,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_265",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.754,
+      "cross_price_elasticity_top_rival": -0.329,
+      "intercept": 3.058,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_266",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.11,
+      "cross_price_elasticity_top_rival": -0.14,
+      "intercept": 3.913,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_267",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.06,
+      "cross_price_elasticity_top_rival": -0.026,
+      "intercept": 4.042,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_268",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.204,
+      "cross_price_elasticity_top_rival": -0.03,
+      "intercept": 4.993,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_269",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.76,
+      "cross_price_elasticity_top_rival": -0.094,
+      "intercept": 3.403,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_270",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.542,
+      "cross_price_elasticity_top_rival": 0.045,
+      "intercept": 3.45,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_271",
+      "subcategory": "Laundry",
+      "category": "Household",
+      "own_price_elasticity": -1.821,
+      "cross_price_elasticity_top_rival": -0.341,
+      "intercept": 2.454,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_272",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.232,
+      "cross_price_elasticity_top_rival": -0.209,
+      "intercept": 2.002,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_273",
+      "subcategory": "CannedGoods",
+      "category": "Pantry",
+      "own_price_elasticity": -1.363,
+      "cross_price_elasticity_top_rival": -0.119,
+      "intercept": 3.252,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_274",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -1.313,
+      "cross_price_elasticity_top_rival": 0.002,
+      "intercept": 4.113,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_275",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.83,
+      "cross_price_elasticity_top_rival": -0.009,
+      "intercept": 4.417,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_276",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.48,
+      "cross_price_elasticity_top_rival": 0.057,
+      "intercept": 4.089,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_277",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.631,
+      "cross_price_elasticity_top_rival": 0.004,
+      "intercept": 2.989,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_278",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.815,
+      "cross_price_elasticity_top_rival": -0.079,
+      "intercept": 4.452,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_279",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.75,
+      "cross_price_elasticity_top_rival": 0.045,
+      "intercept": 3.572,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_280",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -2.18,
+      "cross_price_elasticity_top_rival": -0.057,
+      "intercept": 4.051,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_281",
+      "subcategory": "Juice",
+      "category": "Beverages",
+      "own_price_elasticity": -2.207,
+      "cross_price_elasticity_top_rival": -0.357,
+      "intercept": 4.422,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_282",
+      "subcategory": "Skincare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.547,
+      "cross_price_elasticity_top_rival": -0.09,
+      "intercept": 2.015,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_283",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.511,
+      "cross_price_elasticity_top_rival": -0.09,
+      "intercept": 3.521,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_284",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.367,
+      "cross_price_elasticity_top_rival": -0.297,
+      "intercept": 2.967,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_285",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.628,
+      "cross_price_elasticity_top_rival": -0.327,
+      "intercept": 3.333,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_286",
+      "subcategory": "Haircare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -2.418,
+      "cross_price_elasticity_top_rival": -0.209,
+      "intercept": 4.354,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_287",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -1.73,
+      "cross_price_elasticity_top_rival": -0.163,
+      "intercept": 3.836,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_288",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.14,
+      "cross_price_elasticity_top_rival": 0.025,
+      "intercept": 3.294,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_289",
+      "subcategory": "OralCare",
+      "category": "PersonalCare",
+      "own_price_elasticity": -1.652,
+      "cross_price_elasticity_top_rival": -0.108,
+      "intercept": 3.212,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_290",
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages",
+      "own_price_elasticity": -2.032,
+      "cross_price_elasticity_top_rival": -0.181,
+      "intercept": 4.945,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_291",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -1.495,
+      "cross_price_elasticity_top_rival": -0.192,
+      "intercept": 3.417,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_292",
+      "subcategory": "Paper",
+      "category": "Household",
+      "own_price_elasticity": -2.563,
+      "cross_price_elasticity_top_rival": -0.341,
+      "intercept": 4.569,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_293",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.211,
+      "cross_price_elasticity_top_rival": -0.074,
+      "intercept": 2.843,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_294",
+      "subcategory": "Sauces",
+      "category": "Pantry",
+      "own_price_elasticity": -2.116,
+      "cross_price_elasticity_top_rival": -0.265,
+      "intercept": 3.757,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_295",
+      "subcategory": "Cleaners",
+      "category": "Household",
+      "own_price_elasticity": -1.826,
+      "cross_price_elasticity_top_rival": 0.058,
+      "intercept": 4.102,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_296",
+      "subcategory": "Nuts",
+      "category": "Snacks",
+      "own_price_elasticity": -2.495,
+      "cross_price_elasticity_top_rival": -0.123,
+      "intercept": 2.771,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_297",
+      "subcategory": "Soda",
+      "category": "Beverages",
+      "own_price_elasticity": -2.506,
+      "cross_price_elasticity_top_rival": -0.22,
+      "intercept": 4.009,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_298",
+      "subcategory": "Chips",
+      "category": "Snacks",
+      "own_price_elasticity": -1.624,
+      "cross_price_elasticity_top_rival": -0.083,
+      "intercept": 4.424,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_299",
+      "subcategory": "Candy",
+      "category": "Snacks",
+      "own_price_elasticity": -1.319,
+      "cross_price_elasticity_top_rival": -0.165,
+      "intercept": 4.566,
+      "last_fit_date": "2025-04-30"
+    },
+    {
+      "sku_id": "SKU_300",
+      "subcategory": "Pasta",
+      "category": "Pantry",
+      "own_price_elasticity": -2.077,
+      "cross_price_elasticity_top_rival": -0.373,
+      "intercept": 4.731,
+      "last_fit_date": "2025-04-30"
+    }
+  ],
+  "sku_map": {
+    "SKU_001": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_002": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_003": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_004": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_005": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_006": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_007": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_008": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_009": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_010": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_011": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_012": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_013": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_014": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_015": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_016": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_017": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_018": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_019": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_020": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_021": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_022": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_023": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_024": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_025": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_026": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_027": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_028": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_029": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_030": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_031": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_032": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_033": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_034": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_035": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_036": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_037": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_038": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_039": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_040": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_041": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_042": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_043": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_044": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_045": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_046": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_047": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_048": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_049": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_050": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_051": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_052": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_053": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_054": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_055": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_056": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_057": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_058": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_059": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_060": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_061": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_062": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_063": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_064": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_065": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_066": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_067": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_068": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_069": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_070": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_071": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_072": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_073": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_074": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_075": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_076": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_077": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_078": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_079": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_080": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_081": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_082": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_083": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_084": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_085": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_086": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_087": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_088": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_089": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_090": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_091": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_092": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_093": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_094": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_095": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_096": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_097": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_098": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_099": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_100": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_101": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_102": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_103": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_104": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_105": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_106": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_107": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_108": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_109": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_110": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_111": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_112": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_113": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_114": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_115": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_116": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_117": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_118": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_119": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_120": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_121": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_122": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_123": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_124": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_125": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_126": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_127": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_128": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_129": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_130": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_131": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_132": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_133": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_134": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_135": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_136": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_137": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_138": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_139": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_140": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_141": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_142": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_143": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_144": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_145": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_146": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_147": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_148": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_149": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_150": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_151": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_152": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_153": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_154": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_155": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_156": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_157": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_158": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_159": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_160": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_161": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_162": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_163": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_164": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_165": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_166": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_167": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_168": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_169": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_170": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_171": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_172": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_173": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_174": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_175": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_176": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_177": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_178": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_179": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_180": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_181": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_182": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_183": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_184": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_185": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_186": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_187": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_188": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_189": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_190": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_191": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_192": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_193": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_194": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_195": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_196": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_197": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_198": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_199": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_200": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_201": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_202": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_203": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_204": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_205": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_206": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_207": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_208": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_209": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_210": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_211": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_212": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_213": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_214": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_215": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_216": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_217": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_218": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_219": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_220": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_221": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_222": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_223": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_224": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_225": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_226": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_227": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_228": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_229": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_230": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_231": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_232": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_233": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_234": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_235": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_236": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_237": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_238": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_239": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_240": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_241": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_242": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_243": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_244": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_245": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_246": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_247": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_248": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_249": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_250": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_251": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_252": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_253": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_254": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_255": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_256": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_257": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_258": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_259": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_260": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_261": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_262": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_263": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_264": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_265": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_266": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_267": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    },
+    "SKU_268": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_269": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_270": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_271": {
+      "subcategory": "Laundry",
+      "category": "Household"
+    },
+    "SKU_272": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_273": {
+      "subcategory": "CannedGoods",
+      "category": "Pantry"
+    },
+    "SKU_274": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_275": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_276": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_277": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_278": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_279": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_280": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_281": {
+      "subcategory": "Juice",
+      "category": "Beverages"
+    },
+    "SKU_282": {
+      "subcategory": "Skincare",
+      "category": "PersonalCare"
+    },
+    "SKU_283": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_284": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_285": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_286": {
+      "subcategory": "Haircare",
+      "category": "PersonalCare"
+    },
+    "SKU_287": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_288": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_289": {
+      "subcategory": "OralCare",
+      "category": "PersonalCare"
+    },
+    "SKU_290": {
+      "subcategory": "EnergyDrinks",
+      "category": "Beverages"
+    },
+    "SKU_291": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_292": {
+      "subcategory": "Paper",
+      "category": "Household"
+    },
+    "SKU_293": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_294": {
+      "subcategory": "Sauces",
+      "category": "Pantry"
+    },
+    "SKU_295": {
+      "subcategory": "Cleaners",
+      "category": "Household"
+    },
+    "SKU_296": {
+      "subcategory": "Nuts",
+      "category": "Snacks"
+    },
+    "SKU_297": {
+      "subcategory": "Soda",
+      "category": "Beverages"
+    },
+    "SKU_298": {
+      "subcategory": "Chips",
+      "category": "Snacks"
+    },
+    "SKU_299": {
+      "subcategory": "Candy",
+      "category": "Snacks"
+    },
+    "SKU_300": {
+      "subcategory": "Pasta",
+      "category": "Pantry"
+    }
+  },
+  "shrinkage_priors": {
+    "category": {
+      "Beverages": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.5,
+        "cross_price_mean": -0.15,
+        "cross_price_sd": 0.1,
+        "intercept_mean": 3.5,
+        "intercept_sd": 0.6
+      },
+      "Snacks": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.5,
+        "cross_price_mean": -0.15,
+        "cross_price_sd": 0.1,
+        "intercept_mean": 3.5,
+        "intercept_sd": 0.6
+      },
+      "Household": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.5,
+        "cross_price_mean": -0.15,
+        "cross_price_sd": 0.1,
+        "intercept_mean": 3.5,
+        "intercept_sd": 0.6
+      },
+      "PersonalCare": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.5,
+        "cross_price_mean": -0.15,
+        "cross_price_sd": 0.1,
+        "intercept_mean": 3.5,
+        "intercept_sd": 0.6
+      },
+      "Pantry": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.5,
+        "cross_price_mean": -0.15,
+        "cross_price_sd": 0.1,
+        "intercept_mean": 3.5,
+        "intercept_sd": 0.6
+      }
+    },
+    "subcategory": {
+      "EnergyDrinks": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Soda": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Juice": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Chips": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Candy": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Nuts": {
+        "own_price_mean": -1.8,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Cleaners": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Paper": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Laundry": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Skincare": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Haircare": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "OralCare": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Pasta": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "Sauces": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      },
+      "CannedGoods": {
+        "own_price_mean": -1.6,
+        "own_price_sd": 0.4,
+        "cross_price_mean": -0.12,
+        "cross_price_sd": 0.08,
+        "intercept_mean": 3.4,
+        "intercept_sd": 0.5
+      }
+    }
+  },
+  "fit_summary": {
+    "model_version": "v5",
+    "n_skus": 300,
+    "n_obs": 48000,
+    "global_R2": 0.71,
+    "convergence_flag": true,
+    "max_grad": 0.0001,
+    "category_R2": {
+      "Beverages": 0.74,
+      "Snacks": 0.69,
+      "Household": 0.68,
+      "PersonalCare": 0.72,
+      "Pantry": 0.7
+    },
+    "notes": "Prior hierarchical fit on Jan\u2013Dec data. v5 used as baseline for drift diagnostics."
+  },
+  "metadata": {
+    "artifact_name": "Price_Elasticity_Model_v5",
+    "created_at": "2025-05-05T12:00:00Z",
+    "description": "Synthetic prior fitted hierarchical elasticity model for drift and sign-flip diagnostics.",
+    "steep_sku_ids": [
+      "SKU_001",
+      "SKU_002",
+      "SKU_003",
+      "SKU_004",
+      "SKU_005",
+      "SKU_006",
+      "SKU_007",
+      "SKU_008",
+      "SKU_009",
+      "SKU_010",
+      "SKU_011",
+      "SKU_012",
+      "SKU_013",
+      "SKU_014",
+      "SKU_015",
+      "SKU_016",
+      "SKU_017",
+      "SKU_018",
+      "SKU_019",
+      "SKU_020",
+      "SKU_021",
+      "SKU_022",
+      "SKU_023",
+      "SKU_024",
+      "SKU_025",
+      "SKU_026",
+      "SKU_027",
+      "SKU_028",
+      "SKU_029",
+      "SKU_030",
+      "SKU_031",
+      "SKU_032",
+      "SKU_033",
+      "SKU_034",
+      "SKU_035",
+      "SKU_036",
+      "SKU_037"
+    ],
+    "cross_flip_sku_ids": [
+      "SKU_038",
+      "SKU_039",
+      "SKU_040",
+      "SKU_041",
+      "SKU_042",
+      "SKU_043",
+      "SKU_044",
+      "SKU_045",
+      "SKU_046",
+      "SKU_047",
+      "SKU_048"
+    ]
+  }
+}
