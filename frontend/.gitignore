@@ -25,3 +25,6 @@ dist-ssr
 
 # env file
 .env
+
+# Cloudflare Wrangler local state (includes local D1 database)
+.wrangler

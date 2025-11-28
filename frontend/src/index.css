@@ -4,33 +4,38 @@
 @theme {
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 
-  --color-background: #FBFBFB; /* Main Background (Off-white) */
-  --color-card-background: #FFFFFF; /* Card/Widget Background (White) */
-  --color-text: #1D1D1F; /* Primary Text (Charcoal) */
-  --color-text-secondary: #8A8A8E; /* Secondary Text (Medium Gray) */
-  --color-text-subtle: #C6C6C6; /* Subtle Text/Placeholder (Light Gray) */
-  --color-border: #EAEAEA; /* Border/Disabled Gray */
-  --color-white: #FFFFFF;
+  --color-background: #f7f9fc; /* Misty blue background */
+  --color-card-background: #ffffff; /* Bright cards */
+  --color-text: #0f172a; /* Navy text */
+  --color-text-secondary: #475569; /* Slate gray */
+  --color-text-subtle: #94a3b8; /* Muted slate */
+  --color-border: #d7e3f4; /* Soft blue border */
+  --color-white: #ffffff;
 
-  /* Action & Data Visualization Colors */
-  --color-primary: #6366F1; /* Primary Action (Indigo) */
-  --color-primary-dark: #4F46E5; /* Secondary Action (Dark Indigo) */
-  --color-primary-light: rgba(99, 102, 241, 0.15); /* 15% opacity of primary */
-  --color-primary-medium: rgba(99, 102, 241, 0.3); /* 30% opacity of primary */
+  /* Coastal breeze palette */
+  --color-primary: #2563eb; /* Indigo blue */
+  --color-primary-dark: #1d4ed8; /* Deeper indigo */
+  --color-primary-light: rgba(37, 99, 235, 0.08);
+  --color-primary-medium: rgba(37, 99, 235, 0.15);
 
-  --color-success: #10B981; /* Success/Positive (Emerald Green) */
-  --color-success-bg: rgba(16, 185, 129, 0.1); /* 10% opacity of success */
+  --color-success: #22c55e; /* Emerald */
+  --color-success-bg: rgba(34, 197, 94, 0.15);
 
-  --color-highlight: #06B6D4; /* Highlight (Cyan) */
-  --color-highlight-bg: rgba(6, 182, 212, 0.1); /* 10% opacity of highlight */
+  --color-highlight: #0ea5e9; /* Sky cyan */
+  --color-highlight-bg: rgba(14, 165, 233, 0.12);
 
-  --color-icon-blue: #0EA5E9; /* Sky Blue */
-  --color-icon-blue-bg: rgba(14, 165, 233, 0.1); /* 10% opacity of icon blue */
+  --color-icon-blue: #2563eb;
+  --color-icon-blue-bg: rgba(37, 99, 235, 0.12);
   
-  --color-icon-pink: #A855F7; /* Purple */
-  --color-icon-pink-bg: rgba(168, 85, 247, 0.1); /* 10% opacity of icon purple */
+  --color-icon-pink: #f43f5e;
+  --color-icon-pink-bg: rgba(244, 63, 94, 0.12);
 
-  --color-separator: rgba(29, 29, 31, 0.2); /* 20% opacity of primary text */
+  --color-separator: rgba(15, 23, 42, 0.08);
+
+  /* Accent ramp for chat bubbles */
+  --color-orange-500: #6366f1; /* Indigo */
+  --color-orange-400: #8b5cf6; /* Lighter indigo */
+  --color-orange-600: #4c1d95; /* Deep violet */
 
   /* Keyframes (copied from your example) */
   @keyframes fadeIn {
@@ -86,6 +91,26 @@
     to {
       transform: translateX(0);
       opacity: 1;
+    }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-20px);
     }
   }
 }
@@ -179,6 +204,50 @@ body {
   background-color: var(--color-primary-dark);
 }
 
+/* Animation utilities */
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-on-scroll {
+  /* Will be animated by Intersection Observer */
+}
+
+.animate-on-scroll.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-on-scroll.animate-fade-out {
+  animation: fadeOut 0.6s ease-in forwards;
+}
+
+/* Animation delay classes */
+.delay-100.animate-fade-in-up {
+  animation-delay: 0.1s;
+}
+.delay-200.animate-fade-in-up {
+  animation-delay: 0.2s;
+}
+.delay-300.animate-fade-in-up {
+  animation-delay: 0.3s;
+}
+.delay-400.animate-fade-in-up {
+  animation-delay: 0.4s;
+}
+
+.delay-100.animate-fade-out {
+  animation-delay: 0.05s;
+}
+.delay-200.animate-fade-out {
+  animation-delay: 0.1s;
+}
+.delay-300.animate-fade-out {
+  animation-delay: 0.15s;
+}
+.delay-400.animate-fade-out {
+  animation-delay: 0.2s;
+}
+
 /* Markdown Content Styles */
 .markdown-content {
   color: inherit;
@@ -260,6 +329,7 @@ body {
 
 .markdown-content code {
   background-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
@@ -267,7 +337,8 @@ body {
 }
 
 .markdown-content pre {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(245, 245, 245, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1em;
   border-radius: 4px;
   overflow-x: auto;
@@ -276,15 +347,17 @@ body {
 
 .markdown-content pre code {
   background-color: transparent;
+  color: #000000;
   padding: 0;
 }
 
 .markdown-content blockquote {
-  border-left: 3px solid var(--color-border);
-  padding-left: 1em;
+  border-left: 3px solid rgba(0, 0, 0, 0.2);
   margin: 0.75em 0;
-  color: inherit;
-  opacity: 0.8;
+  color: var(--color-text-secondary);
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 0.5em 1em;
+  border-radius: 4px;
 }
 
 .markdown-content hr {
@@ -293,19 +366,104 @@ body {
   margin: 1em 0;
 }
 
-/* User message markdown (white text) */
+/* User message markdown (black text on primary background) */
 .bg-primary .markdown-content code {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .bg-primary .markdown-content pre {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .bg-primary .markdown-content blockquote {
-  border-left-color: rgba(255, 255, 255, 0.3);
+  border-left-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .bg-primary .markdown-content hr {
-  border-top-color: rgba(255, 255, 255, 0.3);
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Custom Scrollbar Styles */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: background 0.2s ease, opacity 0.6s ease;
+  opacity: 0; /* Start hidden by default */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Hide scrollbar by default - keep width constant, only change opacity */
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  opacity: 0 !important;
+  transition: opacity 0.6s ease !important;
+}
+
+.scrollbar-visible::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-visible::-webkit-scrollbar-thumb {
+  opacity: 1 !important;
+  transition: opacity 0.6s ease !important;
+}
+
+/* Firefox - keep scrollbar-width constant, only change color opacity */
+.scrollbar-hidden {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0) transparent;
+  transition: scrollbar-color 0.6s ease;
+}
+
+.scrollbar-visible {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+  transition: scrollbar-color 0.6s ease;
+}
+
+/* Text wrapping for reasoning steps */
+.reasoning-step-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Reasoning step animation */
+.reasoning-step-enter {
+  animation: slideInFade 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideInFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

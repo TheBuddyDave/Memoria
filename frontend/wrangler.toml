@@ -1,0 +1,16 @@
+# Cloudflare Pages configuration for D1 database binding
+# This file is used by Wrangler CLI for local development and deployment
+
+name = "mindmarque"
+compatibility_date = "2024-01-01"
+
+# D1 Database binding
+# You'll need to create a D1 database and bind it:
+# 1. Run: wrangler d1 create mindmarque-db
+# 2. Update the database_id below with the ID from the output
+# 3. Run the migration: wrangler d1 execute mindmarque-db --file=./schema.sql
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mindmarque-db"
+database_id = "89fd67fd-92cd-4016-a915-b0d5966da20c"
