@@ -60,85 +60,73 @@ export const sampleEdges: Edge[] = [
     id: "E3001",
     from: "N1001",
     to: "N1002",
-    label:
-      "Provides the finding that directly fed into the action to link patient records",
+    label: "INFORMS_ACTION",
   },
   {
     id: "E3002",
     from: "N1003",
     to: "N1004",
-    label:
-      "Tailored the analysis format to match the user's preference for visual presentation",
+    label: "FORMATS_ANALYSIS_FOR",
   },
   {
     id: "E3003",
     from: "N1006",
     to: "N1007",
-    label:
-      "Documented the dosage adjustment recommendation in the quarterly research summary",
+    label: "DOCUMENTED_IN",
   },
   {
     id: "E3004",
     from: "N1008",
     to: "N1009",
-    label:
-      "Shaped the analysis by triggering investigation into remote monitoring performance",
+    label: "TRIGGERS_ANALYSIS",
   },
   {
     id: "E3005",
     from: "N1009",
     to: "N1010",
-    label:
-      "Used the remote monitoring findings to inform the adverse event correlation methodology",
+    label: "INFORMS_METHOD",
   },
   {
     id: "E3006",
     from: "N1010",
     to: "N1011",
-    label:
-      "Triggered the user request for treatment efficacy comparison based on the analysis results",
+    label: "TRIGGERS_REQUEST",
   },
   {
     id: "E3007",
     from: "N1010",
     to: "N1012",
-    label:
-      "Used the Phase III trial dataset to perform the adverse event correlation analysis",
+    label: "USES_DATASET",
   },
   {
     id: "E3008",
     from: "N1013",
     to: "N1014",
-    label:
-      "Applied the regulatory approval event context to the data merge action",
+    label: "CONTEXT_FOR_ACTION",
   },
   {
     id: "E3009",
     from: "N1015",
     to: "N1014",
-    label:
-      "Provided patient enrollment data that was merged with demographic information",
+    label: "PROVIDES_DATA_FOR",
   },
   {
     id: "E3010",
     from: "N1016",
     to: "N1014",
-    label:
-      "Supplied treatment response metrics that were integrated into the merge",
+    label: "SUPPLIES_METRICS_FOR",
   },
   {
     id: "E3011",
     from: "N1014",
     to: "N1017",
-    label:
-      "Informed the efficacy analysis result through the merged patient-adjusted data",
+    label: "INFORMS_RESULT",
   },
   {
     id: "E3012",
     from: "N1018",
     to: "N1014",
-    label:
-      "Derived the methodology for statistical analysis from the source document",
+    label: "DERIVES_METHOD_FOR",
   },
 ];
 

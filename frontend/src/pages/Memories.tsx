@@ -873,9 +873,6 @@ function MemoryGraphView({ reasoningSteps }: MemoryGraphViewProps) {
 
     const svgSelection = d3.select(svg);
     
-    // Preserve zoom transform before removing elements
-    const currentTransform = zoomTransformRef.current || d3.zoomIdentity;
-    
     svgSelection.selectAll("*").remove();
 
     const width = svg.clientWidth || 800;
@@ -886,6 +883,13 @@ function MemoryGraphView({ reasoningSteps }: MemoryGraphViewProps) {
     svg.setAttribute("height", height.toString());
 
     const g = svgSelection.append("g");
+
+    // Add subtle entry animation - start slightly smaller
+    g.attr("transform", "scale(0.95)")
+      .transition()
+      .duration(400)
+      .ease(d3.easeCubicOut)
+      .attr("transform", "scale(1)");
 
     // Add zoom behavior
     const zoom = d3
@@ -985,17 +989,17 @@ function MemoryGraphView({ reasoningSteps }: MemoryGraphViewProps) {
         d3
           .forceLink(links as any)
           .id((d: any) => d.id)
-          .distance((selectedPath || selectedSubquery !== null) ? 180 : 120)
-          .strength((selectedPath || selectedSubquery !== null) ? 0.5 : 0.15)
+          .distance((selectedPath || selectedSubquery !== null) ? 220 : 160)
+          .strength((selectedPath || selectedSubquery !== null) ? 0.3 : 0.1)
       )
-      .force("charge", d3.forceManyBody().strength((selectedPath || selectedSubquery !== null) ? -600 : -300))
-      .force("collision", d3.forceCollide().radius(60).strength(0.9))
+      .force("charge", d3.forceManyBody().strength((selectedPath || selectedSubquery !== null) ? -700 : -400))
+      .force("collision", d3.forceCollide().radius(70).strength(0.8))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("x", d3.forceX(width / 2).strength(0.02))
-      .force("y", d3.forceY(height / 2).strength(0.02))
-      .alphaDecay(0.0228)
+      .force("x", d3.forceX(width / 2).strength(0.015))
+      .force("y", d3.forceY(height / 2).strength(0.015))
+      .alphaDecay(0.02)
       .alphaMin(0.001)
-      .velocityDecay(0.4);
+      .velocityDecay(0.3);
 
     simulationRef.current = simulation as any;
     
@@ -1151,12 +1155,12 @@ function MemoryGraphView({ reasoningSteps }: MemoryGraphViewProps) {
     // We'll use a separate temporary simulation for pre-settling to avoid consuming alpha
     const tempSimulation = d3
       .forceSimulation(visibleNodes as any)
-      .force("link", d3.forceLink(links as any).id((d: any) => d.id).distance((selectedPath || selectedSubquery !== null) ? 180 : 120).strength((selectedPath || selectedSubquery !== null) ? 0.5 : 0.15))
-      .force("charge", d3.forceManyBody().strength((selectedPath || selectedSubquery !== null) ? -600 : -300))
-      .force("collision", d3.forceCollide().radius(60).strength(0.9))
+      .force("link", d3.forceLink(links as any).id((d: any) => d.id).distance((selectedPath || selectedSubquery !== null) ? 250 : 180).strength((selectedPath || selectedSubquery !== null) ? 0.3 : 0.1))
+      .force("charge", d3.forceManyBody().strength((selectedPath || selectedSubquery !== null) ? -800 : -500))
+      .force("collision", d3.forceCollide().radius(80).strength(0.7))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("x", d3.forceX(width / 2).strength(0.02))
-      .force("y", d3.forceY(height / 2).strength(0.02))
+      .force("x", d3.forceX(width / 2).strength(0.015))
+      .force("y", d3.forceY(height / 2).strength(0.015))
       .alpha(1)
       .alphaDecay(0);
     
