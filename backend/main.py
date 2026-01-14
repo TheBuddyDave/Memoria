@@ -2,6 +2,9 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+# route imports
+from src.api.subquery_routes.route import router as workflow_router
+
 # Initialize FastAPI application
 app = FastAPI(
     title="Memoria API",
@@ -18,9 +21,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Routes will be included here as the project grows
-# from src.api import router
-# app.include_router(router)
+# Include API routers
+app.include_router(workflow_router)
 
 if __name__ == "__main__":
     # Start uvicorn server
