@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Memoria Local DB",
+      "Group": "Servers",
+      "Host": "db",
+      "Port": 5432,
+      "MaintenanceDB": "agent_state_db",
+      "Username": "memoriateam",
+      "SSLMode": "prefer"
+    }
+  }
+}
