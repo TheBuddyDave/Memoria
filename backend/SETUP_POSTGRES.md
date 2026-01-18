@@ -3,6 +3,8 @@
 Spin up a ready-to-use Postgres database and pgAdmin UI with one command.
 All data stays inside this repo. No global installs required.
 
+> ⚠️ Please don't change the names or passwords because the DATABSE_URL expects them and changing them will cause connection issues.
+
 ## 1. Requirements
 
 Docker Desktop installed and running
