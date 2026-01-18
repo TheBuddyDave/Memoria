@@ -2,7 +2,7 @@
 agent: agent
 ---
 Whenever you're interacting with PostgreSQL databases using SQLAlchemy, ensure the following: 
-1. Use SQLAlchemy 2.0 Syntax like mapped_column and Mapped[] type hints and other query constructs await session.execute(select(...)) and scalar() etc.
+1. Use SQLAlchemy 2.0 Syntax like mapped_column and Mapped[] type hints and other query constructs await session.execute(select(...)) and scalar() etc. our app is async and should expect to run at scale with many concurrent requests.
 2. Use Global AsyncEngine per application life-cycle.
 3. Use a session factory to generate AsyncSession instances. This decouples database configuration from your business logic.
 4. Short-lived "Unit of Work": A session should only live for the duration of a DB operation.
@@ -17,4 +17,3 @@ Whenever you're interacting with PostgreSQL databases using SQLAlchemy, ensure t
 13. selectinload(): Use this for One-to-Many relationships. session.flush(): Use to send changes to the DB and receive auto-generated IDs (like a new Log.id) without committing the transaction or releasing row locks.
 14. session.refresh(): Use to manually re-load attributes on an object if they were modified by the DB (like timestamps or default values) or if you need to load a relationship after the initial query.
 15. Wrap your SQLAlchemy logic in dedicated Service classes when it makes sense to make code more modular and testable.
-16. 
