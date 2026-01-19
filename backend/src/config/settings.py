@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     NEO4J_PASSWORD: str = "memoria1"
     
     # database url should change if we switch environments. I.e. if backend runs in docker container, replace localhost with db (service name)
-    DATABASE_URL: str = "postgresql+asyncpg://memoriateam:longterm@localhost:5432/agent_state_db"
+    DATABASE_URL: str = "postgresql+asyncpg://memoriateam:longterm@localhost:5433/agent_state_db"
     
     # Configuration for loading environment variables
     model_config = SettingsConfigDict(

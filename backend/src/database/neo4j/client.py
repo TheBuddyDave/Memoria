@@ -1,6 +1,6 @@
 from neo4j.exceptions import DriverError
 from neo4j import AsyncGraphDatabase, AsyncDriver
-from src.config.settings import Settings
+from src.config.settings import get_settings, Settings
 
 class Neo4jClient:
 
@@ -9,7 +9,7 @@ class Neo4jClient:
         Use this client as an async context manager to ensure the driver closes:
         `async with Neo4jClient() as client:`
         """
-        settings = Settings()
+        settings = get_settings()
 
         self.uri: str = settings.NEO4J_URI
         self.user: str = settings.NEO4J_USER
