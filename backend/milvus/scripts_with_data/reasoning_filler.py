@@ -5,7 +5,7 @@
 💣 RUNNING COLLECTION FILL WITH SAME DATA WILL CREATE DUPLICATES IN MILVUS 
 """
 
-from backend.milvus.scripts_with_data.helpers import WriteDataOnFile, ReasoningBankEntry, AsyncMilvus, AsyncOpenAIClient
+from milvus.scripts_with_data.helpers import WriteDataOnFile, ReasoningBankEntry, AsyncMilvus, AsyncOpenAIClient
 import asyncio
 
 # synthetically generated Agent lessons to be inserted into Milvus "reasoningbank" collection.
