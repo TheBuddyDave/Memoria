@@ -19,6 +19,7 @@ async def drop_and_create_all() -> None:
         await conn.run_sync(Base.metadata.create_all)
 
 if __name__ == "__main__":
+    # Run: python -m src.database.agent_state.create_tables
     # NOTE: this will drop existing tables! If no tables exist, it will just create them.
     asyncio.run(drop_and_create_all())
     print("Dropped + created all tables.")

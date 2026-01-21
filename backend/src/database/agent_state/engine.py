@@ -14,7 +14,6 @@ DATABASE_URL = keys.DATABASE_URL
 # Docs: https://docs.sqlalchemy.org/en/20/core/engines.html
 engine: AsyncEngine = create_async_engine(
     DATABASE_URL,
-    echo=True,
     pool_pre_ping=True,
     # pool_size / max_overflow can be tuned later if needed
 )
