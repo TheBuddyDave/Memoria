@@ -56,5 +56,11 @@ def get_settings() -> Settings:
     """
     Using lru_cache ensures the settings are only read once. 
     Subsequent calls will return the same object.
+    
+    Usage:
+        from config import get_settings
+
+        settings = get_settings()
+        print(settings.OPENAI_API_KEY)
     """
     return Settings()
