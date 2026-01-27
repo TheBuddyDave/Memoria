@@ -32,7 +32,6 @@ class ReasoningBankSubquery(BaseModel):
         description="Weight for similarity search (vector DB) retrieval when combining with BM25 results"
     )
     
-
 class OutputModel(BaseModel):
     clarification_question: Optional[str] = Field(
         default=None,

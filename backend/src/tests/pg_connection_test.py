@@ -1,8 +1,8 @@
 """
-Docstring for src.database.agent_state.connection_test
+Docstring for src.tests.pg_connection_test
 
-Checks the database connection using the global engine with postgreSQL. 
-Run: python -m src.database.agent_state.connection_test
+Checks the database connection of running PostgreSQL instance in docker.
+Run: python -m src.tests.pg_connection_test
 """
 
 import asyncio

@@ -32,7 +32,7 @@ Initiates a new workflow instance or continues an existing conversation. If a `w
 **Parameters:**  
 - `user_input` (string, required): The user's query or input for the workflow
 - `workflow_id` (string, optional): Existing workflow UUID to continue a conversation. If omitted, a new workflow is created
-- `ask_clarifications` (boolean, optional): Whether the workflow should ask clarification questions before proceeding
+- `ask_clarifications` (boolean, optional): Whether the workflow should ask clarification questions before proceeding. defaults to True.
 - `preferences` (object, optional): JSON object containing user preferences such as model and preferred tone
 
 **Request Body:**

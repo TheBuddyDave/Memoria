@@ -18,11 +18,8 @@ class SubqueryGenerator:
         self.model: str = "gpt-5-mini"
         self.prompt_cache_key = "subquery_gen_prompt"
         self.output_pydantic_model = OutputModel
-        
-    async def run_agent(self):
-        pass
     
-    async def get_llm_response(self, user_query: str) -> Optional[OutputModel]:
+    async def arun(self, user_query: str) -> Optional[OutputModel]:
         """
         Calls OpenAI API with the given prompt and returns the response text.
         """

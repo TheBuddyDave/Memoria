@@ -1,4 +1,4 @@
-# Agent State DB (PostgreSQL) — Memoria (SQLAlchemy Async)
+# Agent State DB (PostgreSQL)
 
 > This is how we enable **multi-session** conversations with **live progress**.
 
