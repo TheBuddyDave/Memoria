@@ -10,11 +10,13 @@ class GraphSubquery(BaseModel):
     )
     bm25_weight: Optional[float] = Field(
         default=0.5,
-        description="Weight for BM25 retrieval when combining with vector DB results"
+        description="Weight for BM25 retrieval when combining with vector DB results. Between 0.0 and 1.0",
+        le=1.0, ge=0.0
     )
     similarity_search_weight: Optional[float] = Field(
         default=0.5,
-        description="Weight for similarity search (vector DB) retrieval when combining with BM25 results"
+        description="Weight for similarity search (vector DB) retrieval when combining with BM25 results. Between 0.0 and 1.0",
+        le=1.0, ge=0.0
     )
     
 class ReasoningBankSubquery(BaseModel):
@@ -25,11 +27,13 @@ class ReasoningBankSubquery(BaseModel):
     )
     bm25_weight: Optional[float] = Field(
         default=0.5,
-        description="Weight for BM25 retrieval when combining with vector DB results"
+        description="Weight for BM25 retrieval when combining with vector DB results. Between 0.0 and 1.0",
+        le=1.0, ge=0.0
     )
     similarity_search_weight: Optional[float] = Field(
         default=0.5,
-        description="Weight for similarity search (vector DB) retrieval when combining with BM25 results"
+        description="Weight for similarity search (vector DB) retrieval when combining with BM25 results. Between 0.0 and 1.0",
+        le=1.0, ge=0.0
     )
     
 class OutputModel(BaseModel):
