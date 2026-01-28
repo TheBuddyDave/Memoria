@@ -28,18 +28,19 @@ class ReasoningBankRetriever:
     """
     Hybrid retriever for the `reasoningbank` collection:
       - BM25 full-text retrieval over `context_to_prefer` via `context_sparse_vector`
-      - Dense semantic retrieval over `context_to_prefer_vector`
+      - Dense semantic retrieval over `key_lesson` via `key_lesson_vector`
       - Weighted fusion via WeightedRanker(bm25_weight, dense_weight)
 
     Make sure the following are configured on milvus collection:
       - collection_name = "reasoningbank"
-      - dense field = "context_to_prefer_vector" (FLOAT_VECTOR, dim=1536, metric=COSINE)
+      - dense field = "key_lesson_vector" (FLOAT_VECTOR, dim=1536, metric=COSINE)
       - sparse field = "context_sparse_vector" (SPARSE_FLOAT_VECTOR, BM25 function output)
     """
 
     COLLECTION_NAME = "reasoningbank"
-    DENSE_FIELD = "context_to_prefer_vector"
+    DENSE_FIELD = "key_lesson_vector"
     SPARSE_FIELD = "context_sparse_vector"
+    MIN_SCORE = 0.7
 
     # this is what we want to retrieve from the collection for each hit
     DEFAULT_OUTPUT_FIELDS = ["rb_id", "key_lesson", "context_to_prefer", "link_nodes"]
@@ -164,19 +165,21 @@ class ReasoningBankRetriever:
             return []
         hits = hits_list[0] if isinstance(hits_list[0], list) else hits_list
 
-        parsed: list[ReasoningBankHit] = []
+        # parse and fill the pydantic model and only retain entries with score >= MIN_SCORE
+        parsed_and_filtered: list[ReasoningBankHit] = []
         for h in hits:
             entity = h.get("entity", {}) or {}
-            parsed.append(
-                ReasoningBankHit(
-                    rb_id=int(h["primary_key"]),
-                    score=float(h["distance"]),
-                    key_lesson=str(entity.get("key_lesson", "")),
-                    context_to_prefer=str(entity.get("context_to_prefer", "")),
+            if float(h["distance"]) >= self.MIN_SCORE:
+                parsed_and_filtered.append(
+                    ReasoningBankHit(
+                        rb_id=int(h["primary_key"]),
+                        score=float(h["distance"]),
+                        key_lesson=str(entity.get("key_lesson", "")),
+                        context_to_prefer=str(entity.get("context_to_prefer", "")),
                     link_nodes=entity.get("link_nodes"),  
                 )
             )
 
-        return parsed
+        return parsed_and_filtered
 
 

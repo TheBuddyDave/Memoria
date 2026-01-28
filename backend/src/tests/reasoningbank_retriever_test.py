@@ -28,7 +28,14 @@ async def test_reasoningbank_retriever():
         
         print(f"Retrieved {len(results)} results:\n")
         print("=" * 80)
-        print(results)
+        # print the objects nicely
+        for idx, hit in enumerate(results, start=1):
+            print(f"\nResult {idx}:")
+            print(f"  ID: {hit.rb_id}")
+            print(f"  Score: {hit.score}")
+            print(f"  Key Lesson: {hit.key_lesson}")
+            print(f"  Context to Prefer: {hit.context_to_prefer}")
+            print(f"  Link Nodes: {hit.link_nodes}")
         print("=" * 80)
         
     except Exception as e:
