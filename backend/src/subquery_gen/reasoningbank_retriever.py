@@ -4,12 +4,9 @@ Milvus Hybrid Search: https://milvus.io/docs/hybrid_search_with_milvus.md
 """
 
 from __future__ import annotations
-
 from dataclasses import dataclass
-from tkinter import SE
 from typing import Any, Optional, Sequence
-
-from pymilvus import AnnSearchRequest, WeightedRanker, Hits, Hit, SearchResult
+from pymilvus import AnnSearchRequest, WeightedRanker
 
 from src.config.milvus_client import get_milvus_client
 from src.config.llm_clients.openai_client import get_openai_client
