@@ -3,24 +3,25 @@
 
 ❗ SERIOUSLY, BE CAREFUL RUNNING THIS. IT WILL MAKE LOTS OF OPENAI API CALLS AND COST YOU MONEY.
 💣 RUNNING COLLECTION FILL WITH SAME DATA WILL CREATE DUPLICATES IN MILVUS 
+
+ Run: python -m milvus.scripts_with_data.reasoning_filler
 """
 
-from backend.milvus.scripts_with_data.helpers import WriteDataOnFile, ReasoningBankEntry, AsyncMilvus, AsyncOpenAIClient
+from milvus.scripts_with_data.helpers import WriteDataOnFile, ReasoningBankEntry, AsyncMilvus, AsyncOpenAIClient
 import asyncio
+# make sure this is filled with the entries we will append to. 
+from milvus.scripts_with_data.reasoning_entries import entries
 
-# synthetically generated Agent lessons to be inserted into Milvus "reasoningbank" collection.
-# each object should have "key_lesson", "context_to_prefer", "tags", and optionally "link_nodes" fields. The vectors will be generated through these scripts below.
-entries = []
 
 async def create_reasoning_embeddings(indices_to_process: list[int] | None = None) -> None:
     """
     ⚠️ BE CAREFUL RUNNING THIS. It will make lots of OpenAI API calls and cost money. ⚠️
     
     Will create embeddings for all entries defined above and store them in ReasoningBankData.jsonl.\n
-    **Note:** that this function does NOT insert anything into Milvus. It only creates embeddings and stores them in a file.
+    **Note:** this function does NOT insert anything into Milvus. It only creates embeddings and stores them in a file.
     
     ALSO NOTE: If indices_to_process is provided, only those entries will be processed. This is useful for generating embeddings for failed entries from a previous run.
-    ALSO NOTE: the failed indices are printed so please copy them from console. 
+    ALSO NOTE: the failed indices are printed so please copy them from console to run in next round. 
     
     Args:
         indices_to_process: Optional list of indices to process. If None, process all entries from the entries list above.

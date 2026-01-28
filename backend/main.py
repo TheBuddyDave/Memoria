@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # route imports
-from src.api.subquery_routes.route import router as workflow_router
+from src.api.route import router as workflow_router
 
 # Initialize FastAPI application
 app = FastAPI(
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Start uvicorn server
     uvicorn.run(
         "main:app",
-        host="0.0.0.0",
+        host="127.0.0.1",
         port=8000,
         reload=True  # Disable in production
     )

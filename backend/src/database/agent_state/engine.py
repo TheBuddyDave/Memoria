@@ -4,10 +4,10 @@ Docstring for src.database.agent_state.engine
 This same engine instance will be used across the application to interact with the database. It's created once at application startup. 
 """
 
-from src.config.settings import Settings
+from src.config.settings import get_settings, Settings
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncEngine
 
-keys: Settings = Settings()
+keys: Settings = get_settings()
 DATABASE_URL = keys.DATABASE_URL
 
 # Global engine: created once and reused

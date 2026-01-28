@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     NEO4J_PASSWORD: str = "memoria1"
     
     # database url should change if we switch environments. I.e. if backend runs in docker container, replace localhost with db (service name)
-    DATABASE_URL: str = "DATABASE_URL=postgresql+psycopg://memoriateam:longterm@localhost:5432/agent_state_db"
+    DATABASE_URL: str = "postgresql+asyncpg://memoriateam:longterm@localhost:5433/agent_state_db"
     
     # Configuration for loading environment variables
     model_config = SettingsConfigDict(
@@ -50,11 +50,17 @@ class Settings(BaseSettings):
         env_ignore_empty=True, # ignore empty variables in .env
         extra="allow", # allow extra env variables not defined here
     )
+
+@lru_cache
+def get_settings() -> Settings:
+    """
+    Using lru_cache ensures the settings are only read once. 
+    Subsequent calls will return the same object.
     
-    @lru_cache
-    def get_settings():
-        """
-        Using lru_cache ensures the settings are only read once. 
-        Subsequent calls will return the same object.
-        """
-        return Settings()
+    Usage:
+        from config import get_settings
+
+        settings = get_settings()
+        print(settings.OPENAI_API_KEY)
+    """
+    return Settings()

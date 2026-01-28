@@ -1,12 +1,15 @@
-import asyncio
+"""
+Run: python -m milvus.scripts_with_data.graphembedding_filler
+"""
 
-from backend.milvus.scripts_with_data.helpers import AsyncMilvus, WriteDataOnFile, GraphEmbeddingsEntry, AsyncOpenAIClient
-from backend.neo4j.scripts_with_data.neo4jHelpers import DIRECTORY_PATH as NEO4J_DIRECTORY_PATH
+import asyncio
+from milvus.scripts_with_data.helpers import AsyncMilvus, WriteDataOnFile, GraphEmbeddingsEntry, AsyncOpenAIClient
+from neo4j_db.scripts_with_data.neo4jHelpers import DIRECTORY_PATH as NEO4J_DIRECTORY_PATH
 
 async def create_graphembeddings(directory_path: str, filename: str, indices_to_process: list[int] | None = None) -> None:
     """
-    💣 WARNING:This will make LOTS OF API CALLS - COSTS MONEYYYYY
-    Loads JSON entries from the given file (expects 'text' and 'elementId' fields), generates embeddings using OpenAI in batches of size 50.
+    💣 WARNING:This will make LOTS OF API CALLS - $$$$ COSTS MONEYYYYY $$$$$
+    Loads JSON entries from the given file (expects 'text' and 'elementId' fields), generates embeddings using OpenAI in batches of size 100.
     Stores the complete entry with embeddings into 'GraphEmbeddingsData.jsonl'.
     
     Args:
@@ -78,6 +81,7 @@ async def create_graphembeddings(directory_path: str, filename: str, indices_to_
     print(f"Successful Indices: {successful_indices} \nFailed Indices: {failed_indices}")
     
     await writer.close()
+    await openai_client.close()
 
 async def fill_graphembeddings_collection(batch_size: int = 200) -> None:
     """

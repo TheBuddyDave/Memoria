@@ -2,14 +2,14 @@ from fastapi import APIRouter, WebSocket, WebSocketDisconnect, status
 from fastapi.responses import JSONResponse
 from uuid import uuid4
 from typing import Any, Dict, Optional
+from src.api.schemas import StartWorkflowRequest, SubmitClarificationRequest
 
 router = APIRouter(prefix="/workflow", tags=["workflow"])
 
 
 @router.post("/start", status_code=status.HTTP_201_CREATED)
 async def start_workflow(
-    # TODO: Add proper Pydantic request model here
-    request_data: Dict[str, Any]
+    request_data: StartWorkflowRequest
 ) -> JSONResponse:
     """
     Start a new workflow instance or continue an existing conversation.
@@ -18,7 +18,7 @@ async def start_workflow(
     The workflow will retrieve past conversation history and state from the database.
     """
     # Generate unique workflow ID or use existing one
-    workflow_id = request_data.get("workflow_id", str(uuid4()))
+    workflow_id = request_data.workflow_id or str(uuid4())
     
     # TODO: Extract parameters from request_data
     # user_input = request_data.get("user_input")
@@ -76,8 +76,7 @@ async def workflow_websocket(websocket: WebSocket, workflow_id: str):
 @router.post("/input/{workflow_id}")
 async def submit_clarification(
     workflow_id: str,
-    # TODO: Add proper Pydantic request model here
-    request_data: Dict[str, Any]
+    request_data: SubmitClarificationRequest
 ) -> JSONResponse:
     """
     Submit clarification answer for a workflow.

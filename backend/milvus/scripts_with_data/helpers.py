@@ -4,14 +4,14 @@ Milvus Asynv API docs: https://milvus.io/docs/use-async-milvus-client-with-async
 
 from pymilvus import AsyncMilvusClient
 import os
-import dotenv
 from pydantic import BaseModel
 from typing import Any, Literal, Optional
 from openai import AsyncOpenAI as openaiAsync
+from src.config.settings import get_settings, Settings
 import aiofiles
 import json
 
-dotenv.load_dotenv()
+settings: Settings = get_settings()
 
 # define the Pydantic class for an entry in ReasoningBank collection in Milvus
 class ReasoningBankEntry(BaseModel):
@@ -49,8 +49,8 @@ class AsyncMilvus:
         """
         Insert function will start the client automatically but Don't forget to close the client after use with `await client.close()`
         """
-        self.uri = os.getenv("MILVUS_ENDPOINT")
-        self.token = os.getenv("MILVUS_TOKEN")
+        self.uri = settings.MILVUS_ENDPOINT
+        self.token = settings.MILVUS_TOKEN
         self.collection_name = collection_name
 
         assert self.uri is not None, "MILVUS_ENDPOINT environment variable not set"
@@ -73,7 +73,7 @@ class AsyncOpenAIClient:
         """
         Don't forget to close the client after use with `await client.close()`
         """
-        self.client = openaiAsync(api_key=os.getenv("OPENAI_API_KEY"))
+        self.client = openaiAsync(api_key=settings.OPENAI_API_KEY)
 
     async def get_embedding(self, text: str) -> list[float]:
         # docs: https://platform.openai.com/docs/guides/embeddings#how-to-get-embeddings

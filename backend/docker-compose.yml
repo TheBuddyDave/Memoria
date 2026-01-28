@@ -7,7 +7,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       # Postgres data stored inside: ./pgdata/db (relative to docker-compose.yml location)
       - ./pgdata/db:/var/lib/postgresql/data

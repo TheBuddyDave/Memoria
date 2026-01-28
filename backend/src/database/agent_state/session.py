@@ -8,11 +8,11 @@ from collections.abc import AsyncIterator
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 from .engine import engine
 
-# Session factory decouples DB config from business logic (Rule #3)
+# Session factory decouples DB config from business logic
 AsyncSessionLocal = async_sessionmaker(
     bind=engine,
-    expire_on_commit=False, # do not expire objects on commit to avoid reloading from DB. May cause stale data within a session if not handled properly.
-    autoflush=False,
+    expire_on_commit=True,
+    autoflush=True,
 )
 
 async def get_session() -> AsyncIterator[AsyncSession]:
