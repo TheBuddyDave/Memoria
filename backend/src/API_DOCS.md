@@ -11,9 +11,9 @@ The API allows you to start workflows, receive real-time updates via WebSocket, 
 
 ## Table of Contents
 
-- [Start Workflow Endpoint](#start-workflow)
+- [Execute Workflow Endpoint](#execute-workflow)
 - [WebSocket Stream Endpoint](#websocket-stream)
-- [Submit Clarification Endpoint](#submit-clarification)
+- [AI Answer Endpoint](#ai-answer)
 - [Workflow Flow](#workflow-flow)
 - [Status Codes](#status-codes)
 - [Notes](#notes)
@@ -22,111 +22,24 @@ The API allows you to start workflows, receive real-time updates via WebSocket, 
 
 ## Workflow Endpoints
 
-### Start Workflow
+### Execute Workflow
 
-**Endpoint:** `POST /workflow/start`
-
-**Description:**  
-Initiates a new workflow instance or continues an existing conversation. If a `workflow_id` is provided, this represents a new human message in an existing conversation. The workflow will retrieve past conversation history and state from the database to maintain context across multiple interactions.
-
-**Parameters:**  
-- `user_input` (string, required): The user's query or input for the workflow
-- `workflow_id` (string, optional): Existing workflow UUID to continue a conversation. If omitted, a new workflow is created
-- `ask_clarifications` (boolean, optional): Whether the workflow should ask clarification questions before proceeding. defaults to True.
-- `preferences` (object, optional): JSON object containing user preferences such as model and preferred tone
-
-**Request Body:**
-```json
-{
-  "user_input": "string",
-  "workflow_id": "uuid4-string (optional)",
-  "ask_clarifications": true/false,
-  "preferences": {
-    "model": "string",
-    "preferred_tone": "string"
-  }
-  // Additional parameters to be defined
-}
-```
-
-**Response Fields:**  
-- `workflow_id` (string): UUID4 identifier for tracking this workflow
-- `status` (string): Current status of the workflow (`"started"`)
-- `clarification_question` (string|null): A clarification question if `ask_clarifications=true` and workflow needs clarification, otherwise `null`
-
-**Sample Response:**
-```json
-{
-  "workflow_id": "uuid4-string",
-  "status": "started",
-  "clarification_question": "string or null"
-}
-```
-
-**Example in JavaScript (New Workflow):**
-```javascript
-fetch('http://localhost:8000/workflow/start', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    user_input: 'Analyze sales trends for Q3',
-    ask_clarifications: true,
-    preferences: {
-      model: 'gpt-4',
-      preferred_tone: 'professional'
-    }
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data));
-```
-
-**Example in JavaScript (Continue Existing Conversation):**
-```javascript
-fetch('http://localhost:8000/workflow/start', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    user_input: 'Now analyze Q4 as well',
-    workflow_id: 'existing-uuid4-string',
-    ask_clarifications: false,
-    preferences: {
-      model: 'gpt-4',
-      preferred_tone: 'casual'
-    }
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data));
-```
-
----
-
-### WebSocket Stream
-
-**Endpoint:** `WS /workflow/ws/{workflow_id}`
+**Endpoint:** `POST /workflow/execute`
 
 **Description:**  
-Establishes a WebSocket connection for bidirectional communication with the workflow.
+Executes a workflow step. When no `workflow_id` is provided, a new conversation is started. When `workflow_id` is present, the call continues an existing conversation. The same endpoint accepts clarification answers as regular user input.
 
 **Parameters:**  
-- `workflow_id` (string, required): The UUID returned from the start workflow endpoint
 
-**Request Body:**  
-N/A (WebSocket connection)
+**Parameters:**  
+- `workflow_id` (string, required): The UUID returned from the execute workflow endpoint
 
-**Duplex Communication options (will be updated):**  
-
-Server → Client Messages (JSON):
+**Server → Client Messages (JSON):**
 - Workflow progress updates
 - Intermediate results
 - Final answer when workflow completes
 
-Client → Server Messages (JSON):
+**Client → Server Messages (JSON):**
 - Request the final answer (skip remaining events)
 - Send control signals
 
@@ -135,69 +48,59 @@ Client → Server Messages (JSON):
 {
   "type": "event",
   "data": {}
-  // Structure to be defined
 }
-```
-
-**Example in JavaScript:**
-```javascript
-const ws = new WebSocket('ws://localhost:8000/workflow/ws/your-workflow-id');
-
-ws.onmessage = (event) => {
-  const data = JSON.parse(event.data);
-  console.log('Received:', data);
-};
-
-// Request final answer
-ws.send(JSON.stringify({ action: 'get_final_answer' }));
 ```
 
 ---
 
-### Submit Clarification
+### AI Answer
 
-**Endpoint:** `POST /workflow/input/{workflow_id}`
+**Endpoint:** `POST /workflow/ai-answer`
 
 **Description:**  
-Submit an answer to a clarification question from the workflow, if applicable.
+Stores the AI agent's final response and reasoning for bookkeeping so downstream systems can reconstruct conversation history.
 
 **Parameters:**  
-- `workflow_id` (string, required): The UUID of the workflow
-- `clarification_answer` (string, required): User's response to the clarification question
+- `workflow_id` (string, required): The workflow identifier
+- `message_id` (string, required): The message that produced the final answer
+- `response` (string, required): The final AI response content
+- `reasoning` (string, optional): Reasoning tokens or trace
+- `tool_calls` (string, optional): History of tool calls and actions taken
 
 **Request Body:**
 ```json
 {
-  "clarification_answer": "string"
-  // Additional parameters to be defined
+  "workflow_id": "uuid4-string",
+  "message_id": "uuid4-string",
+  "response": "string",
+  "reasoning": "string (optional)",
+  "tool_calls": "string (optional)"
 }
 ```
 
 **Response Fields:**  
-- `workflow_id` (string): The workflow identifier
-- `status` (string): `"ok"` if workflow can proceed, `"needs_clarification"` if more input is needed
-- `clarification_question` (string|null): Next clarification question if `status="needs_clarification"`
-- `workflow_status` (string): Current workflow state (`"running"`, `"completed"`, etc.)
+- `status` (string): Always `"ok"`
 
 **Sample Response:**
 ```json
 {
-  "workflow_id": "uuid4-string",
-  "status": "ok",
-  "clarification_question": "string or null",
-  "workflow_status": "running"
+  "status": "ok"
 }
 ```
 
 **Example in JavaScript:**
 ```javascript
-fetch(`http://localhost:8000/workflow/input/your-workflow-id`, {
+fetch('http://localhost:8000/workflow/ai-answer', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    clarification_answer: 'Focus on the Southeast region'
+    workflow_id: 'uuid4-string',
+    message_id: 'uuid4-string',
+    response: 'Here is the final answer',
+    reasoning: 'Model reasoning trace',
+    tool_calls: 'Executed search, summarized results'
   })
 })
 .then(response => response.json())
@@ -210,27 +113,27 @@ fetch(`http://localhost:8000/workflow/input/your-workflow-id`, {
 
 ### Basic Workflow (No Clarifications)
 
-1. Client calls `POST /workflow/start` with `ask_clarifications=false` (omit `workflow_id` for new conversation)
-2. Server returns `workflow_id` immediately
+1. Client calls `POST /workflow/execute` with `ask_clarifications=false` (omit `workflow_id` for new conversation)
+2. Server returns `workflow_id`, `message_id`, and current workflow status immediately
 3. Client connects to `WS /workflow/ws/{workflow_id}`
 4. Server streams updates as workflow progresses
 5. Server sends final answer when complete
 
 ### Continuing an Existing Conversation
 
-1. Client calls `POST /workflow/start` with the existing `workflow_id` and new `user_input`
+1. Client calls `POST /workflow/execute` with the existing `workflow_id` and new `user_input`
 2. Server retrieves past conversation history and state from database
-3. Server returns same `workflow_id`
+3. Server returns same `workflow_id` with a new `message_id`
 4. Client connects to `WS /workflow/ws/{workflow_id}`
 5. Server processes new message with full conversation context
 6. Server streams updates and final answer
 
 ### Interactive Workflow (With Clarifications)
 
-1. Client calls `POST /workflow/start` with `ask_clarifications=true`
-2. Server returns `workflow_id` and a `clarification_question`
-3. Client submits answer via `POST /workflow/input/{workflow_id}`
-4. Server may return another clarification question or status `"ok"`
+1. Client calls `POST /workflow/execute` with `ask_clarifications=true`
+2. Server returns `workflow_id`, `message_id`, and a `clarification_question`
+3. Client submits the clarification answer via `POST /workflow/execute` with the same `workflow_id`
+4. Server may return another clarification question or proceed
 5. Once clarifications are complete, client connects to WebSocket
 6. Server streams updates and final answer
 

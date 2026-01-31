@@ -2,13 +2,16 @@ from pydantic import BaseModel
 from typing import Optional, Dict, Any
 
 
-class StartWorkflowRequest(BaseModel):
+class ExecuteWorkflowRequest(BaseModel):
     user_input: str
     workflow_id: Optional[str] = None
     ask_clarifications: Optional[bool] = True
     preferences: Optional[Dict[str, Any]] = None
 
 
-class SubmitClarificationRequest(BaseModel):
+class AiAnswerRequest(BaseModel):
     workflow_id: str
-    clarification_answer: str
+    message_id: str
+    response: str
+    reasoning: Optional[str] = None
+    tool_calls: Optional[str] = None
