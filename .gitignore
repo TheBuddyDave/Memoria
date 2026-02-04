@@ -12,6 +12,7 @@ pgdata/
 
 # evaluations
 evaluations/
+.idea/
 
 # Compiled class file
 *.class
