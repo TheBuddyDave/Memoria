@@ -10,6 +10,9 @@ backend/.mypy_cache/
 backend/.ruff_cache/
 pgdata/
 
+# evaluations
+evaluations/
+
 # Compiled class file
 *.class
 
