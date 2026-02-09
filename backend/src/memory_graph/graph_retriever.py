@@ -5,44 +5,30 @@ Implements concurrent multi-path graph explorations from seed nodes.
 
 > See GRAPH_RETRIEVAL.md for detailed algorithm documentation.
 
-Usage::
-
-    from neo4j import AsyncDriver
-    from src.memory_graph.graph_retriever import GraphRetriever, SeedNode
-
-    retriever = GraphRetriever(driver)  # driver is a long-lived AsyncDriver
-
-    seeds = [
-        SeedNode(node_id="N2007", score=0.85),
-        SeedNode(node_id="N3012", score=0.72),
-    ]
-    query_tags = ["demand_forecasting", "stockout", "safety_stock"]
-
-    async for result in retriever.explore(seeds, query_tags):
-        print(result.seed_id, len(result.paths), result.max_depth_reached)
-        for path in result.paths:
-            for step in path.steps:
-                print(f"  → {step.node_data['id']} (T={step.transfer_energy:.4f})")
 """
 
 from __future__ import annotations
 
 import asyncio
 from collections import defaultdict
-from dataclasses import dataclass, field
-from typing import Any, LiteralString
+from typing import LiteralString, Any
 
 from neo4j import AsyncDriver, AsyncManagedTransaction
 
-# ─── Defaults ────────────────────────────────────────────────────────────────
-
-DEFAULT_MAX_DEPTH: int = 5
-DEFAULT_MIN_ACTIVATION: float = 0.005
-DEFAULT_TAG_SIM_FLOOR: float = 0.15
-DEFAULT_MAX_BRANCHES: int = 3
-DEFAULT_MAX_RETRIES: int = 2
-DATABASE_NAME: str = "memorygraph"
-
+from .models import (
+    ExpansionCandidate,
+    FrontierInput,
+    FrontierNode,
+    FrontierUpdateResult,
+    GraphEdge,
+    GraphNode,
+    GraphPath,
+    GraphRetrieverConfig,
+    GraphStep,
+    RetrievalResult,
+    SeedFetchResult,
+    SeedInput,
+)
 
 # ─── Cypher Queries ──────────────────────────────────────────────────────────
 
@@ -90,81 +76,167 @@ ORDER BY parent_id, transfer_energy DESC
 """
 
 
-# ─── Data Classes ────────────────────────────────────────────────────────────
+# ─── Connector ───────────────────────────────────────────────────────────────
 
-@dataclass(frozen=True, slots=True)
-class SeedNode:
-    """A starting point for graph exploration.
+class Neo4jConnector:
+    """Execute Cypher queries and parse results into dataclasses."""
 
-    Attributes:
-        node_id: The ``id`` property of the Neo4j node (e.g. ``"N2007"``).
-        score:   R(Mi) — hybrid similarity score from upstream vector search.
-    """
-    node_id: str
-    score: float
+    __slots__ = ("_tag_sim_floor", "_min_activation")
+
+    def __init__(self, tag_sim_floor: float, min_activation: float) -> None:
+        self._tag_sim_floor = tag_sim_floor
+        self._min_activation = min_activation
+
+    async def fetch_seed(
+        self,
+        tx: AsyncManagedTransaction,
+        node_id: str,
+    ) -> SeedFetchResult:
+        seed_cursor = await tx.run(_SEED_QUERY, node_id=node_id)
+        seed_record = await seed_cursor.single()
+
+        if seed_record is None:
+            return SeedFetchResult(node=None, labels=[], found=False)
+
+        seed_data: dict[str, Any] = dict(seed_record["data"])
+        seed_labels: list[str] = list(seed_record["labels"])
+        seed_node = GraphNode(
+            id=str(seed_data.get("id", node_id)),
+            labels=seed_labels,
+            properties=seed_data,
+        )
+        return SeedFetchResult(node=seed_node, labels=seed_labels, found=True)
+
+    async def expand_frontier(
+        self,
+        tx: AsyncManagedTransaction,
+        frontier: list[FrontierInput],
+        visited_ids: set[str],
+        query_tags: list[str],
+    ) -> list[ExpansionCandidate]:
+        frontier_param = [
+            {"node_id": f.node_id, "activation": f.activation} for f in frontier
+        ]
+        expand_cursor = await tx.run(
+            _EXPAND_QUERY,
+            frontier=frontier_param,
+            visited_ids=list(visited_ids),
+            query_tags=query_tags,
+            query_tags_count=len(query_tags),
+            tag_sim_floor=self._tag_sim_floor,
+            min_threshold=self._min_activation,
+        )
+        records = [record async for record in expand_cursor]
+
+        candidates: list[ExpansionCandidate] = []
+        for rec in records:
+            parent_id = rec["parent_id"]
+            neighbor_id = rec["neighbor_id"]
+            neighbor_node = GraphNode(
+                id=str(neighbor_id),
+                labels=list(rec["neighbor_labels"]),
+                properties=dict(rec["neighbor_data"]),
+            )
+
+            edge_properties = dict(rec["edge_data"])
+            edge_tags = edge_properties.get("tags") or []
+            if not isinstance(edge_tags, list):
+                edge_tags = list(edge_tags)
+            edge_weight = edge_properties.get("weight")
+            if edge_weight is not None:
+                edge_weight = float(edge_weight)
+            edge = GraphEdge(
+                source_id=str(parent_id),
+                target_id=str(neighbor_id),
+                type="RELATES",
+                properties=edge_properties,
+                weight=edge_weight,
+                tags=list(edge_tags),
+            )
+
+            candidates.append(
+                ExpansionCandidate(
+                    parent_id=str(parent_id),
+                    neighbor_node=neighbor_node,
+                    edge=edge,
+                    transfer_energy=float(rec["transfer_energy"]),
+                )
+            )
+
+        return candidates
 
 
-@dataclass(slots=True)
-class PathStep:
-    """One hop in an explored path: the edge traversed and the node reached.
+# ─── Traversal State ─────────────────────────────────────────────────────────
 
-    Attributes:
-        node_data:        All properties of the destination node as a dict.
-        node_labels:      Neo4j labels on the destination node (e.g. ``["AgentAnswer"]``).
-        edge_data:        All properties of the traversed RELATES edge as a dict.
-        transfer_energy:  The computed T value for this hop.
-    """
-    node_data: dict[str, Any]
-    node_labels: list[str]
-    edge_data: dict[str, Any]
-    transfer_energy: float
+class GraphTraversalState:
+    """Manage BFS traversal state and path construction."""
 
+    __slots__ = ("_max_branches", "_frontier", "_seed_node")
 
-@dataclass(slots=True)
-class ExploredPath:
-    """A single complete path from seed outward through the graph.
+    def __init__(self, max_branches: int, seed_node: GraphNode) -> None:
+        self._max_branches = max_branches
+        self._seed_node = seed_node
+        self._frontier: list[FrontierNode] = []
 
-    Attributes:
-        steps: Ordered list of hops from seed outward.
-        depth: Number of hops (== len(steps)).
-        final_energy: Transfer energy at the last hop (lowest in the path).
-    """
-    steps: list[PathStep]
-    depth: int
-    final_energy: float
+    def set_frontier(self, frontier: list[FrontierNode]) -> None:
+        self._frontier = frontier
 
+    def build_frontier_inputs(self, frontier: list[FrontierNode]) -> list[FrontierInput]:
+        return [FrontierInput(node_id=f.node_id, activation=f.activation) for f in frontier]
 
-@dataclass(slots=True)
-class ExplorationResult:
-    """Complete output of one multi-path graph exploration from a single seed.
+    def select_next_frontier(
+        self,
+        candidates_by_parent: dict[str, list[ExpansionCandidate]],
+    ) -> FrontierUpdateResult:
+        next_frontier: list[FrontierNode] = []
+        newly_visited: set[str] = set()
+        completed_paths: list[GraphPath] = []
 
-    Attributes:
-        seed_id:            The starting node's ``id`` property.
-        seed_score:         R(Mi) that was provided for the seed.
-        seed_data:          All properties of the seed node (None if not found).
-        seed_labels:        Neo4j labels on the seed node.
-        paths:              List of complete paths discovered from this seed.
-        max_depth_reached:  Deepest path length across all paths.
-        terminated_reason:  Overall termination:
-                            ``"complete"`` | ``"seed_not_found"``
-    """
-    seed_id: str
-    seed_score: float
-    seed_data: dict[str, Any] | None
-    seed_labels: list[str]
-    paths: list[ExploredPath] = field(default_factory=list)
-    max_depth_reached: int = 0
-    terminated_reason: str = ""
+        for f_node in self._frontier:
+            candidates = candidates_by_parent.get(f_node.node_id, [])
+            branch_count = 0
 
+            for cand in candidates:
+                if branch_count >= self._max_branches:
+                    break
+                neighbor_id = cand.neighbor_node.id
+                if neighbor_id in newly_visited:
+                    continue
+                branch_count += 1
+                newly_visited.add(neighbor_id)
 
-# ─── Internal frontier node (not exported) ────────────────────────────────────
+                from_node = self._resolve_from_node(f_node)
+                step = GraphStep(
+                    from_node=from_node,
+                    edge=cand.edge,
+                    to_node=cand.neighbor_node,
+                    transfer_energy=cand.transfer_energy,
+                )
+                extended_path = f_node.path.with_step(step)
+                next_frontier.append(
+                    FrontierNode(
+                        node_id=neighbor_id,
+                        activation=cand.transfer_energy,
+                        path=extended_path,
+                    )
+                )
 
-@dataclass(slots=True)
-class _FrontierNode:
-    """Tracks one active branch during BFS expansion."""
-    node_id: str
-    activation: float
-    path: list[PathStep]
+            if branch_count == 0 and f_node.path.steps:
+                completed_paths.append(f_node.path)
+
+        return FrontierUpdateResult(
+            next_frontier=next_frontier,
+            completed_paths=completed_paths,
+            newly_visited=newly_visited,
+        )
+
+    def finalize_remaining(self, frontier: list[FrontierNode]) -> list[GraphPath]:
+        return [f_node.path for f_node in frontier if f_node.path.steps]
+
+    def _resolve_from_node(self, f_node: FrontierNode) -> GraphNode:
+        if f_node.path.steps:
+            return f_node.path.steps[-1].to_node
+        return self._seed_node
 
 
 # ─── GraphRetriever ──────────────────────────────────────────────────────────
@@ -173,73 +245,54 @@ class GraphRetriever:
     """Concurrent multi-path Activation-Energy graph explorer.
 
     Receives a shared, long-lived async Neo4j driver and exposes
-    :meth:`explore` which launches independent, concurrent graph explorations
+    method `explore` which launches independent, concurrent graph explorations
     from a list of seed nodes.  Results are yielded as each exploration
     completes (streamed via ``asyncio.as_completed``).
 
     Args:
-        neo4j_driver:   An already-created ``AsyncDriver`` (shared app-wide).
-        max_depth:      Maximum traversal hops per path (default ``5``).
-        min_activation: Minimum Transfer Energy to continue a branch (default ``0.005``).
-        tag_sim_floor:  Floored-Jaccard baseline (default ``0.15``).
-        max_branches:   Max neighbors expanded per node per depth (default ``3``).
-        database:       Neo4j database name (default ``"memorygraph"``).
+        neo4j_driver: An already-created ``AsyncDriver`` (shared app-wide).
+        config:        ``GraphRetrieverConfig``.
     """
 
     __slots__ = (
         "_driver",
-        "_max_depth",
-        "_min_activation",
-        "_tag_sim_floor",
-        "_max_branches",
-        "_database",
+        "_config",
+        "_connector",
     )
 
-    def __init__(
-        self,
-        neo4j_driver: AsyncDriver,
-        *,
-        max_depth: int = DEFAULT_MAX_DEPTH,
-        min_activation: float = DEFAULT_MIN_ACTIVATION,
-        tag_sim_floor: float = DEFAULT_TAG_SIM_FLOOR,
-        max_branches: int = DEFAULT_MAX_BRANCHES,
-        database: str = DATABASE_NAME,
-    ) -> None:
+    def __init__(self, neo4j_driver: AsyncDriver, config: GraphRetrieverConfig) -> None:
         self._driver = neo4j_driver
-        self._max_depth = max_depth
-        self._min_activation = min_activation
-        self._tag_sim_floor = tag_sim_floor
-        self._max_branches = max_branches
-        self._database = database
+        self._config = config
+        self._connector = Neo4jConnector(
+            tag_sim_floor=config.tag_sim_floor,
+            min_activation=config.min_activation,
+        )
 
     # ── Public API ────────────────────────────────────────────────────────
 
     async def explore(
         self,
-        seeds: list[SeedNode],
+        seeds: list[SeedInput],
         query_tags: list[str],
-        *,
-        max_retries: int = DEFAULT_MAX_RETRIES,
     ):
         """Run concurrent multi-path graph explorations from all seeds.
 
-        Results are yielded **as each exploration finishes** — an early
+        Results are yielded **as each exploration finishes** an early
         finisher is surfaced immediately while others are still running.
 
         Args:
-            seeds:       List of ``SeedNode`` (node_id + score).
+            seeds:       List of ``SeedInput`` (node_id + score).
             query_tags:  Tags extracted from the user query.
-            max_retries: Per-exploration retry limit on transient failure.
 
         Yields:
-            ``ExplorationResult`` for each completed seed exploration.
+            ``RetrievalResult`` with paths and metadata.
         """
         if not seeds:
             return
 
-        tasks: list[asyncio.Task[ExplorationResult]] = [
+        tasks: list[asyncio.Task[RetrievalResult]] = [
             asyncio.create_task(
-                self._explore_with_retry(seed, query_tags, max_retries),
+                self._explore_with_retry(seed, query_tags),
                 name=f"graph-explore-{seed.node_id}",
             )
             for seed in seeds
@@ -248,8 +301,7 @@ class GraphRetriever:
         try:
             for future in asyncio.as_completed(tasks):
                 try:
-                    result: ExplorationResult = await future
-                    yield result
+                    yield await future
                 except Exception:
                     print("Graph exploration failed after all retries")
         finally:
@@ -262,12 +314,12 @@ class GraphRetriever:
 
     async def _explore_with_retry(
         self,
-        seed: SeedNode,
+        seed: SeedInput,
         query_tags: list[str],
-        max_retries: int,
-    ) -> ExplorationResult:
+    ) -> RetrievalResult:
         """Run a single exploration with automatic retry + exponential backoff."""
         last_exc: BaseException | None = None
+        max_retries = self._config.max_retries
         for attempt in range(max_retries + 1):
             try:
                 return await self._explore_single(seed, query_tags)
@@ -288,145 +340,80 @@ class GraphRetriever:
 
     async def _explore_single(
         self,
-        seed: SeedNode,
+        seed: SeedInput,
         query_tags: list[str],
-    ) -> ExplorationResult:
+    ) -> RetrievalResult:
         """Execute one full multi-path BFS exploration from *seed*.
 
         Opens its own ``AsyncSession`` (lightweight, from the driver pool)
         and runs inside ``session.execute_read`` for automatic transient-error
         retries and consistent read snapshot.
         """
-        max_depth = self._max_depth
-        min_activation = self._min_activation
-        tag_sim_floor = self._tag_sim_floor
-        max_branches = self._max_branches
-        query_tags_count = len(query_tags)
+        max_depth = self._config.max_depth
+        max_branches = self._config.max_branches
 
-        async def _run(tx: AsyncManagedTransaction) -> ExplorationResult:
-            # ── 1. Fetch seed node ────────────────────────────────────
-            seed_cursor = await tx.run(_SEED_QUERY, node_id=seed.node_id)
-            seed_record = await seed_cursor.single()
+        async def _run(tx: AsyncManagedTransaction) -> RetrievalResult:
+            seed_result = await self._connector.fetch_seed(tx, seed.node_id)
 
-            if seed_record is None:
+            if not seed_result.found or seed_result.node is None:
                 print("Seed node %s not found in graph", seed.node_id)
-                return ExplorationResult(
-                    seed_id=seed.node_id,
-                    seed_score=seed.score,
-                    seed_data=None,
-                    seed_labels=[],
+                return RetrievalResult(
+                    seed=seed,
+                    seed_node=None,
+                    paths=[],
+                    max_depth_reached=0,
                     terminated_reason="seed_not_found",
                 )
 
-            seed_data: dict[str, Any] = dict(seed_record["data"])
-            seed_labels: list[str] = list(seed_record["labels"])
+            traversal = GraphTraversalState(max_branches=max_branches, seed_node=seed_result.node)
 
-            # ── 2. BFS multi-path traversal ───────────────────────────
-            frontier: list[_FrontierNode] = [
-                _FrontierNode(node_id=seed.node_id, activation=seed.score, path=[])
+            frontier: list[FrontierNode] = [
+                FrontierNode(
+                    node_id=seed.node_id,
+                    activation=seed.score,
+                    path=GraphPath.empty(),
+                )
             ]
             visited: set[str] = {seed.node_id}
-            completed_paths: list[ExploredPath] = []
+            completed_paths: list[GraphPath] = []
 
             for _depth in range(max_depth):
                 if not frontier:
                     break
 
-                # Build Cypher parameter: list of {node_id, activation}
-                frontier_param = [
-                    {"node_id": f.node_id, "activation": f.activation}
-                    for f in frontier
-                ]
-
-                expand_cursor = await tx.run(
-                    _EXPAND_QUERY,
-                    frontier=frontier_param,
-                    visited_ids=list(visited),
+                frontier_inputs = traversal.build_frontier_inputs(frontier)
+                candidates = await self._connector.expand_frontier(
+                    tx,
+                    frontier=frontier_inputs,
+                    visited_ids=visited,
                     query_tags=query_tags,
-                    query_tags_count=query_tags_count,
-                    tag_sim_floor=tag_sim_floor,
-                    min_threshold=min_activation,
                 )
-                records = [record async for record in expand_cursor]
 
-                # Group candidates by parent_id (already sorted by T desc)
-                candidates_by_parent: dict[str, list[Any]] = defaultdict(list)
-                for rec in records:
-                    candidates_by_parent[rec["parent_id"]].append(rec)
+                candidates_by_parent: dict[str, list[ExpansionCandidate]] = defaultdict(list)
+                for cand in candidates:
+                    candidates_by_parent[cand.parent_id].append(cand)
 
-                # Build next frontier + collect completed paths
-                next_frontier: list[_FrontierNode] = []
-                newly_visited: set[str] = set()
+                traversal.set_frontier(frontier)
+                update = traversal.select_next_frontier(candidates_by_parent)
+                completed_paths.extend(update.completed_paths)
+                visited.update(update.newly_visited)
+                frontier = update.next_frontier
 
-                for f_node in frontier:
-                    candidates = candidates_by_parent.get(f_node.node_id, [])
-                    branch_count = 0
+            completed_paths.extend(traversal.finalize_remaining(frontier))
 
-                    for cand in candidates:
-                        if branch_count >= max_branches:
-                            break
-                        neighbor_id: str = cand["neighbor_id"]
-                        # Avoid two frontier nodes at the same depth
-                        # both expanding to the same neighbor.
-                        if neighbor_id in newly_visited:
-                            continue
-                        branch_count += 1
-                        newly_visited.add(neighbor_id)
-
-                        step = PathStep(
-                            node_data=dict(cand["neighbor_data"]),
-                            node_labels=list(cand["neighbor_labels"]),
-                            edge_data=dict(cand["edge_data"]),
-                            transfer_energy=float(cand["transfer_energy"]),
-                        )
-                        extended_path = f_node.path + [step]
-                        next_frontier.append(
-                            _FrontierNode(
-                                node_id=neighbor_id,
-                                activation=float(cand["transfer_energy"]),
-                                path=extended_path,
-                            )
-                        )
-
-                    # If this frontier node produced no branches, its path
-                    # is complete (dead end or all below threshold).
-                    if branch_count == 0 and f_node.path:
-                        completed_paths.append(
-                            ExploredPath(
-                                steps=f_node.path,
-                                depth=len(f_node.path),
-                                final_energy=f_node.path[-1].transfer_energy,
-                            )
-                        )
-
-                visited.update(newly_visited)
-                frontier = next_frontier
-
-            # Remaining frontier nodes hit MAX_DEPTH, their paths are complete.
-            for f_node in frontier:
-                if f_node.path:
-                    completed_paths.append(
-                        ExploredPath(
-                            steps=f_node.path,
-                            depth=len(f_node.path),
-                            final_energy=f_node.path[-1].transfer_energy,
-                        )
-                    )
-
-            max_depth_reached = (
-                max((p.depth for p in completed_paths), default=0)
+            max_depth_reached = max(
+                (len(p.steps) for p in completed_paths),
+                default=0,
             )
 
-            return ExplorationResult(
-                seed_id=seed.node_id,
-                seed_score=seed.score,
-                seed_data=seed_data,
-                seed_labels=seed_labels,
+            return RetrievalResult(
+                seed=seed,
+                seed_node=seed_result.node,
                 paths=completed_paths,
                 max_depth_reached=max_depth_reached,
                 terminated_reason="complete",
             )
 
         # Open a dedicated session for this exploration.
-        async with self._driver.session(database=self._database) as session:
+        async with self._driver.session(database=self._config.database) as session:
             return await session.execute_read(_run)
