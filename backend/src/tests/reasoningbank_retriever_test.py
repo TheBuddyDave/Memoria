@@ -8,7 +8,7 @@ from src.subquery_gen.reasoningbank_retriever import ReasoningBankRetriever
 
 async def test_reasoningbank_retriever():
     """
-    Simple test to verify ReasoningBankRetriever connections and functionality.
+    Simple test to verify ReasoningBankRetriever functionality.
     """
     print("Initializing ReasoningBankRetriever...")
     
