@@ -1,29 +1,12 @@
 """Docstring for src.tests.memorygraph.retriever_test.
 
-Run: pytest src/tests/memorygraph -q
+Run: pytest src/tests/memorygraph -q --verbose
 """
 
 from __future__ import annotations
 
 import math
 from typing import Any, TypedDict
-class TransferEnergyCase(TypedDict):
-	parent_id: str
-	neighbor_id: str
-	activation: float
-	weight: float
-	degree: int
-	edge_tags: list[str]
-	query_tags: list[str]
-
-
-class TagSimCase(TypedDict):
-	neighbor_id: str
-	edge_tags: list[str]
-	weight: float
-	query_tags: list[str]
-
-
 import pytest
 from neo4j import AsyncDriver, AsyncManagedTransaction
 
@@ -41,6 +24,26 @@ from src.memory_graph.models import (
 )
 from src.memory_graph.retriever_parser import to_d3, to_debug_cypher, to_llm_context
 
+class TransferEnergyCase(TypedDict):
+	parent_id: str
+	neighbor_id: str
+	activation: float
+	weight: float
+	degree: int
+	edge_tags: list[str]
+	query_tags: list[str]
+
+
+class TagSimCase(TypedDict):
+	neighbor_id: str
+	edge_tags: list[str]
+	weight: float
+	query_tags: list[str]
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# HELPER FUNCTIONS
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def _node(node_id: str, label: str = "Node") -> GraphNode:
 	return GraphNode(id=node_id, labels=[label], properties={"id": node_id})
@@ -79,6 +82,10 @@ def _tag_sim(tag_sim_floor: float, edge_tags: list[str], query_tags: list[str]) 
 def _transfer_energy(activation: float, weight: float, degree: int, tag_sim: float) -> float:
 	return (activation * weight / math.sqrt(float(degree))) * tag_sim
 
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PHASE 1A: TRAVERSAL STATE TESTS (PURE PYTHON)
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def test_frontier_selection_deduplication():
 	"""Scenario: two parents compete for the same neighbor with ordered candidates.
@@ -196,6 +203,105 @@ def test_max_depth_completion():
 
 	assert completed == [path1, path2]
 
+
+def test_completed_path_multiple_leaves():
+	"""Scenario: multiple frontier nodes with no candidates complete simultaneously.
+	Expected: all non-empty paths are moved to completed_paths in one update.
+	Why: select_next_frontier must handle batch leaf finalization correctly.
+	"""
+	seed_node = _node("S", "Seed")
+	traversal = GraphTraversalState(max_branches=2, seed_node=seed_node)
+
+	path1 = GraphPath.empty().with_step(_step("S", "P1", 0.5))
+	path2 = GraphPath.empty().with_step(_step("S", "P2", 0.4))
+	path3 = GraphPath.empty().with_step(_step("S", "P3", 0.3))
+
+	frontier = [
+		FrontierNode(node_id="P1", activation=0.5, path=path1),
+		FrontierNode(node_id="P2", activation=0.4, path=path2),
+		FrontierNode(node_id="P3", activation=0.3, path=path3),
+	]
+
+	traversal.set_frontier(frontier)
+	update = traversal.select_next_frontier(candidates_by_parent={})
+
+	assert len(update.completed_paths) == 3
+	assert set(p.steps[-1].to_node.id for p in update.completed_paths) == {"P1", "P2", "P3"}
+	assert update.next_frontier == []
+
+
+def test_completed_path_mixed_continuation():
+	"""Scenario: some frontier nodes complete, others continue with candidates.
+	Expected: completed paths are separated, continuing nodes move to next frontier.
+	Why: select_next_frontier handles mixed leaf/branch scenarios.
+	"""
+	seed_node = _node("S", "Seed")
+	traversal = GraphTraversalState(max_branches=2, seed_node=seed_node)
+
+	path_leaf = GraphPath.empty().with_step(_step("S", "P1", 0.5))
+	path_branch = GraphPath.empty().with_step(_step("S", "P2", 0.4))
+
+	frontier = [
+		FrontierNode(node_id="P1", activation=0.5, path=path_leaf),
+		FrontierNode(node_id="P2", activation=0.4, path=path_branch),
+	]
+
+	candidates_by_parent = {
+		"P2": [
+			ExpansionCandidate(
+				parent_id="P2",
+				neighbor_node=_node("N1"),
+				edge=_edge("P2", "N1", weight=0.6),
+				transfer_energy=0.6,
+			),
+		],
+	}
+
+	traversal.set_frontier(frontier)
+	update = traversal.select_next_frontier(candidates_by_parent)
+
+	assert update.completed_paths == [path_leaf]
+	assert len(update.next_frontier) == 1
+	assert update.next_frontier[0].node_id == "N1"
+
+
+def test_max_depth_completion_preserves_metadata():
+	"""Scenario: finalize_remaining called with multi-hop paths carrying activation.
+	Expected: all path steps and activation values are preserved intact.
+	Why: path metadata must survive depth-cap termination.
+	"""
+	seed_node = _node("S", "Seed")
+	traversal = GraphTraversalState(max_branches=2, seed_node=seed_node)
+
+	path1 = (
+		GraphPath.empty()
+		.with_step(_step("S", "P1", 0.5))
+		.with_step(_step("P1", "N1", 0.3))
+	)
+	path2 = (
+		GraphPath.empty()
+		.with_step(_step("S", "P2", 0.4))
+		.with_step(_step("P2", "N2", 0.2))
+		.with_step(_step("N2", "N3", 0.1))
+	)
+
+	frontier = [
+		FrontierNode(node_id="N1", activation=0.3, path=path1),
+		FrontierNode(node_id="N3", activation=0.1, path=path2),
+	]
+
+	completed = traversal.finalize_remaining(frontier)
+
+	assert len(completed) == 2
+	assert completed[0].steps[-1].to_node.id == "N1"
+	assert completed[0].steps[-1].transfer_energy == 0.3
+	assert completed[1].steps[-1].to_node.id == "N3"
+	assert len(completed[1].steps) == 3
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PHASE 1B: PARSER OUTPUT TESTS (PURE PYTHON)
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def test_to_d3_minimal_sanity():
 	"""Scenario: one seed node and a single-hop path.
@@ -315,6 +421,217 @@ def test_to_debug_cypher_minimal_sanity():
 		"MATCH p = (n0 {id: $id0})-[:RELATES]-(n1 {id: $id1}) RETURN p"
 	]
 
+
+def test_to_d3_multi_path_shared_nodes():
+	"""Scenario: two paths share the seed and converge on a common node.
+	Expected: shared nodes take max activation from both paths, edges deduplicated.
+	Why: to_d3 uses max() aggregation for nodes visited by multiple paths.
+	"""
+	seed = SeedInput(node_id="S1", score=0.8)
+	seed_node = _node("S1", "Seed")
+	node_a = _node("A", "Doc")
+	node_b = _node("B", "Doc")
+	node_c = _node("C", "Doc")
+
+	path1 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "A", weight=0.5),
+			to_node=node_a,
+			transfer_energy=0.3,
+		),
+		GraphStep(
+			from_node=node_a,
+			edge=_edge("A", "C", weight=0.4),
+			to_node=node_c,
+			transfer_energy=0.15,
+		),
+	])
+
+	path2 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "B", weight=0.6),
+			to_node=node_b,
+			transfer_energy=0.4,
+		),
+		GraphStep(
+			from_node=node_b,
+			edge=_edge("B", "C", weight=0.5),
+			to_node=node_c,
+			transfer_energy=0.25,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path1, path2],
+		max_depth_reached=2,
+		terminated_reason="complete",
+	)
+
+	graph = to_d3(result)
+	nodes_by_id = {node["id"]: node for node in graph["nodes"]}
+
+	assert set(nodes_by_id.keys()) == {"S1", "A", "B", "C"}
+	assert nodes_by_id["S1"]["activation"] == 0.8
+	assert nodes_by_id["A"]["activation"] == pytest.approx(0.3)
+	assert nodes_by_id["B"]["activation"] == pytest.approx(0.4)
+	assert nodes_by_id["C"]["activation"] == pytest.approx(max(0.15, 0.25))
+
+	links = graph["links"]
+	assert len(links) == 4
+
+
+def test_to_d3_longer_path():
+	"""Scenario: single 3-hop path from seed through intermediate nodes.
+	Expected: all nodes and edges present with correct activation propagation.
+	Why: to_d3 must handle arbitrary path lengths correctly.
+	"""
+	seed = SeedInput(node_id="S1", score=1.0)
+	seed_node = _node("S1", "Seed")
+	node_p1 = _node("P1", "Doc")
+	node_p2 = _node("P2", "Doc")
+	node_p3 = _node("P3", "Doc")
+
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "P1", weight=0.5),
+			to_node=node_p1,
+			transfer_energy=0.5,
+		),
+		GraphStep(
+			from_node=node_p1,
+			edge=_edge("P1", "P2", weight=0.4),
+			to_node=node_p2,
+			transfer_energy=0.3,
+		),
+		GraphStep(
+			from_node=node_p2,
+			edge=_edge("P2", "P3", weight=0.3),
+			to_node=node_p3,
+			transfer_energy=0.2,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=3,
+		terminated_reason="complete",
+	)
+
+	graph = to_d3(result)
+	nodes_by_id = {node["id"]: node for node in graph["nodes"]}
+	links = graph["links"]
+
+	assert set(nodes_by_id.keys()) == {"S1", "P1", "P2", "P3"}
+	assert len(links) == 3
+	assert nodes_by_id["P3"]["activation"] == pytest.approx(0.2)
+
+
+def test_to_llm_context_multi_path():
+	"""Scenario: multiple paths with varying lengths sent to LLM formatter.
+	Expected: each path formatted separately with proper numbering and structure.
+	Why: to_llm_context must handle multi-path results for context building.
+	"""
+	seed = SeedInput(node_id="S1", score=0.9)
+	seed_node = _node("S1", "Seed")
+
+	path1 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "A", weight=0.7),
+			to_node=_node("A", "Doc"),
+			transfer_energy=0.5,
+		),
+	])
+
+	path2 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "B", weight=0.6),
+			to_node=_node("B", "Doc"),
+			transfer_energy=0.4,
+		),
+		GraphStep(
+			from_node=_node("B", "Doc"),
+			edge=_edge("B", "C", weight=0.5),
+			to_node=_node("C", "Doc"),
+			transfer_energy=0.25,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path1, path2],
+		max_depth_reached=2,
+		terminated_reason="complete",
+	)
+
+	context = to_llm_context(result)
+
+	assert len(context["paths"]) == 2
+	assert context["paths"][0].startswith("Path 1:")
+	assert context["paths"][1].startswith("Path 2:")
+	assert "T=0.500" in context["paths"][0]
+	assert "T=0.250" in context["paths"][1]
+
+
+def test_to_debug_cypher_multi_path():
+	"""Scenario: multiple paths with different lengths generate Cypher queries.
+	Expected: one query per path with correct node/edge indexing.
+	Why: to_debug_cypher must produce valid Cypher for each path independently.
+	"""
+	seed = SeedInput(node_id="S1", score=0.9)
+	seed_node = _node("S1", "Seed")
+
+	path1 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "A", weight=0.5),
+			to_node=_node("A", "Doc"),
+			transfer_energy=0.3,
+		),
+	])
+
+	path2 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("S1", "B", weight=0.4),
+			to_node=_node("B", "Doc"),
+			transfer_energy=0.2,
+		),
+		GraphStep(
+			from_node=_node("B", "Doc"),
+			edge=_edge("B", "C", weight=0.3),
+			to_node=_node("C", "Doc"),
+			transfer_energy=0.15,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path1, path2],
+		max_depth_reached=2,
+		terminated_reason="complete",
+	)
+
+	queries = to_debug_cypher(result)
+
+	assert len(queries) == 2
+	assert "n0" in queries[0] and "n1" in queries[0]
+	assert "n0" in queries[1] and "n1" in queries[1] and "n2" in queries[1]
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PHASE 2: CYPHER + MATH VALIDATION TESTS (INTEGRATION)
+# ═══════════════════════════════════════════════════════════════════════════════
 
 @pytest.mark.asyncio
 async def test_transfer_energy_math_check(neo4j_driver: AsyncDriver):
@@ -599,3 +916,144 @@ async def test_minimum_activation_filter_check(neo4j_driver: AsyncDriver):
 		neighbor_ids = {cand.neighbor_node.id for cand in candidates}
 
 	assert "T3004" not in neighbor_ids
+
+
+@pytest.mark.asyncio
+async def test_minimum_activation_boundary(neo4j_driver: AsyncDriver):
+	"""Scenario: test edges exactly at and just below the min_activation threshold.
+	Expected: edge with T exactly equal to threshold is included, below is excluded.
+	Why: Cypher uses WHERE transfer_energy > min_threshold (strict inequality).
+
+	Dummy edges:
+	- E7007: T3005->T3003 weight=0.55 tags=['report_style','format'] degree(T3005)=1.
+	- E7008: T3000->T3004 weight=0.60 tags=['event','demand_spike'] degree(T3000)=3.
+	"""
+	connector = Neo4jConnector(tag_sim_floor=0.15, min_activation=0.3)
+
+	async with neo4j_driver.session(database="testmemory") as session:
+		frontier_t3005 = [FrontierInput(node_id="T3005", activation=0.6)]
+		frontier_t3000 = [FrontierInput(node_id="T3000", activation=0.5)]
+
+		async def _expand_t3005(tx: AsyncManagedTransaction) -> list[ExpansionCandidate]:
+			return await connector.expand_frontier(
+				tx,
+				frontier=frontier_t3005,
+				visited_ids={"T3005"},
+				query_tags=[],
+			)
+
+		async def _expand_t3000(tx: AsyncManagedTransaction) -> list[ExpansionCandidate]:
+			return await connector.expand_frontier(
+				tx,
+				frontier=frontier_t3000,
+				visited_ids={"T3000"},
+				query_tags=[],
+			)
+
+		candidates_t3005 = await session.execute_read(_expand_t3005)
+		candidates_t3000 = await session.execute_read(_expand_t3000)
+
+		t3003_energy = next(
+			cand.transfer_energy
+			for cand in candidates_t3005
+			if cand.neighbor_node.id == "T3003"
+		)
+		expected_t3003 = _transfer_energy(0.6, 0.55, 1, 1.0)
+		assert t3003_energy == pytest.approx(expected_t3003, rel=1e-6)
+		assert t3003_energy > 0.3
+
+		neighbor_ids_t3000 = {cand.neighbor_node.id for cand in candidates_t3000}
+		assert "T3004" not in neighbor_ids_t3000
+
+
+@pytest.mark.asyncio
+async def test_visited_ids_exclusion(neo4j_driver: AsyncDriver):
+	"""Scenario: expand frontier with previously visited nodes in the exclusion set.
+	Expected: already-visited neighbors are excluded from expansion results.
+	Why: Cypher filters WHERE NOT neighbor.id IN $visited_ids to prevent cycles.
+
+	Dummy edges:
+	- E7001: T3000->T3001 weight=0.90 tags=['campaign','evidence','region'] degree(T3000)=3.
+	- E7002: T3000->T3002 weight=0.80 tags=['campaign','methodology'] degree(T3000)=3.
+	"""
+	connector = Neo4jConnector(tag_sim_floor=0.15, min_activation=0.0001)
+
+	async with neo4j_driver.session(database="testmemory") as session:
+		frontier = [FrontierInput(node_id="T3000", activation=0.9)]
+
+		async def _expand_with_visited(tx: AsyncManagedTransaction) -> list[ExpansionCandidate]:
+			return await connector.expand_frontier(
+				tx,
+				frontier=frontier,
+				visited_ids={"T3000", "T3001"},
+				query_tags=[],
+			)
+
+		async def _expand_without_visited(tx: AsyncManagedTransaction) -> list[ExpansionCandidate]:
+			return await connector.expand_frontier(
+				tx,
+				frontier=frontier,
+				visited_ids={"T3000"},
+				query_tags=[],
+			)
+
+		candidates_with = await session.execute_read(_expand_with_visited)
+		candidates_without = await session.execute_read(_expand_without_visited)
+
+		ids_with = {cand.neighbor_node.id for cand in candidates_with}
+		ids_without = {cand.neighbor_node.id for cand in candidates_without}
+
+		assert "T3001" not in ids_with
+		assert "T3001" in ids_without
+		assert len(ids_without) > len(ids_with)
+
+
+@pytest.mark.asyncio
+async def test_edge_weight_variance(neo4j_driver: AsyncDriver):
+	"""Scenario: compare transfer energies across edges with diverse weights (0.52 to 0.92).
+	Expected: higher weight produces proportionally higher transfer energy.
+	Why: Cypher multiplies activation by weight, so weight variance directly affects ranking.
+
+	Dummy edges (all from different parents, query_tags empty => tag_sim=1.0):
+	- E7106: T4005->T4003 weight=0.52 tags=['report_style','quantiles'] degree(T4005)=1.
+	- E7301: T5000->T5001 weight=0.92 tags=['customer_segment','evidence'] degree(T5000)=2.
+	"""
+	connector = Neo4jConnector(tag_sim_floor=0.15, min_activation=0.0001)
+
+	async with neo4j_driver.session(database="testmemory") as session:
+		activation = 1.0
+		query_tags: list[str] = []
+
+		async def _expand(parent_id: str) -> list[ExpansionCandidate]:
+			frontier = [FrontierInput(node_id=parent_id, activation=activation)]
+
+			async def _run(tx: AsyncManagedTransaction) -> list[ExpansionCandidate]:
+				return await connector.expand_frontier(
+					tx,
+					frontier=frontier,
+					visited_ids={parent_id},
+					query_tags=query_tags,
+				)
+
+			return await session.execute_read(_run)
+
+		candidates_t4005 = await _expand("T4005")
+		candidates_t5000 = await _expand("T5000")
+
+		t_low = next(
+			cand.transfer_energy
+			for cand in candidates_t4005
+			if cand.neighbor_node.id == "T4003"
+		)
+		t_high = next(
+			cand.transfer_energy
+			for cand in candidates_t5000
+			if cand.neighbor_node.id == "T5001"
+		)
+
+		expected_low = _transfer_energy(1.0, 0.52, 1, 1.0)
+		expected_high = _transfer_energy(1.0, 0.92, 2, 1.0)
+
+		assert t_low == pytest.approx(expected_low, rel=1e-6)
+		assert t_high == pytest.approx(expected_high, rel=1e-6)
+		assert t_high > t_low

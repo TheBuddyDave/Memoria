@@ -1,3 +1,8 @@
+Usage instructions:
+1) make sure you use the conftest.py there since it works with the existing tests and the tests pass. windows has a known issue with async fixtures and event loops.
+2) all tests assume that the dummy data is already loaded in the neo4j instance. the driver connects. 
+3) when you run pytest, first activate virtual env as the instructions say and then run pytest. 
+4) if you want to see how to write correct tests that work reference the existing tests in retriever_test.py.
 
 ## 3. Test Strategy Plan
 
