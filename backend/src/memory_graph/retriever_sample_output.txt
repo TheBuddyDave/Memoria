@@ -1,0 +1,1239 @@
+================================================================================
+RESULT 1: Seed N3204 (initial seed score: 0.73)
+================================================================================
+
+to_d3() output:
+{
+  "nodes": [
+    {
+      "id": "N3204",
+      "label": "AgentAction",
+      "is_seed": true,
+      "parameter_field": "{ \"discount_pct\":0.05, \"analysis\":[\"CUPED\",\"FE\"], \"clusters\":64, \"duration_days\":14, \"redemption_scenarios\":[\"P10\",\"P50\",\"P90\"] }",
+      "conv_id": "2025-11-12_WMT_P3_C32",
+      "status": "complete",
+      "tags": [
+        "pilot_design",
+        "simulation",
+        "revenue_neutrality",
+        "cuped",
+        "fixed_effects",
+        "guardrails"
+      ],
+      "retrieval_activation": 0.73,
+      "update_time": "2025-11-12T16:43:10-05:00",
+      "ingestion_time": "2025-11-12T16:43:10-05:00",
+      "text": "Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization, inventory sufficiency; predefine CUPED/fixed-effects analysis and stop/scale rules."
+    },
+    {
+      "id": "N3201",
+      "label": "Event",
+      "is_seed": false,
+      "source_type": "Calendar",
+      "start_date": "2025-11-20",
+      "end_date": "2025-12-04",
+      "conv_id": "2025-11-12_WMT_P3_C32",
+      "tags": [
+        "pilot",
+        "ab_test",
+        "randomization",
+        "low_income_geo",
+        "revenue_neutral"
+      ],
+      "retrieval_activation": 0.041,
+      "update_time": "2025-11-12T16:43:00-05:00",
+      "ingestion_time": "2025-11-12T16:43:00-05:00",
+      "text": "Targeted discount A/B pilot window with cluster-level randomization; objective: revenue-neutral lift in low-income geographies without stockouts."
+    },
+    {
+      "id": "N3203",
+      "label": "DataSource",
+      "is_seed": false,
+      "doc_pointer": "s3://pricing/results/Elasticity_Refit_Results_C31.csv",
+      "source_type": "csv",
+      "relevant_parts": "columns: sku, own_elasticity, cross_elasticity, ci_lower, ci_upper, sign_flip_flag",
+      "conv_id": "2025-11-12_WMT_P3_C32",
+      "tags": [
+        "elasticity_outputs",
+        "confidence_bands",
+        "sign_flip",
+        "variance_flag",
+        "csv"
+      ],
+      "retrieval_activation": 0.04,
+      "update_time": "2025-11-12T16:43:05-05:00",
+      "ingestion_time": "2025-11-12T16:43:05-05:00",
+      "text": "Elasticity_Refit_Results_C31.csv \u2014 per-SKU own- and cross-price elasticities with confidence intervals; flags for sign flips and high-variance tails."
+    },
+    {
+      "id": "N3205",
+      "label": "AgentAnswer",
+      "is_seed": false,
+      "analysis_types": [
+        "ab_testing",
+        "uplift_simulation",
+        "guardrail_policy"
+      ],
+      "metrics": [
+        "expected_lift",
+        "gm_delta",
+        "cannibalization_rate",
+        "stockout_threshold"
+      ],
+      "conv_id": "2025-11-12_WMT_P3_C32",
+      "tags": [
+        "pilot_plan",
+        "guardrails",
+        "revenue_neutral",
+        "scale_rules",
+        "stockout_risk"
+      ],
+      "retrieval_activation": 0.111,
+      "update_time": "2025-11-12T16:43:14-05:00",
+      "ingestion_time": "2025-11-12T16:43:14-05:00",
+      "text": "Pilot plan: 5% discount in 32 treatment clusters (matched 32 control); expected lift +6.8% (P50) with cannibalization <1.2%; revenue-neutral to +0.3% GM$ under inventory guardrails. Stop if GM$ < \u22120.5% or stockouts >2%; scale if GM$ \u2265 +0.5% and no service risk."
+    },
+    {
+      "id": "N3304",
+      "label": "AgentAnswer",
+      "is_seed": false,
+      "analysis_types": [
+        "scenario_simulation",
+        "margin_impact",
+        "rollback_policy"
+      ],
+      "metrics": [
+        "share_loss_reduction",
+        "gm_bps_change",
+        "action_window_days"
+      ],
+      "conv_id": "2025-11-12_WMT_P3_C33",
+      "tags": [
+        "recommendation",
+        "bundle",
+        "loyalty",
+        "rollback",
+        "share_loss",
+        "gm_impact"
+      ],
+      "retrieval_activation": 0.011,
+      "update_time": "2025-11-12T16:51:12-05:00",
+      "ingestion_time": "2025-11-12T16:51:12-05:00",
+      "text": "Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in high-cross-price clusters; avoid broad price match. Expected share loss cut by ~45% vs. no action, GM% down only \u221220 bps; auto-rollback if competitor reverts or on 2025-11-26."
+    },
+    {
+      "id": "N2303",
+      "label": "AgentAction",
+      "is_seed": false,
+      "parameter_field": "{ \"shield\":\"top_decile_items\", \"hos\":true, \"fuel_surcharge\":true, \"hubs\":[\"DC-12\",\"DC-14\"] }",
+      "conv_id": "2025-11-12_WMT_P2_C23",
+      "status": "complete",
+      "tags": [
+        "what_if",
+        "reallocation",
+        "lane_feasibility",
+        "hos_rules",
+        "playbook",
+        "automation_tasks"
+      ],
+      "retrieval_activation": 0.007,
+      "update_time": "2025-11-12T16:20:08-05:00",
+      "ingestion_time": "2025-11-12T16:20:08-05:00",
+      "text": "Execute what-if chain: disable affected coastal DCs, re-route via inland hubs; recompute feasible lanes under HOS and fuel surcharge; shield top-decile demand; output playbook steps + automation tasks for gaps."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N3204",
+      "target": "N3201",
+      "transfer_energy": 0.041,
+      "edge_id": "E3423",
+      "weight": 0.91,
+      "tags": [
+        "trigger",
+        "experiment"
+      ],
+      "created_time": "2025-11-12T16:43:25-05:00",
+      "text": "Pilot window triggers experimental design and simulation."
+    },
+    {
+      "source": "N3204",
+      "target": "N3203",
+      "transfer_energy": 0.04,
+      "edge_id": "E3422",
+      "weight": 0.89,
+      "tags": [
+        "input",
+        "lift_priors"
+      ],
+      "created_time": "2025-11-12T16:43:22-05:00",
+      "text": "Elasticity outputs parameterize lift priors and cannibalization expectations."
+    },
+    {
+      "source": "N3204",
+      "target": "N3205",
+      "transfer_energy": 0.111,
+      "edge_id": "E3424",
+      "weight": 0.95,
+      "tags": [
+        "solution",
+        "plan"
+      ],
+      "created_time": "2025-11-12T16:43:28-05:00",
+      "text": "Design and simulation synthesize into a guardrailed pilot plan."
+    },
+    {
+      "source": "N3205",
+      "target": "N3304",
+      "transfer_energy": 0.011,
+      "edge_id": "E3436",
+      "weight": 0.64,
+      "tags": [
+        "guardrails",
+        "bounded_response"
+      ],
+      "created_time": "2025-11-12T16:51:34-05:00",
+      "text": "Pilot guardrails and cluster logic from C32 inform bounded competitor response."
+    },
+    {
+      "source": "N3205",
+      "target": "N2303",
+      "transfer_energy": 0.007,
+      "edge_id": "E9209",
+      "weight": 0.69,
+      "tags": [
+        "pilot_learnings",
+        "uplift",
+        "emergency_allocation",
+        "heuristics"
+      ],
+      "created_time": "2025-11-12T16:05:31-05:00",
+      "text": "Pilot outcomes provide uplift elasticities under stress; these uplift factors calibrate emergency allocation heuristics in disaster playbooks."
+    }
+  ]
+}
+
+to_llm_context() output:
+{
+  "paths": [
+    "Path 1: [SEED] (AgentAction N3204: \"Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization,...\") -> [E3423 \"Pilot window triggers experimental design and simulation.\" weight=0.910 activation_score=0.041] -> (Event N3201: \"Targeted discount A/B pilot window with cluster-level randomization; objective: revenue-neutral lift in...\")",
+    "Path 2: [SEED] (AgentAction N3204: \"Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization,...\") -> [E3422 \"Elasticity outputs parameterize lift priors and cannibalization expectations.\" weight=0.890 activation_score=0.040] -> (DataSource N3203: \"Elasticity_Refit_Results_C31.csv \u2014 per-SKU own- and cross-price elasticities with confidence intervals; flags for...\")",
+    "Path 3: [SEED] (AgentAction N3204: \"Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization,...\") -> [E3424 \"Design and simulation synthesize into a guardrailed pilot plan.\" weight=0.950 activation_score=0.111] -> (AgentAnswer N3205: \"Pilot plan: 5% discount in 32 treatment clusters (matched 32 control); expected...\") -> [E3436 \"Pilot guardrails and cluster logic from C32 inform bounded competitor response.\" weight=0.640 activation_score=0.011] -> (AgentAnswer N3304: \"Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in...\")",
+    "Path 4: [SEED] (AgentAction N3204: \"Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization,...\") -> [E3424 \"Design and simulation synthesize into a guardrailed pilot plan.\" weight=0.950 activation_score=0.111] -> (AgentAnswer N3205: \"Pilot plan: 5% discount in 32 treatment clusters (matched 32 control); expected...\") -> [E9209 \"Pilot outcomes provide uplift elasticities under stress; these uplift factors calibrate emergency allocation heuristics in disaster playbooks.\" weight=0.690 activation_score=0.007] -> (AgentAction N2303: \"Execute what-if chain: disable affected coastal DCs, re-route via inland hubs; recompute...\")"
+  ],
+  "node_and_edge_attributes": {
+    "nodes": [
+      {
+        "id": "N3204",
+        "label": "AgentAction",
+        "parameter_field": "{ \"discount_pct\":0.05, \"analysis\":[\"CUPED\",\"FE\"], \"clusters\":64, \"duration_days\":14, \"redemption_scenarios\":[\"P10\",\"P50\",\"P90\"] }",
+        "conv_id": "2025-11-12_WMT_P3_C32",
+        "status": "complete",
+        "tags": [
+          "pilot_design",
+          "simulation",
+          "revenue_neutrality",
+          "cuped",
+          "fixed_effects",
+          "guardrails"
+        ],
+        "retrieval_activation": 0.73,
+        "update_time": "2025-11-12T16:43:10-05:00",
+        "ingestion_time": "2025-11-12T16:43:10-05:00",
+        "text": "Design targeted 5% discount pilot on high-sensitivity segments; simulate redemption/lift (P10\u2013P90), halo/cannibalization, inventory sufficiency; predefine CUPED/fixed-effects analysis and stop/scale rules."
+      },
+      {
+        "id": "N3201",
+        "label": "Event",
+        "source_type": "Calendar",
+        "start_date": "2025-11-20",
+        "end_date": "2025-12-04",
+        "conv_id": "2025-11-12_WMT_P3_C32",
+        "tags": [
+          "pilot",
+          "ab_test",
+          "randomization",
+          "low_income_geo",
+          "revenue_neutral"
+        ],
+        "retrieval_activation": 0.041,
+        "update_time": "2025-11-12T16:43:00-05:00",
+        "ingestion_time": "2025-11-12T16:43:00-05:00",
+        "text": "Targeted discount A/B pilot window with cluster-level randomization; objective: revenue-neutral lift in low-income geographies without stockouts."
+      },
+      {
+        "id": "N3203",
+        "label": "DataSource",
+        "doc_pointer": "s3://pricing/results/Elasticity_Refit_Results_C31.csv",
+        "source_type": "csv",
+        "relevant_parts": "columns: sku, own_elasticity, cross_elasticity, ci_lower, ci_upper, sign_flip_flag",
+        "conv_id": "2025-11-12_WMT_P3_C32",
+        "tags": [
+          "elasticity_outputs",
+          "confidence_bands",
+          "sign_flip",
+          "variance_flag",
+          "csv"
+        ],
+        "retrieval_activation": 0.04,
+        "update_time": "2025-11-12T16:43:05-05:00",
+        "ingestion_time": "2025-11-12T16:43:05-05:00",
+        "text": "Elasticity_Refit_Results_C31.csv \u2014 per-SKU own- and cross-price elasticities with confidence intervals; flags for sign flips and high-variance tails."
+      },
+      {
+        "id": "N3205",
+        "label": "AgentAnswer",
+        "analysis_types": [
+          "ab_testing",
+          "uplift_simulation",
+          "guardrail_policy"
+        ],
+        "metrics": [
+          "expected_lift",
+          "gm_delta",
+          "cannibalization_rate",
+          "stockout_threshold"
+        ],
+        "conv_id": "2025-11-12_WMT_P3_C32",
+        "tags": [
+          "pilot_plan",
+          "guardrails",
+          "revenue_neutral",
+          "scale_rules",
+          "stockout_risk"
+        ],
+        "retrieval_activation": 0.111,
+        "update_time": "2025-11-12T16:43:14-05:00",
+        "ingestion_time": "2025-11-12T16:43:14-05:00",
+        "text": "Pilot plan: 5% discount in 32 treatment clusters (matched 32 control); expected lift +6.8% (P50) with cannibalization <1.2%; revenue-neutral to +0.3% GM$ under inventory guardrails. Stop if GM$ < \u22120.5% or stockouts >2%; scale if GM$ \u2265 +0.5% and no service risk."
+      },
+      {
+        "id": "N3304",
+        "label": "AgentAnswer",
+        "analysis_types": [
+          "scenario_simulation",
+          "margin_impact",
+          "rollback_policy"
+        ],
+        "metrics": [
+          "share_loss_reduction",
+          "gm_bps_change",
+          "action_window_days"
+        ],
+        "conv_id": "2025-11-12_WMT_P3_C33",
+        "tags": [
+          "recommendation",
+          "bundle",
+          "loyalty",
+          "rollback",
+          "share_loss",
+          "gm_impact"
+        ],
+        "retrieval_activation": 0.011,
+        "update_time": "2025-11-12T16:51:12-05:00",
+        "ingestion_time": "2025-11-12T16:51:12-05:00",
+        "text": "Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in high-cross-price clusters; avoid broad price match. Expected share loss cut by ~45% vs. no action, GM% down only \u221220 bps; auto-rollback if competitor reverts or on 2025-11-26."
+      },
+      {
+        "id": "N2303",
+        "label": "AgentAction",
+        "parameter_field": "{ \"shield\":\"top_decile_items\", \"hos\":true, \"fuel_surcharge\":true, \"hubs\":[\"DC-12\",\"DC-14\"] }",
+        "conv_id": "2025-11-12_WMT_P2_C23",
+        "status": "complete",
+        "tags": [
+          "what_if",
+          "reallocation",
+          "lane_feasibility",
+          "hos_rules",
+          "playbook",
+          "automation_tasks"
+        ],
+        "retrieval_activation": 0.007,
+        "update_time": "2025-11-12T16:20:08-05:00",
+        "ingestion_time": "2025-11-12T16:20:08-05:00",
+        "text": "Execute what-if chain: disable affected coastal DCs, re-route via inland hubs; recompute feasible lanes under HOS and fuel surcharge; shield top-decile demand; output playbook steps + automation tasks for gaps."
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "E3423",
+        "source_node_id": "N3204",
+        "target_node_id": "N3201",
+        "transfer_energy": 0.041,
+        "weight": 0.91,
+        "tags": [
+          "trigger",
+          "experiment"
+        ],
+        "created_time": "2025-11-12T16:43:25-05:00",
+        "text": "Pilot window triggers experimental design and simulation."
+      },
+      {
+        "edge_id": "E3422",
+        "source_node_id": "N3204",
+        "target_node_id": "N3203",
+        "transfer_energy": 0.04,
+        "weight": 0.89,
+        "tags": [
+          "input",
+          "lift_priors"
+        ],
+        "created_time": "2025-11-12T16:43:22-05:00",
+        "text": "Elasticity outputs parameterize lift priors and cannibalization expectations."
+      },
+      {
+        "edge_id": "E3424",
+        "source_node_id": "N3204",
+        "target_node_id": "N3205",
+        "transfer_energy": 0.111,
+        "weight": 0.95,
+        "tags": [
+          "solution",
+          "plan"
+        ],
+        "created_time": "2025-11-12T16:43:28-05:00",
+        "text": "Design and simulation synthesize into a guardrailed pilot plan."
+      },
+      {
+        "edge_id": "E3436",
+        "source_node_id": "N3205",
+        "target_node_id": "N3304",
+        "transfer_energy": 0.011,
+        "weight": 0.64,
+        "tags": [
+          "guardrails",
+          "bounded_response"
+        ],
+        "created_time": "2025-11-12T16:51:34-05:00",
+        "text": "Pilot guardrails and cluster logic from C32 inform bounded competitor response."
+      },
+      {
+        "edge_id": "E9209",
+        "source_node_id": "N3205",
+        "target_node_id": "N2303",
+        "transfer_energy": 0.007,
+        "weight": 0.69,
+        "tags": [
+          "pilot_learnings",
+          "uplift",
+          "emergency_allocation",
+          "heuristics"
+        ],
+        "created_time": "2025-11-12T16:05:31-05:00",
+        "text": "Pilot outcomes provide uplift elasticities under stress; these uplift factors calibrate emergency allocation heuristics in disaster playbooks."
+      }
+    ]
+  }
+}
+
+to_debug_cypher() output:
+{
+  "paths_combined": "MATCH p = (n0_0 {id: 'N3204'})-[:RELATES]-(n0_1 {id: 'N3201'}) RETURN p UNION MATCH p = (n1_0 {id: 'N3204'})-[:RELATES]-(n1_1 {id: 'N3203'}) RETURN p UNION MATCH p = (n2_0 {id: 'N3204'})-[:RELATES]-(n2_1 {id: 'N3205'})-[:RELATES]-(n2_2 {id: 'N3304'}) RETURN p UNION MATCH p = (n3_0 {id: 'N3204'})-[:RELATES]-(n3_1 {id: 'N3205'})-[:RELATES]-(n3_2 {id: 'N2303'}) RETURN p",
+  "individual_paths": [
+    "MATCH p0 = (n0_0 {id: 'N3204'})-[:RELATES]-(n0_1 {id: 'N3201'}) RETURN p0",
+    "MATCH p1 = (n1_0 {id: 'N3204'})-[:RELATES]-(n1_1 {id: 'N3203'}) RETURN p1",
+    "MATCH p2 = (n2_0 {id: 'N3204'})-[:RELATES]-(n2_1 {id: 'N3205'})-[:RELATES]-(n2_2 {id: 'N3304'}) RETURN p2",
+    "MATCH p3 = (n3_0 {id: 'N3204'})-[:RELATES]-(n3_1 {id: 'N3205'})-[:RELATES]-(n3_2 {id: 'N2303'}) RETURN p3"
+  ]
+}
+
+
+================================================================================
+RESULT 2: Seed N3301 (initial seed score: 0.45)
+================================================================================
+
+to_d3() output:
+{
+  "nodes": [
+    {
+      "id": "N3301",
+      "label": "Event",
+      "is_seed": true,
+      "source_type": "Market Intel",
+      "start_date": "2025-11-12",
+      "end_date": "2025-11-12",
+      "conv_id": "2025-11-12_WMT_P3_C33",
+      "tags": [
+        "competitor_shock",
+        "price_drop",
+        "leader_sku",
+        "share_loss_risk"
+      ],
+      "retrieval_activation": 0.45,
+      "update_time": "2025-11-12T16:51:00-05:00",
+      "ingestion_time": "2025-11-12T16:51:00-05:00",
+      "text": "Competitor abruptly drops prices on select leader SKUs (\u22127% median); risk of share loss given recent elasticity drift."
+    },
+    {
+      "id": "N3302",
+      "label": "DataSource",
+      "is_seed": false,
+      "doc_pointer": "s3://market/Market_Intel_DailyFeed.json",
+      "source_type": "json",
+      "relevant_parts": "fields: competitor_sku, our_sku, price, promo_flag, asof, reversion_prob",
+      "conv_id": "2025-11-12_WMT_P3_C33",
+      "tags": [
+        "market_intel",
+        "scrape",
+        "competitor",
+        "json",
+        "reversion"
+      ],
+      "retrieval_activation": 0.068,
+      "update_time": "2025-11-12T16:51:03-05:00",
+      "ingestion_time": "2025-11-12T16:51:03-05:00",
+      "text": "Market_Intel_DailyFeed.json \u2014 competitor scraped prices with SKU mapping, promo flags, and historical reversion stats."
+    },
+    {
+      "id": "N3303",
+      "label": "AgentAction",
+      "is_seed": false,
+      "parameter_field": "{ \"options\":[\"temp_discount\",\"bundle\",\"loyalty_credit\"], \"guardrails\":{\"gm_margin_min\":0.28,\"inventory_headroom\":true}, \"rollback\":\"date_or_reversion_trigger\" }",
+      "conv_id": "2025-11-12_WMT_P3_C33",
+      "status": "complete",
+      "tags": [
+        "shock_model",
+        "cross_price",
+        "bundle",
+        "loyalty",
+        "rollback",
+        "margin_guardrail"
+      ],
+      "retrieval_activation": 0.075,
+      "update_time": "2025-11-12T16:51:08-05:00",
+      "ingestion_time": "2025-11-12T16:51:08-05:00",
+      "text": "Estimate demand impact using cross-price elasticities from C31; simulate response options (temporary discount, bundle, loyalty credit) under inventory headroom and margin guardrails; define rollback criteria."
+    },
+    {
+      "id": "N3304",
+      "label": "AgentAnswer",
+      "is_seed": false,
+      "analysis_types": [
+        "scenario_simulation",
+        "margin_impact",
+        "rollback_policy"
+      ],
+      "metrics": [
+        "share_loss_reduction",
+        "gm_bps_change",
+        "action_window_days"
+      ],
+      "conv_id": "2025-11-12_WMT_P3_C33",
+      "tags": [
+        "recommendation",
+        "bundle",
+        "loyalty",
+        "rollback",
+        "share_loss",
+        "gm_impact"
+      ],
+      "retrieval_activation": 0.007,
+      "update_time": "2025-11-12T16:51:12-05:00",
+      "ingestion_time": "2025-11-12T16:51:12-05:00",
+      "text": "Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in high-cross-price clusters; avoid broad price match. Expected share loss cut by ~45% vs. no action, GM% down only \u221220 bps; auto-rollback if competitor reverts or on 2025-11-26."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N3301",
+      "target": "N3302",
+      "transfer_energy": 0.068,
+      "edge_id": "E3431",
+      "weight": 0.84,
+      "tags": [
+        "evidence",
+        "competitor"
+      ],
+      "created_time": "2025-11-12T16:51:20-05:00",
+      "text": "Competitor shock grounded in daily market intel feed."
+    },
+    {
+      "source": "N3301",
+      "target": "N3303",
+      "transfer_energy": 0.075,
+      "edge_id": "E3433",
+      "weight": 0.92,
+      "tags": [
+        "trigger",
+        "guardrails"
+      ],
+      "created_time": "2025-11-12T16:51:25-05:00",
+      "text": "Shock event triggers response modeling with guardrails."
+    },
+    {
+      "source": "N3303",
+      "target": "N3304",
+      "transfer_energy": 0.007,
+      "edge_id": "E3434",
+      "weight": 0.95,
+      "tags": [
+        "solution",
+        "rollback"
+      ],
+      "created_time": "2025-11-12T16:51:28-05:00",
+      "text": "Modeled options converge to bundled + loyalty strategy with explicit rollback."
+    }
+  ]
+}
+
+to_llm_context() output:
+{
+  "paths": [
+    "Path 1: [SEED] (Event N3301: \"Competitor abruptly drops prices on select leader SKUs (\u22127% median); risk of...\") -> [E3431 \"Competitor shock grounded in daily market intel feed.\" weight=0.840 activation_score=0.068] -> (DataSource N3302: \"Market_Intel_DailyFeed.json \u2014 competitor scraped prices with SKU mapping, promo flags, and historical...\")",
+    "Path 2: [SEED] (Event N3301: \"Competitor abruptly drops prices on select leader SKUs (\u22127% median); risk of...\") -> [E3433 \"Shock event triggers response modeling with guardrails.\" weight=0.920 activation_score=0.075] -> (AgentAction N3303: \"Estimate demand impact using cross-price elasticities from C31; simulate response options (temporary...\") -> [E3434 \"Modeled options converge to bundled + loyalty strategy with explicit rollback.\" weight=0.950 activation_score=0.007] -> (AgentAnswer N3304: \"Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in...\")"
+  ],
+  "node_and_edge_attributes": {
+    "nodes": [
+      {
+        "id": "N3301",
+        "label": "Event",
+        "source_type": "Market Intel",
+        "start_date": "2025-11-12",
+        "end_date": "2025-11-12",
+        "conv_id": "2025-11-12_WMT_P3_C33",
+        "tags": [
+          "competitor_shock",
+          "price_drop",
+          "leader_sku",
+          "share_loss_risk"
+        ],
+        "retrieval_activation": 0.45,
+        "update_time": "2025-11-12T16:51:00-05:00",
+        "ingestion_time": "2025-11-12T16:51:00-05:00",
+        "text": "Competitor abruptly drops prices on select leader SKUs (\u22127% median); risk of share loss given recent elasticity drift."
+      },
+      {
+        "id": "N3302",
+        "label": "DataSource",
+        "doc_pointer": "s3://market/Market_Intel_DailyFeed.json",
+        "source_type": "json",
+        "relevant_parts": "fields: competitor_sku, our_sku, price, promo_flag, asof, reversion_prob",
+        "conv_id": "2025-11-12_WMT_P3_C33",
+        "tags": [
+          "market_intel",
+          "scrape",
+          "competitor",
+          "json",
+          "reversion"
+        ],
+        "retrieval_activation": 0.068,
+        "update_time": "2025-11-12T16:51:03-05:00",
+        "ingestion_time": "2025-11-12T16:51:03-05:00",
+        "text": "Market_Intel_DailyFeed.json \u2014 competitor scraped prices with SKU mapping, promo flags, and historical reversion stats."
+      },
+      {
+        "id": "N3303",
+        "label": "AgentAction",
+        "parameter_field": "{ \"options\":[\"temp_discount\",\"bundle\",\"loyalty_credit\"], \"guardrails\":{\"gm_margin_min\":0.28,\"inventory_headroom\":true}, \"rollback\":\"date_or_reversion_trigger\" }",
+        "conv_id": "2025-11-12_WMT_P3_C33",
+        "status": "complete",
+        "tags": [
+          "shock_model",
+          "cross_price",
+          "bundle",
+          "loyalty",
+          "rollback",
+          "margin_guardrail"
+        ],
+        "retrieval_activation": 0.075,
+        "update_time": "2025-11-12T16:51:08-05:00",
+        "ingestion_time": "2025-11-12T16:51:08-05:00",
+        "text": "Estimate demand impact using cross-price elasticities from C31; simulate response options (temporary discount, bundle, loyalty credit) under inventory headroom and margin guardrails; define rollback criteria."
+      },
+      {
+        "id": "N3304",
+        "label": "AgentAnswer",
+        "analysis_types": [
+          "scenario_simulation",
+          "margin_impact",
+          "rollback_policy"
+        ],
+        "metrics": [
+          "share_loss_reduction",
+          "gm_bps_change",
+          "action_window_days"
+        ],
+        "conv_id": "2025-11-12_WMT_P3_C33",
+        "tags": [
+          "recommendation",
+          "bundle",
+          "loyalty",
+          "rollback",
+          "share_loss",
+          "gm_impact"
+        ],
+        "retrieval_activation": 0.007,
+        "update_time": "2025-11-12T16:51:12-05:00",
+        "ingestion_time": "2025-11-12T16:51:12-05:00",
+        "text": "Recommended play: 2-week bundle offer on leaders + loyalty credit ($3) in high-cross-price clusters; avoid broad price match. Expected share loss cut by ~45% vs. no action, GM% down only \u221220 bps; auto-rollback if competitor reverts or on 2025-11-26."
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "E3431",
+        "source_node_id": "N3301",
+        "target_node_id": "N3302",
+        "transfer_energy": 0.068,
+        "weight": 0.84,
+        "tags": [
+          "evidence",
+          "competitor"
+        ],
+        "created_time": "2025-11-12T16:51:20-05:00",
+        "text": "Competitor shock grounded in daily market intel feed."
+      },
+      {
+        "edge_id": "E3433",
+        "source_node_id": "N3301",
+        "target_node_id": "N3303",
+        "transfer_energy": 0.075,
+        "weight": 0.92,
+        "tags": [
+          "trigger",
+          "guardrails"
+        ],
+        "created_time": "2025-11-12T16:51:25-05:00",
+        "text": "Shock event triggers response modeling with guardrails."
+      },
+      {
+        "edge_id": "E3434",
+        "source_node_id": "N3303",
+        "target_node_id": "N3304",
+        "transfer_energy": 0.007,
+        "weight": 0.95,
+        "tags": [
+          "solution",
+          "rollback"
+        ],
+        "created_time": "2025-11-12T16:51:28-05:00",
+        "text": "Modeled options converge to bundled + loyalty strategy with explicit rollback."
+      }
+    ]
+  }
+}
+
+to_debug_cypher() output:
+{
+  "paths_combined": "MATCH p = (n0_0 {id: 'N3301'})-[:RELATES]-(n0_1 {id: 'N3302'}) RETURN p UNION MATCH p = (n1_0 {id: 'N3301'})-[:RELATES]-(n1_1 {id: 'N3303'})-[:RELATES]-(n1_2 {id: 'N3304'}) RETURN p",
+  "individual_paths": [
+    "MATCH p0 = (n0_0 {id: 'N3301'})-[:RELATES]-(n0_1 {id: 'N3302'}) RETURN p0",
+    "MATCH p1 = (n1_0 {id: 'N3301'})-[:RELATES]-(n1_1 {id: 'N3303'})-[:RELATES]-(n1_2 {id: 'N3304'}) RETURN p1"
+  ]
+}
+
+
+================================================================================
+RESULT 3: Seed N5024 (initial seed score: 0.85)
+================================================================================
+
+to_d3() output:
+{
+  "nodes": [
+    {
+      "id": "N5024",
+      "label": "AgentAction",
+      "is_seed": true,
+      "parameter_field": "calc_version=1.2; service_level>=95%; lead_time_var<=2.0 days",
+      "conv_id": "2025-11-12_ACME_P5_C53",
+      "status": "complete",
+      "tags": [
+        "calculation",
+        "normalization",
+        "ranking",
+        "constraints",
+        "substitution"
+      ],
+      "retrieval_activation": 0.85,
+      "update_time": "2025-11-12T17:07:18-05:00",
+      "ingestion_time": "2025-11-12T17:07:18-05:00",
+      "text": "Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging scope-3 adders; normalize by revenue and units; rank by intensity; constrain greener substitutes by service level and lead-time variance."
+    },
+    {
+      "id": "N5025",
+      "label": "AgentAnswer",
+      "is_seed": false,
+      "analysis_types": [
+        "sustainability_audit",
+        "routing_optimization"
+      ],
+      "metrics": [
+        "tCO2e",
+        "Service_Level",
+        "GM$",
+        "Logistics_Cost"
+      ],
+      "conv_id": "2025-11-12_ACME_P5_C53",
+      "tags": [
+        "recommendation",
+        "green_substitute",
+        "rail",
+        "packaging",
+        "pnl_neutral"
+      ],
+      "retrieval_activation": 0.101,
+      "update_time": "2025-11-12T17:07:24-05:00",
+      "ingestion_time": "2025-11-12T17:07:24-05:00",
+      "text": "Findings: 9 suppliers exceed CO\u2082 intensity thresholds; recommend shifting 25% of volume on two corridors to regional rail + greener packaging, reducing tCO\u2082e by 17% with neutral P&L after logistics re-optimization."
+    },
+    {
+      "id": "N5023",
+      "label": "DataSource",
+      "is_seed": false,
+      "doc_pointer": "s3://acme/sustainability/Supplier_CO2_Emissions.csv",
+      "source_type": "csv",
+      "relevant_parts": "Columns: route_id, mode, distance_km, ef_kg_per_km, packaging_kg, sku, units, revenue_usd",
+      "conv_id": "2025-11-12_ACME_P5_C53",
+      "tags": [
+        "emissions",
+        "routes",
+        "mode",
+        "distance",
+        "units",
+        "revenue",
+        "csv"
+      ],
+      "retrieval_activation": 0.056,
+      "update_time": "2025-11-12T17:07:12-05:00",
+      "ingestion_time": "2025-11-12T17:07:12-05:00",
+      "text": "Supplier_CO2_Emissions.csv \u2014 route, mode, distance, emission_factor, packaging_weight, SKU, units, revenue."
+    },
+    {
+      "id": "N2203",
+      "label": "AgentAction",
+      "is_seed": false,
+      "parameter_field": "{ \"target_service_level\":0.95, \"risk_penalty\":\"cov(delay)\", \"cap_constraints\":true, \"min_alloc_per_supplier\":0.1 }",
+      "conv_id": "2025-11-12_WMT_P2_C22",
+      "status": "complete",
+      "tags": [
+        "optimization",
+        "mip",
+        "service_level",
+        "covariance_penalty",
+        "sourcing_split"
+      ],
+      "retrieval_activation": 0.112,
+      "update_time": "2025-11-12T16:12:08-05:00",
+      "ingestion_time": "2025-11-12T16:12:08-05:00",
+      "text": "Formulate reliability-adjusted landed cost optimization with service-level \u2265 95%, DC capacity, and regional risk covariance penalties; solve mixed-integer program for sourcing split."
+    },
+    {
+      "id": "N2204",
+      "label": "AgentAnswer",
+      "is_seed": false,
+      "analysis_types": [
+        "mip_optimization",
+        "risk_heatmap",
+        "scenario_analysis"
+      ],
+      "metrics": [
+        "late_rate",
+        "service_level",
+        "landed_cost_delta"
+      ],
+      "conv_id": "2025-11-12_WMT_P2_C22",
+      "tags": [
+        "recommendation",
+        "supplier_switch",
+        "late_rate",
+        "landed_cost",
+        "service_level",
+        "diversification",
+        "qualification"
+      ],
+      "retrieval_activation": 0.012,
+      "update_time": "2025-11-12T16:12:12-05:00",
+      "ingestion_time": "2025-11-12T16:12:12-05:00",
+      "text": "Recommendation: Shift 35\u201345% of volume from Supplier #342 to #219 and #455; expected late_rate drops from 18%\u21929% with marginal landed cost +$0.04/unit; service-level improves to 96.2%. Risk heatmap shows #219 and #455 are uncorrelated on delay shocks (different ports/weather basins). Include 3-week ramp for tooling qualification."
+    },
+    {
+      "id": "N2201",
+      "label": "UserRequest",
+      "is_seed": false,
+      "user_role": "Procurement Analyst",
+      "user_id": "u_3197",
+      "conv_id": "2025-11-12_WMT_P2_C22",
+      "tags": [
+        "supplier",
+        "simulation",
+        "reliability",
+        "risk_heatmap",
+        "service_level",
+        "capacity"
+      ],
+      "retrieval_activation": 0.007,
+      "update_time": "2025-11-12T16:12:00-05:00",
+      "ingestion_time": "2025-11-12T16:12:00-05:00",
+      "text": "Employee requests reliability-adjusted cost simulation to replace chronically late suppliers; asks for risk score heatmap and service-level implications under DC capacity constraints."
+    },
+    {
+      "id": "N2202",
+      "label": "DataSource",
+      "is_seed": false,
+      "doc_pointer": "s3://procurement/Supplier_Performance_Q3.csv",
+      "source_type": "csv",
+      "relevant_parts": "fields: Supplier_ID, Product_Line, Lead_Time, Unit_Cost, On_Time_Rate, Lead_Time_SD, Defect_Rate, Region, RebateTerms",
+      "conv_id": "2025-11-12_WMT_P2_C22",
+      "tags": [
+        "supplier",
+        "scorecard",
+        "lead_time",
+        "unit_cost",
+        "on_time",
+        "defect",
+        "csv"
+      ],
+      "retrieval_activation": 0.007,
+      "update_time": "2025-11-12T16:12:03-05:00",
+      "ingestion_time": "2025-11-12T16:12:03-05:00",
+      "text": "Supplier_Performance_Q3.csv \u2014 Supplier_ID, Product_Line, Lead_Time, Unit_Cost, On_Time_Rate, Defect_Rate, Region; includes historical variance and rebate terms."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N5024",
+      "target": "N5025",
+      "transfer_energy": 0.101,
+      "edge_id": "E9023",
+      "weight": 0.93,
+      "tags": [
+        "recommendation",
+        "sustainability"
+      ],
+      "created_time": "2025-11-12T17:07:35-05:00",
+      "text": "Computed intensities and constrained substitution analysis yield actionable sustainability recommendations."
+    },
+    {
+      "source": "N5024",
+      "target": "N5023",
+      "transfer_energy": 0.056,
+      "edge_id": "E9022",
+      "weight": 0.88,
+      "tags": [
+        "data_input",
+        "calculation"
+      ],
+      "created_time": "2025-11-12T17:07:33-05:00",
+      "text": "Route/mode/distance and packaging data parameterize SKU-mile CO\u2082 calculations."
+    },
+    {
+      "source": "N5024",
+      "target": "N2203",
+      "transfer_energy": 0.112,
+      "edge_id": "E9207",
+      "weight": 0.78,
+      "tags": [
+        "sustainability",
+        "co2",
+        "lane_allocation",
+        "supplier_selection"
+      ],
+      "created_time": "2025-11-12T16:05:24-05:00",
+      "text": "CO\u2082 intensity per SKU-mile and packaging footprint add sustainability constraints to alternate-supplier selection and lane allocation."
+    },
+    {
+      "source": "N2203",
+      "target": "N2204",
+      "transfer_energy": 0.012,
+      "edge_id": "E2414",
+      "weight": 0.95,
+      "tags": [
+        "solution",
+        "sourcing",
+        "diversification"
+      ],
+      "created_time": "2025-11-12T16:12:28-05:00",
+      "text": "Optimization produces sourcing split, risk diversification evidence, and ramp guidance."
+    },
+    {
+      "source": "N2203",
+      "target": "N2201",
+      "transfer_energy": 0.007,
+      "edge_id": "E2413",
+      "weight": 0.92,
+      "tags": [
+        "trigger",
+        "optimization"
+      ],
+      "created_time": "2025-11-12T16:12:25-05:00",
+      "text": "User request triggers MIP solve with service-level and capacity constraints."
+    },
+    {
+      "source": "N2203",
+      "target": "N2202",
+      "transfer_energy": 0.007,
+      "edge_id": "E2412",
+      "weight": 0.87,
+      "tags": [
+        "input",
+        "variance",
+        "reliability"
+      ],
+      "created_time": "2025-11-12T16:12:22-05:00",
+      "text": "Scorecard fields parameterize reliability-adjusted cost and delay variance inputs."
+    }
+  ]
+}
+
+to_llm_context() output:
+{
+  "paths": [
+    "Path 1: [SEED] (AgentAction N5024: \"Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging...\") -> [E9023 \"Computed intensities and constrained substitution analysis yield actionable sustainability recommendations.\" weight=0.930 activation_score=0.101] -> (AgentAnswer N5025: \"Findings: 9 suppliers exceed CO\u2082 intensity thresholds; recommend shifting 25% of volume...\")",
+    "Path 2: [SEED] (AgentAction N5024: \"Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging...\") -> [E9022 \"Route/mode/distance and packaging data parameterize SKU-mile CO\u2082 calculations.\" weight=0.880 activation_score=0.056] -> (DataSource N5023: \"Supplier_CO2_Emissions.csv \u2014 route, mode, distance, emission_factor, packaging_weight, SKU, units, revenue.\")",
+    "Path 3: [SEED] (AgentAction N5024: \"Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging...\") -> [E9207 \"CO\u2082 intensity per SKU-mile and packaging footprint add sustainability constraints to alternate-supplier selection and lane allocation.\" weight=0.780 activation_score=0.112] -> (AgentAction N2203: \"Formulate reliability-adjusted landed cost optimization with service-level \u2265 95%, DC capacity, and...\") -> [E2414 \"Optimization produces sourcing split, risk diversification evidence, and ramp guidance.\" weight=0.950 activation_score=0.012] -> (AgentAnswer N2204: \"Recommendation: Shift 35\u201345% of volume from Supplier #342 to #219 and #455;...\")",
+    "Path 4: [SEED] (AgentAction N5024: \"Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging...\") -> [E9207 \"CO\u2082 intensity per SKU-mile and packaging footprint add sustainability constraints to alternate-supplier selection and lane allocation.\" weight=0.780 activation_score=0.112] -> (AgentAction N2203: \"Formulate reliability-adjusted landed cost optimization with service-level \u2265 95%, DC capacity, and...\") -> [E2413 \"User request triggers MIP solve with service-level and capacity constraints.\" weight=0.920 activation_score=0.007] -> (UserRequest N2201: \"Employee requests reliability-adjusted cost simulation to replace chronically late suppliers; asks for...\")",
+    "Path 5: [SEED] (AgentAction N5024: \"Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging...\") -> [E9207 \"CO\u2082 intensity per SKU-mile and packaging footprint add sustainability constraints to alternate-supplier selection and lane allocation.\" weight=0.780 activation_score=0.112] -> (AgentAction N2203: \"Formulate reliability-adjusted landed cost optimization with service-level \u2265 95%, DC capacity, and...\") -> [E2412 \"Scorecard fields parameterize reliability-adjusted cost and delay variance inputs.\" weight=0.870 activation_score=0.007] -> (DataSource N2202: \"Supplier_Performance_Q3.csv \u2014 Supplier_ID, Product_Line, Lead_Time, Unit_Cost, On_Time_Rate, Defect_Rate, Region; includes historical var...\")"
+  ],
+  "node_and_edge_attributes": {
+    "nodes": [
+      {
+        "id": "N5024",
+        "label": "AgentAction",
+        "parameter_field": "calc_version=1.2; service_level>=95%; lead_time_var<=2.0 days",
+        "conv_id": "2025-11-12_ACME_P5_C53",
+        "status": "complete",
+        "tags": [
+          "calculation",
+          "normalization",
+          "ranking",
+          "constraints",
+          "substitution"
+        ],
+        "retrieval_activation": 0.85,
+        "update_time": "2025-11-12T17:07:18-05:00",
+        "ingestion_time": "2025-11-12T17:07:18-05:00",
+        "text": "Compute CO\u2082 per SKU-mile (tCO\u2082e) = (mode EF \u00d7 distance) + packaging scope-3 adders; normalize by revenue and units; rank by intensity; constrain greener substitutes by service level and lead-time variance."
+      },
+      {
+        "id": "N5025",
+        "label": "AgentAnswer",
+        "analysis_types": [
+          "sustainability_audit",
+          "routing_optimization"
+        ],
+        "metrics": [
+          "tCO2e",
+          "Service_Level",
+          "GM$",
+          "Logistics_Cost"
+        ],
+        "conv_id": "2025-11-12_ACME_P5_C53",
+        "tags": [
+          "recommendation",
+          "green_substitute",
+          "rail",
+          "packaging",
+          "pnl_neutral"
+        ],
+        "retrieval_activation": 0.101,
+        "update_time": "2025-11-12T17:07:24-05:00",
+        "ingestion_time": "2025-11-12T17:07:24-05:00",
+        "text": "Findings: 9 suppliers exceed CO\u2082 intensity thresholds; recommend shifting 25% of volume on two corridors to regional rail + greener packaging, reducing tCO\u2082e by 17% with neutral P&L after logistics re-optimization."
+      },
+      {
+        "id": "N5023",
+        "label": "DataSource",
+        "doc_pointer": "s3://acme/sustainability/Supplier_CO2_Emissions.csv",
+        "source_type": "csv",
+        "relevant_parts": "Columns: route_id, mode, distance_km, ef_kg_per_km, packaging_kg, sku, units, revenue_usd",
+        "conv_id": "2025-11-12_ACME_P5_C53",
+        "tags": [
+          "emissions",
+          "routes",
+          "mode",
+          "distance",
+          "units",
+          "revenue",
+          "csv"
+        ],
+        "retrieval_activation": 0.056,
+        "update_time": "2025-11-12T17:07:12-05:00",
+        "ingestion_time": "2025-11-12T17:07:12-05:00",
+        "text": "Supplier_CO2_Emissions.csv \u2014 route, mode, distance, emission_factor, packaging_weight, SKU, units, revenue."
+      },
+      {
+        "id": "N2203",
+        "label": "AgentAction",
+        "parameter_field": "{ \"target_service_level\":0.95, \"risk_penalty\":\"cov(delay)\", \"cap_constraints\":true, \"min_alloc_per_supplier\":0.1 }",
+        "conv_id": "2025-11-12_WMT_P2_C22",
+        "status": "complete",
+        "tags": [
+          "optimization",
+          "mip",
+          "service_level",
+          "covariance_penalty",
+          "sourcing_split"
+        ],
+        "retrieval_activation": 0.112,
+        "update_time": "2025-11-12T16:12:08-05:00",
+        "ingestion_time": "2025-11-12T16:12:08-05:00",
+        "text": "Formulate reliability-adjusted landed cost optimization with service-level \u2265 95%, DC capacity, and regional risk covariance penalties; solve mixed-integer program for sourcing split."
+      },
+      {
+        "id": "N2204",
+        "label": "AgentAnswer",
+        "analysis_types": [
+          "mip_optimization",
+          "risk_heatmap",
+          "scenario_analysis"
+        ],
+        "metrics": [
+          "late_rate",
+          "service_level",
+          "landed_cost_delta"
+        ],
+        "conv_id": "2025-11-12_WMT_P2_C22",
+        "tags": [
+          "recommendation",
+          "supplier_switch",
+          "late_rate",
+          "landed_cost",
+          "service_level",
+          "diversification",
+          "qualification"
+        ],
+        "retrieval_activation": 0.012,
+        "update_time": "2025-11-12T16:12:12-05:00",
+        "ingestion_time": "2025-11-12T16:12:12-05:00",
+        "text": "Recommendation: Shift 35\u201345% of volume from Supplier #342 to #219 and #455; expected late_rate drops from 18%\u21929% with marginal landed cost +$0.04/unit; service-level improves to 96.2%. Risk heatmap shows #219 and #455 are uncorrelated on delay shocks (different ports/weather basins). Include 3-week ramp for tooling qualification."
+      },
+      {
+        "id": "N2201",
+        "label": "UserRequest",
+        "user_role": "Procurement Analyst",
+        "user_id": "u_3197",
+        "conv_id": "2025-11-12_WMT_P2_C22",
+        "tags": [
+          "supplier",
+          "simulation",
+          "reliability",
+          "risk_heatmap",
+          "service_level",
+          "capacity"
+        ],
+        "retrieval_activation": 0.007,
+        "update_time": "2025-11-12T16:12:00-05:00",
+        "ingestion_time": "2025-11-12T16:12:00-05:00",
+        "text": "Employee requests reliability-adjusted cost simulation to replace chronically late suppliers; asks for risk score heatmap and service-level implications under DC capacity constraints."
+      },
+      {
+        "id": "N2202",
+        "label": "DataSource",
+        "doc_pointer": "s3://procurement/Supplier_Performance_Q3.csv",
+        "source_type": "csv",
+        "relevant_parts": "fields: Supplier_ID, Product_Line, Lead_Time, Unit_Cost, On_Time_Rate, Lead_Time_SD, Defect_Rate, Region, RebateTerms",
+        "conv_id": "2025-11-12_WMT_P2_C22",
+        "tags": [
+          "supplier",
+          "scorecard",
+          "lead_time",
+          "unit_cost",
+          "on_time",
+          "defect",
+          "csv"
+        ],
+        "retrieval_activation": 0.007,
+        "update_time": "2025-11-12T16:12:03-05:00",
+        "ingestion_time": "2025-11-12T16:12:03-05:00",
+        "text": "Supplier_Performance_Q3.csv \u2014 Supplier_ID, Product_Line, Lead_Time, Unit_Cost, On_Time_Rate, Defect_Rate, Region; includes historical variance and rebate terms."
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "E9023",
+        "source_node_id": "N5024",
+        "target_node_id": "N5025",
+        "transfer_energy": 0.101,
+        "weight": 0.93,
+        "tags": [
+          "recommendation",
+          "sustainability"
+        ],
+        "created_time": "2025-11-12T17:07:35-05:00",
+        "text": "Computed intensities and constrained substitution analysis yield actionable sustainability recommendations."
+      },
+      {
+        "edge_id": "E9022",
+        "source_node_id": "N5024",
+        "target_node_id": "N5023",
+        "transfer_energy": 0.056,
+        "weight": 0.88,
+        "tags": [
+          "data_input",
+          "calculation"
+        ],
+        "created_time": "2025-11-12T17:07:33-05:00",
+        "text": "Route/mode/distance and packaging data parameterize SKU-mile CO\u2082 calculations."
+      },
+      {
+        "edge_id": "E9207",
+        "source_node_id": "N5024",
+        "target_node_id": "N2203",
+        "transfer_energy": 0.112,
+        "weight": 0.78,
+        "tags": [
+          "sustainability",
+          "co2",
+          "lane_allocation",
+          "supplier_selection"
+        ],
+        "created_time": "2025-11-12T16:05:24-05:00",
+        "text": "CO\u2082 intensity per SKU-mile and packaging footprint add sustainability constraints to alternate-supplier selection and lane allocation."
+      },
+      {
+        "edge_id": "E2414",
+        "source_node_id": "N2203",
+        "target_node_id": "N2204",
+        "transfer_energy": 0.012,
+        "weight": 0.95,
+        "tags": [
+          "solution",
+          "sourcing",
+          "diversification"
+        ],
+        "created_time": "2025-11-12T16:12:28-05:00",
+        "text": "Optimization produces sourcing split, risk diversification evidence, and ramp guidance."
+      },
+      {
+        "edge_id": "E2413",
+        "source_node_id": "N2203",
+        "target_node_id": "N2201",
+        "transfer_energy": 0.007,
+        "weight": 0.92,
+        "tags": [
+          "trigger",
+          "optimization"
+        ],
+        "created_time": "2025-11-12T16:12:25-05:00",
+        "text": "User request triggers MIP solve with service-level and capacity constraints."
+      },
+      {
+        "edge_id": "E2412",
+        "source_node_id": "N2203",
+        "target_node_id": "N2202",
+        "transfer_energy": 0.007,
+        "weight": 0.87,
+        "tags": [
+          "input",
+          "variance",
+          "reliability"
+        ],
+        "created_time": "2025-11-12T16:12:22-05:00",
+        "text": "Scorecard fields parameterize reliability-adjusted cost and delay variance inputs."
+      }
+    ]
+  }
+}
+
+to_debug_cypher() output:
+{
+  "paths_combined": "MATCH p = (n0_0 {id: 'N5024'})-[:RELATES]-(n0_1 {id: 'N5025'}) RETURN p UNION MATCH p = (n1_0 {id: 'N5024'})-[:RELATES]-(n1_1 {id: 'N5023'}) RETURN p UNION MATCH p = (n2_0 {id: 'N5024'})-[:RELATES]-(n2_1 {id: 'N2203'})-[:RELATES]-(n2_2 {id: 'N2204'}) RETURN p UNION MATCH p = (n3_0 {id: 'N5024'})-[:RELATES]-(n3_1 {id: 'N2203'})-[:RELATES]-(n3_2 {id: 'N2201'}) RETURN p UNION MATCH p = (n4_0 {id: 'N5024'})-[:RELATES]-(n4_1 {id: 'N2203'})-[:RELATES]-(n4_2 {id: 'N2202'}) RETURN p",
+  "individual_paths": [
+    "MATCH p0 = (n0_0 {id: 'N5024'})-[:RELATES]-(n0_1 {id: 'N5025'}) RETURN p0",
+    "MATCH p1 = (n1_0 {id: 'N5024'})-[:RELATES]-(n1_1 {id: 'N5023'}) RETURN p1",
+    "MATCH p2 = (n2_0 {id: 'N5024'})-[:RELATES]-(n2_1 {id: 'N2203'})-[:RELATES]-(n2_2 {id: 'N2204'}) RETURN p2",
+    "MATCH p3 = (n3_0 {id: 'N5024'})-[:RELATES]-(n3_1 {id: 'N2203'})-[:RELATES]-(n3_2 {id: 'N2201'}) RETURN p3",
+    "MATCH p4 = (n4_0 {id: 'N5024'})-[:RELATES]-(n4_1 {id: 'N2203'})-[:RELATES]-(n4_2 {id: 'N2202'}) RETURN p4"
+  ]
+}
+
+

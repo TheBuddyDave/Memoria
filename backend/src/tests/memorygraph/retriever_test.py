@@ -335,14 +335,16 @@ def test_to_d3_minimal_sanity():
 
 	graph = to_d3(result)
 	nodes_by_id = {node["id"]: node for node in graph["nodes"]}
-	links = graph["links"]
+	edges = graph["edges"]
 
 	assert set(nodes_by_id) == {"S1", "N1"}
-	assert nodes_by_id["S1"]["activation"] == seed.score
-	assert nodes_by_id["N1"]["activation"] == pytest.approx(0.12)
-	assert len(links) == 1
-	assert links[0]["source"] == "S1"
-	assert links[0]["target"] == "N1"
+	assert nodes_by_id["S1"]["retrieval_activation"] == seed.score
+	assert nodes_by_id["N1"]["retrieval_activation"] == pytest.approx(0.12)
+	assert nodes_by_id["S1"]["is_seed"] is True
+	assert nodes_by_id["N1"]["is_seed"] is False
+	assert len(edges) == 1
+	assert edges[0]["source"] == "S1"
+	assert edges[0]["target"] == "N1"
 
 
 def test_to_llm_context_minimal_sanity():
@@ -377,17 +379,19 @@ def test_to_llm_context_minimal_sanity():
 
 	context = to_llm_context(result)
 
-	assert context["graph"] == to_d3(result)
 	assert len(context["paths"]) == 1
 	path_text = context["paths"][0]
-	assert path_text.startswith("Path 1: [Seed S1]")
-	assert "RELATES" in path_text
-	assert "T=0.120" in path_text
+	assert path_text.startswith("Path 1: [SEED]")
+	assert "weight=0.500" in path_text
+	assert "activation_score=0.120" in path_text
+	assert "node_and_edge_attributes" in context
+	assert "nodes" in context["node_and_edge_attributes"]
+	assert "edges" in context["node_and_edge_attributes"]
 
 
 def test_to_debug_cypher_minimal_sanity():
 	"""Scenario: single-hop result sent to Cypher debug formatter.
-	Expected: one query with n0/n1 id placeholders in the path order.
+	Expected: one query with n0/n1 id placeholders in the path order and UNION-safe combined query.
 	Why: to_debug_cypher maps step ordering to parameterized node IDs.
 	"""
 	seed = SeedInput(node_id="S1", score=0.7)
@@ -417,8 +421,11 @@ def test_to_debug_cypher_minimal_sanity():
 
 	queries = to_debug_cypher(result)
 
-	assert queries == [
-		"MATCH p = (n0 {id: $id0})-[:RELATES]-(n1 {id: $id1}) RETURN p"
+	assert queries["paths_combined"] == (
+		"MATCH p = (n0_0 {id: 'S1'})-[:RELATES]-(n0_1 {id: 'N1'}) RETURN p"
+	)
+	assert queries["individual_paths"] == [
+		"MATCH p0 = (n0_0 {id: 'S1'})-[:RELATES]-(n0_1 {id: 'N1'}) RETURN p0"
 	]
 
 
@@ -475,13 +482,13 @@ def test_to_d3_multi_path_shared_nodes():
 	nodes_by_id = {node["id"]: node for node in graph["nodes"]}
 
 	assert set(nodes_by_id.keys()) == {"S1", "A", "B", "C"}
-	assert nodes_by_id["S1"]["activation"] == 0.8
-	assert nodes_by_id["A"]["activation"] == pytest.approx(0.3)
-	assert nodes_by_id["B"]["activation"] == pytest.approx(0.4)
-	assert nodes_by_id["C"]["activation"] == pytest.approx(max(0.15, 0.25))
+	assert nodes_by_id["S1"]["retrieval_activation"] == 0.8
+	assert nodes_by_id["A"]["retrieval_activation"] == pytest.approx(0.3)
+	assert nodes_by_id["B"]["retrieval_activation"] == pytest.approx(0.4)
+	assert nodes_by_id["C"]["retrieval_activation"] == pytest.approx(max(0.15, 0.25))
 
-	links = graph["links"]
-	assert len(links) == 4
+	edges = graph["edges"]
+	assert len(edges) == 4
 
 
 def test_to_d3_longer_path():
@@ -526,11 +533,11 @@ def test_to_d3_longer_path():
 
 	graph = to_d3(result)
 	nodes_by_id = {node["id"]: node for node in graph["nodes"]}
-	links = graph["links"]
+	edges = graph["edges"]
 
 	assert set(nodes_by_id.keys()) == {"S1", "P1", "P2", "P3"}
-	assert len(links) == 3
-	assert nodes_by_id["P3"]["activation"] == pytest.approx(0.2)
+	assert len(edges) == 3
+	assert nodes_by_id["P3"]["retrieval_activation"] == pytest.approx(0.2)
 
 
 def test_to_llm_context_multi_path():
@@ -578,8 +585,8 @@ def test_to_llm_context_multi_path():
 	assert len(context["paths"]) == 2
 	assert context["paths"][0].startswith("Path 1:")
 	assert context["paths"][1].startswith("Path 2:")
-	assert "T=0.500" in context["paths"][0]
-	assert "T=0.250" in context["paths"][1]
+	assert "activation_score=0.500" in context["paths"][0]
+	assert "activation_score=0.250" in context["paths"][1]
 
 
 def test_to_debug_cypher_multi_path():
@@ -624,9 +631,479 @@ def test_to_debug_cypher_multi_path():
 
 	queries = to_debug_cypher(result)
 
-	assert len(queries) == 2
-	assert "n0" in queries[0] and "n1" in queries[0]
-	assert "n0" in queries[1] and "n1" in queries[1] and "n2" in queries[1]
+	assert len(queries["individual_paths"]) == 2
+	assert "n0_0" in queries["individual_paths"][0]
+	assert "n0_1" in queries["individual_paths"][0]
+	assert "n1_0" in queries["individual_paths"][1]
+	assert "n1_1" in queries["individual_paths"][1]
+	assert "n1_2" in queries["individual_paths"][1]
+	assert queries["paths_combined"].count(" UNION ") == 1
+
+
+def test_to_debug_cypher_combined_paths():
+	"""Scenario: multiple paths from same seed should be combined into one MATCH statement.
+	Expected: paths_combined is a UNION of MATCH queries to avoid Cartesian products.
+	Why: paths_combined visualizes all branches from seed in one query for Neo4j Browser without row explosion.
+	"""
+	seed = SeedInput(node_id="SEED123", score=0.8)
+	seed_node = _node("SEED123", "Seed")
+
+	path1 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("SEED123", "N1", weight=0.7),
+			to_node=_node("N1", "Doc"),
+			transfer_energy=0.5,
+		),
+	])
+
+	path2 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("SEED123", "N2", weight=0.6),
+			to_node=_node("N2", "Doc"),
+			transfer_energy=0.4,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path1, path2],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	queries = to_debug_cypher(result)
+
+	combined = queries["paths_combined"]
+
+	# Should be UNION-based with a shared path variable
+	assert combined.count("MATCH ") == 2
+	assert combined.count(" RETURN ") == 2
+	assert " UNION " in combined
+	assert "MATCH p =" in combined
+
+	# Should contain literal IDs (not parameters)
+	assert '"SEED123"' in combined or "'SEED123'" in combined
+	assert '"N1"' in combined or "'N1'" in combined
+	assert '"N2"' in combined or "'N2'" in combined
+
+	# Should NOT contain parameterized IDs
+	assert "$id" not in combined
+
+
+def test_to_debug_cypher_literal_id_escaping():
+	"""Scenario: node IDs with special characters should be properly escaped for Neo4j Desktop copy-paste.
+	Expected: IDs are quoted with single quotes, backslashes/quotes are escaped, output is ready to run in Neo4j.
+	Why: Cypher queries must be syntactically valid and copy-pastable into Neo4j Desktop without manual fixes.
+	"""
+	seed = SeedInput(node_id='N"123', score=0.8)
+	seed_node = GraphNode(id='N"123', labels=["Seed"], properties={"id": 'N"123'})
+	to_node = GraphNode(id='N\\456', labels=["Doc"], properties={"id": 'N\\456'})
+
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge('N"123', 'N\\456', weight=0.7),
+			to_node=to_node,
+			transfer_energy=0.5,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	queries = to_debug_cypher(result)
+	combined = queries["paths_combined"]
+	
+	# Should use single quotes for Cypher literals
+	assert "'N\"123'" in combined  # Double quote escaped in single-quoted string
+	assert "'N\\\\456'" in combined  # Backslash escaped in single-quoted string
+	
+	# Should NOT contain unescaped backslashes that would break Neo4j copy-paste. The output should be directly runnable in Neo4j Desktop
+	assert "\\" not in combined.replace("\\\\", "").replace("\\'", "")  # Only allow escaped backslashes and single quotes
+	
+	# Should be valid Cypher syntax (basic checks)
+	assert combined.startswith("MATCH ")
+	assert " RETURN " in combined
+	assert "MATCH p =" in combined
+
+
+def test_to_debug_cypher_neo4j_ready_output():
+	"""Scenario: Cypher output should be directly copy-pastable into Neo4j Desktop.
+	Expected: no problematic characters, valid Cypher syntax, ready to execute.
+	Why: users should be able to copy the output and run it immediately in Neo4j.
+	"""
+	seed = SeedInput(node_id="NODE-123", score=0.9)
+	seed_node = _node("NODE-123", "Seed")
+	
+	path1 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("NODE-123", "CHILD-A", weight=0.8),
+			to_node=_node("CHILD-A", "Doc"),
+			transfer_energy=0.6,
+		),
+	])
+	
+	path2 = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=_edge("NODE-123", "CHILD-B", weight=0.7),
+			to_node=_node("CHILD-B", "Doc"),
+			transfer_energy=0.5,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path1, path2],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	queries = to_debug_cypher(result)
+	
+	# Test individual paths are Neo4j-ready
+	for path_query in queries["individual_paths"]:
+		assert path_query.startswith("MATCH ")
+		assert " RETURN " in path_query
+		assert "p" in path_query  # Path variable
+		assert "'NODE-123'" in path_query  # Single-quoted ID
+		assert "'CHILD-" in path_query  # Single-quoted IDs
+		# Should not contain characters that break Neo4j copy-paste
+		assert "\\" not in path_query.replace("\\\\", "").replace("\\'", "")
+	
+	# Test combined paths is Neo4j-ready
+	combined = queries["paths_combined"]
+	assert combined.count("MATCH ") == 2  # One MATCH per path
+	assert combined.count(" RETURN ") == 2  # One RETURN per path
+	assert " UNION " in combined  # UNION separator
+	assert "MATCH p =" in combined  # Shared path variable
+	# Should be directly executable in Neo4j Desktop
+	assert "\\" not in combined.replace("\\\\", "").replace("\\'", "")
+
+
+def test_to_llm_context_seed_marker():
+	"""Scenario: seed node should be marked with [SEED] prefix in paths.
+	Expected: only the seed node has [SEED] marker, other nodes don't.
+	Why: LLM needs to identify highest-relevance entry point from vector search.
+	"""
+	seed = SeedInput(node_id="SEED_NODE", score=0.9)
+	seed_node = GraphNode(id="SEED_NODE", labels=["AgentAction"], properties={
+		"id": "SEED_NODE",
+		"text": "This is the seed node with important content"
+	})
+	
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=GraphEdge(
+				source_id="SEED_NODE",
+				target_id="CHILD",
+				type="RELATES",
+				properties={"id": "E1", "text": "Connects to child", "weight": 0.8},
+				weight=0.8,
+			),
+			to_node=GraphNode(id="CHILD", labels=["Event"], properties={
+				"id": "CHILD",
+				"text": "Child node"
+			}),
+			transfer_energy=0.6,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	context = to_llm_context(result)
+	path_text = context["paths"][0]
+	
+	# Seed node should have [SEED] marker
+	assert "[SEED]" in path_text
+	assert path_text.count("[SEED]") == 1  # Only one seed marker
+	
+	# SEED marker should be before first node
+	seed_idx = path_text.index("[SEED]")
+	seed_node_idx = path_text.index("SEED_NODE")
+	assert seed_idx < seed_node_idx
+
+
+def test_to_llm_context_truncation():
+	"""Scenario: node text should be truncated to 12 words with ellipsis, edge text should not be truncated.
+	Expected: nodes show first 12 words + "...", edges show full text.
+	Why: balance token efficiency with semantic completeness, edges need full context.
+	"""
+	seed = SeedInput(node_id="S", score=0.8)
+	
+	# Node with >12 words
+	long_node_text = "One two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen"
+	seed_node = GraphNode(id="S", labels=["AgentAction"], properties={
+		"id": "S",
+		"text": long_node_text
+	})
+	
+	# Edge with long text (should NOT be truncated)
+	long_edge_text = "This edge has a very long description that explains the relationship in detail and should not be truncated"
+	to_node = GraphNode(id="N", labels=["Event"], properties={
+		"id": "N",
+		"text": long_node_text
+	})
+	
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=GraphEdge(
+				source_id="S",
+				target_id="N",
+				type="RELATES",
+				properties={"id": "E1", "text": long_edge_text, "weight": 0.8},
+				weight=0.8,
+			),
+			to_node=to_node,
+			transfer_energy=0.5,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	context = to_llm_context(result)
+	path_text = context["paths"][0]
+	
+	# Node text should be truncated with ellipsis
+	assert "One two three four five six seven eight nine ten eleven twelve..." in path_text
+	assert "thirteen" not in path_text  # 13th word should not appear
+	
+	# Edge text should be FULL (not truncated)
+	assert long_edge_text in path_text
+
+
+def test_to_llm_context_attributes_structure():
+	"""Scenario: node_and_edge_attributes should have flattened structure with tags and proper field names.
+	Expected: "node_and_edge_attributes" with "nodes" and "edges", not nested properties, tags preserved.
+	Why: new format optimizes for LLM consumption with flattened attributes.
+	"""
+	seed = SeedInput(node_id="N1", score=0.7)
+	seed_node = GraphNode(id="N1", labels=["AgentAction"], properties={
+		"id": "N1",
+		"text": "Action text",
+		"tags": ["pilot", "simulation"],
+		"conv_id": "conv_123",
+		"status": "complete",
+		"parameter_field": '{"key": "value"}'
+	})
+	
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=GraphEdge(
+				source_id="N1",
+				target_id="N2",
+				type="RELATES",
+				properties={
+					"id": "E1",
+					"text": "Edge text",
+					"tags": ["trigger", "experiment"],
+					"weight": 0.9,
+					"created_time": "2025-01-01T00:00:00"
+				},
+				weight=0.9,
+				tags=["trigger", "experiment"],
+			),
+			to_node=GraphNode(id="N2", labels=["Event"], properties={
+				"id": "N2",
+				"text": "Event text",
+				"tags": ["pilot"]
+			}),
+			transfer_energy=0.5,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	context = to_llm_context(result)
+	
+	# Test top-level structure
+	assert "node_and_edge_attributes" in context
+	assert "graph" not in context  # Old name removed
+	
+	attrs = context["node_and_edge_attributes"]
+	assert "nodes" in attrs
+	assert "edges" in attrs
+	assert "links" not in attrs  # Old name removed
+	
+	# Test node structure
+	nodes = attrs["nodes"]
+	seed_n = next(n for n in nodes if n["id"] == "N1")
+	
+	# Should be flattened (no nested properties)
+	assert "properties" not in seed_n
+	
+	# Should have singular label
+	assert "label" in seed_n
+	assert "labels" not in seed_n
+	assert seed_n["label"] == "AgentAction"
+	
+	# Should have tags
+	assert "tags" in seed_n
+	assert seed_n["tags"] == ["pilot", "simulation"]
+	
+	# Should have retrieval_activation (not activation)
+	assert "retrieval_activation" in seed_n
+	assert "activation" not in seed_n
+	
+	# Should have special fields at top level
+	assert seed_n["parameter_field"] == '{"key": "value"}'
+	assert seed_n["conv_id"] == "conv_123"
+	assert seed_n["status"] == "complete"
+	
+	# Test edge structure
+	edges = attrs["edges"]
+	edge = edges[0]
+	
+	# Should have renamed fields
+	assert "edge_id" in edge
+	assert "source_node_id" in edge
+	assert "target_node_id" in edge
+	assert "id" not in edge
+	assert "source" not in edge or edge.get("source") != edge["source_node_id"]  # No bare "source"
+	assert "target" not in edge or edge.get("target") != edge["target_node_id"]  # No bare "target"
+	
+	# Should have tags
+	assert "tags" in edge
+	assert edge["tags"] == ["trigger", "experiment"]
+	
+	# Should have transfer_energy rounded to 3 decimals
+	assert edge["transfer_energy"] == 0.5
+	
+	# Should NOT have type field
+	assert "type" not in edge
+
+
+def test_to_d3_structure():
+	"""Scenario: D3 output should have flattened structure with is_seed flag and proper field names.
+	Expected: "edges" not "links", flattened nodes, is_seed flag, tags preserved, source/target for D3.js.
+	Why: D3.js-optimized format with minimal frontend parsing required.
+	"""
+	seed = SeedInput(node_id="SEED", score=0.8)
+	seed_node = GraphNode(id="SEED", labels=["AgentAction"], properties={
+		"id": "SEED",
+		"text": "Seed action",
+		"tags": ["action", "seed"],
+		"conv_id": "conv_123"
+	})
+	
+	path = GraphPath(steps=[
+		GraphStep(
+			from_node=seed_node,
+			edge=GraphEdge(
+				source_id="SEED",
+				target_id="CHILD",
+				type="RELATES",
+				properties={
+					"id": "E1",
+					"text": "Edge description",
+					"tags": ["connects"],
+					"weight": 0.85,
+					"created_time": "2025-01-01"
+				},
+				weight=0.85,
+				tags=["connects"],
+			),
+			to_node=GraphNode(id="CHILD", labels=["Event"], properties={
+				"id": "CHILD",
+				"text": "Child event",
+				"tags": ["event"]
+			}),
+			transfer_energy=0.6,
+		),
+	])
+
+	result = RetrievalResult(
+		seed=seed,
+		seed_node=seed_node,
+		paths=[path],
+		max_depth_reached=1,
+		terminated_reason="complete",
+	)
+
+	graph = to_d3(result)
+	
+	# Test top-level structure
+	assert "nodes" in graph
+	assert "edges" in graph
+	assert "links" not in graph  # Old name removed
+	
+	# Test node structure
+	nodes_by_id = {n["id"]: n for n in graph["nodes"]}
+	seed_n = nodes_by_id["SEED"]
+	child_n = nodes_by_id["CHILD"]
+	
+	# Should have is_seed flag
+	assert "is_seed" in seed_n
+	assert seed_n["is_seed"] is True
+	assert "is_seed" in child_n
+	assert child_n["is_seed"] is False
+	
+	# Should be flattened
+	assert "properties" not in seed_n
+	
+	# Should have singular label
+	assert seed_n["label"] == "AgentAction"
+	assert "labels" not in seed_n
+	
+	# Should have tags
+	assert seed_n["tags"] == ["action", "seed"]
+	
+	# Should have retrieval_activation
+	assert "retrieval_activation" in seed_n
+	
+	# Test edge structure
+	edges = graph["edges"]
+	edge = edges[0]
+	
+	# Should have source/target for D3.js (required)
+	assert "source" in edge
+	assert "target" in edge
+	assert edge["source"] == "SEED"
+	assert edge["target"] == "CHILD"
+	
+	# Should have edge_id separately
+	assert "edge_id" in edge
+	assert edge["edge_id"] == "E1"
+	
+	# Should have tags
+	assert edge["tags"] == ["connects"]
+	
+	# Should have rounded transfer_energy
+	assert edge["transfer_energy"] == 0.6
+	
+	# Should NOT have type field
+	assert "type" not in edge
 
 
 # ═══════════════════════════════════════════════════════════════════════════════

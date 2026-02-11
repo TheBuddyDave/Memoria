@@ -6,6 +6,4 @@ The dataset is intentionally rich: it contains 3 hubs.
 - Hub 2 is sparser and connected to Hub 1 by a weak bridge edge (supplier lead time analysis)
 - Hub 3 is dense but isolated (loyalty response analysis). 
 
-This setup exercises multi-path expansion, tag overlap effects, and weak-bridge traversal behavior without introducing edge-case noise.
-
-After that you can run the tests with `pytest` in the `memory_graph` directory.
+> WARNING: the data in `dummy_data_cypher.txt` must not be changed as the tests rely on it. 
