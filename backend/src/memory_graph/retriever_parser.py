@@ -197,8 +197,8 @@ def _cypher_node_pattern(alias: str, node_id: str) -> str:
 
 
 def _quote_cypher_literal(value: str) -> str:
-	escaped = value.replace("\\", "\\\\").replace('"', '\\"')
-	return f'"{escaped}"'
+	escaped = value.replace("\\", "\\\\").replace("'", "\\'")
+	return f"'{escaped}'"
 
 
 def _clean_unicode_escapes(text: str) -> str:
