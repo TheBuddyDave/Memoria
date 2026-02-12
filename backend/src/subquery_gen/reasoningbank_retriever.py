@@ -55,9 +55,7 @@ class ReasoningBankRetriever:
         self._validate_weights()
 
     def _validate_weights(self) -> None:
-        """
-        Ensure both weights are between 0 and 1, and at least one is greater than 0. If not raise ValueError.
-        """
+        """Validate that weights are between 0 and 1, and at least one is > 0."""
         for name, w in (("bm25_weight", self.bm25_weight), ("dense_weight", self.dense_weight)):
             if not (0.0 <= w <= 1.0):
                 raise ValueError(f"{name} must be between 0 and 1. Got {w}.")
@@ -84,7 +82,7 @@ class ReasoningBankRetriever:
         self,
         user_query: str,
         *,
-        limit: int = 10,
+        limit: int = 5,
         candidate_multiplier: int = 5,
         expr: str = "",
         output_fields: Optional[Sequence[str]] = None,
@@ -103,7 +101,8 @@ class ReasoningBankRetriever:
         if limit <= 0:
             return []
 
-        # Per-request candidate count is higher than final limit to improve recall.
+        # candidate_k: candidates per ANN request before fusion; higher than limit improves recall
+        # as reranking only sees these, not full collection
         candidate_k = max(limit, limit * max(1, candidate_multiplier))
         fields = list(output_fields) if output_fields is not None else list(self.DEFAULT_OUTPUT_FIELDS)
 
@@ -111,7 +110,7 @@ class ReasoningBankRetriever:
         dense_vec = await self.create_embedding(user_query)
 
         # 2) Build per-field ANN requests.
-        # Full-text/BM25 request: use raw query text as data; Milvus converts it internally.
+        # BM25: sparse search; Milvus handles tokenization for keyword matching
         bm25_req_kwargs: dict[str, Any] = {
             "data": [user_query],
             "anns_field": self.SPARSE_FIELD,
@@ -122,7 +121,7 @@ class ReasoningBankRetriever:
             bm25_req_kwargs["expr"] = expr
         bm25_req = AnnSearchRequest(**bm25_req_kwargs)
 
-        # Dense request: cosine metric per our index; we can add params later based on index type.
+        # Dense: semantic search with cosine similarity
         dense_req_kwargs: dict[str, Any] = {
             "data": [dense_vec],
             "anns_field": self.DENSE_FIELD,
@@ -136,7 +135,7 @@ class ReasoningBankRetriever:
             dense_req_kwargs["expr"] = expr
         dense_req = AnnSearchRequest(**dense_req_kwargs)
 
-        # IMPORTANT: Weight order must match request order.
+        # Weight order matches reqs: BM25 first, dense second
         reqs = [bm25_req, dense_req]
         ranker = WeightedRanker(self.bm25_weight, self.dense_weight)
 
@@ -166,6 +165,7 @@ class ReasoningBankRetriever:
         parsed_and_filtered: list[ReasoningBankHit] = []
         for h in hits:
             entity = h.get("entity", {}) or {}
+            # MIN_SCORE filters low-relevance hits to focus on high-confidence matches
             if float(h["distance"]) >= self.MIN_SCORE:
                 parsed_and_filtered.append(
                     ReasoningBankHit(
@@ -178,5 +178,4 @@ class ReasoningBankRetriever:
             )
 
         return parsed_and_filtered
-
 

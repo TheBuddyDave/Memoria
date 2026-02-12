@@ -16,7 +16,7 @@ Each entry points back to its originating node via `pointer_to_node`.
 
 | Field             | Type                  | Limits           | Description                                                                                               |
 | ----------------- | --------------------- | ---------------- | --------------------------------------------------------------------------------------------------------- |
-| `id`              | `INT64`               | Auto ID, PK      | Automatically assigned ID for each stored embedding.                                                      |
+| `primary_key`              | `INT64`               | Auto ID, PK      | Automatically assigned ID for each stored embedding.                                                      |
 | `dense_vector`    | `FLOAT_VECTOR(1536)`  | —                | small-dimensional dense embedding (OpenAI `text-embedding-3-small`) for semantic similarity.               |
 | `sparse_vector`   | `SPARSE_FLOAT_VECTOR` | —                | BM25-based sparse embedding automatically generated from the text field.    |
 | `text`            | `VARCHAR(65535)`      | Max 65,535 chars | Raw text representation of the graph node. Basis for both embedding generation and BM25 search.           |

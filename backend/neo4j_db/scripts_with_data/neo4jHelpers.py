@@ -29,7 +29,7 @@ DIRECTORY_PATH = path = os.path.dirname(__file__)
 
 async def fetch_all_node_texts(path: str, filename: str):
     """
-    Fetch text property for all nodes in the Neo4j database along with their auto-generated elementId and store them in a file.
+    Fetch text property for all nodes in the Neo4j database along with the id we created (deprecated: we used to use elementId but not anymore).
     Writes the data to a specified file. One json per line.
     
     Args:
@@ -39,7 +39,6 @@ async def fetch_all_node_texts(path: str, filename: str):
     Returns:
         None
     """
-    # always use "with" so that driver is closed after use automatically otherwise you will forget and it leads to resource leak
     async with Neo4jClient() as neo4jclient:
         if not await neo4jclient.verify_connection():
             print("\nNeo4j connection could not be verified. Ending process\n")
@@ -50,7 +49,7 @@ async def fetch_all_node_texts(path: str, filename: str):
         query = """
             MATCH (n)
             WHERE n.text IS NOT NULL
-            RETURN n.text AS text, elementId(n) AS elementId
+            RETURN n.text AS text, n.id AS elementId
         """
         
         try:

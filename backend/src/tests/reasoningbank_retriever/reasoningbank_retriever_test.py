@@ -1,8 +1,10 @@
 """
-Run python -m src.tests.reasoningbank_retriever_test
+Run python -m src.tests.reasoningbank_retriever.reasoningbank_retriever_test
 """
 
 import asyncio
+from pathlib import Path
+from pprint import pformat
 from src.subquery_gen.reasoningbank_retriever import ReasoningBankRetriever
 
 
@@ -26,20 +28,18 @@ async def test_reasoningbank_retriever():
             limit=5,
         )
         
-        print(f"Retrieved {len(results)} results:\n")
-        print("=" * 80)
-        # print the objects nicely
-        for idx, hit in enumerate(results, start=1):
-            print(f"\nResult {idx}:")
-            print(f"  ID: {hit.rb_id}")
-            print(f"  Score: {hit.score}")
-            print(f"  Key Lesson: {hit.key_lesson}")
-            print(f"  Context to Prefer: {hit.context_to_prefer}")
-            print(f"  Link Nodes: {hit.link_nodes}")
-        print("=" * 80)
+        dump = pformat(results, width=140)
+        
+        # Write to file
+        out_path = Path(__file__).with_name("rb_output.txt")
+        out_path.write_text(dump, encoding="utf-8")
+        print(f"Wrote output to: {out_path}")
         
     except Exception as e:
-        print(f"Error during retrieval: {e}")
+        error_content = f"ERROR while retrieving: {type(e).__name__}: {e}\n"
+        out_path = Path(__file__).with_name("rb_output.txt")
+        out_path.write_text(error_content, encoding="utf-8")
+        print(f"Wrote error to: {out_path}")
         raise
 
 
